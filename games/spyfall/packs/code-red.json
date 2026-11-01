@@ -1,0 +1,182 @@
+{
+  "id": "code-red",
+  "title": "Code Red",
+  "emoji": "🚑",
+  "blurb": "Hospitals, helicopters and the 000 call centre. Somebody here is not a medic.",
+  "tags": [
+    "medical",
+    "emergency"
+  ],
+  "content": {
+    "locations": [
+      {
+        "key": "emergency-department",
+        "label": "Emergency Department",
+        "roles": [
+          "Triage Nurse",
+          "ER Doctor",
+          "Paramedic",
+          "Patient With a Weird Injury",
+          "Security Guard",
+          "Anxious Relative",
+          "Wardsman",
+          "Social Worker"
+        ]
+      },
+      {
+        "key": "ambulance-ride",
+        "label": "Ambulance Ride",
+        "roles": [
+          "Lead Paramedic",
+          "Trainee Paramedic",
+          "Siren Driver",
+          "Patient on Stretcher",
+          "Worried Spouse",
+          "Radio Dispatcher",
+          "Observing Med Student",
+          "Ride-Along Reporter"
+        ]
+      },
+      {
+        "key": "operating-theatre",
+        "label": "Operating Theatre",
+        "roles": [
+          "Surgeon",
+          "Anaesthetist",
+          "Scrub Nurse",
+          "Surgical Registrar",
+          "Student Observer",
+          "Sleeping Patient",
+          "Theatre Technician",
+          "Implant Sales Rep"
+        ]
+      },
+      {
+        "key": "maternity-ward",
+        "label": "Maternity Ward",
+        "roles": [
+          "Midwife",
+          "Obstetrician",
+          "Expectant Mother",
+          "Panicking Dad",
+          "Doula",
+          "Grandma With Balloons",
+          "Newborn Photographer",
+          "Lactation Consultant"
+        ]
+      },
+      {
+        "key": "dentist-surgery",
+        "label": "Dentist Surgery",
+        "roles": [
+          "Dentist",
+          "Dental Nurse",
+          "Hygienist",
+          "Receptionist",
+          "Nervous Patient",
+          "Child Waiting",
+          "Never-Flosses Patient",
+          "Denture Technician"
+        ]
+      },
+      {
+        "key": "000-call-centre",
+        "label": "000 Call Centre",
+        "roles": [
+          "Call Taker",
+          "Police Dispatcher",
+          "Ambulance Dispatcher",
+          "Fire Dispatcher",
+          "Shift Supervisor",
+          "Trainee",
+          "Interpreter",
+          "Welfare Counsellor"
+        ]
+      },
+      {
+        "key": "bushfire-command-centre",
+        "label": "Bushfire Command Centre",
+        "roles": [
+          "Incident Controller",
+          "Fire Mapper",
+          "Water Bomber Pilot",
+          "Weather Forecaster",
+          "Volunteer Firefighter",
+          "Evacuation Officer",
+          "Media Spokesperson",
+          "Farmer Who Won't Leave"
+        ]
+      },
+      {
+        "key": "sea-rescue-base",
+        "label": "Sea Rescue Base",
+        "roles": [
+          "Coxswain",
+          "Volunteer Crew",
+          "Radio Operator",
+          "Coastguard Officer",
+          "Rescued Sailor",
+          "Boat Mechanic",
+          "Harbour Master",
+          "Local Journalist"
+        ]
+      },
+      {
+        "key": "chemist-counter",
+        "label": "Chemist Counter",
+        "roles": [
+          "Pharmacist",
+          "Pharmacy Assistant",
+          "Flu Sufferer",
+          "Cosmetics Consultant",
+          "Elderly Regular",
+          "Delivery Driver",
+          "Mum With Feverish Toddler",
+          "Hypochondriac"
+        ]
+      },
+      {
+        "key": "rescue-helicopter",
+        "label": "Rescue Helicopter",
+        "roles": [
+          "Pilot",
+          "Co-Pilot",
+          "Winch Operator",
+          "Flight Paramedic",
+          "Rescued Hiker",
+          "Flight Nurse",
+          "Navigator",
+          "Hiker's Dog"
+        ]
+      },
+      {
+        "key": "aged-care-home",
+        "label": "Aged Care Home",
+        "roles": [
+          "Care Worker",
+          "Activities Coordinator",
+          "Bingo Caller",
+          "Sprightly Resident",
+          "Visiting Grandchild",
+          "Medication Nurse",
+          "Visiting Musician",
+          "Physiotherapist"
+        ]
+      },
+      {
+        "key": "blood-donation-centre",
+        "label": "Blood Donation Centre",
+        "roles": [
+          "Phlebotomist",
+          "Nervous First-Timer",
+          "Hundredth-Time Donor",
+          "Biscuit Volunteer",
+          "Iron Check Nurse",
+          "Fainter",
+          "Mobile Van Driver",
+          "Street Recruiter"
+        ]
+      }
+    ]
+  }
+}

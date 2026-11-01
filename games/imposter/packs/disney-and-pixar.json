@@ -1,0 +1,81 @@
+{
+  "id": "disney-and-pixar",
+  "title": "Disney and Pixar",
+  "emoji": "🏰",
+  "blurb": "Princesses, toys, monsters and magic lamps from the big animated classics.",
+  "tags": [
+    "pop culture",
+    "family"
+  ],
+  "content": {
+    "categories": {
+      "disney-characters": {
+        "label": "Characters",
+        "items": [
+          "Simba",
+          "Ariel",
+          "Olaf",
+          "Woody",
+          "Dory",
+          "Mike Wazowski",
+          "Lightning McQueen",
+          "Wall-E",
+          "Baloo",
+          "Mulan",
+          "Maui",
+          "Stitch",
+          "Ursula",
+          "Cruella de Vil",
+          "Elsa",
+          "Buzz Lightyear",
+          "Scar",
+          "Rapunzel"
+        ]
+      },
+      "disney-movies": {
+        "label": "Animated movies",
+        "items": [
+          "Up",
+          "Coco",
+          "Inside Out",
+          "Ratatouille",
+          "The Incredibles",
+          "Encanto",
+          "Tangled",
+          "Aladdin",
+          "Beauty and the Beast",
+          "Peter Pan",
+          "Bambi",
+          "Wreck-It Ralph",
+          "Pinocchio",
+          "Dumbo",
+          "Hercules",
+          "Brave",
+          "Zootopia"
+        ]
+      },
+      "disney-magic": {
+        "label": "Magic and props",
+        "items": [
+          "Magic carpet",
+          "Glass slipper",
+          "Poisoned apple",
+          "Mickey ears",
+          "Pumpkin carriage",
+          "Magic mirror",
+          "Fairy godmother",
+          "Spinning wheel",
+          "Pixie dust",
+          "Seven dwarfs",
+          "Talking teapot",
+          "Genie lamp",
+          "Hakuna matata",
+          "Sword in the stone",
+          "Bibbidi-bobbidi-boo",
+          "Sorcerer's hat"
+        ]
+      }
+    }
+  },
+  "order": 10
+}

@@ -1,0 +1,76 @@
+{
+  "id": "mythology-and-legends",
+  "title": "Myths and Legends",
+  "emoji": "⚡",
+  "blurb": "Gods, monsters and fabled objects from Greece, Norse lands and beyond.",
+  "tags": [
+    "mythology",
+    "fantasy"
+  ],
+  "order": 90,
+  "content": {
+    "categories": {
+      "gods-heroes": {
+        "label": "Gods and heroes",
+        "items": [
+          "Zeus",
+          "Poseidon",
+          "Hades",
+          "Athena",
+          "Apollo",
+          "Freya",
+          "Odin",
+          "Loki",
+          "Anubis",
+          "Ra",
+          "Aphrodite",
+          "Perseus",
+          "Achilles",
+          "King Arthur",
+          "Robin Hood",
+          "Merlin"
+        ]
+      },
+      "creatures": {
+        "label": "Mythical creatures",
+        "items": [
+          "Minotaur",
+          "Medusa",
+          "Pegasus",
+          "Cerberus",
+          "Kraken",
+          "Phoenix",
+          "Centaur",
+          "Hydra",
+          "Cyclops",
+          "Unicorn",
+          "Mermaid",
+          "Werewolf",
+          "Yeti",
+          "Loch Ness Monster",
+          "Bigfoot",
+          "Chupacabra"
+        ]
+      },
+      "legendary-things": {
+        "label": "Legendary things",
+        "items": [
+          "Excalibur",
+          "Trojan Horse",
+          "Golden Fleece",
+          "Pandora's box",
+          "Holy Grail",
+          "Atlantis",
+          "El Dorado",
+          "Achilles heel",
+          "Midas touch",
+          "Ragnarok",
+          "Fountain of Youth",
+          "Camelot",
+          "Mount Olympus",
+          "Valhalla"
+        ]
+      }
+    }
+  }
+}

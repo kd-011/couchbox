@@ -1,0 +1,235 @@
+{
+  "id": "old-friends",
+  "title": "Old Friends",
+  "emoji": "📸",
+  "blurb": "For groups who go way back: old stories, old grudges and who has changed the least.",
+  "tags": [
+    "friends",
+    "nostalgia"
+  ],
+  "order": 20,
+  "content": {
+    "questions": [
+      {
+        "text": "Who at this table has changed the least since we first met?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to still have their old school uniform?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to remember every embarrassing story about everyone here?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to show up to a reunion with a whole new personality?",
+        "spicy": false
+      },
+      {
+        "text": "Who at this table would you call first if you needed help at three in the morning?",
+        "spicy": false
+      },
+      {
+        "text": "Who would bring up an argument from ten years ago?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to have photos from every party we've ever been to?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to organise the next catch-up?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to cancel the next catch-up at the last minute?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to move overseas and reply to messages once a month?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to still be in the group chat at ninety?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to tell a story everyone here has heard ten times?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to get the whole group kicked out of a restaurant?",
+        "spicy": false
+      },
+      {
+        "text": "Who at this table would give the best wedding speech?",
+        "spicy": false
+      },
+      {
+        "text": "Who would still owe someone here money from years ago?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to have kept a secret about this group for years?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to remember everyone's birthday without a reminder?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to have buried a time capsule somewhere?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to drag the group on a trip nobody else wanted?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to cry while looking through old photos?",
+        "spicy": false
+      },
+      {
+        "text": "Who at this table would win a trivia round on the history of this group?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to still be friends with their primary school pen pal?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to start a nostalgic singalong at the end of the night?",
+        "spicy": false
+      },
+      {
+        "text": "Who would mute the group chat and miss every plan?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to have had the most haircuts since we met?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to name a pet after someone in this group?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to suggest we all get matching tattoos?",
+        "spicy": false
+      },
+      {
+        "text": "Who at this table would be best at planning a surprise party?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to accidentally ruin a surprise party?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to write a book about this friendship group?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to still know everyone's childhood home phone number?",
+        "spicy": false
+      },
+      {
+        "text": "Who has the worst haircut in our oldest group photo?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to still own a CD they borrowed from someone here?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be first to cry at a 21st birthday slideshow?",
+        "spicy": false
+      },
+      {
+        "text": "Who would turn up to a reunion in the exact same outfit as school?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to bring up a nickname we all agreed to retire?",
+        "spicy": false
+      },
+      {
+        "text": "Who has told the most lies to a teacher on behalf of this group?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to remember the name of our first ever teacher?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to say \"remember when\" three times before the entrée?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to get the group back together for a trip after ten years?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to still have a school photo of the whole group in their wallet?",
+        "spicy": false
+      },
+      {
+        "text": "Who had the most embarrassing first car?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to confess something from the old days we've never heard?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to start a \"where are they now\" search on every old classmate?",
+        "spicy": false
+      },
+      {
+        "text": "Who would ring everyone on their birthday instead of texting?",
+        "spicy": false
+      },
+      {
+        "text": "Who has been the most loyal friend through every phase of everyone else's life?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to become a grandparent first?",
+        "spicy": false
+      },
+      {
+        "text": "Who is the one we would all trust to look after our kids?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to slip straight back into their high school voice when we all catch up?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to turn up to our 50th birthday with a surprise guest from the past?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to retire first and rub it in?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to have kissed someone in this group back in the day?",
+        "spicy": true
+      },
+      {
+        "text": "Who at this table has the most secrets the rest of us don't know about?",
+        "spicy": true
+      },
+      {
+        "text": "Who would be most likely to have dated someone that a friend here also dated?",
+        "spicy": true
+      },
+      {
+        "text": "Who is most likely to still be texting an ex this group warned them about?",
+        "spicy": true
+      }
+    ]
+  }
+}

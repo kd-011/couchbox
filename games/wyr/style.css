@@ -1,0 +1,181 @@
+/* Would You Rather: two fat slabs to choose between, the pass-mode
+   assignment board, and a reveal where each side fills to its share. */
+
+.wyr-stage { width: 100%; }
+.wyr-stage > .q { margin: 0; }
+
+.wyr-fork { position: relative; display: flex; flex-direction: column; gap: 10px; width: 100%; max-width: 480px; }
+
+/* the two options: big, bold, the game colour when chosen */
+.wyr-opt, .wyr-opt-static {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 150px;
+  padding: 24px 20px;
+  border-radius: 26px;
+  border: 0;
+  background: var(--surface);
+  box-shadow: var(--press), inset 0 0 0 1px var(--line);
+  color: var(--text);
+  font: 800 25px/1.08 var(--display);
+  font-stretch: 84%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  transition: transform 0.25s var(--spring), background 0.25s, color 0.25s, opacity 0.25s, box-shadow 0.25s;
+  animation: wyr-in 0.45s var(--ease) both;
+}
+.wyr-fork > :nth-child(3) { animation-delay: 80ms; }
+.wyr-opt-static { min-height: 120px; box-shadow: none; }
+.wyr-opt:active { transform: scale(0.97); }
+.wyr-opt.on {
+  background: var(--accent);
+  color: var(--accent-ink);
+  transform: scale(1.02);
+  box-shadow: var(--press), 0 22px 40px -20px var(--accent);
+}
+.wyr-picked .wyr-opt:not(.on) { opacity: 0.5; transform: scale(0.97); }
+@keyframes wyr-in { from { opacity: 0; transform: translateY(14px) scale(0.97); } }
+
+.wyr-letter {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  background: color-mix(in oklab, var(--accent) 34%, var(--surface-2));
+  color: var(--text);
+  font: 800 19px var(--display);
+  flex-shrink: 0;
+  transition: background 0.25s, color 0.25s;
+}
+.wyr-opt.on .wyr-letter { background: var(--accent-ink); color: var(--accent); }
+.wyr-text { text-wrap: balance; overflow-wrap: anywhere; }
+
+/* "or" sits on the seam between the two slabs */
+.wyr-or {
+  align-self: center;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  margin: -29px 0;
+  z-index: 1;
+  border-radius: 999px;
+  background: var(--bg);
+  color: var(--accent);
+  font: 800 15px var(--display);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  box-shadow: 0 0 0 5px var(--bg);
+}
+
+/* one phone: both sides next to each other, a chip per player */
+.wyr-fork-assign { flex-direction: row; align-items: stretch; gap: 8px; }
+.wyr-fork-assign .wyr-or { margin: 50px -22px 0; width: 36px; height: 36px; font-size: 12px; align-self: flex-start; }
+.wyr-col { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
+.wyr-fork-assign .wyr-opt-static { min-height: 132px; padding: 16px 12px; font-size: 18px; gap: 8px; }
+.wyr-fork-assign .wyr-letter { width: 32px; height: 32px; font-size: 15px; }
+.wyr-chips { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.wyr-chip {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  min-height: 48px;
+  padding: 6px 12px 6px 6px;
+  border-radius: 999px;
+  border: 0;
+  background: var(--surface);
+  color: var(--dim);
+  font: 700 15px var(--display);
+  text-align: left;
+  transition: background 0.2s, color 0.2s, transform 0.2s var(--spring);
+}
+.wyr-chip span:not(.av) { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.wyr-chip:not(.on) .av { opacity: 0.5; filter: grayscale(0.6); }
+.wyr-chip.on { background: var(--accent); color: var(--accent-ink); transform: scale(1.02); }
+.wyr-chip:active { transform: scale(0.95); }
+
+/* the reveal: each side fills to its share, the majority in the game colour */
+.wyr-verdict {
+  font: 800 clamp(36px, 11vw, 54px)/0.95 var(--display);
+  font-stretch: 80%;
+  letter-spacing: -0.03em;
+  color: var(--accent);
+  animation: wyr-slam 0.5s var(--spring) both;
+}
+.wyr-verdict.is-wolf { color: var(--amber); }
+@keyframes wyr-slam { from { opacity: 0; transform: scale(1.35); } }
+.wyr-fork-reveal .wyr-or { margin: -6px 0; width: 40px; height: 40px; font-size: 13px; }
+.wyr-res {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 12px;
+  min-height: 96px;
+  padding: 16px 18px 22px;
+  border-radius: 24px;
+  background: var(--surface);
+  font: 800 19px/1.1 var(--display);
+  font-stretch: 86%;
+  text-align: left;
+  transition: background 0.4s;
+}
+/* the share bar along the bottom edge, filling to this side's percentage */
+.wyr-res::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 8px;
+  width: var(--pct);
+  background: var(--faint);
+  animation: wyr-fill 0.9s var(--ease) 0.25s both;
+}
+@keyframes wyr-fill { from { width: 0; } }
+.wyr-majority .wyr-res { background: color-mix(in oklab, var(--accent) 30%, var(--surface)); }
+.wyr-majority .wyr-res::after { background: var(--accent); }
+.wyr-majority .wyr-letter { background: var(--accent); color: var(--accent-ink); }
+.wyr-majority .wyr-count { color: var(--accent); }
+.wyr-minority .wyr-res { background: color-mix(in oklab, var(--amber) 16%, var(--surface)); }
+.wyr-minority .wyr-res::after { background: var(--amber); }
+.wyr-minority .wyr-letter { background: var(--amber); color: var(--amber-ink); }
+.wyr-minority .wyr-count { color: var(--amber); }
+.wyr-count { display: flex; flex-direction: column; align-items: flex-end; font: 800 40px/0.9 var(--display); font-stretch: 78%; font-variant-numeric: tabular-nums; animation: pop-in 0.5s var(--spring) 0.6s both; }
+.wyr-count small { font: 700 13px var(--body); color: var(--dim); }
+.wyr-fork-reveal .wyr-col:nth-child(3) .wyr-res::after { animation-delay: 0.4s; }
+.wyr-nobody { color: var(--faint); font-weight: 650; text-align: center; }
+.wyr-wiped { background: color-mix(in oklab, var(--deadly) 22%, var(--surface)); }
+
+/* game over */
+.wyr-winners { display: flex; gap: 8px; animation: pop-in 0.5s var(--spring) both; }
+.wyr-final-head {
+  font: 800 clamp(38px, 12vw, 58px)/0.95 var(--display);
+  font-stretch: 78%;
+  letter-spacing: -0.03em;
+  color: var(--accent);
+  animation: wyr-slam 0.55s var(--spring) both;
+}
+
+/* Big screen: side by side instead of stacked. */
+.tv-surface .wyr-fork { max-width: 64vw; flex-direction: row; align-items: stretch; gap: 1.4vw; }
+.tv-surface .wyr-or { margin: auto -2.6vw; width: 3.8vw; height: 3.8vw; font-size: 1.2vw; align-self: center; }
+.tv-surface .wyr-opt, .tv-surface .wyr-opt-static { font-size: 2.6vw; padding: 2.4vw 2vw; min-height: 16vw; border-radius: 2vw; }
+.tv-surface .wyr-fork-assign .wyr-opt-static { font-size: 1.8vw; min-height: 10vw; }
+.tv-surface .wyr-letter { width: 3vw; height: 3vw; font-size: 1.4vw; }
+.tv-surface .wyr-res { font-size: 1.8vw; min-height: 9vw; padding: 1.4vw 1.6vw 2vw; border-radius: 1.8vw; }
+.tv-surface .wyr-res::after { height: 0.7vw; }
+.tv-surface .wyr-fork-reveal .wyr-or { margin: auto -2.6vw; width: 3.8vw; height: 3.8vw; font-size: 1.2vw; }
+.tv-surface .wyr-count { font-size: 4vw; }
+.tv-surface .wyr-count small { font-size: 1vw; }
+.tv-surface .wyr-chip { font-size: 1.1vw; }
+.tv-surface .wyr-verdict { font-size: 5.4vw; }
+.tv-surface .wyr-final-head { font-size: 6vw; }
+.tv-surface .wyr-winners .av { --s: 7vw !important; }

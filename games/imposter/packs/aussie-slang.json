@@ -1,0 +1,72 @@
+{
+  "id": "aussie-slang",
+  "title": "Aussie Slang and Culture",
+  "emoji": "🥧",
+  "blurb": "Servos, smoko and Chiko Rolls. Fair dinkum lingo and everyday strayan life.",
+  "tags": [
+    "aussie",
+    "slang"
+  ],
+  "order": 38,
+  "content": {
+    "categories": {
+      "aussie-tucker": {
+        "label": "Aussie tucker",
+        "items": [
+          "Chiko Roll",
+          "Dim sim",
+          "Chicken salt",
+          "Four'N Twenty pie",
+          "Iced VoVo",
+          "Anzac biscuit",
+          "Golden Gaytime",
+          "Cherry Ripe",
+          "Dagwood dog",
+          "Burger with the lot",
+          "Lolly bag",
+          "Weet-Bix",
+          "Bunnings snag",
+          "Maccas"
+        ]
+      },
+      "aussie-lingo": {
+        "label": "Aussie lingo",
+        "items": [
+          "Arvo",
+          "Servo",
+          "Bottle-o",
+          "Smoko",
+          "Dunny",
+          "Brekkie",
+          "Sickie",
+          "Bogan",
+          "Larrikin",
+          "Fair dinkum",
+          "Mozzie",
+          "Doona",
+          "Bathers",
+          "Tinny"
+        ]
+      },
+      "aussie-life": {
+        "label": "Aussie life",
+        "items": [
+          "Footy tipping",
+          "School swimming carnival",
+          "Schoolies",
+          "Anzac Day",
+          "Dawn service",
+          "Pokies",
+          "Op shop",
+          "Two-up",
+          "Chemist Warehouse",
+          "Kmart",
+          "Tradie",
+          "Bush doof",
+          "Country show",
+          "Mad Monday"
+        ]
+      }
+    }
+  }
+}

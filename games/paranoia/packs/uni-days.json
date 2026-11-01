@@ -1,0 +1,195 @@
+{
+  "id": "uni-days",
+  "title": "Uni Days",
+  "emoji": "🎓",
+  "blurb": "All-nighters, group projects, cheap noodles and the lecture you slept through.",
+  "tags": [
+    "school",
+    "uni"
+  ],
+  "order": 60,
+  "content": {
+    "questions": [
+      {
+        "text": "Who would be most likely to start an essay at 11pm the night before and still get a distinction?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to sleep through an exam and turn up for the end of it?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to be the one who did all the work in a group project?",
+        "spicy": false
+      },
+      {
+        "text": "Who would survive on instant noodles for an entire semester?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to sit in the front row of every lecture?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to sit at the back and watch a whole series on a laptop?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to ask a question in lecture that clears the room?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to change degrees three times?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to accidentally walk into the wrong lecture and stay for the whole hour?",
+        "spicy": false
+      },
+      {
+        "text": "Who would cry first at a graduation ceremony?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to print an assignment at 8:55 for a 9am deadline?",
+        "spicy": false
+      },
+      {
+        "text": "Who has the worst taste in student share house furniture?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to join every society at Orientation Week for the free stuff?",
+        "spicy": false
+      },
+      {
+        "text": "Who would borrow a textbook and return it two years later?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to nap in the library and drool on the notes?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to write a thesis about something nobody has ever heard of?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to bring snacks to a quiet study session and crunch loudly?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to make a flowchart to organise a night out?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to become a professor and never leave campus?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to say \"I'll just study for one hour\" and end up at the bar?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to wear pyjamas to a morning tutorial?",
+        "spicy": false
+      },
+      {
+        "text": "Who would forget the whole semester's worth of notes on a bus?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to gatecrash a lecture just because the topic sounded fun?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to run for student council and win by a landslide?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to get lost on their very first day for the whole day?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to rent the cheapest room with a mysterious damp smell?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to ask for an extension for a reason that gets more dramatic every time?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to finish a degree and then immediately start another?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to survive a week of exams on coffee and spite?",
+        "spicy": false
+      },
+      {
+        "text": "Who would sell their old notes for beer money?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to ghost the group project chat until the last day?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to turn up to the uni ball in a costume that was meant for another event?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to hand in an essay with a typo in the title?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to run the whole campus cafe tab up to a ridiculous total?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to skip a class and be the one spotted by the lecturer?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to organise a study group that turns into a party?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to say \"I never study\" and then be top of the class?",
+        "spicy": false
+      },
+      {
+        "text": "Who would snag a front-row parking spot on campus using only charm?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to call a pub crawl \"research\"?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to submit the wrong file and not notice for a week?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to win a debate by talking louder than everyone?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to hook up with someone from the same lecture and then avoid them for a year?",
+        "spicy": true
+      },
+      {
+        "text": "Who would be most likely to have a crush on a tutor and deny it?",
+        "spicy": true
+      },
+      {
+        "text": "Who is most likely to sneak someone into the dorms and get caught by security?",
+        "spicy": true
+      },
+      {
+        "text": "Who would be most likely to end up at a toga party and lose the toga?",
+        "spicy": true
+      }
+    ]
+  }
+}

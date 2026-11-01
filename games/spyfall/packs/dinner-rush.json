@@ -1,0 +1,181 @@
+{
+  "id": "dinner-rush",
+  "title": "Dinner Rush",
+  "emoji": "🍜",
+  "blurb": "Yum cha trolleys, sushi trains and 4am bakeries. Come hungry, leave suspicious.",
+  "tags": [
+    "food"
+  ],
+  "content": {
+    "locations": [
+      {
+        "key": "yum-cha-restaurant",
+        "label": "Yum Cha Restaurant",
+        "roles": [
+          "Trolley Pusher",
+          "Tea Pourer",
+          "Head Waiter",
+          "Dumpling Chef",
+          "Grandma Ordering for All",
+          "Hungover Student",
+          "Birthday Party Host",
+          "Walk-In Without Booking"
+        ]
+      },
+      {
+        "key": "sushi-train",
+        "label": "Sushi Train",
+        "roles": [
+          "Sushi Chef",
+          "Plate Counter",
+          "Wasabi Fanatic",
+          "Plate-Grabbing Kid",
+          "Date Night Couple",
+          "Hungry Tourist",
+          "Dishwasher",
+          "Fish Supplier"
+        ]
+      },
+      {
+        "key": "hot-pot-restaurant",
+        "label": "Hot Pot Restaurant",
+        "roles": [
+          "Hot Pot Waiter",
+          "Broth Chef",
+          "Chilli Daredevil",
+          "Mild-Only Eater",
+          "Meat Slicer",
+          "Group Booking Leader",
+          "Food Blogger",
+          "Dessert Server"
+        ]
+      },
+      {
+        "key": "wood-fired-pizzeria",
+        "label": "Wood-Fired Pizzeria",
+        "roles": [
+          "Pizzaiolo",
+          "Dough Spinner",
+          "Delivery Rider",
+          "Pineapple Defender",
+          "Fussy Italian Nonna",
+          "Waiter",
+          "Food Critic",
+          "Kid Who Wants Chips"
+        ]
+      },
+      {
+        "key": "farmers-market",
+        "label": "Farmers' Market",
+        "roles": [
+          "Cheese Maker",
+          "Honey Seller",
+          "Sourdough Baker",
+          "Veggie Grower",
+          "Busker",
+          "Dog Walker",
+          "Free Sample Hunter",
+          "Market Manager"
+        ]
+      },
+      {
+        "key": "bakery-at-4am",
+        "label": "Bakery at 4am",
+        "roles": [
+          "Head Baker",
+          "Apprentice Baker",
+          "Pastry Chef",
+          "Delivery Driver",
+          "Cafe Owner Collecting",
+          "Night Cleaner",
+          "Flour Supplier",
+          "Insomniac Customer"
+        ]
+      },
+      {
+        "key": "fish-and-chip-shop",
+        "label": "Fish and Chip Shop",
+        "roles": [
+          "Fryer Cook",
+          "Counter Server",
+          "Shop Owner",
+          "Kid Choosing Lollies",
+          "Sandy Beachgoer",
+          "Tradie on Smoko",
+          "Fish Supplier",
+          "Seagull Chaser"
+        ]
+      },
+      {
+        "key": "degustation-restaurant",
+        "label": "Degustation Restaurant",
+        "roles": [
+          "Head Chef",
+          "Sommelier",
+          "Waiter Explaining Dishes",
+          "Food Critic",
+          "Proposing Boyfriend",
+          "Still-Hungry Diner",
+          "Kitchen Porter",
+          "Maitre d'"
+        ]
+      },
+      {
+        "key": "ice-cream-parlour",
+        "label": "Ice Cream Parlour",
+        "roles": [
+          "Scooper",
+          "Sundae Chef",
+          "Indecisive Kid",
+          "Brain-Freeze Victim",
+          "Teen on First Job",
+          "Owner",
+          "Dairy Supplier",
+          "Dieting Customer"
+        ]
+      },
+      {
+        "key": "cooking-class",
+        "label": "Cooking Class",
+        "roles": [
+          "Instructor",
+          "Assistant Chef",
+          "Enthusiastic Beginner",
+          "Date Night Duo",
+          "Knife-Shy Student",
+          "Burnt Pasta Maker",
+          "Photo-Taking Influencer",
+          "Dish Pig"
+        ]
+      },
+      {
+        "key": "roadside-american-diner",
+        "label": "Roadside American Diner",
+        "roles": [
+          "Short-Order Cook",
+          "Waitress",
+          "Cross-Country Biker",
+          "Booth Teen",
+          "Local Deputy",
+          "Milkshake Maker",
+          "Pie Lover",
+          "Jukebox Fiddler"
+        ]
+      },
+      {
+        "key": "specialty-coffee-roastery",
+        "label": "Specialty Coffee Roastery",
+        "roles": [
+          "Master Roaster",
+          "Barista Champion",
+          "Visiting Coffee Farmer",
+          "Cupping Judge",
+          "Hipster Regular",
+          "Delivery Cyclist",
+          "Machine Technician",
+          "Decaf Drinker"
+        ]
+      }
+    ]
+  }
+}

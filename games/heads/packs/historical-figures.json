@@ -1,0 +1,28 @@
+{
+  "id": "historical-figures",
+  "title": "Historical Figures",
+  "emoji": "🏛️",
+  "blurb": "Pharaohs, physicists and painters: the big names from the history books.",
+  "tags": ["history", "education"],
+  "order": 140,
+  "content": {
+    "categories": {
+      "rulers-and-leaders": {
+        "label": "Rulers and leaders",
+        "items": ["Cleopatra", "Julius Caesar", "Napoleon Bonaparte", "Queen Victoria", "Henry VIII", "Alexander the Great", "Genghis Khan", "Queen Elizabeth I", "Abraham Lincoln", "Winston Churchill", "Joan of Arc", "Tutankhamun", "Marie Antoinette", "Nelson Mandela", "Mahatma Gandhi", "Martin Luther King Jr"]
+      },
+      "scientists-and-thinkers": {
+        "label": "Science and ideas",
+        "items": ["Albert Einstein", "Isaac Newton", "Marie Curie", "Galileo Galilei", "Charles Darwin", "Nikola Tesla", "Stephen Hawking", "Aristotle", "Socrates", "Alexander Graham Bell", "Thomas Edison", "Ada Lovelace", "Alan Turing", "Florence Nightingale", "Louis Pasteur", "Archimedes"]
+      },
+      "explorers-and-firsts": {
+        "label": "Explorers and firsts",
+        "items": ["Marco Polo", "Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Ferdinand Magellan", "Roald Amundsen", "Ernest Shackleton", "Edmund Hillary", "Charles Lindbergh", "Captain Cook"]
+      },
+      "artists-and-composers": {
+        "label": "Arts and music",
+        "items": ["William Shakespeare", "Wolfgang Amadeus Mozart", "Ludwig van Beethoven", "Vincent van Gogh", "Pablo Picasso", "Michelangelo", "Frida Kahlo", "Claude Monet", "Salvador Dali", "Andy Warhol", "Jane Austen", "Charles Dickens", "Leonardo da Vinci"]
+      }
+    }
+  }
+}

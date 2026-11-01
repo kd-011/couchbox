@@ -1,0 +1,95 @@
+{
+  "id": "uni-housemates",
+  "title": "Uni and Housemates",
+  "emoji": "🏠",
+  "blurb": "Share-house secrets, all-nighters and the fridge shelf wars. Spicy extras included.",
+  "tags": [
+    "uni",
+    "housemates",
+    "spicy"
+  ],
+  "order": 70,
+  "content": {
+    "mild": {
+      "truth": [
+        "What's the worst thing you've ever found in a shared fridge?",
+        "What's your most chaotic all-nighter story?",
+        "What's the cheapest meal you've ever lived on for a week?",
+        "What's the worst grade you got, and what did you tell your parents?",
+        "What's the most annoying thing a housemate has done?",
+        "Who's the messiest housemate you've lived with?",
+        "What's the best excuse you've ever used to skip a lecture?",
+        "What's the strangest job you've done to pay the rent?",
+        "What's the most expensive thing you've broken in a shared house?",
+        "What's a rule from a share house that nobody followed?",
+        "What's the worst bill-splitting argument you've been in?",
+        "What's the best late-night snack you've made from nothing?",
+        "What's the most elaborate thing you've done to avoid starting an assignment?",
+        "What's the most embarrassing thing that's happened to you in a lecture?",
+        "What's the worst flatmate-wars note you've ever left on the fridge?",
+        "What's the best party your house ever threw?",
+        "What's the best piece of advice a housemate gave you?",
+        "What's the worst thing you've done to avoid doing the dishes?",
+        "What was your first-ever bedroom setup like in a share house?",
+        "What's the closest you've ever cut it to a due date?",
+        "What's a noise from a housemate that drove you up the wall?",
+        "What's the best hack you've learned for surviving exams?"
+      ],
+      "dare": [
+        "Act out an exam in 20 seconds, from fear through to the last-minute guess.",
+        "Give a stirring 20-second speech in defence of instant noodles.",
+        "Pretend you're a housemate leaving a passive-aggressive note about the dishes.",
+        "Do your best impression of a lecturer who's very late to class.",
+        "Mime sneaking into the house at 4am without waking anyone.",
+        "Give a graduation speech to the group in the most pretentious voice.",
+        "Pretend you are a student who has just realised the assignment was due today.",
+        "Do a dramatic reading of a text from your landlord about the rent, in a villain voice.",
+        "Sell the group your old share-house bedroom as if you're a real estate agent.",
+        "Act out opening a very empty fridge and seeing only one lonely egg.",
+        "Show the group how you study when you're only pretending to.",
+        "Impersonate a housemate who's eaten someone else's leftovers and is trying to act innocent.",
+        "Give a campus tour of the room as if it's the university quad.",
+        "Announce a house meeting with your most serious chairperson voice.",
+        "Re-enact a classic procrastination spiral in 20 seconds, from one email to 40 tabs.",
+        "Perform the sound effects of a flat that is falling apart.",
+        "Give a 20-second academic analysis of why the snacks in this room are the way they are.",
+        "Make up a chant for the best housemate you've ever had, and lead it.",
+        "Do your best impression of a washing machine stuck on a spin cycle.",
+        "Present a TED talk on 'How to Survive on $20 a Week'.",
+        "Do an interpretive dance of a lost sock looking for its pair.",
+        "Describe your degree to the group as if you were a movie trailer narrator.",
+        "Pretend you've just found out the exam is open-book and celebrate."
+      ]
+    },
+    "spicy": {
+      "truth": [
+        "What's the most awkward thing you've overheard through a thin wall?",
+        "What's the biggest secret you've kept from a housemate?",
+        "What's the most embarrassing thing you've done after a big night out at uni?",
+        "What's the pettiest thing you've done to a housemate and never admitted?",
+        "Have you ever pulled the 'walk of shame' across campus? Tell us about it.",
+        "What's the worst thing you've eaten the day after a big night?",
+        "What's the riskiest excuse you've given a lecturer?",
+        "What's your most embarrassing orientation week memory?",
+        "What's the worst thing you've said in a group assignment chat?",
+        "Who in this room would be the hardest to live with?",
+        "What's the biggest lie you've told on a CV during uni?",
+        "What's a house rule you broke and never owned up to?"
+      ],
+      "dare": [
+        "Let the group read your last group assignment message aloud.",
+        "Show the group your worst student ID or licence photo.",
+        "Do your best 'walk of shame' catwalk across the room, with total confidence.",
+        "Give a one-minute speech apologising to every housemate for something made up.",
+        "Let someone choose your next three words in any conversation.",
+        "Pretend to be the most dramatic student leaving a lecture early, and exit and re-enter the room.",
+        "Text a classmate asking if they've done the reading, using only emojis.",
+        "Wear a sock on your hand for the next two rounds.",
+        "Let the group name your degree as if it's a joke course, and announce yourself as a graduate.",
+        "Tell a story about your wildest night using only hand puppets.",
+        "Do a victory lap around the room as if you've just handed in your final thesis.",
+        "Say your full name, your 'major' and your 'dream job' in the voice of a game show contestant."
+      ]
+    }
+  }
+}

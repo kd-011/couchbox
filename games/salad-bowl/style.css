@@ -1,0 +1,93 @@
+/* Salad Bowl: the phrase card is the game colour and the hero of every turn;
+   the round's rule (Describe / One Word / Act) is the big word on every
+   other screen. Recap moments slam, gotten phrases tumble in. */
+
+.sb-title { font: 800 clamp(40px, 13vw, 58px)/0.9 var(--display); font-stretch: 78%; letter-spacing: -0.035em; color: var(--accent); }
+
+/* ---------- writing ---------- */
+.sb-submit { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; text-align: center; width: 100%; }
+.sb-pips { display: flex; gap: 8px; }
+.sb-pips span { width: 34px; height: 10px; border-radius: 999px; background: var(--surface-3); transition: background 0.3s var(--ease); }
+.sb-pips span.on { background: var(--accent); animation: pop-in 0.4s var(--spring) both; }
+.sb-write { display: flex; flex-direction: column; gap: 10px; width: 100%; max-width: 420px; }
+.sb-mine-list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; width: 100%; max-width: 420px; }
+.sb-mine-list li { padding: 6px 12px; border-radius: 999px; background: var(--surface-2); font-weight: 650; font-size: 14px; animation: pop-in 0.35s var(--spring) both; }
+.sb-mine-list li:nth-child(odd) { rotate: -2deg; }
+.sb-mine-list li:nth-child(even) { rotate: 2deg; }
+
+/* ---------- round header ---------- */
+.sb-round { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.sb-round-name { font: 800 clamp(38px, 12vw, 54px)/0.9 var(--display); font-stretch: 78%; letter-spacing: -0.035em; color: var(--accent); animation: sb-slam 0.5s var(--spring) both; }
+.sb-rule { color: var(--dim); font-weight: 650; text-align: center; max-width: 30ch; }
+
+/* ---------- ready ---------- */
+.sb-stage { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; text-align: center; width: 100%; }
+.sb-you { font: 800 clamp(34px, 10vw, 46px)/0.95 var(--display); font-stretch: 80%; letter-spacing: -0.03em; }
+.sb-up { animation: sb-bob 2.6s ease-in-out infinite; }
+@keyframes sb-bob { 50% { transform: translateY(-6px) rotate(3deg); } }
+
+/* ---------- the turn ---------- */
+.sb-turn { flex: 1; display: flex; flex-direction: column; gap: 16px; align-items: center; justify-content: center; min-height: 0; width: 100%; }
+.sb-top { display: flex; align-items: center; gap: 10px; width: 100%; color: var(--dim); font-weight: 650; }
+.sb-top .cd { margin-left: auto; font: 800 34px var(--display); font-stretch: 80%; color: var(--text); }
+.sb-top .cd.urgent { color: var(--bad); }
+.sb-pot { font-size: 14px; }
+.sb-card {
+  width: 100%; max-width: 560px; min-height: 220px; display: flex; align-items: center; justify-content: center;
+  padding: 28px; border-radius: 28px; background: var(--accent); color: var(--accent-ink); box-shadow: var(--press), 0 26px 50px -26px var(--accent);
+  font: 800 clamp(38px, 12vw, 64px)/0.95 var(--display); font-stretch: 78%; letter-spacing: -0.03em;
+  text-align: center; text-wrap: balance; overflow-wrap: anywhere;
+  animation: sb-pull 0.45s var(--spring) both;
+}
+@keyframes sb-pull { from { opacity: 0; transform: translateY(40px) rotate(-5deg) scale(0.9); } }
+.sb-turn-actions { display: flex; gap: 10px; width: 100%; max-width: 440px; }
+.sb-turn-actions .btn { flex: 1; min-height: 72px; font-size: 22px; }
+.sb-turn-actions .btn-secondary { flex: 0.7; }
+.sb-got-n { color: var(--dim); font-weight: 650; }
+.sb-got-n b { font: 800 28px var(--display); color: var(--text); margin-right: 4px; }
+
+.sb-watch { display: flex; align-items: center; justify-content: center; gap: 22px; flex-wrap: wrap; }
+.sb-watch-who { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+
+/* ---------- recap ---------- */
+.sb-recap { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 14px; text-align: center; }
+.sb-cleared, .sb-caught, .sb-ended { font: 800 clamp(40px, 13vw, 60px)/0.9 var(--display); font-stretch: 76%; letter-spacing: -0.035em; text-wrap: balance; animation: sb-slam 0.55s var(--spring) both; }
+.sb-cleared { color: var(--good); }
+.sb-caught { color: var(--bad); font-size: clamp(32px, 10vw, 46px); }
+.sb-ended { color: var(--dim); font-size: clamp(28px, 9vw, 40px); }
+@keyframes sb-slam { from { opacity: 0; transform: scale(1.5) rotate(-3deg); } }
+.sb-held { font: 800 26px var(--display); font-stretch: 82%; color: var(--dim); text-decoration: line-through; text-decoration-color: var(--bad); text-decoration-thickness: 3px; }
+.sb-got-list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; width: 100%; max-width: 440px; }
+.sb-got-list li { padding: 8px 14px; border-radius: 14px; background: color-mix(in oklab, var(--accent) 22%, var(--surface)); font: 700 16px var(--display); font-stretch: 90%; animation: sb-drop 0.45s var(--spring) both; animation-delay: calc(0.2s + var(--i, 0) * 70ms); }
+@keyframes sb-drop { from { opacity: 0; transform: translateY(-18px) rotate(-6deg); } }
+.sb-round-done { color: var(--amber); font-weight: 700; }
+
+/* ---------- final ---------- */
+.sb-final { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 16px; }
+.sb-winner { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.sb-winner .winner-avs { display: flex; gap: 8px; animation: pop-in 0.6s var(--spring) both; }
+.sb-winner h2 { font: 800 clamp(48px, 15vw, 72px)/0.88 var(--display); font-stretch: 76%; letter-spacing: -0.04em; color: var(--accent); text-align: center; animation: sb-slam 0.55s var(--spring) 0.15s both; }
+
+/* ---------- the TV's bowl while everyone writes ---------- */
+.sb-bowl { margin-top: 64px; width: 220px; height: 110px; border-radius: 0 0 110px 110px; background: var(--accent); box-shadow: var(--press), 0 30px 60px -30px var(--accent); position: relative; animation: sb-bob 3s ease-in-out infinite; }
+.sb-bowl::before, .sb-bowl::after { content: ''; position: absolute; bottom: 92%; width: 44px; height: 62px; border-radius: 6px; background: var(--text); }
+.sb-bowl::before { left: 52px; rotate: -12deg; }
+.sb-bowl::after { right: 56px; rotate: 9deg; }
+
+.tv-surface .sb-card { font-size: 6.4vw; min-height: 32vh; max-width: 64vw; border-radius: 2.4vw; }
+.tv-surface .sb-round-name { font-size: 5vw; }
+.tv-surface .sb-rule { font-size: 1.6vw; max-width: none; }
+.tv-surface .sb-you { font-size: 4.4vw; }
+.tv-surface .sb-watch-who .av { --s: 7vw !important; }
+.tv-surface .sb-got-n { font-size: 1.5vw; }
+.tv-surface .sb-got-n b { font-size: 3vw; }
+.tv-surface .sb-cleared, .tv-surface .sb-caught, .tv-surface .sb-ended { font-size: 5.6vw; }
+.tv-surface .sb-got-list { max-width: 56vw; }
+.tv-surface .sb-got-list li { font-size: 1.5vw; padding: 0.5vw 1vw; }
+.tv-surface .sb-held { font-size: 2.4vw; }
+.tv-surface .sb-winner h2 { font-size: 7.6vw; }
+.tv-surface .sb-bowl { margin-top: 5vw; width: 18vw; height: 9vw; border-radius: 0 0 9vw 9vw; }
+.tv-surface .sb-bowl::before, .tv-surface .sb-bowl::after { width: 3.6vw; height: 5vw; }
+.tv-surface .sb-bowl::before { left: 4.2vw; }
+.tv-surface .sb-bowl::after { right: 4.6vw; }
+.tv-surface .sb-round .pill { font-size: 1.1vw; padding: 0.35vw 0.9vw; }

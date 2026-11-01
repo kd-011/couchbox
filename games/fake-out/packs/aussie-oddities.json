@@ -1,0 +1,240 @@
+{
+  "id": "aussie-oddities",
+  "title": "Aussie Oddities",
+  "emoji": "🦘",
+  "blurb": "Big things, odd inventions and true stories from the wide brown land.",
+  "tags": [
+    "aussie",
+    "history",
+    "animals"
+  ],
+  "content": {
+    "prompts": [
+      {
+        "id": "ao1",
+        "text": "In 1932, soldiers with machine guns were sent into the WA wheatbelt to fight an invasion of _____. They lost.",
+        "answer": "emus"
+      },
+      {
+        "id": "ao2",
+        "text": "Vegemite was first developed in 1922 by the Melbourne chemist _____.",
+        "answer": "Cyril Callister"
+      },
+      {
+        "id": "ao3",
+        "text": "The Hills Hoist rotary clothesline was first built in a backyard in _____.",
+        "answer": "Adelaide"
+      },
+      {
+        "id": "ao4",
+        "text": "The Big Banana, one of Australia's best-known big things, stands in _____.",
+        "answer": "Coffs Harbour"
+      },
+      {
+        "id": "ao5",
+        "text": "The world's first feature-length film, made in Australia in 1906, told the story of _____.",
+        "answer": "Ned Kelly"
+      },
+      {
+        "id": "ao6",
+        "text": "The aircraft flight recorder, or black box, was invented by the Australian scientist _____.",
+        "answer": "David Warren"
+      },
+      {
+        "id": "ao7",
+        "text": "A key patent behind modern Wi-Fi came from Australia's national science agency, the _____.",
+        "answer": "CSIRO"
+      },
+      {
+        "id": "ao8",
+        "text": "Australian _____ shared the 1945 Nobel Prize for turning penicillin into a usable medicine.",
+        "answer": "Howard Florey"
+      },
+      {
+        "id": "ao9",
+        "text": "The multi-channel cochlear implant, or bionic ear, was pioneered by Australian surgeon _____.",
+        "answer": "Graeme Clark"
+      },
+      {
+        "id": "ao10",
+        "text": "The lamington is named after Lord Lamington, a former Governor of _____.",
+        "answer": "Queensland"
+      },
+      {
+        "id": "ao11",
+        "text": "Lake Hillier, on an island off Western Australia's south coast, is naturally _____.",
+        "answer": "pink"
+      },
+      {
+        "id": "ao12",
+        "text": "Canberra was designed by the American architects Walter Burley Griffin and _____.",
+        "answer": "Marion Mahony Griffin"
+      },
+      {
+        "id": "ao13",
+        "text": "In the outback town of Coober Pedy, many locals escape the heat by living in underground homes called _____.",
+        "answer": "dugouts"
+      },
+      {
+        "id": "ao14",
+        "text": "After Prime Minister Harold Holt vanished at sea in 1967, a Melbourne _____ was named in his memory.",
+        "answer": "swimming pool"
+      },
+      {
+        "id": "ao15",
+        "text": "Before it was renamed Tasmania, the island was officially called _____.",
+        "answer": "Van Diemen's Land"
+      },
+      {
+        "id": "ao16",
+        "text": "Australia's official national gemstone is the _____.",
+        "answer": "opal"
+      },
+      {
+        "id": "ao17",
+        "text": "Frank Forde is Australia's shortest-serving Prime Minister, in office for just _____ days.",
+        "answer": "eight"
+      },
+      {
+        "id": "ao18",
+        "text": "Long before he was Prime Minister, Bob Hawke set a record at Oxford for drinking a yard of _____ at speed.",
+        "answer": "ale"
+      },
+      {
+        "id": "ao19",
+        "text": "Melbourne has the largest urban _____ network in the world.",
+        "answer": "tram"
+      },
+      {
+        "id": "ao20",
+        "text": "Rottnest Island got its name because a Dutch explorer mistook the quokkas for giant _____.",
+        "answer": "rats"
+      },
+      {
+        "id": "ao21",
+        "text": "Western Australia's Wave Rock sits just outside the small wheatbelt town of _____.",
+        "answer": "Hyden"
+      },
+      {
+        "id": "ao22",
+        "text": "The thorny devil can drink through its _____, which channels water up to its mouth.",
+        "answer": "skin"
+      },
+      {
+        "id": "ao23",
+        "text": "The Eyre Highway across the Nullarbor includes Australia's longest dead-straight road, nicknamed the _____.",
+        "answer": "90 Mile Straight"
+      },
+      {
+        "id": "ao24",
+        "text": "The Sydney Opera House was designed by the Danish architect Jørn _____.",
+        "answer": "Utzon"
+      },
+      {
+        "id": "ao25",
+        "text": "A giant concrete sheep called the Big Merino stands in the NSW city of _____.",
+        "answer": "Goulburn"
+      },
+      {
+        "id": "ao26",
+        "text": "Edwin Flack, Australia's first Olympic champion, won his two gold medals in 1896 at the Games in _____.",
+        "answer": "Athens"
+      },
+      {
+        "id": "ao27",
+        "text": "Cyclone _____ flattened much of Darwin on Christmas Day 1974.",
+        "answer": "Tracy"
+      },
+      {
+        "id": "ao28",
+        "text": "Don Bradman needed just _____ runs in his final Test innings to finish with an average of 100.",
+        "answer": "four"
+      },
+      {
+        "id": "ao29",
+        "text": "Tim Tams were named after a racehorse that won the 1958 Kentucky _____.",
+        "answer": "Derby"
+      },
+      {
+        "id": "ao30",
+        "text": "The Royal Flying Doctor Service was founded in 1928 by the Reverend _____.",
+        "answer": "John Flynn"
+      },
+      {
+        "id": "ao31",
+        "text": "The superb lyrebird is such a good mimic that it has been recorded copying camera shutters and _____.",
+        "answer": "chainsaws"
+      },
+      {
+        "id": "ao32",
+        "text": "Ford Australia built the first ute, released in 1934, after a farmer's wife asked for a car to drive to church and take the _____ to market.",
+        "answer": "pigs"
+      },
+      {
+        "id": "ao33",
+        "text": "The Granny Smith apple was first grown in Sydney by _____.",
+        "answer": "Maria Ann Smith"
+      },
+      {
+        "id": "ao34",
+        "text": "The Dingo Fence, one of the longest fences in the world, was built to protect _____.",
+        "answer": "sheep"
+      },
+      {
+        "id": "ao35",
+        "text": "From 1 January 2021 the national anthem's line \"For we are young and free\" became \"For we are _____ and free\".",
+        "answer": "one"
+      },
+      {
+        "id": "ao36",
+        "text": "The last known thylacine, or Tasmanian tiger, died in captivity in 1936 at a zoo in _____.",
+        "answer": "Hobart"
+      },
+      {
+        "id": "ao37",
+        "text": "In 1894 South Australia passed a law making it the first place in the world to let women stand for _____.",
+        "answer": "parliament"
+      },
+      {
+        "id": "ao38",
+        "text": "Qantas began in outback Queensland in 1920, and its name stands for Queensland and Northern Territory Aerial _____.",
+        "answer": "Services"
+      },
+      {
+        "id": "ao39",
+        "text": "Holden, the old Aussie car brand, started in Adelaide in 1856 as a maker of horse _____.",
+        "answer": "saddles"
+      },
+      {
+        "id": "ao40",
+        "text": "On election day, a sausage in bread bought from the barbecue at a polling place is nicknamed a _____ sausage.",
+        "answer": "democracy"
+      },
+      {
+        "id": "ao41",
+        "text": "Cane toads were brought to Queensland in 1935 from _____ to fight beetles in the sugar cane.",
+        "answer": "Hawaii"
+      },
+      {
+        "id": "ao42",
+        "text": "The shell-shaped roof of the Sydney Opera House is covered in more than a million tiles made in _____.",
+        "answer": "Sweden"
+      },
+      {
+        "id": "ao43",
+        "text": "The rules of Australian Rules football were first written down in Melbourne in 1859, partly to keep _____ fit over winter.",
+        "answer": "cricketers"
+      },
+      {
+        "id": "ao44",
+        "text": "The Melbourne Cup is run on the first _____ of November.",
+        "answer": "Tuesday"
+      },
+      {
+        "id": "ao45",
+        "text": "The Sydney Harbour Bridge is nicknamed the _____.",
+        "answer": "Coathanger"
+      }
+    ]
+  }
+}

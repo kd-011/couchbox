@@ -1,0 +1,207 @@
+{
+  "id": "superpowers",
+  "title": "Super Weird Powers",
+  "emoji": "🦸",
+  "blurb": "Superpowers with a catch, sidekicks and secret lairs.",
+  "tags": [
+    "fantasy",
+    "silly"
+  ],
+  "order": 10,
+  "content": {
+    "pairs": [
+      {
+        "a": "Fly, but only two metres off the ground",
+        "b": "Turn invisible, but your clothes stay visible"
+      },
+      {
+        "a": "Read minds, but only of dogs",
+        "b": "Read minds, but only of babies"
+      },
+      {
+        "a": "Have super strength, but only in your left arm",
+        "b": "Have super speed, but only when running backwards"
+      },
+      {
+        "a": "Control fire, but always feel freezing",
+        "b": "Control ice, but always feel sweaty"
+      },
+      {
+        "a": "Know the wifi password anywhere you go",
+        "b": "Always find a parking spot instantly"
+      },
+      {
+        "a": "Pause time for one minute, once a day",
+        "b": "Rewind time by ten seconds as often as you like"
+      },
+      {
+        "a": "Shapeshift into any animal, but never choose which",
+        "b": "Shapeshift into any person, but only for one minute"
+      },
+      {
+        "a": "Have x-ray vision you can never switch off",
+        "b": "Have super hearing you can never switch off"
+      },
+      {
+        "a": "Summon any food instantly, but it's always lukewarm",
+        "b": "Summon any song instantly, but only at full volume"
+      },
+      {
+        "a": "Heal anyone's injuries, but feel their pain",
+        "b": "Heal your own injuries instantly, but nobody else's"
+      },
+      {
+        "a": "Be a superhero everyone knows is you",
+        "b": "Be a superhero nobody would ever believe is you"
+      },
+      {
+        "a": "Have a talking pigeon as your sidekick",
+        "b": "Have your next-door neighbour as your arch-nemesis"
+      },
+      {
+        "a": "Wear a skintight lycra suit for every rescue",
+        "b": "Wear a full-body mascot costume for every rescue"
+      },
+      {
+        "a": "Stretch your body like rubber",
+        "b": "Split into three smaller copies of yourself"
+      },
+      {
+        "a": "Learn any skill by watching it once",
+        "b": "Forget anything you choose to forget"
+      },
+      {
+        "a": "Make anyone tell the truth",
+        "b": "Make anyone forget the last five minutes"
+      },
+      {
+        "a": "Never need sleep, but glow faintly in the dark",
+        "b": "Be invincible, but only while you're asleep"
+      },
+      {
+        "a": "Talk to every machine, including the printer",
+        "b": "Understand every language, but only when whispered"
+      },
+      {
+        "a": "Sneeze fireballs you can't control",
+        "b": "Hiccup lightning you can't control"
+      },
+      {
+        "a": "Have laser eyes",
+        "b": "Have a sonic scream"
+      },
+      {
+        "a": "Control water",
+        "b": "Control electricity"
+      },
+      {
+        "a": "Move objects with your mind, but only things lighter than a spoon",
+        "b": "Lift a bus with your bare hands, but only on Tuesdays"
+      },
+      {
+        "a": "See five seconds into the future",
+        "b": "Always know exactly where every lost thing is"
+      },
+      {
+        "a": "Have powers that only work while you sing",
+        "b": "Have powers that only work while you dance"
+      },
+      {
+        "a": "Make plants grow instantly",
+        "b": "Make any animal follow you home"
+      },
+      {
+        "a": "Have a power that's amazing but very obvious",
+        "b": "Have a power that's subtle and nobody notices"
+      },
+      {
+        "a": "Copy anyone's superpower for an hour",
+        "b": "Have one power that gets a little stronger every year"
+      },
+      {
+        "a": "Have a secret lair in your parents' garage",
+        "b": "Have a super vehicle that's your nan's old hatchback"
+      },
+      {
+        "a": "Be bulletproof, but terrified of pigeons",
+        "b": "Be fireproof, but allergic to grass"
+      },
+      {
+        "a": "Duplicate anything you're holding",
+        "b": "Shrink anything you're holding"
+      },
+      {
+        "a": "Have perfect aim with anything you throw",
+        "b": "Never trip, slip or stumble again"
+      },
+      {
+        "a": "Turn any liquid into coffee",
+        "b": "Turn any liquid into chocolate milk"
+      },
+      {
+        "a": "Turn every traffic light green as you arrive",
+        "b": "Have every lift waiting on your floor"
+      },
+      {
+        "a": "Have perfect night vision",
+        "b": "Have a built-in compass that's never wrong"
+      },
+      {
+        "a": "Make anyone laugh on command",
+        "b": "Make anyone fall asleep on command"
+      },
+      {
+        "a": "Fight crime alone, forever",
+        "b": "Fight crime with a team that argues nonstop"
+      },
+      {
+        "a": "Leap over buildings, but always land badly",
+        "b": "Run across water, but only downhill"
+      },
+      {
+        "a": "Turn into a cloud of smoke whenever you sneeze",
+        "b": "Turn into a puddle whenever you cry"
+      },
+      {
+        "a": "Talk to ghosts, who are mostly rude",
+        "b": "Talk to the future you, who is mostly smug"
+      },
+      {
+        "a": "Fly faster than sound, with no steering",
+        "b": "Fly at walking pace, with perfect control"
+      },
+      {
+        "a": "Have eyes in the back of your head",
+        "b": "Have a third arm that has opinions"
+      },
+      {
+        "a": "Teleport anywhere, but arrive without your shoes",
+        "b": "Teleport anywhere, but arrive twenty minutes late"
+      },
+      {
+        "a": "Control gravity in a small bubble around you",
+        "b": "Control time in a small bubble around you"
+      },
+      {
+        "a": "Wake up each day with a random new superpower",
+        "b": "Keep one pretty boring superpower forever"
+      },
+      {
+        "a": "Be immune to all pain",
+        "b": "Be immune to all embarrassment"
+      },
+      {
+        "a": "Be a villain with a brilliant lair and a dull plan",
+        "b": "Be a hero with a dull flat and a brilliant plan"
+      },
+      {
+        "a": "Hear everyone's thoughts as song lyrics",
+        "b": "Hear everyone's thoughts as weather reports"
+      },
+      {
+        "a": "Talk to every pet, who mostly want snacks",
+        "b": "Talk to every wild animal, who mostly want space"
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "food",
+  "title": "Food Fight",
+  "emoji": "🍕",
+  "blurb": "Snacks, feasts and kitchen disasters. Do not draw this one hungry.",
+  "tags": [
+    "food"
+  ],
+  "content": {
+    "easy": [
+      "spaghetti",
+      "sushi",
+      "fried egg",
+      "toast",
+      "french fries",
+      "chocolate bar",
+      "noodles",
+      "chicken leg",
+      "sausage",
+      "cucumber",
+      "tomato",
+      "honey jar",
+      "pie",
+      "donut",
+      "lollipop",
+      "carrot"
+    ],
+    "medium": [
+      "burrito",
+      "croissant",
+      "kebab",
+      "birthday cake",
+      "fruit salad",
+      "bowl of soup",
+      "dumplings",
+      "hot chocolate",
+      "grilled cheese",
+      "corn on the cob",
+      "nachos",
+      "cotton candy",
+      "lunch box",
+      "popcorn bucket",
+      "ice cream sundae",
+      "pancake stack"
+    ],
+    "hard": [
+      "chocolate fountain",
+      "food truck",
+      "pizza delivery",
+      "spilled milk",
+      "toffee apple",
+      "fondue",
+      "picnic basket",
+      "salt and pepper shakers",
+      "bubble tea",
+      "fortune cookie",
+      "food fight",
+      "gumball machine",
+      "food coma",
+      "sweet tooth",
+      "midnight snack",
+      "all you can eat"
+    ]
+  }
+}

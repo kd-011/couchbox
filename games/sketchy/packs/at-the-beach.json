@@ -1,0 +1,66 @@
+{
+  "id": "at-the-beach",
+  "title": "At the Beach",
+  "emoji": "🏖️",
+  "blurb": "Sun, sand and seagulls: everything you would pack for a day at the beach.",
+  "tags": [
+    "beach",
+    "summer"
+  ],
+  "content": {
+    "easy": [
+      "spade",
+      "towel",
+      "sun hat",
+      "swimsuit",
+      "flippers",
+      "seagull",
+      "goggles",
+      "deck chair",
+      "snorkel",
+      "cooler box",
+      "pier",
+      "footprints",
+      "sandcastle",
+      "crab",
+      "surfboard",
+      "bucket"
+    ],
+    "medium": [
+      "lifeguard tower",
+      "jet ski",
+      "sunburn",
+      "sunscreen",
+      "boogie board",
+      "wetsuit",
+      "inflatable ring",
+      "fishing rod",
+      "beach hut",
+      "ice cream van",
+      "buried in sand",
+      "surf lesson",
+      "beach umbrella",
+      "lighthouse",
+      "message in a bottle",
+      "surfer riding a wave"
+    ],
+    "hard": [
+      "sunset",
+      "shark fin",
+      "metal detector",
+      "beach volleyball",
+      "kitesurfing",
+      "sand sculpture",
+      "jellyfish sting",
+      "low tide",
+      "seaweed",
+      "parasailing",
+      "pedal boat",
+      "beach cricket",
+      "rip current",
+      "king tide",
+      "tan lines",
+      "sand in everything"
+    ]
+  }
+}

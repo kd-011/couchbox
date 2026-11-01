@@ -1,0 +1,78 @@
+{
+  "id": "aussie-icons",
+  "title": "Aussie Icons",
+  "emoji": "🦘",
+  "blurb": "Hills Hoists, quokkas and the Big Banana: true blue secret words.",
+  "tags": [
+    "aussie"
+  ],
+  "content": {
+    "categories": {
+      "aussie-stuff": {
+        "label": "Aussie stuff",
+        "items": [
+          "Tim Tams",
+          "Hills Hoist",
+          "Ute",
+          "Thongs",
+          "Esky",
+          "Akubra",
+          "Stubby holder",
+          "Budgie smugglers",
+          "Zinc cream",
+          "Ugg boots",
+          "Cork hat",
+          "Milk crate",
+          "Paddle Pop",
+          "Flyscreen door",
+          "Billy tea",
+          "Driza-Bone",
+          "Chook raffle"
+        ]
+      },
+      "aussie-landmarks": {
+        "label": "Aussie landmarks",
+        "items": [
+          "Uluru",
+          "Opera House",
+          "Harbour Bridge",
+          "Great Barrier Reef",
+          "Big Banana",
+          "Bondi Beach",
+          "Twelve Apostles",
+          "Rottnest Island",
+          "The MCG",
+          "Kakadu",
+          "Daintree",
+          "Parliament House",
+          "Kings Park",
+          "Blue Mountains",
+          "Sydney Tower",
+          "Cable Beach"
+        ]
+      },
+      "aussie-critters": {
+        "label": "Aussie critters",
+        "items": [
+          "Quokka",
+          "Cane toad",
+          "Drop bear",
+          "Bin chicken",
+          "Magpie",
+          "Huntsman spider",
+          "Redback",
+          "Tasmanian devil",
+          "Echidna",
+          "Galah",
+          "Dingo",
+          "Blue-tongue lizard",
+          "Bluebottle",
+          "Cassowary",
+          "Funnel-web",
+          "Frilled-neck lizard"
+        ]
+      }
+    }
+  },
+  "order": 30
+}

@@ -1,0 +1,185 @@
+{
+  "id": "work-life",
+  "title": "Work Life",
+  "emoji": "💼",
+  "tags": [
+    "work"
+  ],
+  "blurb": "Jobs, bosses, meetings and office etiquette on the dial.",
+  "content": {
+    "spectrums": [
+      {
+        "left": "Should be an email",
+        "right": "Needs a meeting"
+      },
+      {
+        "left": "Easiest job ever",
+        "right": "Hardest job in the world"
+      },
+      {
+        "left": "Dream job",
+        "right": "Nightmare job"
+      },
+      {
+        "left": "Paid too little",
+        "right": "Paid too much"
+      },
+      {
+        "left": "Useful skill at work",
+        "right": "Useless skill at work"
+      },
+      {
+        "left": "Professional",
+        "right": "Unprofessional"
+      },
+      {
+        "left": "Fine sick day excuse",
+        "right": "Unacceptable sick day excuse"
+      },
+      {
+        "left": "Fine to say to your boss",
+        "right": "Never say it to your boss"
+      },
+      {
+        "left": "Office perk",
+        "right": "Office punishment"
+      },
+      {
+        "left": "Productive",
+        "right": "Procrastinating"
+      },
+      {
+        "left": "Work friend",
+        "right": "Real friend"
+      },
+      {
+        "left": "A robot could do it",
+        "right": "Only a human could do it"
+      },
+      {
+        "left": "Bare minimum",
+        "right": "Above and beyond"
+      },
+      {
+        "left": "Great team-building activity",
+        "right": "Terrible team-building activity"
+      },
+      {
+        "left": "Dress-down Friday",
+        "right": "Black tie"
+      },
+      {
+        "left": "Fun job",
+        "right": "Serious job"
+      },
+      {
+        "left": "Stressful",
+        "right": "Relaxing"
+      },
+      {
+        "left": "Kids dream of it",
+        "right": "No kid dreams of it"
+      },
+      {
+        "left": "Fine from home",
+        "right": "Must be in the office"
+      },
+      {
+        "left": "Hard to explain at a party",
+        "right": "Everyone understands it"
+      },
+      {
+        "left": "Morning person job",
+        "right": "Night owl job"
+      },
+      {
+        "left": "Office gossip",
+        "right": "Need-to-know"
+      },
+      {
+        "left": "Startup energy",
+        "right": "Corporate energy"
+      },
+      {
+        "left": "Bold email sign-off",
+        "right": "Safe email sign-off"
+      },
+      {
+        "left": "Boss move",
+        "right": "Rookie move"
+      },
+      {
+        "left": "Old-fashioned job",
+        "right": "Job of the future"
+      },
+      {
+        "left": "Strict uniform",
+        "right": "Wear whatever you like"
+      },
+      {
+        "left": "Desk job",
+        "right": "On-your-feet job"
+      },
+      {
+        "left": "Fine on a video call",
+        "right": "Not okay on a video call"
+      },
+      {
+        "left": "Great office pet",
+        "right": "Terrible office pet"
+      },
+      {
+        "left": "Worth a pay rise",
+        "right": "Worth a warning"
+      },
+      {
+        "left": "Fine at the Christmas party",
+        "right": "Career-ending at the Christmas party"
+      },
+      {
+        "left": "Great way to start a Monday",
+        "right": "Terrible way to start a Monday"
+      },
+      {
+        "left": "Retire early",
+        "right": "Work forever"
+      },
+      {
+        "left": "Great office layout",
+        "right": "Terrible office layout"
+      },
+      {
+        "left": "Genuinely useful",
+        "right": "Corporate theatre"
+      },
+      {
+        "left": "Lunch at the desk: normal",
+        "right": "Lunch at the desk: sad"
+      },
+      {
+        "left": "Meeting in a cafe: productive",
+        "right": "Meeting in a cafe: distracting"
+      },
+      {
+        "left": "Four-day week: obvious",
+        "right": "Four-day week: unrealistic"
+      },
+      {
+        "left": "Reply-all: fine",
+        "right": "Reply-all: unforgivable"
+      },
+      {
+        "left": "Slack ping: urgent",
+        "right": "Slack ping: can wait"
+      },
+      {
+        "left": "Take all your annual leave",
+        "right": "Hoard your annual leave"
+      },
+      {
+        "left": "Commute: podcast time",
+        "right": "Commute: wasted life"
+      }
+    ]
+  }
+}

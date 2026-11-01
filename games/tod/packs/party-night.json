@@ -1,0 +1,125 @@
+{
+  "id": "party-night",
+  "title": "Party Night",
+  "emoji": "🪩",
+  "blurb": "Loud, cheeky and chaotic. The pre-drinks pack, with spicy and wild extras.",
+  "tags": [
+    "party",
+    "spicy",
+    "wild"
+  ],
+  "order": 10,
+  "content": {
+    "mild": {
+      "truth": [
+        "What's the best party you've ever been to, and what made it?",
+        "What's your signature move on a dance floor?",
+        "What's the worst party outfit decision you've ever made?",
+        "What song makes you drop everything and run to the dance floor?",
+        "What's the most people you've ever fitted in one tiny kitchen at a party?",
+        "Are you the first to arrive, fashionably late, or the Irish goodbye?",
+        "What's your party trick, and does it actually work?",
+        "What's the strangest place you've ever fallen asleep at a party?",
+        "What's the best costume you've ever worn to a party?",
+        "Who in this room is most likely to still be dancing at 3am?",
+        "What's the worst playlist crime someone has committed at a party you were at?",
+        "What's the most memorable thing someone has said in a party speech or toast?",
+        "What snack do you always hunt for the moment you arrive at a party?",
+        "What's the funniest thing you've seen someone do on the dance floor?",
+        "What's your go-to line when you want to leave a boring conversation?",
+        "What's the best late-night food you've ever had after a party?",
+        "Have you ever crashed a party you weren't invited to?",
+        "What's the most surprising thing you've learned about a friend at a party?",
+        "What's your karaoke warm-up routine, if you're honest?",
+        "What's the best thing you've ever won at a party or raffle?",
+        "What song would you ban from every party forever?",
+        "What's a party game you're secretly unbeatable at?"
+      ],
+      "dare": [
+        "Start a conga line and lead it around the room once.",
+        "Do your best dance move from the 80s, 90s or 2000s, your choice, 20 seconds.",
+        "Give a two-line toast to the person who looks most ready to go home.",
+        "Let the group choose a song, then dance to the first 15 seconds with total commitment.",
+        "Pretend you're a DJ introducing the next song, with all the hype voice you've got.",
+        "Act out the whole life cycle of a party in 20 seconds: arrive, mingle, dance, regret.",
+        "Do the robot, the sprinkler and the lawnmower back to back.",
+        "Hype up the person on your right like they're walking into a stadium for a final.",
+        "Pick a player and do a dramatic, tearful goodbye like you won't see them for ten years.",
+        "Perform a one-person dance battle against your own reflection or phone camera.",
+        "Teach the room a three-move dance in one minute and make everyone do it.",
+        "Blow out an imaginary birthday candle in the most theatrical way you can.",
+        "Freeze the next time someone claps, and stay frozen for a full minute.",
+        "Give everyone an Oscars-style award for tonight's party, in 20 seconds.",
+        "Pretend to be a bouncer rejecting an imaginary celebrity for ridiculous reasons.",
+        "Air-guitar the biggest solo of your life for 15 seconds.",
+        "Be an emotional aunt at a wedding giving the most heartfelt speech about absolutely nothing.",
+        "Do the most dramatic mic drop you can with an object of your choice.",
+        "Let the person on your left pick a dance for you to do to whatever song is playing.",
+        "Do a slow-motion replay of the best dance move you've seen tonight.",
+        "Pull the best group photo pose you can with two other players, then take it.",
+        "Read out the party's menu like a newsreader announcing breaking news.",
+        "Lead the room in a three-second countdown to a very anticlimactic new year."
+      ]
+    },
+    "spicy": {
+      "truth": [
+        "What's the most embarrassing thing you've done at a party after one drink too many?",
+        "What's the cheekiest message you've ever sent at 2am?",
+        "Who here would you most like to see lose a dance-off?",
+        "What's the most awkward situation you've found yourself in at someone else's house party?",
+        "What's the worst thing you've ever done to get home from a night out?",
+        "What's the biggest lie you've told at a party to look cooler?",
+        "What's the wildest rumour you've heard about yourself after a party?",
+        "Who is the last person you'd want to be stuck with in a lift, and why?",
+        "What's your most regrettable party text or voice note?",
+        "What's the most embarrassing nickname you got from a night out?",
+        "What's a party moment you hope nobody filmed?",
+        "Who in this room would you least expect to be the life of the party?"
+      ],
+      "dare": [
+        "Give a very dramatic slow-motion compliment to a person the group chooses.",
+        "Show the group the most embarrassing photo of you from a night out that you're willing to share.",
+        "Do your best drunk-uncle-at-a-wedding dance, safely, for 20 seconds.",
+        "Call a friend and sing happy birthday to them, whether or not it is.",
+        "Let someone pick an embarrassing song for your phone's ringtone, then use it for the night.",
+        "Give a sincere 30-second speech thanking the host for absolutely everything.",
+        "Swap a piece of clothing (a scarf, hat or jacket) with someone, and wear it the rest of the night.",
+        "Try to make the straightest-faced person in the room laugh within 30 seconds.",
+        "Let the group pick your next three words in conversation. You must say them.",
+        "Do an overly emotional rendition of the last song that played.",
+        "Do a catwalk across the room like you're on the cover of a magazine.",
+        "Let the group take a photo of you in a ridiculous pose and use it as your lock screen for one hour."
+      ]
+    },
+    "wild": {
+      "truth": [
+        "What's the wildest night out you've ever had, start to finish?",
+        "What's the most reckless thing you've done for a bet?",
+        "What's the most trouble you've ever gotten into with friends that you're willing to share?",
+        "What's the most daring outfit you've ever worn out?",
+        "What's the biggest scene you've ever caused in public?",
+        "What's the most outrageous thing you've done on a holiday?",
+        "What's the boldest thing you've ever said to a stranger?",
+        "Who's the most unexpected person you've hooked up with at a party? No names needed.",
+        "What's the closest you've come to being thrown out of somewhere?",
+        "What's a rule you've broken that you'd happily break again?",
+        "What's the boldest move you've ever made on someone at a party?",
+        "What's the best story from a night you swore you'd never speak of?"
+      ],
+      "dare": [
+        "Do a 20-second sultry dance to a song the group picks, with full eye contact.",
+        "Do your best dramatic reading of the last text you received, in a movie-trailer voice.",
+        "Let the group dress you in three accessories you must keep on until your next turn.",
+        "Choose a willing dance partner and do a freestyle tango across the room.",
+        "Chug a glass of water in one go while the room counts you down.",
+        "Put on a fake accent and keep it for the next three rounds.",
+        "Let the group add two silly rules for you that you must follow until the game ends.",
+        "Whisper your most embarrassing hook-up story to the person on your right, who rates it out of ten.",
+        "Stand on one leg and do a ten-second dramatic opera solo about the person to your left.",
+        "Pretend you are a wrestler and cut a promo on the player across from you.",
+        "Do a full dramatic slow-motion pillow-fight scene with an imaginary opponent.",
+        "Let the person on your left give you a flirty new nickname, and answer only to it for the rest of the game."
+      ]
+    }
+  }
+}

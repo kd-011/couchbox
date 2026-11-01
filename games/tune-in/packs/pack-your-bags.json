@@ -1,0 +1,189 @@
+{
+  "id": "pack-your-bags",
+  "title": "Pack Your Bags",
+  "emoji": "✈️",
+  "blurb": "Airports, hostels, hidden gems and the great window seat debate.",
+  "tags": [
+    "travel"
+  ],
+  "content": {
+    "spectrums": [
+      {
+        "left": "Hidden gem",
+        "right": "Tourist trap"
+      },
+      {
+        "left": "Packs light",
+        "right": "Packs the whole wardrobe"
+      },
+      {
+        "left": "Worth the long flight",
+        "right": "Not worth the jet lag"
+      },
+      {
+        "left": "Window seat",
+        "right": "Aisle seat"
+      },
+      {
+        "left": "Plans every hour",
+        "right": "Wings it"
+      },
+      {
+        "left": "Hostel bunk",
+        "right": "Five-star resort"
+      },
+      {
+        "left": "Airport meal worth it",
+        "right": "Airport meal robbery"
+      },
+      {
+        "left": "Road trip",
+        "right": "Plane trip"
+      },
+      {
+        "left": "Local street food",
+        "right": "Hotel buffet"
+      },
+      {
+        "left": "Postcard perfect",
+        "right": "Disappointing in person"
+      },
+      {
+        "left": "Relaxing holiday",
+        "right": "Exhausting holiday"
+      },
+      {
+        "left": "Beach holiday",
+        "right": "Mountain holiday"
+      },
+      {
+        "left": "City break",
+        "right": "Remote escape"
+      },
+      {
+        "left": "Sleeps through the flight",
+        "right": "Awake every minute"
+      },
+      {
+        "left": "Souvenir worth buying",
+        "right": "Souvenir landfill"
+      },
+      {
+        "left": "Great travel buddy",
+        "right": "Terrible travel buddy"
+      },
+      {
+        "left": "Summer destination",
+        "right": "Winter destination"
+      },
+      {
+        "left": "Backpacker",
+        "right": "Luxury traveller"
+      },
+      {
+        "left": "Speaks the language",
+        "right": "Points and smiles"
+      },
+      {
+        "left": "Cheap and cheerful",
+        "right": "Pricey and posh"
+      },
+      {
+        "left": "A delay you can live with",
+        "right": "A delay that ruins everything"
+      },
+      {
+        "left": "Rental car joy",
+        "right": "Rental car nightmare"
+      },
+      {
+        "left": "Overnight train romance",
+        "right": "Overnight train misery"
+      },
+      {
+        "left": "Gets lost happily",
+        "right": "Gets lost angrily"
+      },
+      {
+        "left": "Worth queuing for",
+        "right": "Not worth the queue"
+      },
+      {
+        "left": "Museum day",
+        "right": "Pool day"
+      },
+      {
+        "left": "Great place to propose",
+        "right": "Terrible place to propose"
+      },
+      {
+        "left": "Honeymoon destination",
+        "right": "Buck's weekend destination"
+      },
+      {
+        "left": "Cruise: floating paradise",
+        "right": "Cruise: floating prison"
+      },
+      {
+        "left": "Jet lag survivor",
+        "right": "Jet lag victim"
+      },
+      {
+        "left": "Camping trip",
+        "right": "Glamping trip"
+      },
+      {
+        "left": "Kid-friendly holiday",
+        "right": "Adults-only holiday"
+      },
+      {
+        "left": "Neck pillow essential",
+        "right": "Neck pillow embarrassing"
+      },
+      {
+        "left": "Travel insurance essential",
+        "right": "Travel insurance overkill"
+      },
+      {
+        "left": "Bucket list entry",
+        "right": "Never on the list"
+      },
+      {
+        "left": "Layover: free sightseeing",
+        "right": "Layover: airport floor"
+      },
+      {
+        "left": "Language barrier fun",
+        "right": "Language barrier chaos"
+      },
+      {
+        "left": "Tour group: good time",
+        "right": "Tour group: herding cats"
+      },
+      {
+        "left": "Sun-safe holiday",
+        "right": "Sunburn guaranteed"
+      },
+      {
+        "left": "Customs: smooth",
+        "right": "Customs: sweaty palms"
+      },
+      {
+        "left": "Lost luggage: a story",
+        "right": "Lost luggage: a catastrophe"
+      },
+      {
+        "left": "Sleep-in holiday",
+        "right": "Early-start holiday"
+      },
+      {
+        "left": "Glad to be home",
+        "right": "Wish I'd stayed there"
+      },
+      {
+        "left": "Trip of a lifetime",
+        "right": "Pleasant long weekend"
+      }
+    ]
+  }
+}

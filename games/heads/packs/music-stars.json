@@ -1,0 +1,24 @@
+{
+  "id": "music-stars",
+  "title": "Music Stars",
+  "emoji": "🎤",
+  "blurb": "Rock gods, pop queens and chart toppers. Are you a legend or a hitmaker?",
+  "tags": ["music", "pop culture"],
+  "order": 40,
+  "content": {
+    "categories": {
+      "music-legends": {
+        "label": "Music legends",
+        "items": ["Elvis Presley", "Freddie Mercury", "Madonna", "David Bowie", "Dolly Parton", "Elton John", "Whitney Houston", "Bob Marley", "John Lennon", "Cher", "Tina Turner", "Prince", "Stevie Wonder", "Frank Sinatra", "Mariah Carey", "Celine Dion", "Aretha Franklin", "Paul McCartney", "Bob Dylan", "Johnny Cash", "Mick Jagger", "Ozzy Osbourne", "Stevie Nicks", "Bruce Springsteen", "Rod Stewart"]
+      },
+      "chart-toppers": {
+        "label": "Chart toppers",
+        "items": ["Lady Gaga", "Bruno Mars", "Ariana Grande", "Harry Styles", "Dua Lipa", "Katy Perry", "Justin Bieber", "Miley Cyrus", "Olivia Rodrigo", "The Weeknd", "Post Malone", "Sabrina Carpenter", "Pink", "Snoop Dogg", "Eminem", "Bad Bunny", "Jennifer Lopez", "Chris Martin", "Drake", "Kendrick Lamar", "Doja Cat", "Lizzo", "Nicki Minaj", "Cardi B", "Lewis Capaldi", "Lorde", "Chappell Roan", "Shawn Mendes", "Lana Del Rey"]
+      },
+      "famous-bands": {
+        "label": "Famous bands",
+        "items": ["The Beatles", "ABBA", "Queen", "AC/DC", "Coldplay", "U2", "Oasis", "The Rolling Stones", "Fleetwood Mac", "Metallica", "One Direction", "Guns N' Roses", "Pink Floyd", "Led Zeppelin", "The Bee Gees", "Bon Jovi"]
+      }
+    }
+  }
+}

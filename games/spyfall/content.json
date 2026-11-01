@@ -1,0 +1,114 @@
+{
+  "locations": [
+    {
+      "key": "submarine",
+      "label": "Research Submarine",
+      "roles": ["Sonar Operator", "Engine Chief", "Galley Cook", "Navigator", "Diving Officer", "Radio Operator", "Medic", "Captain"]
+    },
+    {
+      "key": "film-set",
+      "label": "Film Set",
+      "roles": ["Director", "Stunt Double", "Boom Operator", "Lead Actor", "Costume Designer", "Camera Operator", "Caterer", "Runner"]
+    },
+    {
+      "key": "space-station",
+      "label": "Space Station",
+      "roles": ["Flight Commander", "Life Support Engineer", "Astrobiologist", "Mission Specialist", "Ground Liaison", "Robotics Technician", "Medical Officer", "Cargo Handler"]
+    },
+    {
+      "key": "cruise-ship",
+      "label": "Cruise Ship",
+      "roles": ["Cruise Director", "Deck Officer", "Lounge Singer", "Pastry Chef", "Casino Dealer", "Spa Therapist", "Pool Attendant", "Captain"]
+    },
+    {
+      "key": "circus",
+      "label": "Travelling Circus",
+      "roles": ["Ringmaster", "Trapeze Artist", "Lion Tamer", "Clown", "Ticket Seller", "Fortune Teller", "Roustabout", "Tightrope Walker"]
+    },
+    {
+      "key": "wedding-reception",
+      "label": "Wedding Reception",
+      "roles": ["Wedding Planner", "Best Man", "Maid of Honour", "DJ", "Photographer", "Caterer", "Officiant", "Florist"]
+    },
+    {
+      "key": "dig-site",
+      "label": "Archaeological Dig",
+      "roles": ["Lead Archaeologist", "Finds Supervisor", "Site Surveyor", "Local Guide", "Conservator", "Dig Volunteer", "Photographer", "Security Guard"]
+    },
+    {
+      "key": "theme-park",
+      "label": "Theme Park",
+      "roles": ["Ride Operator", "Mascot Performer", "Ticket Attendant", "Food Cart Vendor", "Park Mechanic", "Security Guard", "Guest Services Rep", "Park Manager"]
+    },
+    {
+      "key": "art-gallery",
+      "label": "Art Gallery",
+      "roles": ["Curator", "Gallery Owner", "Art Restorer", "Security Guard", "Art Critic", "Tour Guide", "Framer", "Visiting Artist"]
+    },
+    {
+      "key": "airport-terminal",
+      "label": "Airport Terminal",
+      "roles": ["Check-in Agent", "Air Traffic Controller", "Baggage Handler", "Customs Officer", "Pilot", "Flight Attendant", "Security Screener", "Gift Shop Clerk"]
+    },
+    {
+      "key": "hospital-ward",
+      "label": "Hospital Ward",
+      "roles": ["Surgeon", "Head Nurse", "Paramedic", "Receptionist", "Anaesthetist", "Radiographer", "Orderly", "Pharmacist"]
+    },
+    {
+      "key": "vineyard",
+      "label": "Vineyard",
+      "roles": ["Winemaker", "Vineyard Manager", "Grape Picker", "Sommelier", "Tour Host", "Bottling Technician", "Cellar Hand", "Tasting Room Host"]
+    },
+    {
+      "key": "game-studio",
+      "label": "Video Game Studio",
+      "roles": ["Lead Designer", "Programmer", "Quality Tester", "Concept Artist", "Sound Designer", "Producer", "Community Manager", "Animator"]
+    },
+    {
+      "key": "polar-station",
+      "label": "Polar Research Station",
+      "roles": ["Station Chief", "Glaciologist", "Meteorologist", "Mechanic", "Camp Cook", "Wildlife Researcher", "Radio Operator", "Medic"]
+    },
+    {
+      "key": "food-truck-festival",
+      "label": "Food Truck Festival",
+      "roles": ["Food Truck Owner", "Line Cook", "Event Organiser", "Festival Photographer", "Market Inspector", "Busker", "Ticket Seller", "Cleanup Crew"]
+    },
+    {
+      "key": "ski-resort",
+      "label": "Ski Resort",
+      "roles": ["Ski Instructor", "Lift Operator", "Lodge Chef", "Ski Patrol", "Tourist", "Equipment Rental Clerk", "Snowboarder", "Resort Manager"]
+    },
+    {
+      "key": "brewery",
+      "label": "Craft Brewery",
+      "roles": ["Head Brewer", "Taproom Manager", "Bartender", "Delivery Driver", "Quality Tester", "Label Designer", "Tour Guide", "Keg Washer"]
+    },
+    {
+      "key": "film-premiere",
+      "label": "Film Premiere",
+      "roles": ["Red Carpet Host", "Publicist", "Lead Actor", "Paparazzi Photographer", "Usher", "Security Guard", "Valet", "Studio Executive"]
+    },
+    {
+      "key": "zoo",
+      "label": "Zoo",
+      "roles": ["Head Zookeeper", "Veterinarian", "Tour Guide", "Gift Shop Clerk", "Groundskeeper", "Education Officer", "Ticket Seller", "Enclosure Designer"]
+    },
+    {
+      "key": "golf-course",
+      "label": "Golf Course",
+      "roles": ["Head Pro", "Caddie", "Groundskeeper", "Clubhouse Manager", "Cart Attendant", "Tournament Director", "Beverage Cart Driver", "Member"]
+    },
+    {
+      "key": "escape-room",
+      "label": "Escape Room",
+      "roles": ["Game Master", "Puzzle Designer", "Front Desk Host", "Actor", "Technician", "Marketing Manager", "First-time Player", "Repeat Player"]
+    },
+    {
+      "key": "lighthouse",
+      "label": "Remote Lighthouse",
+      "roles": ["Lighthouse Keeper", "Harbour Master", "Supply Boat Captain", "Marine Biologist", "Maintenance Engineer", "Weather Observer", "Radio Operator", "Visiting Inspector"]
+    }
+  ]
+}

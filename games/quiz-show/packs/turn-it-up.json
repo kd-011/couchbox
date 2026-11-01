@@ -1,0 +1,481 @@
+{
+  "id": "turn-it-up",
+  "title": "Turn It Up",
+  "emoji": "🎸",
+  "blurb": "Chart-toppers, rock legends and Aussie airwaves, from Beyoncé to Bon Scott.",
+  "tags": [
+    "music",
+    "pop culture",
+    "aussie"
+  ],
+  "order": 31,
+  "content": {
+    "categories": {
+      "tunes-chart": {
+        "label": "Chart Toppers",
+        "multiple": [
+          {
+            "id": "tun-ch-m-1",
+            "difficulty": "easy",
+            "text": "Which superstar released the 2016 visual album Lemonade?",
+            "options": [
+              "Adele",
+              "Ariana Grande",
+              "Lizzo",
+              "Beyoncé"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "tun-ch-m-2",
+            "difficulty": "easy",
+            "text": "Which British singer's 2011 album 21 included 'Rolling in the Deep'?",
+            "options": [
+              "Dua Lipa",
+              "Amy Winehouse",
+              "Adele",
+              "Sam Smith"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "tun-ch-m-3",
+            "difficulty": "easy",
+            "text": "Which teenage star scored a worldwide hit with 'Bad Guy' in 2019?",
+            "options": [
+              "SZA",
+              "Lizzo",
+              "Dua Lipa",
+              "Billie Eilish"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "tun-ch-m-4",
+            "difficulty": "medium",
+            "text": "Which robot-helmeted French duo teamed up with Pharrell Williams on 2013's 'Get Lucky'?",
+            "options": [
+              "Justice",
+              "Daft Punk",
+              "Air",
+              "Cassius"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "tun-ch-m-5",
+            "difficulty": "medium",
+            "text": "Luis Fonsi's 2017 smash 'Despacito' featured which Puerto Rican rapper?",
+            "options": [
+              "Bad Bunny",
+              "J Balvin",
+              "Maluma",
+              "Daddy Yankee"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "tun-ch-m-6",
+            "difficulty": "medium",
+            "text": "Which South Korean group took 'Dynamite' to number one on the US Hot 100 in 2020?",
+            "options": [
+              "Blackpink",
+              "Twice",
+              "BTS",
+              "EXO"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "tun-ch-m-7",
+            "difficulty": "medium",
+            "text": "Whose Eras Tour became the first concert tour to gross over US$1 billion?",
+            "options": [
+              "Taylor Swift",
+              "Ed Sheeran",
+              "Coldplay",
+              "Bruce Springsteen"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "tun-ch-m-8",
+            "difficulty": "medium",
+            "text": "Which singer-songwriter co-wrote and sang the 2021 hit 'drivers license'?",
+            "options": [
+              "Tate McRae",
+              "Olivia Rodrigo",
+              "Gracie Abrams",
+              "Halsey"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "tun-ch-m-9",
+            "difficulty": "hard",
+            "text": "Pharrell Williams's 'Happy' (2013) first featured in which animated film?",
+            "options": [
+              "Frozen",
+              "Rio 2",
+              "Despicable Me 2",
+              "Sing"
+            ],
+            "answer": 2
+          }
+        ],
+        "boolean": [
+          {
+            "id": "tun-ch-b-1",
+            "difficulty": "easy",
+            "text": "Lorde, who sang 'Royals', is from Australia.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "tun-ch-b-2",
+            "difficulty": "medium",
+            "text": "Psy's 'Gangnam Style' was the first YouTube video to reach one billion views.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "tun-ch-b-3",
+            "difficulty": "hard",
+            "text": "Billie Eilish won all four of the Grammys' biggest awards in a single night at age 18.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "tun-ch-b-4",
+            "difficulty": "medium",
+            "text": "Ed Sheeran was born in Ireland.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      "tunes-legends": {
+        "label": "Legends & Lyrics",
+        "multiple": [
+          {
+            "id": "tun-lg-m-1",
+            "difficulty": "easy",
+            "text": "Which band was made up of John, Paul, George and Ringo?",
+            "options": [
+              "The Rolling Stones",
+              "The Beatles",
+              "The Who",
+              "The Kinks"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "tun-lg-m-2",
+            "difficulty": "easy",
+            "text": "Which singer is known as the 'King of Rock and Roll'?",
+            "options": [
+              "Chuck Berry",
+              "Little Richard",
+              "Buddy Holly",
+              "Elvis Presley"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "tun-lg-m-3",
+            "difficulty": "easy",
+            "text": "Which 1982 Michael Jackson album includes 'Billie Jean' and 'Beat It'?",
+            "options": [
+              "Bad",
+              "Thriller",
+              "Off the Wall",
+              "Dangerous"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "tun-lg-m-4",
+            "difficulty": "medium",
+            "text": "Which Pink Floyd album has a prism splitting light into a rainbow on its cover?",
+            "options": [
+              "The Wall",
+              "Wish You Were Here",
+              "Animals",
+              "The Dark Side of the Moon"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "tun-lg-m-5",
+            "difficulty": "medium",
+            "text": "Which guitarist played a famously distorted 'Star-Spangled Banner' at Woodstock in 1969?",
+            "options": [
+              "Jimi Hendrix",
+              "Eric Clapton",
+              "Jimmy Page",
+              "Pete Townshend"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "tun-lg-m-6",
+            "difficulty": "medium",
+            "text": "Which band recorded 'Stairway to Heaven' on its untitled fourth album in 1971?",
+            "options": [
+              "Deep Purple",
+              "Black Sabbath",
+              "Led Zeppelin",
+              "Cream"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "tun-lg-m-7",
+            "difficulty": "medium",
+            "text": "Which 1984 Prince album shares its name with his film debut?",
+            "options": [
+              "Parade",
+              "Purple Rain",
+              "1999",
+              "Sign o' the Times"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "tun-lg-m-8",
+            "difficulty": "hard",
+            "text": "Which 1977 Fleetwood Mac album includes 'Go Your Own Way' and 'Dreams'?",
+            "options": [
+              "Rumours",
+              "Tusk",
+              "Mirage",
+              "Tango in the Night"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "tun-lg-m-9",
+            "difficulty": "hard",
+            "text": "Which singer-songwriter was awarded the Nobel Prize in Literature in 2016?",
+            "options": [
+              "Paul Simon",
+              "Leonard Cohen",
+              "Bob Dylan",
+              "Neil Young"
+            ],
+            "answer": 2
+          }
+        ],
+        "boolean": [
+          {
+            "id": "tun-lg-b-1",
+            "difficulty": "hard",
+            "text": "Elvis Presley was born in Memphis, Tennessee.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "tun-lg-b-2",
+            "difficulty": "medium",
+            "text": "Queen guitarist Brian May has a PhD in astrophysics.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "tun-lg-b-3",
+            "difficulty": "easy",
+            "text": "Kurt Cobain was the lead singer of Pearl Jam.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "tun-lg-b-4",
+            "difficulty": "medium",
+            "text": "Paul McCartney plays left-handed.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      "tunes-aussie": {
+        "label": "Aussie Airwaves",
+        "multiple": [
+          {
+            "id": "tun-au-m-1",
+            "difficulty": "easy",
+            "text": "Which Australian band asked 'Do you come from a land down under?'",
+            "options": [
+              "INXS",
+              "Midnight Oil",
+              "Men at Work",
+              "Crowded House"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "tun-au-m-2",
+            "difficulty": "easy",
+            "text": "Which hard-rocking Australian band recorded 'Highway to Hell'?",
+            "options": [
+              "AC/DC",
+              "Rose Tattoo",
+              "The Angels",
+              "Divinyls"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "tun-au-m-3",
+            "difficulty": "easy",
+            "text": "Which pop star first found fame as Charlene on Neighbours?",
+            "options": [
+              "Dannii Minogue",
+              "Natalie Imbruglia",
+              "Kylie Minogue",
+              "Delta Goodrem"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "tun-au-m-4",
+            "difficulty": "medium",
+            "text": "Which late singer fronted INXS?",
+            "options": [
+              "Daryl Braithwaite",
+              "Mark Seymour",
+              "Peter Garrett",
+              "Michael Hutchence"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "tun-au-m-5",
+            "difficulty": "medium",
+            "text": "In which Australian city did Kevin Parker start his psychedelic project Tame Impala?",
+            "options": [
+              "Perth",
+              "Sydney",
+              "Melbourne",
+              "Brisbane"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "tun-au-m-6",
+            "difficulty": "medium",
+            "text": "Gotye's 2011 hit 'Somebody That I Used to Know' featured which New Zealand-born singer?",
+            "options": [
+              "Bic Runga",
+              "Kimbra",
+              "Gin Wigmore",
+              "Brooke Fraser"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "tun-au-m-7",
+            "difficulty": "medium",
+            "text": "'Truly Madly Deeply' was a 1997 hit for which Australian duo?",
+            "options": [
+              "Air Supply",
+              "Savage Garden",
+              "Pnau",
+              "Hermitude"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "tun-au-m-8",
+            "difficulty": "hard",
+            "text": "Sia, the singer behind 'Chandelier', was born in which Australian city?",
+            "options": [
+              "Melbourne",
+              "Perth",
+              "Adelaide",
+              "Brisbane"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "tun-au-m-9",
+            "difficulty": "hard",
+            "text": "Which Australian band, with Jimmy Barnes on vocals, recorded 'Khe Sanh'?",
+            "options": [
+              "Midnight Oil",
+              "The Angels",
+              "Divinyls",
+              "Cold Chisel"
+            ],
+            "answer": 3
+          }
+        ],
+        "boolean": [
+          {
+            "id": "tun-au-b-1",
+            "difficulty": "medium",
+            "text": "AC/DC formed in Sydney.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "tun-au-b-2",
+            "difficulty": "medium",
+            "text": "Nick Cave was born in Australia.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "tun-au-b-3",
+            "difficulty": "hard",
+            "text": "AC/DC singer Bon Scott was born in Australia.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "tun-au-b-4",
+            "difficulty": "medium",
+            "text": "Kylie Minogue was born in Perth.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    }
+  }
+}

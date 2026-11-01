@@ -1,0 +1,481 @@
+{
+  "id": "lights-camera-quiz",
+  "title": "Lights, Camera, Quiz",
+  "emoji": "🎬",
+  "blurb": "Blockbusters, binge-worthy telly and the people behind the camera, from Jaws to Bluey.",
+  "tags": [
+    "movies",
+    "tv",
+    "pop culture"
+  ],
+  "order": 30,
+  "content": {
+    "categories": {
+      "screen-blockbusters": {
+        "label": "Blockbusters",
+        "multiple": [
+          {
+            "id": "scr-bb-m-1",
+            "difficulty": "easy",
+            "text": "In Finding Nemo, what type of fish is Nemo?",
+            "options": [
+              "Blue tang",
+              "Clownfish",
+              "Pufferfish",
+              "Angelfish"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "scr-bb-m-2",
+            "difficulty": "easy",
+            "text": "Which 1975 Steven Spielberg film had a generation of beachgoers afraid of a great white shark?",
+            "options": [
+              "Orca",
+              "Deep Blue Sea",
+              "The Reef",
+              "Jaws"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "scr-bb-m-3",
+            "difficulty": "easy",
+            "text": "Which Australian star played the outback legend Mick Dundee in Crocodile Dundee (1986)?",
+            "options": [
+              "Paul Hogan",
+              "Mel Gibson",
+              "Russell Crowe",
+              "Hugh Jackman"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "scr-bb-m-4",
+            "difficulty": "easy",
+            "text": "In Back to the Future, the DeLorean has to reach what speed to travel through time?",
+            "options": [
+              "55 mph",
+              "77 mph",
+              "88 mph",
+              "99 mph"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "scr-bb-m-5",
+            "difficulty": "medium",
+            "text": "Which Australian director made Mad Max: Fury Road (2015)?",
+            "options": [
+              "Peter Weir",
+              "Baz Luhrmann",
+              "Gillian Armstrong",
+              "George Miller"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "scr-bb-m-6",
+            "difficulty": "medium",
+            "text": "Which film became the first non-English-language winner of Best Picture at the Oscars, at the 2020 ceremony?",
+            "options": [
+              "Parasite",
+              "Roma",
+              "Amélie",
+              "Pan's Labyrinth"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "scr-bb-m-7",
+            "difficulty": "medium",
+            "text": "Ben-Hur, Titanic and The Lord of the Rings: The Return of the King share the record for most Oscars won by one film. How many did each win?",
+            "options": [
+              "9",
+              "11",
+              "13",
+              "14"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "scr-bb-m-8",
+            "difficulty": "hard",
+            "text": "Which actor has played James Bond in the most official Eon-produced films?",
+            "options": [
+              "Sean Connery",
+              "Pierce Brosnan",
+              "Roger Moore",
+              "Daniel Craig"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "scr-bb-m-9",
+            "difficulty": "hard",
+            "text": "Which film was the first to pass US$1 billion at the worldwide box office?",
+            "options": [
+              "Titanic",
+              "Jurassic Park",
+              "Star Wars",
+              "The Lion King"
+            ],
+            "answer": 0
+          }
+        ],
+        "boolean": [
+          {
+            "id": "scr-bb-b-1",
+            "difficulty": "medium",
+            "text": "Snow White and the Seven Dwarfs (1937) was Walt Disney's first feature-length animated film.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "scr-bb-b-2",
+            "difficulty": "hard",
+            "text": "In The Empire Strikes Back, Darth Vader says the exact words \"Luke, I am your father.\"",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "scr-bb-b-3",
+            "difficulty": "medium",
+            "text": "Heath Ledger, who played the Joker in The Dark Knight, was born in Perth.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "scr-bb-b-4",
+            "difficulty": "easy",
+            "text": "The Lord of the Rings films were shot mainly in Canada.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "screen-small": {
+        "label": "Small Screen",
+        "multiple": [
+          {
+            "id": "scr-ss-m-1",
+            "difficulty": "easy",
+            "text": "In Friends, what is the name of the coffee shop where the gang hangs out?",
+            "options": [
+              "Java Joe's",
+              "The Grind",
+              "Central Perk",
+              "Monk's Cafe"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "scr-ss-m-2",
+            "difficulty": "easy",
+            "text": "Which TV drama follows chemistry teacher Walter White's rise as a drug kingpin?",
+            "options": [
+              "The Wire",
+              "Ozark",
+              "Narcos",
+              "Breaking Bad"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "scr-ss-m-3",
+            "difficulty": "easy",
+            "text": "Which long-running Australian soap is set on Ramsay Street in Erinsborough?",
+            "options": [
+              "Home and Away",
+              "A Country Practice",
+              "Prisoner",
+              "Neighbours"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "scr-ss-m-4",
+            "difficulty": "medium",
+            "text": "Bluey, the hit kids cartoon made in Brisbane, stars what breed of dog?",
+            "options": [
+              "Kelpie",
+              "Australian Cattle Dog",
+              "Border Collie",
+              "Staffordshire Bull Terrier"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "scr-ss-m-5",
+            "difficulty": "medium",
+            "text": "What animal is the sigil of House Stark in Game of Thrones?",
+            "options": [
+              "Direwolf",
+              "Lion",
+              "Stag",
+              "Dragon"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "scr-ss-m-6",
+            "difficulty": "medium",
+            "text": "In the US version of The Office, what is the name of the paper company where the staff work?",
+            "options": [
+              "Initech",
+              "Dunder Mifflin",
+              "Vance Refrigeration",
+              "Wernham Hogg"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "scr-ss-m-7",
+            "difficulty": "medium",
+            "text": "What does TARDIS stand for in Doctor Who?",
+            "options": [
+              "Travel And Rapid Dimension In Space",
+              "Time And Relative Dimension In Space",
+              "Time And Rapid Distance In Space",
+              "Transit Across Relative Dimensions In Space"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "scr-ss-m-8",
+            "difficulty": "medium",
+            "text": "Mel Giedroyc and Sue Perkins originally hosted which TV baking competition?",
+            "options": [
+              "MasterChef",
+              "Nailed It",
+              "The Great British Bake Off",
+              "Come Dine with Me"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "scr-ss-m-9",
+            "difficulty": "hard",
+            "text": "In Fawlty Towers, Basil Fawlty runs a hotel in which English seaside town?",
+            "options": [
+              "Brighton",
+              "Blackpool",
+              "Bournemouth",
+              "Torquay"
+            ],
+            "answer": 3
+          }
+        ],
+        "boolean": [
+          {
+            "id": "scr-ss-b-1",
+            "difficulty": "medium",
+            "text": "Neighbours first aired in Australia in 1985.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "scr-ss-b-2",
+            "difficulty": "hard",
+            "text": "Stranger Things is set in the fictional town of Hawkins, Ohio.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "scr-ss-b-3",
+            "difficulty": "medium",
+            "text": "Doctor Who first aired in 1963.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "scr-ss-b-4",
+            "difficulty": "easy",
+            "text": "The Simpsons live in the fictional town of Shelbyville.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "screen-behind": {
+        "label": "Behind the Camera",
+        "multiple": [
+          {
+            "id": "scr-bh-m-1",
+            "difficulty": "easy",
+            "text": "Who directed E.T., Jurassic Park and Schindler's List?",
+            "options": [
+              "Ridley Scott",
+              "Steven Spielberg",
+              "James Cameron",
+              "George Lucas"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "scr-bh-m-2",
+            "difficulty": "easy",
+            "text": "What animal roars in the logo of the MGM film studio?",
+            "options": [
+              "Tiger",
+              "Bear",
+              "Lion",
+              "Eagle"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "scr-bh-m-3",
+            "difficulty": "easy",
+            "text": "India's Hindi-language film industry, based in Mumbai, is nicknamed what?",
+            "options": [
+              "Bollywood",
+              "Tollywood",
+              "Nollywood",
+              "Kollywood"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "scr-bh-m-4",
+            "difficulty": "medium",
+            "text": "Which director made Pulp Fiction and Kill Bill?",
+            "options": [
+              "Martin Scorsese",
+              "David Fincher",
+              "Guy Ritchie",
+              "Quentin Tarantino"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "scr-bh-m-5",
+            "difficulty": "medium",
+            "text": "Which New Zealand director brought The Lord of the Rings trilogy to the screen?",
+            "options": [
+              "Peter Jackson",
+              "Taika Waititi",
+              "Jane Campion",
+              "Andrew Niccol"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "scr-bh-m-6",
+            "difficulty": "medium",
+            "text": "Which composer wrote the scores for Star Wars, Jaws and Indiana Jones?",
+            "options": [
+              "Hans Zimmer",
+              "Ennio Morricone",
+              "John Williams",
+              "Danny Elfman"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "scr-bh-m-7",
+            "difficulty": "medium",
+            "text": "Which film studio opens its films with a logo of a mountain ringed by stars?",
+            "options": [
+              "Universal",
+              "Paramount",
+              "Columbia",
+              "20th Century Studios"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "scr-bh-m-8",
+            "difficulty": "hard",
+            "text": "Who became the first woman to win the Best Director Oscar, for The Hurt Locker?",
+            "options": [
+              "Sofia Coppola",
+              "Jane Campion",
+              "Kathryn Bigelow",
+              "Greta Gerwig"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "scr-bh-m-9",
+            "difficulty": "hard",
+            "text": "Although the Mad Max series began in Australia, most of Mad Max: Fury Road was shot in the desert of which African country?",
+            "options": [
+              "Morocco",
+              "South Africa",
+              "Kenya",
+              "Namibia"
+            ],
+            "answer": 3
+          }
+        ],
+        "boolean": [
+          {
+            "id": "scr-bh-b-1",
+            "difficulty": "hard",
+            "text": "Alfred Hitchcock never won the Oscar for Best Director.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "scr-bh-b-2",
+            "difficulty": "medium",
+            "text": "The Oscar statuette shows a knight gripping a sword while standing on a reel of film.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "scr-bh-b-3",
+            "difficulty": "easy",
+            "text": "Pixar's Toy Story (1995) was directed by Steven Spielberg.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "scr-bh-b-4",
+            "difficulty": "medium",
+            "text": "The Lumière brothers, early film pioneers, were British.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    }
+  }
+}

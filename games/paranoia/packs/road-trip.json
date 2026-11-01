@@ -1,0 +1,210 @@
+{
+  "id": "road-trip",
+  "title": "Road Trip",
+  "emoji": "🚗",
+  "blurb": "Long drives, servo snacks, wrong turns and who controls the music.",
+  "tags": [
+    "travel"
+  ],
+  "order": 30,
+  "content": {
+    "questions": [
+      {
+        "text": "Who would be most likely to fall asleep before we even leave the driveway?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to take control of the music and never give it back?",
+        "spicy": false
+      },
+      {
+        "text": "Who at this table would be the worst navigator?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to need a toilet stop every half hour?",
+        "spicy": false
+      },
+      {
+        "text": "Who would eat all the snacks in the first hour?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to insist on a scenic detour that adds three hours?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to forget to fill up and run out of fuel?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to sing every word of every song in the car?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to bring way too much luggage for a weekend away?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to start a car game nobody else wants to play?",
+        "spicy": false
+      },
+      {
+        "text": "Who at this table would be the calmest driver in heavy traffic?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to stop at every giant roadside statue?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to lock the keys in the car?",
+        "spicy": false
+      },
+      {
+        "text": "Who would complain about the temperature the entire way?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to get carsick and blame the driver?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to make friends with the locals at a country pub?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to plan every single stop on a spreadsheet?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to ask \"are we there yet\" as a fully grown adult?",
+        "spicy": false
+      },
+      {
+        "text": "Who at this table would be the first to volunteer to drive and the first to ask to swap?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to take a hundred photos of the same view?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to leave something important at the last servo?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to talk the whole drive without taking a breath?",
+        "spicy": false
+      },
+      {
+        "text": "Who would change the destination halfway there?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to bring a guitar and insist on a campfire singalong?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to pitch a tent upside down?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to get everyone lost because they \"know a shortcut\"?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to sleep in the car rather than set up a tent?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to keep a travel diary of the whole trip?",
+        "spicy": false
+      },
+      {
+        "text": "Who at this table would be the worst person to share a motel room with?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to start a fight over the aircon?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to buy a novelty souvenir at every single stop?",
+        "spicy": false
+      },
+      {
+        "text": "Who would pack nothing but snacks and one spare shirt?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to demand a stop at a roadside fruit stall and buy twelve kilos of mangoes?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to hold the map upside down and defend it?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to wake up at the back of the van asking where we are, every hour?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to pick a campsite right next to the toilet block?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to start a very serious debate about the best servo pie?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to hog the only phone charger?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to stop the car to rescue a stray animal?",
+        "spicy": false
+      },
+      {
+        "text": "Who would last longest on a trip with no phone signal?",
+        "spicy": false
+      },
+      {
+        "text": "Who would buy a bumper sticker that says something unfortunate?",
+        "spicy": false
+      },
+      {
+        "text": "Who has the worst taste in road trip playlists?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to forget the tent pegs but pack three kinds of hot sauce?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to get a puncture and say \"I've never changed a tyre\"?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to read every tourist info sign out loud?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to leave a campsite looking like a festival ground?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to have a holiday fling on a road trip?",
+        "spicy": true
+      },
+      {
+        "text": "Who is most likely to sneak someone into a motel room?",
+        "spicy": true
+      },
+      {
+        "text": "Who would be most likely to flirt with the person behind the servo counter?",
+        "spicy": true
+      }
+    ]
+  }
+}

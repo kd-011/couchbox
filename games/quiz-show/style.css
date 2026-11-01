@@ -1,0 +1,178 @@
+/* Quiz Show: a TV game-show board, colour-and-shape answers, a buzzer and
+   a reveal that lands. Every game colour comes from --accent. */
+
+.qs-stage { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; width: 100%; text-align: center; padding: 8px 0; }
+.qs-stage .q { font-size: clamp(24px, 7vw, 34px); font-stretch: 84%; line-height: 1.05; max-width: 22ch; }
+.qs-kicker {
+  display: inline-flex; align-items: center; padding: 6px 14px; border-radius: 999px;
+  background: color-mix(in oklab, var(--accent) 22%, var(--surface)); color: var(--text);
+  font: 750 13px var(--display); font-stretch: 90%; letter-spacing: 0.06em; text-transform: uppercase;
+}
+
+/* ---------- the board: a lit wall of tiles ---------- */
+.qs-board-stage { gap: 14px; }
+.qs-board-title { font-size: clamp(28px, 9vw, 40px); }
+.qs-board { --cols: 3; grid-template-columns: repeat(var(--cols), 1fr) !important; gap: 8px; padding: 10px; border-radius: 24px; background: #070a18; box-shadow: inset 0 0 0 1px var(--line), 0 24px 60px -30px var(--accent); }
+.qs-board .qs-tile {
+  position: relative; overflow: hidden; min-height: 92px; padding: 10px 6px; gap: 6px; border-radius: 14px;
+  background:
+    radial-gradient(120% 90% at 50% 0%, color-mix(in oklab, var(--accent) 70%, white 8%), transparent 70%),
+    linear-gradient(180deg, color-mix(in oklab, var(--accent) 62%, #0a1440), color-mix(in oklab, var(--accent) 38%, #050a24));
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  color: #fff;
+  animation: qs-tile-in 0.45s var(--spring) both; animation-delay: var(--d, 0ms);
+}
+.qs-tile::after { content: ''; position: absolute; inset: 0; background: var(--dots); -webkit-mask: var(--dots); opacity: 0.08; pointer-events: none; }
+@keyframes qs-tile-in { from { opacity: 0; transform: scale(0.8) rotateX(50deg); } }
+.qs-tile-type { font: 750 10px var(--body); letter-spacing: 0.08em; text-transform: uppercase; color: color-mix(in oklab, white 80%, var(--accent)); opacity: 0.85; }
+.qs-tile-cat { font: 800 16px/1.02 var(--display); font-stretch: 80%; color: var(--amber); text-transform: uppercase; letter-spacing: 0.01em; text-shadow: 0 2px 0 rgba(0, 0, 0, 0.35); overflow-wrap: anywhere; }
+.qs-tile:not(:disabled):active { transform: scale(0.94); }
+.qs-tile:disabled:not(.used) { opacity: 1; cursor: default; }
+.qs-tile.used { background: var(--surface); box-shadow: inset 0 0 0 1px var(--line); animation: none; }
+.qs-tile.used .qs-tile-cat { color: var(--faint); text-shadow: none; font-size: 13px; }
+.qs-tile-done { color: var(--faint); }
+.qs-left { font-size: 14px; }
+
+/* ---------- teams (one phone) ---------- */
+.qs-teams { display: grid; gap: 12px; width: 100%; }
+.qs-team { border-radius: 22px; padding: 16px; background: color-mix(in oklab, var(--c) 20%, var(--surface)); text-align: left; animation: rise 0.4s var(--ease) both; }
+.qs-team:nth-child(2) { animation-delay: 90ms; }
+.qs-team-head { display: flex; align-items: center; gap: 10px; font: 800 22px var(--display); font-stretch: 86%; margin-bottom: 10px; }
+.qs-team .roster { justify-content: flex-start; }
+
+/* ---------- questions ---------- */
+.qs-question { gap: 14px; }
+.qs-emoji { font-size: clamp(56px, 16vw, 104px); line-height: 1; letter-spacing: 0.05em; animation: qs-slam 0.5s var(--spring) both; }
+.qs-emoji.sm { font-size: clamp(40px, 11vw, 64px); }
+@keyframes qs-slam { from { opacity: 0; transform: scale(1.25); } }
+
+/* Colour plus shape per option, the same on every screen. */
+.qs-opts { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; width: 100%; }
+.qs-opts .qs-opt {
+  position: relative; display: flex; flex-direction: row; align-items: center; justify-content: flex-start; gap: 10px;
+  min-height: 72px; padding: 10px 12px; border-radius: 18px; text-align: left;
+  background: var(--oc); color: var(--oi);
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.22), 0 12px 24px -18px var(--oc);
+  font: 750 16px/1.1 var(--display); font-stretch: 90%;
+  animation: rise 0.35s var(--ease) both;
+  transition: transform 0.18s var(--spring), opacity 0.25s, filter 0.25s, box-shadow 0.2s;
+}
+.qs-opt:nth-child(2) { animation-delay: 50ms; }
+.qs-opt:nth-child(3) { animation-delay: 100ms; }
+.qs-opt:nth-child(4) { animation-delay: 150ms; }
+.qs-opt.pick { border: 0; }
+.qs-opt.pick.on, .qs-opt.on { background: var(--oc); color: var(--oi); transform: translateY(-2px) scale(1.02); box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.22), 0 0 0 3px var(--text), 0 16px 30px -16px var(--oc); }
+.qs-opt > .i { margin-left: auto; flex: none; }
+.qs-shape { flex: none; width: 26px; height: 26px; filter: drop-shadow(0 2px 0 rgba(0, 0, 0, 0.2)); }
+.qs-opt-text { min-width: 0; overflow-wrap: anywhere; }
+.qs-opts.chosen .qs-opt:not(.on) { opacity: 0.4; filter: saturate(0.6); }
+.qs-opts.revealed .qs-opt.dim { opacity: 0.28; filter: grayscale(0.7); }
+.qs-opts.revealed .qs-opt.right { animation: qs-right 0.6s var(--spring) both; box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.22), 0 0 0 3px var(--text), 0 18px 40px -14px var(--oc); }
+@keyframes qs-right { 0% { transform: scale(0.9); } 60% { transform: scale(1.06); } 100% { transform: scale(1.03); } }
+.qs-tf .qs-opt { min-height: 96px; justify-content: center; font-size: 22px; }
+
+.qs-team-grid { display: grid; gap: 12px; width: 100%; }
+.qs-team-answer { text-align: left; padding: 10px; border-radius: 20px; background: var(--surface); transition: background 0.3s; }
+.qs-team-answer.in { background: color-mix(in oklab, var(--good) 12%, var(--surface)); }
+.qs-team-answer .qs-opt { min-height: 54px; font-size: 14.5px; padding: 8px 10px; }
+.qs-team-answer .qs-shape { width: 20px; height: 20px; }
+.qs-team-label { display: flex; align-items: center; gap: 8px; font: 750 17px var(--display); margin-bottom: 8px; }
+.qs-in { margin-left: auto; display: inline-flex; align-items: center; gap: 4px; color: var(--good); font: 750 14px var(--body); }
+
+/* ---------- buzzer ---------- */
+.qs-buzz {
+  display: grid; place-items: center; width: min(68vw, 260px); aspect-ratio: 1; border-radius: 50%; border: 0;
+  background: radial-gradient(circle at 50% 35%, color-mix(in oklab, var(--bad) 70%, white 25%), var(--bad) 55%, color-mix(in oklab, var(--bad) 70%, black));
+  color: var(--bad-ink); font: 800 40px var(--display); font-stretch: 78%; text-transform: uppercase; letter-spacing: -0.01em;
+  box-shadow: inset 0 -10px 0 rgba(0, 0, 0, 0.25), 0 0 0 10px color-mix(in oklab, var(--bad) 25%, transparent), 0 30px 60px -20px var(--bad);
+  animation: qs-buzz-breathe 1.6s ease-in-out infinite;
+  transition: transform 0.12s var(--ease), box-shadow 0.12s;
+}
+.qs-buzz:active { transform: scale(0.94); box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.25), 0 0 0 16px color-mix(in oklab, var(--bad) 30%, transparent); }
+@keyframes qs-buzz-breathe { 50% { box-shadow: inset 0 -10px 0 rgba(0, 0, 0, 0.25), 0 0 0 18px color-mix(in oklab, var(--bad) 15%, transparent), 0 30px 60px -20px var(--bad); } }
+.qs-buzz-form { display: flex; gap: 10px; width: 100%; max-width: 420px; }
+.qs-buzz-form .input { flex: 1; min-height: 54px; }
+.qs-buzz-teams .pick { background: color-mix(in oklab, var(--c) 26%, var(--surface)); }
+.qs-buzzed { animation: qs-slam 0.45s var(--spring) both; }
+.qs-judge { display: grid; gap: 8px; }
+.qs-answer-hint { color: var(--dim); }
+
+/* ---------- reveal ---------- */
+.qs-reveal { gap: 12px; }
+.qs-mine { font: 800 clamp(30px, 10vw, 44px)/1 var(--display); font-stretch: 80%; letter-spacing: -0.02em; animation: qs-slam 0.5s var(--spring) both; }
+.qs-mine b { color: var(--good); }
+.qs-mine.hit { color: var(--text); }
+.qs-mine.miss { color: var(--dim); }
+.qs-reveal .q { font-size: clamp(20px, 6vw, 26px); color: var(--dim); }
+.qs-answer { padding: 12px 22px; border-radius: 18px; background: var(--good); color: var(--good-ink); font: 800 26px var(--display); font-stretch: 84%; animation: qs-right 0.6s var(--spring) both; }
+.qs-results { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; width: 100%; max-width: 440px; }
+.qs-results li { display: grid; grid-template-columns: 32px 1fr auto; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 16px; background: var(--surface); text-align: left; animation: rise 0.4s var(--ease) both; }
+.qs-results li:nth-child(2) { animation-delay: 80ms; }
+.qs-results li:nth-child(3) { animation-delay: 160ms; }
+.qs-results li:nth-child(n + 4) { animation-delay: 220ms; }
+.qs-results li.hit { background: color-mix(in oklab, var(--good) 14%, var(--surface)); }
+.qs-results li strong { font: 800 20px var(--display); }
+.qs-results li.hit strong { color: var(--good); }
+.qs-results li.miss strong { color: var(--faint); }
+.qs-results li > span { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 6px; font-weight: 650; }
+
+/* ---------- standings, wager, final ---------- */
+.qs-standings .scores { max-width: 440px; }
+.qs-bank { display: flex; flex-direction: column; align-items: center; }
+.qs-bank b { font: 800 clamp(64px, 22vw, 96px)/0.9 var(--display); font-stretch: 76%; color: var(--accent); letter-spacing: -0.03em; }
+.qs-bank span { color: var(--dim); font-weight: 650; }
+.qs-wager-chips { justify-content: center; }
+.qs-wager-chips .chip { min-width: 72px; min-height: 52px; font: 800 20px var(--display); }
+.qs-wager-row { width: 100%; max-width: 440px; text-align: left; padding: 12px; border-radius: 20px; background: var(--surface); }
+.qs-wager-row .qs-team-label span { margin-left: auto; color: var(--dim); font: 650 14px var(--body); }
+.qs-wager-row .chips { justify-content: flex-start; }
+
+.qs-final { gap: 14px; }
+.qs-champ { display: flex; flex-direction: column; align-items: center; gap: 4px; color: var(--amber); animation: qs-slam 0.6s var(--spring) both; }
+.qs-final .winner-avs { display: flex; justify-content: center; gap: 8px; }
+.qs-headline { font: 800 clamp(40px, 13vw, 60px)/0.95 var(--display); font-stretch: 78%; letter-spacing: -0.03em; color: var(--accent); animation: qs-slam 0.55s var(--spring) 0.1s both; }
+.qs-final-pts { color: var(--dim); font: 750 18px var(--display); }
+.qs-final .scores { max-width: 440px; }
+
+/* ---------- Deadly: Double or Nothing ---------- */
+.qs-don { font-size: 11px; padding: 3px 8px; white-space: nowrap; }
+.qs-streak { font-size: 12px; color: var(--dim); font-weight: 650; white-space: nowrap; }
+.qs-don-strip { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+.qs-don-who { display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px 6px 6px; border-radius: 999px; background: color-mix(in oklab, var(--deadly) 16%, var(--surface)); }
+
+/* ---------- the TV ---------- */
+.tv-surface .qs-stage { gap: 1.6vw; }
+.tv-surface .qs-stage .q { font-size: 3.4vw; max-width: 60vw; }
+.tv-surface .qs-kicker { font-size: 1.1vw; padding: 0.5vw 1.2vw; }
+.tv-surface .qs-board-title { font-size: 3.2vw; }
+.tv-surface .qs-board { width: 66vw; gap: 0.8vw; padding: 1vw; border-radius: 2vw; }
+.tv-surface .qs-tile { min-height: 9vw; border-radius: 1.2vw; gap: 0.5vw; }
+.tv-surface .qs-tile-type { font-size: 0.85vw; }
+.tv-surface .qs-tile-cat { font-size: 1.9vw; }
+.tv-surface .qs-tile.used .qs-tile-cat { font-size: 1.3vw; }
+.tv-surface .qs-left { font-size: 1.2vw; }
+.tv-surface .qs-emoji { font-size: 9vw; }
+.tv-surface .qs-emoji.sm { font-size: 5vw; }
+.tv-surface .qs-opts { width: 64vw; gap: 1vw; }
+.tv-surface .qs-opt { min-height: 6.4vw; padding: 1vw 1.4vw; border-radius: 1.4vw; font-size: 2vw; gap: 1vw; }
+.tv-surface .qs-shape { width: 2.6vw; height: 2.6vw; }
+.tv-surface .qs-opt > .i { width: 2vw; height: 2vw; }
+.tv-surface .qs-tf .qs-opt { min-height: 8vw; font-size: 2.8vw; }
+.tv-surface .qs-reveal .q { font-size: 2.2vw; }
+.tv-surface .qs-answer { font-size: 3vw; padding: 1vw 2vw; border-radius: 1.4vw; }
+.tv-surface .qs-results { max-width: 40vw; }
+.tv-surface .qs-results li { font-size: 1.3vw; padding: 0.6vw 1vw; }
+.tv-surface .qs-results li strong { font-size: 1.7vw; }
+.tv-surface .qs-standings .scores, .tv-surface .qs-final .scores { max-width: 42vw; }
+.tv-surface .qs-standings .scores li, .tv-surface .qs-final .scores li { font-size: 1.4vw; padding: 0.7vw 1.2vw; }
+.tv-surface .qs-standings .scores .pts, .tv-surface .qs-final .scores .pts { font-size: 2vw; }
+.tv-surface .qs-headline { font-size: 6.4vw; }
+.tv-surface .qs-final-pts { font-size: 1.6vw; }
+.tv-surface .qs-don { font-size: 0.9vw; }
+.tv-surface .qs-don-who { font-size: 1.3vw; }
+.tv-surface .qs-streak { font-size: 1vw; }
+
+@media (prefers-reduced-motion: reduce) {
+  .qs-buzz { animation: none; }
+}
+.tv-surface .qs-final .winner-avs .av { --s: 8vw !important; }

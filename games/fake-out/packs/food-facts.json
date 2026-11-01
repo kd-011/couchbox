@@ -1,0 +1,228 @@
+{
+  "id": "food-facts",
+  "title": "Food Facts",
+  "emoji": "🍔",
+  "blurb": "Strange but true stories from the kitchen, the farm and the snack aisle.",
+  "tags": [
+    "food"
+  ],
+  "content": {
+    "prompts": [
+      {
+        "id": "ff1",
+        "text": "Before Dutch growers made orange ones popular, cultivated carrots were mostly purple or _____.",
+        "answer": "yellow"
+      },
+      {
+        "id": "ff2",
+        "text": "Apples float in water because about a quarter of their volume is _____.",
+        "answer": "air"
+      },
+      {
+        "id": "ff3",
+        "text": "The pistachio belongs to the same plant family as the cashew and the _____.",
+        "answer": "mango"
+      },
+      {
+        "id": "ff4",
+        "text": "Botanically, almonds are the seeds of a fruit closely related to the _____.",
+        "answer": "peach"
+      },
+      {
+        "id": "ff5",
+        "text": "Nachos were invented in 1943 in a Mexican town just across the border from _____.",
+        "answer": "Texas"
+      },
+      {
+        "id": "ff6",
+        "text": "According to the official story, the ice block on a stick was invented by accident in 1905 by a boy aged _____.",
+        "answer": "eleven"
+      },
+      {
+        "id": "ff7",
+        "text": "Alongside dark, milk and white, a fourth type of chocolate launched in 2017 is _____ chocolate.",
+        "answer": "ruby"
+      },
+      {
+        "id": "ff8",
+        "text": "Rhubarb stalks are great in a crumble, but the leaves are poisonous thanks to _____ acid.",
+        "answer": "oxalic"
+      },
+      {
+        "id": "ff9",
+        "text": "Kiwifruit used to be sold under the name Chinese _____.",
+        "answer": "gooseberry"
+      },
+      {
+        "id": "ff10",
+        "text": "Natural vanilla comes from the seed pods of a type of _____.",
+        "answer": "orchid"
+      },
+      {
+        "id": "ff11",
+        "text": "The man who designed the Pringles can had some of his ashes buried in a _____.",
+        "answer": "Pringles can"
+      },
+      {
+        "id": "ff12",
+        "text": "Bananas are very slightly radioactive because of the _____ they contain.",
+        "answer": "potassium"
+      },
+      {
+        "id": "ff13",
+        "text": "Hawaiian pizza was invented in 1962 in _____.",
+        "answer": "Canada"
+      },
+      {
+        "id": "ff14",
+        "text": "German chocolate cake isn't German at all: it's named after Samuel _____, who created the chocolate it uses.",
+        "answer": "German"
+      },
+      {
+        "id": "ff15",
+        "text": "The holes in Swiss cheeses like Emmental are officially called _____.",
+        "answer": "eyes"
+      },
+      {
+        "id": "ff16",
+        "text": "An Italian bank accepts wheels of _____ as security for business loans.",
+        "answer": "Parmesan"
+      },
+      {
+        "id": "ff17",
+        "text": "Kopi luwak, one of the world's priciest coffees, is made from beans that have been eaten and passed by the _____.",
+        "answer": "civet"
+      },
+      {
+        "id": "ff18",
+        "text": "Gummy bears were invented in 1922 by Hans Riegel, the founder of _____.",
+        "answer": "Haribo"
+      },
+      {
+        "id": "ff19",
+        "text": "Fanta was first made in _____ during the Second World War, when Coca-Cola syrup couldn't be imported.",
+        "answer": "Germany"
+      },
+      {
+        "id": "ff20",
+        "text": "When it launched in 1929, the drink that became 7 Up contained _____, now used as a psychiatric medicine.",
+        "answer": "lithium"
+      },
+      {
+        "id": "ff21",
+        "text": "In 1943 the United States briefly banned the sale of _____ to save resources during the war.",
+        "answer": "sliced bread"
+      },
+      {
+        "id": "ff22",
+        "text": "Durian smells so strong that it is banned on Singapore's _____.",
+        "answer": "public transport"
+      },
+      {
+        "id": "ff23",
+        "text": "Casu marzu, a traditional cheese from Sardinia, is deliberately full of live _____.",
+        "answer": "maggots"
+      },
+      {
+        "id": "ff24",
+        "text": "Cheddar cheese takes its name from a village in the English county of _____.",
+        "answer": "Somerset"
+      },
+      {
+        "id": "ff25",
+        "text": "Birds can't feel the burn of chilli, so they happily eat the fruit and spread its _____.",
+        "answer": "seeds"
+      },
+      {
+        "id": "ff26",
+        "text": "Nutella grew out of a paste made in post-war Italy, where chocolate was scarce, by stretching it with _____.",
+        "answer": "hazelnuts"
+      },
+      {
+        "id": "ff27",
+        "text": "Fresh pineapple stops jelly from setting because it contains _____, an enzyme that breaks down protein.",
+        "answer": "bromelain"
+      },
+      {
+        "id": "ff28",
+        "text": "The country that grows the most cocoa in the world is _____.",
+        "answer": "Ivory Coast"
+      },
+      {
+        "id": "ff29",
+        "text": "Potatoes, tomatoes and eggplants all belong to the same plant family as deadly _____.",
+        "answer": "nightshade"
+      },
+      {
+        "id": "ff30",
+        "text": "Ancient Romans splashed a fermented fish sauce called _____ on almost everything.",
+        "answer": "garum"
+      },
+      {
+        "id": "ff31",
+        "text": "Ripe cranberries are sorted from bad ones by testing how well they _____.",
+        "answer": "bounce"
+      },
+      {
+        "id": "ff32",
+        "text": "Raw red kidney beans contain a toxin, so they must be properly _____ before eating.",
+        "answer": "boiled"
+      },
+      {
+        "id": "ff33",
+        "text": "Corn Flakes were first created as a plain health food at a Michigan _____.",
+        "answer": "sanitarium"
+      },
+      {
+        "id": "ff34",
+        "text": "Coca-Cola was invented in 1886 in Atlanta by the pharmacist John _____.",
+        "answer": "Pemberton"
+      },
+      {
+        "id": "ff35",
+        "text": "In 1893 the US Supreme Court ruled that, for import tariff purposes, tomatoes are legally _____.",
+        "answer": "vegetables"
+      },
+      {
+        "id": "ff36",
+        "text": "Pepsi-Cola was first sold in the 1890s under the name _____.",
+        "answer": "Brad's Drink"
+      },
+      {
+        "id": "ff37",
+        "text": "Most bananas sold today are Cavendish, which replaced the once-dominant Gros _____ after a fungal disease struck.",
+        "answer": "Michel"
+      },
+      {
+        "id": "ff38",
+        "text": "Tabasco sauce has been made since the 1860s on Avery Island in _____.",
+        "answer": "Louisiana"
+      },
+      {
+        "id": "ff39",
+        "text": "In 1957 the BBC fooled viewers with an April Fools report about spaghetti being harvested from _____.",
+        "answer": "trees"
+      },
+      {
+        "id": "ff40",
+        "text": "Marmite is a spread made from yeast left over as a by-product of _____ brewing.",
+        "answer": "beer"
+      },
+      {
+        "id": "ff41",
+        "text": "The sharp bite of black pepper comes from a compound called _____.",
+        "answer": "piperine"
+      },
+      {
+        "id": "ff42",
+        "text": "Mushrooms are not plants; biologically they are closer to _____.",
+        "answer": "animals"
+      },
+      {
+        "id": "ff43",
+        "text": "Saffron threads are the dried stigmas of a type of _____.",
+        "answer": "crocus"
+      }
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "id": "apocalypse",
+  "title": "Apocalypse Survival",
+  "emoji": "🧟",
+  "blurb": "Zombies, bunkers and the end of the world, mostly for laughs.",
+  "tags": [
+    "survival",
+    "silly"
+  ],
+  "order": 150,
+  "content": {
+    "pairs": [
+      {
+        "a": "Survive a zombie outbreak armed with a cricket bat",
+        "b": "Survive a zombie outbreak with a map to a safe island"
+      },
+      {
+        "a": "Be the last person on Earth with a library",
+        "b": "Be the last person on Earth with a cinema"
+      },
+      {
+        "a": "Hole up in a bunker with no wifi",
+        "b": "Hole up in a treehouse with a garden"
+      },
+      {
+        "a": "Team up with your boss when the world ends",
+        "b": "Team up with your ex when the world ends"
+      },
+      {
+        "a": "Lead a group of survivors who never agree",
+        "b": "Follow a leader who is clearly clueless"
+      },
+      {
+        "a": "Eat tinned beans for every meal",
+        "b": "Eat only what you can catch in a river"
+      },
+      {
+        "a": "Survive by running forever",
+        "b": "Survive by hiding forever"
+      },
+      {
+        "a": "Be the group's best cook",
+        "b": "Be the group's best mechanic"
+      },
+      {
+        "a": "Have a car that never runs out of fuel",
+        "b": "Have a dog that senses danger from a mile away"
+      },
+      {
+        "a": "Wake up to a world with no electricity",
+        "b": "Wake up to a world with no running water"
+      },
+      {
+        "a": "Live in an abandoned supermarket",
+        "b": "Live in an abandoned hardware store"
+      },
+      {
+        "a": "Spend a year in a bunker with your family",
+        "b": "Spend a year in a bunker with your coworkers"
+      },
+      {
+        "a": "Lose your glasses at the start of the apocalypse",
+        "b": "Lose your boots at the start of the apocalypse"
+      },
+      {
+        "a": "Be the survivor with the best sense of direction",
+        "b": "Be the survivor with the best sense of humour"
+      },
+      {
+        "a": "Eat only tinned peaches for a year",
+        "b": "Eat only dried noodles for a year"
+      },
+      {
+        "a": "Hide from zombies in a wheelie bin",
+        "b": "Hide from zombies in a shopping trolley pile"
+      },
+      {
+        "a": "Have a bag of seeds",
+        "b": "Have a bag of tools"
+      },
+      {
+        "a": "Lock down in a mansion with no food",
+        "b": "Lock down in a shed with plenty of food"
+      },
+      {
+        "a": "Survive with nobody but a goat",
+        "b": "Survive with nobody but a cat"
+      },
+      {
+        "a": "Wander the empty world with a guitar",
+        "b": "Wander the empty world with a lifetime of books"
+      },
+      {
+        "a": "Cross the wasteland in an old bus",
+        "b": "Cross the wasteland in a tiny plane"
+      },
+      {
+        "a": "Be a raider with the best outfit",
+        "b": "Be a scavenger with the best loot"
+      },
+      {
+        "a": "Defend a gate from zombies for a day",
+        "b": "Hide in a vent from zombies for a day"
+      },
+      {
+        "a": "Win a staring contest to save humanity",
+        "b": "Win a trivia contest to save humanity"
+      },
+      {
+        "a": "Shelter in a castle with no roof",
+        "b": "Shelter in a submarine with no windows"
+      },
+      {
+        "a": "Spend the end of the world at the beach",
+        "b": "Spend the end of the world at your favourite pub"
+      },
+      {
+        "a": "Know the exact date the world ends",
+        "b": "Be surprised by it"
+      },
+      {
+        "a": "Have a rooster that wakes everyone at dawn",
+        "b": "Have a dog that barks at every stranger"
+      },
+      {
+        "a": "Find a shop full of batteries",
+        "b": "Find a shop full of bottled water"
+      },
+      {
+        "a": "Own the world's warmest blanket",
+        "b": "Own the world's strongest umbrella"
+      },
+      {
+        "a": "Be the camp doctor",
+        "b": "Be the camp builder"
+      },
+      {
+        "a": "Survive an asteroid by going underground",
+        "b": "Survive an asteroid by escaping on a rocket"
+      },
+      {
+        "a": "Trade skills for safety",
+        "b": "Trade snacks for safety"
+      },
+      {
+        "a": "Hold off a zombie horde on a bridge",
+        "b": "Hold off a zombie horde in an open field"
+      },
+      {
+        "a": "Be the only person who remembers the old world",
+        "b": "Be the only person who has never known it"
+      },
+      {
+        "a": "Rebuild society as a farmer",
+        "b": "Rebuild society as a teacher"
+      },
+      {
+        "a": "Have a bike that never breaks down",
+        "b": "Have a radio that always finds other survivors"
+      },
+      {
+        "a": "Run a trading post",
+        "b": "Run a secret hospital"
+      },
+      {
+        "a": "Know how to hotwire any car",
+        "b": "Know how to pick any lock"
+      },
+      {
+        "a": "Survive a month of winter in a cabin with one log",
+        "b": "Survive a month of summer in a cave with one bottle of water"
+      },
+      {
+        "a": "Fight a bear with a frying pan",
+        "b": "Fight a crocodile with a tea towel"
+      },
+      {
+        "a": "Camp in an abandoned theme park",
+        "b": "Camp in an abandoned airport"
+      },
+      {
+        "a": "Make one friend who will always be there",
+        "b": "Make ten allies who might leave"
+      },
+      {
+        "a": "Stockpile toilet paper",
+        "b": "Stockpile chocolate"
+      }
+    ]
+  }
+}

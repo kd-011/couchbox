@@ -1,0 +1,55 @@
+/* Virtual Host Box simulator (public/hostbox.html, js/hostboxsim.js). Not
+   loaded by the main app; styles here never affect a real room or TV. */
+
+.hb-root { display: grid; gap: 18px; padding-bottom: 32px; }
+
+.hb-card { background: var(--surface); border-radius: var(--radius); padding: 18px; box-shadow: inset 0 0 0 1px var(--line); display: grid; gap: 12px; }
+.hb-card h2 { margin: 0; font: 700 15px var(--display); color: var(--dim); text-transform: uppercase; letter-spacing: 0.04em; }
+
+.hb-id { display: flex; align-items: center; gap: 10px; }
+.hb-id output { font: 800 28px var(--display); letter-spacing: 0.08em; background: var(--bg-2); border-radius: var(--radius-sm); padding: 10px 16px; flex: 1; text-align: center; }
+
+.hb-status { display: flex; align-items: center; gap: 8px; font-weight: 600; }
+.hb-status .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--faint); }
+.hb-status.on .dot { background: var(--good); box-shadow: 0 0 0 4px rgba(61, 220, 151, 0.2); }
+.hb-status.waiting .dot { background: var(--amber); animation: hbPulse 1.4s infinite; }
+.hb-status.off .dot { background: var(--bad); }
+
+.hb-join { display: grid; gap: 10px; grid-template-columns: 1fr auto; }
+
+.hb-stage { display: grid; gap: 22px; justify-items: center; padding: 10px 0; }
+
+.hb-ring { position: relative; width: min(320px, 82vw); height: min(320px, 82vw); }
+.hb-ring svg { width: 100%; height: 100%; }
+.hb-slot { transition: fill 0.25s var(--ease), opacity 0.25s; }
+.hb-slot-label { font: 700 13px var(--display); fill: var(--dim); }
+.hb-ring-center { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; text-align: center; pointer-events: none; }
+.hb-ring-center strong { font: 800 15px var(--display); text-transform: uppercase; letter-spacing: 0.06em; color: var(--dim); }
+.hb-ring-center span { font: 800 40px var(--display); }
+
+.hb-btn-wrap { display: grid; gap: 10px; justify-items: center; }
+.hb-button {
+  width: 150px; height: 150px; border-radius: 50%; border: 0; cursor: pointer;
+  background: radial-gradient(circle at 35% 30%, #ff8a7a, var(--deadly) 70%);
+  box-shadow: 0 16px 36px -14px rgba(255, 75, 58, 0.75), inset 0 -8px 16px rgba(0,0,0,0.25), inset 0 6px 10px rgba(255,255,255,0.25);
+  color: #2a0503; font: 800 17px var(--display); text-transform: uppercase; letter-spacing: 0.04em;
+  transition: transform 0.12s var(--ease), box-shadow 0.12s var(--ease);
+}
+.hb-button:active, .hb-button.pressed { transform: scale(0.94); box-shadow: 0 8px 20px -10px rgba(255, 75, 58, 0.7), inset 0 -4px 10px rgba(0,0,0,0.3); }
+.hb-button[disabled] { background: radial-gradient(circle at 35% 30%, var(--surface-3), var(--surface-2) 70%); color: var(--faint); box-shadow: inset 0 0 0 1px var(--line); cursor: default; }
+.hb-button-label { font: 700 14px var(--display); color: var(--dim); min-height: 18px; }
+.hb-button-hint { font: 500 13px var(--body); color: var(--faint); }
+
+.hb-caption { min-height: 20px; color: var(--amber); font-weight: 600; text-align: center; }
+
+@keyframes hbPulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+@keyframes hbBreathe { 0%, 100% { opacity: 0.35; } 50% { opacity: 0.85; } }
+@keyframes hbFlash { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+
+.hb-slot.scene-idle { opacity: 0.5; animation: hbBreathe 3s ease-in-out infinite; }
+.hb-slot.scene-deadlyTakeover.on, .hb-slot.scene-roulette.landed { animation: hbFlash 0.5s ease-in-out infinite; }
+.hb-slot.scene-winner.on { animation: hbPulse 0.8s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .hb-slot, .hb-status .dot { animation: none !important; }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "family-friendly",
+  "title": "Family Fun",
+  "emoji": "👪",
+  "blurb": "Gentle, giggly truths and dares safe for kids, grandparents and everyone between.",
+  "tags": [
+    "family",
+    "kids"
+  ],
+  "content": {
+    "mild": {
+      "truth": [
+        "What's the silliest rule your family had when you were growing up?",
+        "If you could be any animal for a day, which would you pick and why?",
+        "What's the best present you've ever been given?",
+        "What's a food you refused to eat as a kid but love now?",
+        "If you had a superpower for one day, what would you do with it?",
+        "What's the funniest thing a family member has said by accident?",
+        "Who in your family is the sorest loser at board games?",
+        "What's your favourite family holiday memory?",
+        "If you could invent a brand new holiday, what would we celebrate?",
+        "What's something that scared you as a little kid that seems silly now?",
+        "If you could live inside any movie or book, which would it be?",
+        "What's the best thing you've ever made with your own hands?",
+        "If you could have any animal in the world as a pet, what would you pick?",
+        "Which cartoon character are you most like?",
+        "If you could swap lives with someone in this room for a day, who would it be?",
+        "What's the most trouble you've ever gotten into at home?",
+        "What would you put in a time capsule to be opened in 50 years?",
+        "What's the best joke you know? Tell it now.",
+        "What's the funniest thing a pet has ever done in front of you?",
+        "If you could eat only one meal every day for a month, what would it be?",
+        "What's the best thing about being the age you are right now?",
+        "If you were in charge of dinner tonight, what would be on the menu?",
+        "What's the nicest thing someone in this room has done for you?",
+        "What would you name a pet dragon?"
+      ],
+      "dare": [
+        "Waddle across the room like a penguin.",
+        "Say the alphabet backwards as fast as you can.",
+        "Make up a short song about the person on your left.",
+        "Pull the funniest face you can and hold it for ten seconds.",
+        "Talk like a pirate until your next turn.",
+        "Try to balance a spoon on your nose. You get three tries.",
+        "Hop on one foot while saying your full name five times.",
+        "Be a robot that has just learnt how to dance.",
+        "Tell a story using only animal noises and let the group guess what happened.",
+        "Act out a dog seeing its owner come home after a long day.",
+        "Name ten fruits in fifteen seconds.",
+        "Pretend you're eating the world's longest piece of spaghetti.",
+        "Give a one-minute speech on why socks are important.",
+        "Draw the person on your right on a phone with your eyes closed.",
+        "Copy everything the person on your left says until your next turn.",
+        "Strike your best superhero pose and hold it.",
+        "Commentate what the person opposite is doing like a sports commentator.",
+        "Make someone in the room laugh without saying a single word.",
+        "Tell a knock-knock joke and make it as terrible as you can.",
+        "Pretend you're a chef on a cooking show making a sandwich out of invisible food.",
+        "Act out your favourite animal and let the family guess it.",
+        "Walk like you're on the moon for ten steps.",
+        "Say something nice to everyone in the room, one word each.",
+        "Kindly impersonate the favourite saying of the oldest person in the room."
+      ]
+    }
+  },
+  "order": 20
+}

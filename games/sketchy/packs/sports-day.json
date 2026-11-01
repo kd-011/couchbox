@@ -1,0 +1,66 @@
+{
+  "id": "sports-day",
+  "title": "Sports Day",
+  "emoji": "🏅",
+  "blurb": "Balls, bats and dodgy refereeing from every code.",
+  "tags": [
+    "sport"
+  ],
+  "order": 30,
+  "content": {
+    "easy": [
+      "football",
+      "tennis racket",
+      "goalpost",
+      "trophy",
+      "medal",
+      "whistle",
+      "basketball hoop",
+      "boxing gloves",
+      "bicycle",
+      "running shoe",
+      "golf flag",
+      "stopwatch",
+      "dumbbell",
+      "skateboard",
+      "hockey stick",
+      "ping pong bat"
+    ],
+    "medium": [
+      "high jump",
+      "swimming race",
+      "footy tackle",
+      "cricket bowler",
+      "golf swing",
+      "archery",
+      "rock climbing",
+      "ice skating",
+      "penalty kick",
+      "slam dunk",
+      "rowing",
+      "gymnast on beam",
+      "marathon runner",
+      "ski jump",
+      "wrestling",
+      "podium"
+    ],
+    "hard": [
+      "offside",
+      "hat trick",
+      "photo finish",
+      "underdog",
+      "false start",
+      "sudden death",
+      "personal best",
+      "own goal",
+      "sledging",
+      "sin bin",
+      "extra time",
+      "team spirit",
+      "grand final",
+      "sore loser",
+      "rain delay",
+      "instant replay"
+    ]
+  }
+}

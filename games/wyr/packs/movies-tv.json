@@ -1,0 +1,195 @@
+{
+  "id": "movies-tv",
+  "title": "Movies and TV",
+  "emoji": "🎬",
+  "blurb": "Franchises, film nights, sitcoms and a few cinema nightmares.",
+  "tags": [
+    "movies",
+    "tv"
+  ],
+  "order": 30,
+  "content": {
+    "pairs": [
+      {
+        "a": "Live in the Marvel universe",
+        "b": "Live in the Star Wars galaxy"
+      },
+      {
+        "a": "Attend Hogwarts for a year",
+        "b": "Train as a Jedi for a year"
+      },
+      {
+        "a": "Rewatch your favourite film 100 times",
+        "b": "Watch a brand new mediocre film every day"
+      },
+      {
+        "a": "Know the ending of every film before it starts",
+        "b": "Have every trailer spoil the best joke"
+      },
+      {
+        "a": "Play a hero who dies in the first ten minutes",
+        "b": "Play a villain who survives to the sequel"
+      },
+      {
+        "a": "Be the lead in a sitcom",
+        "b": "Be the lead in a thriller"
+      },
+      {
+        "a": "Have Morgan Freeman narrate your life",
+        "b": "Have David Attenborough narrate your life"
+      },
+      {
+        "a": "Binge a whole trilogy in one day",
+        "b": "Sit through one four-hour epic at the cinema"
+      },
+      {
+        "a": "Never see a sequel again",
+        "b": "Never see a remake again"
+      },
+      {
+        "a": "Have every streaming service for free but no subtitles",
+        "b": "Have one service with only black and white classics"
+      },
+      {
+        "a": "Watch a film behind a kid who kicks your seat",
+        "b": "Watch a film next to someone crinkling a huge bag of lollies"
+      },
+      {
+        "a": "Live in the Friends apartment",
+        "b": "Live in the house from Home Alone"
+      },
+      {
+        "a": "Own a dragon you can't control",
+        "b": "Own a direwolf that loves you but eats the couch"
+      },
+      {
+        "a": "Marathon the extended Lord of the Rings",
+        "b": "Marathon every Harry Potter film"
+      },
+      {
+        "a": "Be an extra in a blockbuster for a day",
+        "b": "Have one line in a tiny indie film"
+      },
+      {
+        "a": "Have a theme tune play when you enter every room",
+        "b": "Have a dramatic zoom on your face every time you're shocked"
+      },
+      {
+        "a": "Watch the same episode on repeat for a week",
+        "b": "Watch only ads for a week"
+      },
+      {
+        "a": "Watch only cartoons for the rest of your life",
+        "b": "Watch only documentaries for the rest of your life"
+      },
+      {
+        "a": "Be a stunt double for an action star",
+        "b": "Voice the sidekick in an animated film"
+      },
+      {
+        "a": "Have the twist of every show spoiled for you",
+        "b": "Have every cliffhanger left unresolved"
+      },
+      {
+        "a": "Be best mates with your favourite actor but never discuss their work",
+        "b": "Have a single dinner with your favourite director"
+      },
+      {
+        "a": "Watch horror films alone at night",
+        "b": "Watch romcoms with your whole family"
+      },
+      {
+        "a": "Rewrite the ending of any film",
+        "b": "Be written into the sequel of any film"
+      },
+      {
+        "a": "Have Sherlock Holmes's brain",
+        "b": "Have Iron Man's suit"
+      },
+      {
+        "a": "Live in a Pixar movie",
+        "b": "Live in a Studio Ghibli film"
+      },
+      {
+        "a": "Fall asleep in every film",
+        "b": "Cry in every film"
+      },
+      {
+        "a": "Sit in the front row of the cinema",
+        "b": "Sit in the back row next to a talker"
+      },
+      {
+        "a": "Eat like a hobbit: seven meals a day",
+        "b": "Eat like a Minion: nothing but bananas"
+      },
+      {
+        "a": "Star in a musical but you can't sing",
+        "b": "Star in an action movie but you can't run"
+      },
+      {
+        "a": "Live in a world where everyone breaks into song",
+        "b": "Live in a world where everyone breaks into slow-motion fight scenes"
+      },
+      {
+        "a": "Do your own stunts in a film",
+        "b": "Do your own singing in a film"
+      },
+      {
+        "a": "Be recognised for one famous ad you did",
+        "b": "Be an unrecognised but acclaimed actor"
+      },
+      {
+        "a": "Lose the ability to enjoy comedies",
+        "b": "Lose the ability to enjoy action films"
+      },
+      {
+        "a": "Watch a film with a friend who explains the plot constantly",
+        "b": "Watch a film with a friend who guesses the ending wrong every time"
+      },
+      {
+        "a": "Have R2-D2 as a sidekick",
+        "b": "Have Baymax as a sidekick"
+      },
+      {
+        "a": "Win an Oscar for a terrible film",
+        "b": "Be snubbed for a masterpiece"
+      },
+      {
+        "a": "Have a talking dog like Scooby-Doo",
+        "b": "Have a talking cat like Garfield"
+      },
+      {
+        "a": "Be trapped in a horror movie",
+        "b": "Be trapped in a disaster movie"
+      },
+      {
+        "a": "Be trapped in a romcom",
+        "b": "Be trapped in a heist film"
+      },
+      {
+        "a": "Walk the red carpet in a tracksuit",
+        "b": "Walk the red carpet in a full suit of armour"
+      },
+      {
+        "a": "Go on a survival reality show",
+        "b": "Go on a baking reality show"
+      },
+      {
+        "a": "Host a late night talk show nobody watches",
+        "b": "Be a nervous guest on a talk show millions watch"
+      },
+      {
+        "a": "Get popcorn that never runs out at the cinema",
+        "b": "Get a recliner seat that never breaks at the cinema"
+      },
+      {
+        "a": "Be the person who pauses to ask \"who's that actor?\"",
+        "b": "Be the person who always knows who that actor is, and tells everyone"
+      },
+      {
+        "a": "Have your life story made into a film starring a lookalike",
+        "b": "Have it made into a cartoon starring a talking animal"
+      }
+    ]
+  }
+}

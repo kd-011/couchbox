@@ -1,0 +1,24 @@
+{
+  "id": "video-game-characters",
+  "title": "Video Game Characters",
+  "emoji": "🎮",
+  "blurb": "Plumbers, hedgehogs, space marines and a very hungry yellow circle.",
+  "tags": ["gaming", "nostalgia"],
+  "order": 100,
+  "content": {
+    "categories": {
+      "nintendo-and-sega": {
+        "label": "Nintendo and Sega",
+        "items": ["Mario", "Luigi", "Princess Peach", "Bowser", "Link", "Zelda", "Donkey Kong", "Kirby", "Samus Aran", "Yoshi", "Sonic the Hedgehog", "Dr Eggman", "Tails", "Ganondorf", "Fox McCloud", "Wario", "Pikachu", "Isabelle from Animal Crossing"]
+      },
+      "arcade-and-platform": {
+        "label": "Arcade and platform",
+        "items": ["Pac-Man", "Crash Bandicoot", "Spyro", "Rayman", "Mega Man", "Frogger", "Ms Pac-Man", "Sackboy", "Ratchet", "Q*bert", "Banjo-Kazooie", "Space Invader"]
+      },
+      "action-and-modern-heroes": {
+        "label": "Action and fighting",
+        "items": ["Master Chief", "Kratos", "Solid Snake", "Geralt of Rivia", "Ezio Auditore", "Nathan Drake", "Ellie from The Last of Us", "Cloud Strife", "Sephiroth", "Steve from Minecraft", "Creeper", "Ryu", "Chun-Li", "Sub-Zero", "Gordon Freeman", "Doomguy"]
+      }
+    }
+  }
+}

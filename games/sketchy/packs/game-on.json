@@ -1,0 +1,66 @@
+{
+  "id": "game-on",
+  "title": "Game On",
+  "emoji": "🎮",
+  "blurb": "Controllers, quests and the rage quit heard round the house.",
+  "tags": [
+    "gaming"
+  ],
+  "order": 60,
+  "content": {
+    "easy": [
+      "game controller",
+      "joystick",
+      "cartridge",
+      "arcade machine",
+      "dice",
+      "playing card",
+      "treasure chest",
+      "sword",
+      "shield",
+      "gold coin",
+      "crown",
+      "heart",
+      "potion bottle",
+      "bow and arrow",
+      "pixel alien",
+      "headset"
+    ],
+    "medium": [
+      "boss fight",
+      "level up",
+      "board game night",
+      "chess match",
+      "jigsaw puzzle",
+      "pinball",
+      "claw machine",
+      "virtual reality",
+      "dungeon",
+      "racing game",
+      "zombie apocalypse",
+      "loot drop",
+      "lan party",
+      "health bar",
+      "escape room",
+      "treasure hunt"
+    ],
+    "hard": [
+      "rage quit",
+      "lag",
+      "respawn",
+      "game over",
+      "cheat code",
+      "speedrun",
+      "noob",
+      "loading screen",
+      "skill tree",
+      "side quest",
+      "power up",
+      "final boss",
+      "save point",
+      "button mashing",
+      "glitch",
+      "high score"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "id": "food-and-drink",
+  "title": "Food and Drink",
+  "emoji": "🍔",
+  "tags": [
+    "food"
+  ],
+  "blurb": "Snacks, dinners, drinks and debates about whether a hot dog is a sandwich.",
+  "content": {
+    "spectrums": [
+      {
+        "left": "Bland",
+        "right": "A flavour bomb"
+      },
+      {
+        "left": "Healthy",
+        "right": "Terrible for you"
+      },
+      {
+        "left": "Cheap eat",
+        "right": "Fine dining"
+      },
+      {
+        "left": "Sweet",
+        "right": "Savoury"
+      },
+      {
+        "left": "Kids love it",
+        "right": "Only adults like it"
+      },
+      {
+        "left": "Smells better than it tastes",
+        "right": "Tastes better than it smells"
+      },
+      {
+        "left": "Easy to cook",
+        "right": "Hard to cook"
+      },
+      {
+        "left": "Best served hot",
+        "right": "Best served cold"
+      },
+      {
+        "left": "Clean to eat",
+        "right": "Messy to eat"
+      },
+      {
+        "left": "A snack",
+        "right": "A full meal"
+      },
+      {
+        "left": "Belongs on a pizza",
+        "right": "Should never go near a pizza"
+      },
+      {
+        "left": "Great hangover food",
+        "right": "Terrible hangover food"
+      },
+      {
+        "left": "An acquired taste",
+        "right": "Everyone loves it"
+      },
+      {
+        "left": "Better homemade",
+        "right": "Better from a shop"
+      },
+      {
+        "left": "Crunchy",
+        "right": "Soft"
+      },
+      {
+        "left": "Mild",
+        "right": "Blow-your-head-off spicy"
+      },
+      {
+        "left": "More of a food",
+        "right": "More of a drink"
+      },
+      {
+        "left": "Breakfast",
+        "right": "Dessert"
+      },
+      {
+        "left": "Easy to share",
+        "right": "Impossible to share"
+      },
+      {
+        "left": "Safe first date food",
+        "right": "Risky first date food"
+      },
+      {
+        "left": "Fine in a lunchbox",
+        "right": "Banned from the office microwave"
+      },
+      {
+        "left": "A fruit",
+        "right": "A vegetable"
+      },
+      {
+        "left": "A sandwich",
+        "right": "Not a sandwich"
+      },
+      {
+        "left": "Kids' party food",
+        "right": "Wedding food"
+      },
+      {
+        "left": "Knife and fork",
+        "right": "Eat with your hands"
+      },
+      {
+        "left": "Morning drink",
+        "right": "Late night drink"
+      },
+      {
+        "left": "Best eaten fresh",
+        "right": "Better the next day"
+      },
+      {
+        "left": "Lives in the fridge",
+        "right": "Lives in the pantry"
+      },
+      {
+        "left": "Supermarket brand is fine",
+        "right": "Must be the fancy brand"
+      },
+      {
+        "left": "Festive food",
+        "right": "Everyday food"
+      },
+      {
+        "left": "Survives a picnic",
+        "right": "A disaster at a picnic"
+      },
+      {
+        "left": "Comfort food",
+        "right": "Show-off food"
+      },
+      {
+        "left": "Overpriced at a café",
+        "right": "A bargain at a café"
+      },
+      {
+        "left": "Easy to pronounce",
+        "right": "Impossible to pronounce"
+      },
+      {
+        "left": "Respectable dinner",
+        "right": "Rock-bottom dinner"
+      },
+      {
+        "left": "Fine for breakfast",
+        "right": "Wrong at breakfast"
+      },
+      {
+        "left": "Simple coffee order",
+        "right": "Complicated coffee order"
+      },
+      {
+        "left": "Takeaway worth the delivery fee",
+        "right": "Cook it yourself"
+      },
+      {
+        "left": "Pretty on the plate",
+        "right": "Ugly on the plate"
+      },
+      {
+        "left": "Brown food: delicious",
+        "right": "Brown food: beige and sad"
+      },
+      {
+        "left": "Midnight snack: sensible",
+        "right": "Midnight snack: reckless"
+      },
+      {
+        "left": "Salad: a meal",
+        "right": "Salad: a garnish"
+      },
+      {
+        "left": "Buffet strategy: pace yourself",
+        "right": "Buffet strategy: all in"
+      },
+      {
+        "left": "Better grilled",
+        "right": "Better deep-fried"
+      },
+      {
+        "left": "Sauce on everything",
+        "right": "Sauce on the side"
+      },
+      {
+        "left": "Cook by recipe",
+        "right": "Cook by feel"
+      }
+    ]
+  }
+}

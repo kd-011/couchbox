@@ -1,0 +1,67 @@
+{
+  "id": "back-to-school",
+  "title": "Back to School",
+  "emoji": "🎒",
+  "blurb": "Bells, backpacks and the world's best homework excuses.",
+  "tags": [
+    "school",
+    "kids"
+  ],
+  "order": 20,
+  "content": {
+    "easy": [
+      "pencil",
+      "ruler",
+      "backpack",
+      "school bus",
+      "globe",
+      "eraser",
+      "scissors",
+      "notebook",
+      "calculator",
+      "school bell",
+      "paintbrush",
+      "glue stick",
+      "desk",
+      "graduation cap",
+      "flag",
+      "rubber band"
+    ],
+    "medium": [
+      "playground slide",
+      "spelling test",
+      "science fair",
+      "school assembly",
+      "library",
+      "skipping rope",
+      "fire drill",
+      "class photo",
+      "sports carnival",
+      "report card",
+      "whiteboard",
+      "school uniform",
+      "paper plane",
+      "passing notes",
+      "hopscotch",
+      "art class"
+    ],
+    "hard": [
+      "homework excuse",
+      "daydreaming",
+      "teacher's pet",
+      "cramming",
+      "group project",
+      "pop quiz",
+      "class clown",
+      "sick day",
+      "first day nerves",
+      "graduation day",
+      "spelling bee",
+      "show and tell",
+      "late for school",
+      "detention",
+      "recess",
+      "lunch break"
+    ]
+  }
+}

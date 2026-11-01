@@ -1,0 +1,65 @@
+{
+  "id": "movie-night",
+  "title": "Movie Night",
+  "emoji": "🎬",
+  "blurb": "Blockbusters, bad sequels and film-buff confessions. Great between the ads.",
+  "tags": [
+    "movies",
+    "tv",
+    "pop"
+  ],
+  "order": 60,
+  "content": {
+    "mild": {
+      "truth": [
+        "What's the movie you've seen the most times, and how many?",
+        "What's a film everyone loves that you couldn't finish?",
+        "Which movie character would you want as your best friend?",
+        "What's the worst movie you've ever paid to see?",
+        "What's the saddest movie scene you've ever cried at?",
+        "Which actor would you cast to play you in a biopic?",
+        "What's your guilty-pleasure rom-com?",
+        "What's a film you've pretended to have seen?",
+        "What's the best movie snack, and what's your cinema order?",
+        "What's the scariest film you've watched, and did you sleep after?",
+        "What movie quote do you use in real life more than you should?",
+        "If your life had a movie trailer, who would do the voice-over?",
+        "Which sequel was better than the original?",
+        "What's the best opening scene of any movie?",
+        "What's a movie villain you secretly agree with?",
+        "What's a childhood movie you rewatch when you're sick?",
+        "What's the funniest movie you've ever seen?",
+        "What's a film you think everyone should see at least once?",
+        "Which movie ending still makes you mad?",
+        "If you could live in any film universe for a week, which one?",
+        "What's a movie you loved as a kid that doesn't hold up now?",
+        "What's a song from a movie soundtrack you know every word of?"
+      ],
+      "dare": [
+        "Act out the death scene of a movie hero in 20 seconds. Make it epic.",
+        "Do your best movie trailer voice announcing tonight's snack plan.",
+        "Do your best impression of a famous movie character ordering a coffee.",
+        "Do your best Hollywood villain laugh and monologue for 15 seconds.",
+        "Choose a person in the room and cast them as a character in a film. Pitch it.",
+        "Deliver a heartfelt Oscar speech for winning Best Supporting Snack.",
+        "Give your best slow-motion run toward the camera as the hero escaping an explosion.",
+        "Act out a famous scene using only your face, and let the group guess.",
+        "Do a one-minute pitch for a terrible sequel to a famous film.",
+        "Recreate a famous movie poster pose with the nearest person.",
+        "Speak like a gruff action hero until your next turn.",
+        "Re-enact a famous movie breakup scene with a pillow, dramatically.",
+        "Act out an entire movie in 15 seconds and have the group guess.",
+        "Be a movie reviewer: give a five-star review of the nearest object.",
+        "Do a dramatic voice-over of the next five seconds of silence in the room.",
+        "Perform a famous movie line with the wrong emotion, like sobbing through an angry speech.",
+        "Give a spooky horror movie narrator speech about the nearest cupboard.",
+        "Do your best 'I'm the king of the world' pose from the front of an imaginary ship.",
+        "Mimic a character from a cartoon until someone guesses who.",
+        "Announce the next player like a wrestling ring announcer.",
+        "Do a bad dubbed-movie voice for everything you say until your next turn.",
+        "Act out a movie chase scene using only your hands on a table.",
+        "Give the cheesiest Bond-style introduction you can, using your own name."
+      ]
+    }
+  }
+}

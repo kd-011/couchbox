@@ -1,0 +1,193 @@
+{
+  "id": "gross-out",
+  "title": "Gross Out",
+  "emoji": "🤢",
+  "blurb": "Fridge science, the five-second rule and things best not thought about.",
+  "tags": [
+    "gross"
+  ],
+  "content": {
+    "spectrums": [
+      {
+        "left": "Tolerable",
+        "right": "Stomach-churning"
+      },
+      {
+        "left": "Fine to touch",
+        "right": "Tongs required"
+      },
+      {
+        "left": "Smell you barely notice",
+        "right": "Smell that clears the room"
+      },
+      {
+        "left": "Pass the five-second rule",
+        "right": "Bin it immediately"
+      },
+      {
+        "left": "Acceptable to share",
+        "right": "Never share"
+      },
+      {
+        "left": "Normal wear and tear",
+        "right": "Call a professional"
+      },
+      {
+        "left": "Public toilet: fine",
+        "right": "Public toilet: horror show"
+      },
+      {
+        "left": "Dry and crusty",
+        "right": "Wet and slimy"
+      },
+      {
+        "left": "Mouldy cheese: gourmet",
+        "right": "Mouldy cheese: biohazard"
+      },
+      {
+        "left": "Fridge item you'd risk",
+        "right": "Fridge item you'd bin"
+      },
+      {
+        "left": "Private habit",
+        "right": "Public habit"
+      },
+      {
+        "left": "Leftovers day three: fine",
+        "right": "Leftovers day three: danger"
+      },
+      {
+        "left": "Wear it another day",
+        "right": "Wash it now"
+      },
+      {
+        "left": "Barefoot is fine",
+        "right": "Socks only"
+      },
+      {
+        "left": "Sharing a straw: fine",
+        "right": "Sharing a straw: never"
+      },
+      {
+        "left": "Fine on the couch",
+        "right": "Never on the couch"
+      },
+      {
+        "left": "Funny bodily noise",
+        "right": "Rude bodily noise"
+      },
+      {
+        "left": "Bug in the food: bonus protein",
+        "right": "Bug in the food: meal over"
+      },
+      {
+        "left": "Barely a glow",
+        "right": "Drenched in sweat"
+      },
+      {
+        "left": "Satisfying to clean",
+        "right": "Horrifying to clean"
+      },
+      {
+        "left": "Tidy housemate",
+        "right": "Feral housemate"
+      },
+      {
+        "left": "Would eat it for $10",
+        "right": "Wouldn't eat it for $1000"
+      },
+      {
+        "left": "Public transport seat: fine",
+        "right": "Public transport seat: hover"
+      },
+      {
+        "left": "Normal level of grime",
+        "right": "Full biohazard"
+      },
+      {
+        "left": "Lick the spoon",
+        "right": "Wash the spoon first"
+      },
+      {
+        "left": "Double dipping: fine",
+        "right": "Double dipping: banned"
+      },
+      {
+        "left": "Hair in the food: shrug",
+        "right": "Hair in the food: walk out"
+      },
+      {
+        "left": "A day past the date: fine",
+        "right": "A day past the date: bin"
+      },
+      {
+        "left": "Kids think it's gross",
+        "right": "Adults think it's gross"
+      },
+      {
+        "left": "Mystery stain: ignore",
+        "right": "Mystery stain: investigate"
+      },
+      {
+        "left": "Fine at the dinner table",
+        "right": "Not at the dinner table"
+      },
+      {
+        "left": "Lunch left in a hot car: edible",
+        "right": "Lunch left in a hot car: dangerous"
+      },
+      {
+        "left": "Polite to ignore",
+        "right": "Have to say something"
+      },
+      {
+        "left": "Lived-in",
+        "right": "Health hazard"
+      },
+      {
+        "left": "Hotel bedspread: fine",
+        "right": "Hotel bedspread: never touch"
+      },
+      {
+        "left": "Oddly satisfying",
+        "right": "Just revolting"
+      },
+      {
+        "left": "Medical documentary: fascinating",
+        "right": "Medical documentary: can't look"
+      },
+      {
+        "left": "Smells worse than it looks",
+        "right": "Looks worse than it smells"
+      },
+      {
+        "left": "Normal bathroom habit",
+        "right": "Horrifying bathroom habit"
+      },
+      {
+        "left": "Fingernail clippings: no big deal",
+        "right": "Fingernail clippings: appalling"
+      },
+      {
+        "left": "Old sponge: still good",
+        "right": "Old sponge: science project"
+      },
+      {
+        "left": "Gym bag smell: character",
+        "right": "Gym bag smell: hazard"
+      },
+      {
+        "left": "Out of sight, out of mind",
+        "right": "Must deal with it now"
+      },
+      {
+        "left": "Eating over the sink: efficient",
+        "right": "Eating over the sink: grim"
+      },
+      {
+        "left": "Cute pet habit",
+        "right": "Revolting pet habit"
+      }
+    ]
+  }
+}

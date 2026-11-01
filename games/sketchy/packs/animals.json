@@ -1,0 +1,65 @@
+{
+  "id": "animals",
+  "title": "Animal Kingdom",
+  "emoji": "🦒",
+  "blurb": "Creatures great and small, from giraffes to praying mantises.",
+  "tags": [
+    "animals"
+  ],
+  "content": {
+    "easy": [
+      "giraffe",
+      "zebra",
+      "kangaroo",
+      "penguin",
+      "panda",
+      "hippo",
+      "crocodile",
+      "flamingo",
+      "parrot",
+      "goldfish",
+      "camel",
+      "squirrel",
+      "snail",
+      "duck",
+      "owl",
+      "turtle"
+    ],
+    "medium": [
+      "sloth",
+      "peacock",
+      "gorilla",
+      "rhino",
+      "pelican",
+      "woodpecker",
+      "lobster",
+      "swan",
+      "llama",
+      "koala",
+      "moose",
+      "bat",
+      "octopus",
+      "butterfly",
+      "rooster",
+      "dolphin"
+    ],
+    "hard": [
+      "wombat",
+      "echidna",
+      "toucan",
+      "stingray",
+      "pufferfish",
+      "praying mantis",
+      "hammerhead shark",
+      "scorpion",
+      "sheepdog herding",
+      "flock of geese",
+      "elephant spraying water",
+      "dragonfly",
+      "camouflage",
+      "hibernation",
+      "bird migration",
+      "bees making honey"
+    ]
+  }
+}

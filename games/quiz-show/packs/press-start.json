@@ -1,0 +1,481 @@
+{
+  "id": "press-start",
+  "title": "Press Start",
+  "emoji": "👾",
+  "blurb": "Arcade legends, modern hits and the consoles that changed everything, from Pong to Elden Ring.",
+  "tags": [
+    "video games",
+    "retro",
+    "pop culture"
+  ],
+  "order": 33,
+  "content": {
+    "categories": {
+      "play-classics": {
+        "label": "Pixel Classics",
+        "multiple": [
+          {
+            "id": "gam-px-m-1",
+            "difficulty": "easy",
+            "text": "In Super Mario Bros., which princess does Mario set out to rescue?",
+            "options": [
+              "Zelda",
+              "Daisy",
+              "Peach",
+              "Rosalina"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "gam-px-m-2",
+            "difficulty": "easy",
+            "text": "Which hero in a green tunic wields the Master Sword in The Legend of Zelda series?",
+            "options": [
+              "Link",
+              "Zelda",
+              "Ganon",
+              "Epona"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "gam-px-m-3",
+            "difficulty": "easy",
+            "text": "Atari's 1972 hit Pong simulated which sport?",
+            "options": [
+              "Squash",
+              "Badminton",
+              "Air hockey",
+              "Table tennis"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "gam-px-m-4",
+            "difficulty": "medium",
+            "text": "Pac-Man's four ghosts are Blinky, Pinky, Inky and who?",
+            "options": [
+              "Dinky",
+              "Clyde",
+              "Winky",
+              "Bobby"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "gam-px-m-5",
+            "difficulty": "medium",
+            "text": "Tetris was created by Alexey Pajitnov while he worked in which country?",
+            "options": [
+              "Soviet Union",
+              "Japan",
+              "United States",
+              "West Germany"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "gam-px-m-6",
+            "difficulty": "medium",
+            "text": "Which two-tailed fox is Sonic the Hedgehog's loyal sidekick?",
+            "options": [
+              "Knuckles",
+              "Shadow",
+              "Tails",
+              "Silver"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "gam-px-m-7",
+            "difficulty": "medium",
+            "text": "Which company developed Pac-Man?",
+            "options": [
+              "Taito",
+              "Sega",
+              "Konami",
+              "Namco"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "gam-px-m-8",
+            "difficulty": "hard",
+            "text": "On which Nintendo console did The Legend of Zelda: Ocarina of Time launch in 1998?",
+            "options": [
+              "Nintendo 64",
+              "SNES",
+              "GameCube",
+              "Game Boy"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "gam-px-m-9",
+            "difficulty": "hard",
+            "text": "In Donkey Kong (1981), the hero who later became Mario was first known as what?",
+            "options": [
+              "Mr. Plumber",
+              "Jumpman",
+              "Hopper",
+              "Leaper"
+            ],
+            "answer": 1
+          }
+        ],
+        "boolean": [
+          {
+            "id": "gam-px-b-1",
+            "difficulty": "easy",
+            "text": "Sonic the Hedgehog is a Nintendo character.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "gam-px-b-2",
+            "difficulty": "medium",
+            "text": "The seven shapes in Tetris are called tetrominoes.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "gam-px-b-3",
+            "difficulty": "hard",
+            "text": "Space Invaders was made by Atari.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "gam-px-b-4",
+            "difficulty": "medium",
+            "text": "Pac-Man was originally called Puck-Man in Japan.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "play-modern": {
+        "label": "Modern Hits",
+        "multiple": [
+          {
+            "id": "gam-md-m-1",
+            "difficulty": "easy",
+            "text": "In Minecraft, which green mob silently creeps up and explodes?",
+            "options": [
+              "Zombie",
+              "Creeper",
+              "Enderman",
+              "Skeleton"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "gam-md-m-2",
+            "difficulty": "easy",
+            "text": "What is the currency in the Animal Crossing games?",
+            "options": [
+              "Coins",
+              "Rupees",
+              "Bells",
+              "Gil"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "gam-md-m-3",
+            "difficulty": "medium",
+            "text": "Which Zelda game launched alongside the Nintendo Switch in March 2017?",
+            "options": [
+              "Twilight Princess",
+              "Skyward Sword",
+              "Tears of the Kingdom",
+              "Breath of the Wild"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "gam-md-m-4",
+            "difficulty": "medium",
+            "text": "Which real-world city inspired Los Santos in Grand Theft Auto V?",
+            "options": [
+              "Miami",
+              "New York",
+              "Los Angeles",
+              "Las Vegas"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "gam-md-m-5",
+            "difficulty": "medium",
+            "text": "In Portal, which sarcastic AI guides you through the test chambers?",
+            "options": [
+              "GLaDOS",
+              "SHODAN",
+              "Cortana",
+              "MOTHER"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "gam-md-m-6",
+            "difficulty": "medium",
+            "text": "Which Polish studio made The Witcher 3: Wild Hunt?",
+            "options": [
+              "CD Projekt Red",
+              "Techland",
+              "11 bit studios",
+              "People Can Fly"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "gam-md-m-7",
+            "difficulty": "hard",
+            "text": "Which fantasy author worked with FromSoftware on the world-building of Elden Ring?",
+            "options": [
+              "Brandon Sanderson",
+              "Patrick Rothfuss",
+              "Neil Gaiman",
+              "George R. R. Martin"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "gam-md-m-8",
+            "difficulty": "hard",
+            "text": "Hollow Knight was made by Team Cherry, a tiny indie studio in which Australian city?",
+            "options": [
+              "Brisbane",
+              "Perth",
+              "Adelaide",
+              "Melbourne"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "gam-md-m-9",
+            "difficulty": "medium",
+            "text": "Which Pokémon is number 25 in the original Pokédex?",
+            "options": [
+              "Eevee",
+              "Pikachu",
+              "Jigglypuff",
+              "Meowth"
+            ],
+            "answer": 1
+          }
+        ],
+        "boolean": [
+          {
+            "id": "gam-md-b-1",
+            "difficulty": "medium",
+            "text": "Minecraft was first created by Markus 'Notch' Persson.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "gam-md-b-2",
+            "difficulty": "easy",
+            "text": "Animal Crossing: New Horizons launched on the PlayStation 4.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "gam-md-b-3",
+            "difficulty": "hard",
+            "text": "Pokémon Red and Green launched in Japan in 1996.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "gam-md-b-4",
+            "difficulty": "medium",
+            "text": "Stardew Valley was developed by Nintendo.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "play-consoles": {
+        "label": "Consoles & Culture",
+        "multiple": [
+          {
+            "id": "gam-cc-m-1",
+            "difficulty": "easy",
+            "text": "Which company makes the Xbox?",
+            "options": [
+              "Sony",
+              "Nintendo",
+              "Microsoft",
+              "Sega"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "gam-cc-m-2",
+            "difficulty": "easy",
+            "text": "What do the letters RPG stand for in gaming?",
+            "options": [
+              "Rapid Play Game",
+              "Role-Playing Game",
+              "Random Puzzle Game",
+              "Real Player Guild"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "gam-cc-m-3",
+            "difficulty": "easy",
+            "text": "Which Nintendo console, launched in 2006, popularised motion controls with a waggle-happy wand?",
+            "options": [
+              "DS",
+              "GameCube",
+              "Wii U",
+              "Wii"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "gam-cc-m-4",
+            "difficulty": "medium",
+            "text": "Which handheld PC did Valve release in 2022 for playing Steam games on the go?",
+            "options": [
+              "Steam Link",
+              "Steam Deck",
+              "Valve Index",
+              "ROG Ally"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "gam-cc-m-5",
+            "difficulty": "medium",
+            "text": "What was the last home console Sega ever released?",
+            "options": [
+              "Saturn",
+              "Mega Drive",
+              "Master System",
+              "Dreamcast"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "gam-cc-m-6",
+            "difficulty": "medium",
+            "text": "The International, famous for record-breaking prize pools, is the yearly world championship of which game?",
+            "options": [
+              "League of Legends",
+              "Dota 2",
+              "Fortnite",
+              "Counter-Strike"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "gam-cc-m-7",
+            "difficulty": "medium",
+            "text": "Which legendary designer created Mario and co-created The Legend of Zelda?",
+            "options": [
+              "Hideo Kojima",
+              "Hironobu Sakaguchi",
+              "Shigeru Miyamoto",
+              "Yu Suzuki"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "gam-cc-m-8",
+            "difficulty": "hard",
+            "text": "In which year did the original PlayStation launch in Japan?",
+            "options": [
+              "1992",
+              "1994",
+              "1996",
+              "1998"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "gam-cc-m-9",
+            "difficulty": "hard",
+            "text": "Which game was packed in with the Game Boy when it launched in North America in 1989?",
+            "options": [
+              "Super Mario Land",
+              "Dr. Mario",
+              "Kirby's Dream Land",
+              "Tetris"
+            ],
+            "answer": 3
+          }
+        ],
+        "boolean": [
+          {
+            "id": "gam-cc-b-1",
+            "difficulty": "hard",
+            "text": "Nintendo was founded in 1889 as a maker of playing cards.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "gam-cc-b-2",
+            "difficulty": "medium",
+            "text": "The Xbox 360 launched before the PlayStation 3.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "gam-cc-b-3",
+            "difficulty": "easy",
+            "text": "Twitch is owned by Google.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "gam-cc-b-4",
+            "difficulty": "medium",
+            "text": "Sega's Dreamcast launched after the PlayStation 2.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    }
+  }
+}

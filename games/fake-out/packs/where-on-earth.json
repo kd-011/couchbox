@@ -1,0 +1,229 @@
+{
+  "id": "where-on-earth",
+  "title": "Where on Earth",
+  "emoji": "🧭",
+  "blurb": "Capitals, borders and place names that trip up even keen travellers.",
+  "tags": [
+    "geography",
+    "travel"
+  ],
+  "content": {
+    "prompts": [
+      {
+        "id": "geo1",
+        "text": "The capital of Turkey is _____, not Istanbul.",
+        "answer": "Ankara"
+      },
+      {
+        "id": "geo2",
+        "text": "Brazil's capital, built from scratch and opened in 1960, is _____.",
+        "answer": "Brasilia"
+      },
+      {
+        "id": "geo3",
+        "text": "The long, thin country of _____ stretches about 4,270 km from north to south but averages only about 177 km wide.",
+        "answer": "Chile"
+      },
+      {
+        "id": "geo4",
+        "text": "Nepal's flag is the only national flag in the world that is not a rectangle or square, and it is made of two triangular _____.",
+        "answer": "pennants"
+      },
+      {
+        "id": "geo5",
+        "text": "Africa's highest mountain, Kilimanjaro, stands in _____.",
+        "answer": "Tanzania"
+      },
+      {
+        "id": "geo6",
+        "text": "Lake Titicaca sits on the border between Peru and _____.",
+        "answer": "Bolivia"
+      },
+      {
+        "id": "geo7",
+        "text": "The Suez Canal links the Mediterranean Sea to the _____ Sea.",
+        "answer": "Red"
+      },
+      {
+        "id": "geo8",
+        "text": "Switzerland's capital is _____, not Zurich or Geneva.",
+        "answer": "Bern"
+      },
+      {
+        "id": "geo9",
+        "text": "Antarctica is the driest continent, which makes it technically a _____.",
+        "answer": "desert"
+      },
+      {
+        "id": "geo10",
+        "text": "The country of Monaco is smaller in area than New York's _____.",
+        "answer": "Central Park"
+      },
+      {
+        "id": "geo11",
+        "text": "Liechtenstein and _____ are the only two doubly landlocked countries.",
+        "answer": "Uzbekistan"
+      },
+      {
+        "id": "geo12",
+        "text": "The kingdom of _____ is completely surrounded by South Africa.",
+        "answer": "Lesotho"
+      },
+      {
+        "id": "geo13",
+        "text": "The Taj Mahal was built by Emperor Shah Jahan as a tomb for his wife, _____ Mahal.",
+        "answer": "Mumtaz"
+      },
+      {
+        "id": "geo14",
+        "text": "The rose-red city of Petra in Jordan was carved into the cliffs by a people called the _____.",
+        "answer": "Nabataeans"
+      },
+      {
+        "id": "geo15",
+        "text": "Angkor Wat in Cambodia was built as a temple to the Hindu god _____.",
+        "answer": "Vishnu"
+      },
+      {
+        "id": "geo16",
+        "text": "The famous clock tower at Westminster, home of the Big Ben bell, has been officially called the _____ Tower since 2012.",
+        "answer": "Elizabeth"
+      },
+      {
+        "id": "geo17",
+        "text": "Mount Rushmore's four carved presidents look out over the state of _____.",
+        "answer": "South Dakota"
+      },
+      {
+        "id": "geo18",
+        "text": "Iceland's parliament, founded around 930, is called the _____.",
+        "answer": "Althing"
+      },
+      {
+        "id": "geo19",
+        "text": "The world's northernmost capital of a sovereign country is _____.",
+        "answer": "Reykjavik"
+      },
+      {
+        "id": "geo20",
+        "text": "The world's southernmost capital of a sovereign country is _____.",
+        "answer": "Wellington"
+      },
+      {
+        "id": "geo21",
+        "text": "The Strait of Gibraltar separates Spain from _____.",
+        "answer": "Morocco"
+      },
+      {
+        "id": "geo22",
+        "text": "Greenland is a self-governing territory of _____.",
+        "answer": "Denmark"
+      },
+      {
+        "id": "geo23",
+        "text": "From east to west, Australia is wider than the _____.",
+        "answer": "Moon"
+      },
+      {
+        "id": "geo24",
+        "text": "The country with the longest coastline in the world is _____.",
+        "answer": "Canada"
+      },
+      {
+        "id": "geo25",
+        "text": "The point on Earth's surface farthest from the planet's centre is the summit of _____ in Ecuador.",
+        "answer": "Chimborazo"
+      },
+      {
+        "id": "geo26",
+        "text": "Since South Sudan split from Sudan in 2011, the largest country in Africa by area has been _____.",
+        "answer": "Algeria"
+      },
+      {
+        "id": "geo27",
+        "text": "The lowest-lying country on Earth, averaging only about 1.5 metres above sea level, is the _____.",
+        "answer": "Maldives"
+      },
+      {
+        "id": "geo28",
+        "text": "The Danube flows through or along the borders of _____ European countries.",
+        "answer": "ten"
+      },
+      {
+        "id": "geo29",
+        "text": "Bolivia is named after the liberator Simon _____.",
+        "answer": "Bolivar"
+      },
+      {
+        "id": "geo30",
+        "text": "The Philippines are named after Philip II of _____, who was still a prince when the islands got the name.",
+        "answer": "Spain"
+      },
+      {
+        "id": "geo31",
+        "text": "The name Pakistan means land of the _____.",
+        "answer": "pure"
+      },
+      {
+        "id": "geo32",
+        "text": "Argentina takes its name from the Latin word for _____.",
+        "answer": "silver"
+      },
+      {
+        "id": "geo33",
+        "text": "The island of Madagascar is the _____-largest island on Earth.",
+        "answer": "fourth"
+      },
+      {
+        "id": "geo34",
+        "text": "Christ the Redeemer looks over Rio de Janeiro from the top of Mount _____.",
+        "answer": "Corcovado"
+      },
+      {
+        "id": "geo35",
+        "text": "The Matterhorn sits on the border between Switzerland and _____.",
+        "answer": "Italy"
+      },
+      {
+        "id": "geo36",
+        "text": "The people of the remote Pitcairn Islands descend from the mutineers of HMS _____.",
+        "answer": "Bounty"
+      },
+      {
+        "id": "geo37",
+        "text": "Easter Island's giant moai statues belong to the country of _____.",
+        "answer": "Chile"
+      },
+      {
+        "id": "geo38",
+        "text": "The huge Iguazu Falls straddle the border between Brazil and _____.",
+        "answer": "Argentina"
+      },
+      {
+        "id": "geo39",
+        "text": "Victoria Falls is known locally as Mosi-oa-Tunya, meaning the smoke that _____.",
+        "answer": "thunders"
+      },
+      {
+        "id": "geo40",
+        "text": "Before 1868, the city of Tokyo was known as _____.",
+        "answer": "Edo"
+      },
+      {
+        "id": "geo41",
+        "text": "New York City was first a Dutch settlement called New _____.",
+        "answer": "Amsterdam"
+      },
+      {
+        "id": "geo42",
+        "text": "From 1924 to 1991, the Russian city of St Petersburg was named _____.",
+        "answer": "Leningrad"
+      },
+      {
+        "id": "geo43",
+        "text": "Mount Everest is named after Sir George Everest, a British surveyor who worked in _____.",
+        "answer": "India"
+      }
+    ]
+  }
+}

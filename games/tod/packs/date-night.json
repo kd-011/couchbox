@@ -1,0 +1,95 @@
+{
+  "id": "date-night",
+  "title": "Date Night",
+  "emoji": "💕",
+  "blurb": "Sweet questions and flirty dares for couples. Pick Spicy for the cheekier half.",
+  "tags": [
+    "dating",
+    "spicy"
+  ],
+  "content": {
+    "mild": {
+      "truth": [
+        "What was your first impression of your partner or date?",
+        "What's the most romantic thing anyone has ever done for you?",
+        "What does your perfect lazy Sunday together look like?",
+        "What's a love song you secretly know every word of?",
+        "What's the cheesiest pickup line you know? Deliver it.",
+        "What's the best date you've ever been on?",
+        "What's a small thing someone can do that instantly wins you over?",
+        "Which movie couple would you most like to be?",
+        "What's your most embarrassing moment in front of a crush?",
+        "What's one thing on your relationship bucket list?",
+        "What's the worst date idea you can think of?",
+        "What's a quality you find surprisingly attractive?",
+        "Who made the first move in your last relationship?",
+        "What's the sweetest message you've ever received?",
+        "Breakfast in bed or dinner out: which wins and why?",
+        "What's a tiny habit of a past partner that you secretly miss?",
+        "What song would be playing in the movie of your love life?",
+        "What's the best thing you've ever cooked for someone you liked?",
+        "Do you prefer big romantic gestures or small daily ones, and why?",
+        "What's the first thing you notice about someone you've just met?",
+        "What's the most spontaneous thing you'd do for love?",
+        "What's your love language, and does it match what you actually do?",
+        "What's the nicest thing a stranger has said about you and a partner?"
+      ],
+      "dare": [
+        "Serenade the group with one line of a love song, full drama.",
+        "Give the person on your right your most sincere compliment.",
+        "Recreate a famous movie romance scene using your hands as the actors.",
+        "Describe your dream date in exactly ten words.",
+        "Slow dance with an imaginary partner for 20 seconds.",
+        "Write a two-line love poem about something on the table and read it aloud.",
+        "Text a friend a heartfelt thank-you message right now.",
+        "Give a dramatic rom-com speech declaring your love for your favourite food.",
+        "Plan the perfect picnic out loud, from the blanket to dessert.",
+        "Hold eye contact with the person on your left for 20 seconds without laughing.",
+        "Act out the moment someone gets a text from their crush.",
+        "Invent a couple name for any two people in the room.",
+        "Play a nervous first date trying to order food.",
+        "Tell the love story of two objects on the table.",
+        "Show the group the most romantic photo on your phone you're happy to share.",
+        "Give a two-minute best-man or maid-of-honour speech for an imaginary wedding in this room.",
+        "Convince the group you'd be the perfect date to a very fancy ball, with three reasons.",
+        "Narrate the couple across from you like a wildlife documentary on courtship.",
+        "Perform a dramatic proposal to a pot plant, complete with a ring made from anything handy.",
+        "Write a three-word love note to everyone in the room and hand them out.",
+        "Pick a song and lip sync the most romantic line like it's the final scene of a movie.",
+        "Try to make the person on your left blush using only a compliment about their taste in music.",
+        "Draw your partner or the person on your left in 30 seconds without looking down, then show it off."
+      ]
+    },
+    "spicy": {
+      "truth": [
+        "What's the cheekiest thing you've ever done to get someone's attention?",
+        "What's your biggest turn-off on a date?",
+        "Who was your most unexpected crush?",
+        "What's the boldest message you've ever sent to someone you liked?",
+        "What's the longest you've had a crush on someone without telling them?",
+        "What's something you find attractive that you'd never admit on a first date?",
+        "Have you ever had a dream about someone you shouldn't have? No names needed.",
+        "What's the most awkward way a date has ever ended for you?",
+        "What's the best kiss you've ever had, and what made it so good?",
+        "What's a secret you've never told a partner?",
+        "Which celebrity is your free pass?",
+        "Where's the most unusual place you've ever been kissed?"
+      ],
+      "dare": [
+        "Read out the last message you sent with a heart in it.",
+        "Whisper the cheesiest pickup line you can think of to the person on your left.",
+        "Do your most seductive walk across the room.",
+        "Give the person on your right a two-line flirty compliment.",
+        "Describe your ideal kiss using only food words.",
+        "Let the person on your left pick an emoji from your recent list for you to act out.",
+        "Do a slow-motion hair flip and wink at someone of your choice.",
+        "Act out flirting with someone across a crowded bar without using any words.",
+        "Let the group write you a dating profile bio, then read it out proudly.",
+        "Kiss the hand of the person on your left like a knight, if they're happy to.",
+        "Read the ingredients of something in the kitchen in your flirtiest voice.",
+        "Show the group the last flirty GIF or meme you sent."
+      ]
+    }
+  },
+  "order": 30
+}

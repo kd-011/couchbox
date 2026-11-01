@@ -1,0 +1,182 @@
+{
+  "id": "wild-side",
+  "title": "Wild Side",
+  "emoji": "🦉",
+  "blurb": "Farms, aquariums, shearing sheds and rainforests. Animals optional, spy not.",
+  "tags": [
+    "nature",
+    "animals"
+  ],
+  "content": {
+    "locations": [
+      {
+        "key": "dairy-farm",
+        "label": "Dairy Farm",
+        "roles": [
+          "Dairy Farmer",
+          "Herd Vet",
+          "Milk Tanker Driver",
+          "Calf Feeder",
+          "Farm Dog",
+          "Cheesemaker",
+          "4am Farmhand",
+          "School Tour Kid"
+        ]
+      },
+      {
+        "key": "sheep-shearing-shed",
+        "label": "Sheep Shearing Shed",
+        "roles": [
+          "Shearer",
+          "Wool Classer",
+          "Roustabout",
+          "Shed Cook",
+          "Station Owner",
+          "Sheepdog",
+          "Wool Buyer",
+          "Wool Presser"
+        ]
+      },
+      {
+        "key": "public-aquarium",
+        "label": "Public Aquarium",
+        "roles": [
+          "Tank Diver",
+          "Aquarist",
+          "Shark Feeder",
+          "School Group Teacher",
+          "Gift Shop Attendant",
+          "Marine Biologist",
+          "Penguin Keeper",
+          "Stroller Parent"
+        ]
+      },
+      {
+        "key": "animal-shelter",
+        "label": "Animal Shelter",
+        "roles": [
+          "Shelter Manager",
+          "Dog Walker Volunteer",
+          "Adopting Family",
+          "Vet Nurse",
+          "Animal Trainer",
+          "Lost Pet Owner",
+          "Cat Whisperer",
+          "Kid Begging for a Puppy"
+        ]
+      },
+      {
+        "key": "beekeeping-apiary",
+        "label": "Beekeeping Apiary",
+        "roles": [
+          "Beekeeper",
+          "Honey Extractor",
+          "Apprentice Beekeeper",
+          "Allergic Visitor",
+          "Queen Breeder",
+          "Honey Buyer",
+          "Bee Biologist",
+          "Hobbyist Neighbour"
+        ]
+      },
+      {
+        "key": "ranger-station",
+        "label": "Ranger Station",
+        "roles": [
+          "Head Ranger",
+          "Trail Guide",
+          "Lost Hiker",
+          "Park Botanist",
+          "Fire Lookout",
+          "Wildlife Photographer",
+          "Camper With a Permit Issue",
+          "Volunteer Guide"
+        ]
+      },
+      {
+        "key": "whale-watching-boat",
+        "label": "Whale Watching Boat",
+        "roles": [
+          "Skipper",
+          "Narrating Biologist",
+          "Seasick Tourist",
+          "Giant-Lens Photographer",
+          "Deckhand",
+          "Kid Spotting Whales",
+          "Galley Server",
+          "Retired Whale Fan"
+        ]
+      },
+      {
+        "key": "botanical-glasshouse",
+        "label": "Botanical Glasshouse",
+        "roles": [
+          "Head Gardener",
+          "Orchid Collector",
+          "Tour Guide",
+          "Wedding Photographer",
+          "Botanist",
+          "Excursion Schoolkid",
+          "Cutting Thief",
+          "Cafe Server"
+        ]
+      },
+      {
+        "key": "dog-show",
+        "label": "Dog Show",
+        "roles": [
+          "Show Judge",
+          "Handler",
+          "Poodle Owner",
+          "Groomer",
+          "Ring Steward",
+          "Vet Inspector",
+          "Ringside Fan",
+          "Disgraced Runner-Up"
+        ]
+      },
+      {
+        "key": "horse-stables",
+        "label": "Horse Stables",
+        "roles": [
+          "Stable Owner",
+          "Riding Instructor",
+          "Farrier",
+          "Stable Hand",
+          "Nervous Beginner",
+          "Show-Jumping Teen",
+          "Horse Vet",
+          "Horse Whisperer"
+        ]
+      },
+      {
+        "key": "fishing-trawler",
+        "label": "Fishing Trawler",
+        "roles": [
+          "Skipper",
+          "Deckhand",
+          "Galley Cook",
+          "Net Mender",
+          "Engineer",
+          "Seasick Fisheries Observer",
+          "Greenhorn",
+          "Old Salt"
+        ]
+      },
+      {
+        "key": "rainforest-canopy-walk",
+        "label": "Rainforest Canopy Walk",
+        "roles": [
+          "Tour Guide",
+          "Bird Watcher",
+          "Canopy Researcher",
+          "Vertigo Tourist",
+          "Instagrammer",
+          "Running Kid",
+          "Insect Collector",
+          "Maintenance Rigger"
+        ]
+      }
+    ]
+  }
+}

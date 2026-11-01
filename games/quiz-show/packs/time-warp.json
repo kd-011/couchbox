@@ -1,0 +1,478 @@
+{
+  "id": "time-warp",
+  "title": "Time Warp",
+  "emoji": "🏺",
+  "blurb": "Pharaohs, explorers and turning points, from Giza to the fall of the Berlin Wall.",
+  "tags": [
+    "history"
+  ],
+  "content": {
+    "categories": {
+      "tw-ancient": {
+        "label": "Ancient Worlds",
+        "multiple": [
+          {
+            "id": "tw-anc-m-1",
+            "difficulty": "easy",
+            "text": "Which ancient people built the pyramids at Giza?",
+            "options": [
+              "Romans",
+              "Persians",
+              "Egyptians",
+              "Greeks"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "tw-anc-m-2",
+            "difficulty": "easy",
+            "text": "In which country did the ancient Olympic Games begin?",
+            "options": [
+              "Greece",
+              "Italy",
+              "Egypt",
+              "Turkey"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "tw-anc-m-3",
+            "difficulty": "medium",
+            "text": "Which Roman city was buried by the eruption of Mount Vesuvius in AD 79?",
+            "options": [
+              "Carthage",
+              "Athens",
+              "Troy",
+              "Pompeii"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "tw-anc-m-4",
+            "difficulty": "medium",
+            "text": "Which Carthaginian general marched an army with war elephants over the Alps?",
+            "options": [
+              "Spartacus",
+              "Hannibal",
+              "Attila",
+              "Pompey"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "tw-anc-m-5",
+            "difficulty": "medium",
+            "text": "The Rosetta Stone helped scholars crack which ancient writing system?",
+            "options": [
+              "Egyptian hieroglyphs",
+              "Cuneiform",
+              "Linear B",
+              "Norse runes"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "tw-anc-m-6",
+            "difficulty": "medium",
+            "text": "Who was the first emperor of a unified China, buried with an army of terracotta soldiers?",
+            "options": [
+              "Kublai Khan",
+              "Confucius",
+              "Sun Tzu",
+              "Qin Shi Huang"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "tw-anc-m-7",
+            "difficulty": "medium",
+            "text": "Which Roman general crossed the Rubicon with his army in 49 BC, sparking a civil war?",
+            "options": [
+              "Augustus",
+              "Julius Caesar",
+              "Nero",
+              "Mark Antony"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "tw-anc-m-8",
+            "difficulty": "hard",
+            "text": "Tenochtitlan, now buried beneath Mexico City, was the capital of which empire?",
+            "options": [
+              "Inca Empire",
+              "Maya Empire",
+              "Aztec Empire",
+              "Toltec Empire"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "tw-anc-m-9",
+            "difficulty": "hard",
+            "text": "Which Mesopotamian people developed cuneiform, one of the earliest writing systems?",
+            "options": [
+              "Hittites",
+              "Sumerians",
+              "Phoenicians",
+              "Persians"
+            ],
+            "answer": 1
+          }
+        ],
+        "boolean": [
+          {
+            "id": "tw-anc-b-1",
+            "difficulty": "easy",
+            "text": "The Parthenon stands on the Acropolis in Athens.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "tw-anc-b-2",
+            "difficulty": "medium",
+            "text": "Julius Caesar was the first Roman emperor.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "tw-anc-b-3",
+            "difficulty": "medium",
+            "text": "Viking warriors wore horned helmets into battle.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "tw-anc-b-4",
+            "difficulty": "hard",
+            "text": "Cleopatra lived closer in time to the Moon landing than to the building of the Great Pyramid of Giza.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "tw-explorers": {
+        "label": "Explorers & Empires",
+        "multiple": [
+          {
+            "id": "tw-exp-m-1",
+            "difficulty": "easy",
+            "text": "Christopher Columbus's 1492 voyage was backed by the monarchs of which country?",
+            "options": [
+              "Portugal",
+              "Spain",
+              "Italy",
+              "England"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "tw-exp-m-2",
+            "difficulty": "easy",
+            "text": "What was the name of the ship Captain James Cook sailed along the east coast of Australia in 1770?",
+            "options": [
+              "Endeavour",
+              "Beagle",
+              "Bounty",
+              "Mayflower"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "tw-exp-m-3",
+            "difficulty": "easy",
+            "text": "Genghis Khan founded which vast empire?",
+            "options": [
+              "The Ottoman Empire",
+              "The Mughal Empire",
+              "The Persian Empire",
+              "The Mongol Empire"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "tw-exp-m-4",
+            "difficulty": "medium",
+            "text": "Which explorer led the first expedition to reach the South Pole, in 1911?",
+            "options": [
+              "Robert Falcon Scott",
+              "Roald Amundsen",
+              "Ernest Shackleton",
+              "Douglas Mawson"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "tw-exp-m-5",
+            "difficulty": "medium",
+            "text": "Which Dutch sailor left a pewter plate on an island off Western Australia in 1616?",
+            "options": [
+              "Abel Tasman",
+              "Willem Janszoon",
+              "Dirk Hartog",
+              "Willem de Vlamingh"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "tw-exp-m-6",
+            "difficulty": "medium",
+            "text": "Marco Polo, the famous traveller to China, came from which Italian city?",
+            "options": [
+              "Genoa",
+              "Venice",
+              "Florence",
+              "Rome"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "tw-exp-m-7",
+            "difficulty": "medium",
+            "text": "Which Spanish conquistador overthrew the Inca Empire?",
+            "options": [
+              "Hernán Cortés",
+              "Vasco Núñez de Balboa",
+              "Francisco Pizarro",
+              "Juan Ponce de León"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "tw-exp-m-8",
+            "difficulty": "hard",
+            "text": "Which sultan captured Constantinople in 1453?",
+            "options": [
+              "Mehmed II",
+              "Suleiman the Magnificent",
+              "Selim I",
+              "Osman I"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "tw-exp-m-9",
+            "difficulty": "hard",
+            "text": "Burke and Wills left Melbourne in 1860 hoping to cross the continent to which northern coast?",
+            "options": [
+              "Great Australian Bight",
+              "Shark Bay",
+              "Moreton Bay",
+              "Gulf of Carpentaria"
+            ],
+            "answer": 3
+          }
+        ],
+        "boolean": [
+          {
+            "id": "tw-exp-b-1",
+            "difficulty": "medium",
+            "text": "Captain James Cook was the first European to reach Australia.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "tw-exp-b-2",
+            "difficulty": "medium",
+            "text": "Vikings reached North America around the year 1000.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "tw-exp-b-3",
+            "difficulty": "hard",
+            "text": "Ferdinand Magellan survived the voyage around the world that he led.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "tw-exp-b-4",
+            "difficulty": "hard",
+            "text": "The Mongol Empire became the largest contiguous land empire in history.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      "tw-modern": {
+        "label": "Modern Moments",
+        "multiple": [
+          {
+            "id": "tw-mod-m-1",
+            "difficulty": "easy",
+            "text": "In which year did the Titanic sink?",
+            "options": [
+              "1905",
+              "1912",
+              "1921",
+              "1934"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "tw-mod-m-2",
+            "difficulty": "easy",
+            "text": "In which year did the Berlin Wall fall?",
+            "options": [
+              "1961",
+              "1975",
+              "1989",
+              "1991"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "tw-mod-m-3",
+            "difficulty": "easy",
+            "text": "Who was the first person to walk on the Moon?",
+            "options": [
+              "Buzz Aldrin",
+              "Neil Armstrong",
+              "Yuri Gagarin",
+              "John Glenn"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "tw-mod-m-4",
+            "difficulty": "medium",
+            "text": "ANZAC troops landed at Gallipoli in which year?",
+            "options": [
+              "1914",
+              "1916",
+              "1915",
+              "1917"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "tw-mod-m-5",
+            "difficulty": "medium",
+            "text": "Which treaty of 1919 formally ended the First World War with Germany?",
+            "options": [
+              "Treaty of Versailles",
+              "Treaty of Westphalia",
+              "Treaty of Utrecht",
+              "Treaty of Vienna"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "tw-mod-m-6",
+            "difficulty": "medium",
+            "text": "Who led the 1930 Salt March in protest against British salt laws in India?",
+            "options": [
+              "Jawaharlal Nehru",
+              "Muhammad Ali Jinnah",
+              "Subhas Chandra Bose",
+              "Mahatma Gandhi"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "tw-mod-m-7",
+            "difficulty": "medium",
+            "text": "In 1932, who became the first woman to fly solo across the Atlantic?",
+            "options": [
+              "Amy Johnson",
+              "Amelia Earhart",
+              "Bessie Coleman",
+              "Jean Batten"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "tw-mod-m-8",
+            "difficulty": "hard",
+            "text": "Which Australian colony was the first in Australia to let women stand for its Parliament, in 1895?",
+            "options": [
+              "South Australia",
+              "Western Australia",
+              "Victoria",
+              "New South Wales"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "tw-mod-m-9",
+            "difficulty": "hard",
+            "text": "In 1983 Australia II, backed by the Royal Perth Yacht Club, won the America's Cup and ended a winning streak of how many years?",
+            "options": [
+              "56 years",
+              "98 years",
+              "150 years",
+              "132 years"
+            ],
+            "answer": 3
+          }
+        ],
+        "boolean": [
+          {
+            "id": "tw-mod-b-1",
+            "difficulty": "medium",
+            "text": "Edmund Hillary and Tenzing Norgay first reached the summit of Mount Everest in 1953.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "tw-mod-b-2",
+            "difficulty": "medium",
+            "text": "The Cuban Missile Crisis happened before the Berlin Wall was built.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "tw-mod-b-3",
+            "difficulty": "easy",
+            "text": "Neil Armstrong was the first human in space.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "tw-mod-b-4",
+            "difficulty": "medium",
+            "text": "The Sydney Harbour Bridge opened in 1932.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "id": "gamers",
+  "title": "Gamers",
+  "emoji": "🎮",
+  "blurb": "Rage quits, loot goblins, controller hogs and the one who always plays support.",
+  "tags": [
+    "gaming",
+    "tech"
+  ],
+  "order": 90,
+  "content": {
+    "questions": [
+      {
+        "text": "Who would be most likely to rage quit a game and come back two minutes later?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to hog the good controller?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to play a character purely because of the outfit?",
+        "spicy": false
+      },
+      {
+        "text": "Who would open every single chest and miss the plot entirely?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to say \"one more match\" at midnight and mean sunrise?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to name their hero after their favourite snack?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to get lost in the tutorial level?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to start a fight over a board game rule?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to spend more time in the character creator than in the game?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to cry when a pixel pet dies?",
+        "spicy": false
+      },
+      {
+        "text": "Who would survive longest in a battle royale by hiding in a bush all game?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to sell all their rare items by accident?",
+        "spicy": false
+      },
+      {
+        "text": "Who would steal the last life in a co-op game and then apologise?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to still have a save file from a console they no longer own?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to play a farming game for a hundred hours without regret?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to buy a sale game and never launch it?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to speed run a game just to prove a point?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to blame lag for every defeat?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to win at Mario Kart by blue-shell luck alone?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to take a game night way too seriously and keep score?",
+        "spicy": false
+      },
+      {
+        "text": "Who has the worst taste in video game soundtracks?",
+        "spicy": false
+      },
+      {
+        "text": "Who would talk to NPCs like they're real people?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to make a gaming chair their whole personality?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to hide the controller to avoid losing?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to start a Minecraft house and still be building it five years later?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to cheat at solitaire?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to get a gaming injury from too much button mashing?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to ask \"how do I jump?\" in a game they've played before?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to be the healer who never heals?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be better at the game than they let on?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to run a gaming YouTube channel with three subscribers?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to leave a game in the middle of a match for a snack?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to pick a fight with a game shopkeeper?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to get a retro console for Christmas and cry?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to stay up all night for a new game launch?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to push the pause button mid-fight to \"think\"?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to play with the volume at full blast and not notice?",
+        "spicy": false
+      },
+      {
+        "text": "Who would create the worst possible team in a sports game?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to play an entire game on easy and brag about it?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to make a spreadsheet to optimise a fantasy game build?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to rage at a puzzle and then solve it by accident?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to bring their own controller to a party just in case?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to cry over losing a speedrun by a tenth of a second?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to wear a headset around the house for no reason?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to play the whole game and skip every cutscene?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be a secret superstar of a game nobody else plays?",
+        "spicy": false
+      }
+    ]
+  }
+}

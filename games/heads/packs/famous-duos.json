@@ -1,0 +1,28 @@
+{
+  "id": "famous-duos",
+  "title": "Famous Duos",
+  "emoji": "👯",
+  "blurb": "Names that only work in pairs: if you get one half, say the whole double act.",
+  "tags": ["duos", "pop culture"],
+  "order": 120,
+  "content": {
+    "categories": {
+      "comedy-duos": {
+        "label": "Comedy duos",
+        "items": ["Laurel and Hardy", "Abbott and Costello", "Morecambe and Wise", "Ant and Dec", "French and Saunders", "Key and Peele", "Cheech and Chong", "Penn and Teller", "Bill and Ted", "Wayne and Garth"]
+      },
+      "fictional-pairs": {
+        "label": "Fictional pairs",
+        "items": ["Batman and Robin", "Sherlock and Watson", "Tom and Jerry", "Mario and Luigi", "Shaggy and Scooby", "Timon and Pumbaa", "SpongeBob and Patrick", "Bert and Ernie", "Pinky and the Brain", "Asterix and Obelix", "Thelma and Louise", "Romeo and Juliet", "Lilo and Stitch", "Wallace and Gromit", "Rick and Morty", "Harry and Sally", "Starsky and Hutch", "Woody and Buzz"]
+      },
+      "music-duos": {
+        "label": "Music duos",
+        "items": ["Simon and Garfunkel", "Hall and Oates", "Daft Punk", "Sonny and Cher", "Outkast", "Salt-N-Pepa", "Tenacious D", "Flight of the Conchords", "Wham!", "The Carpenters", "Pet Shop Boys", "Eurythmics", "The Chemical Brothers", "Roxette"]
+      },
+      "real-life-pairs": {
+        "label": "Real-life pairs",
+        "items": ["Torvill and Dean", "Ben and Jerry", "The Wright Brothers", "Venus and Serena", "Lewis and Clark", "Lennon and McCartney", "Rodgers and Hammerstein", "Hewlett and Packard", "Bonnie and Clyde", "Mary-Kate and Ashley"]
+      }
+    }
+  }
+}

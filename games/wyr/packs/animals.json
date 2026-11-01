@@ -1,0 +1,195 @@
+{
+  "id": "animals",
+  "title": "Animal Magic",
+  "emoji": "🐶",
+  "blurb": "Pets, wildlife and furry, feathery dilemmas.",
+  "tags": [
+    "animals",
+    "pets"
+  ],
+  "order": 130,
+  "content": {
+    "pairs": [
+      {
+        "a": "Have a pet sloth",
+        "b": "Have a pet meerkat"
+      },
+      {
+        "a": "Own a dog that digs up the garden",
+        "b": "Own a cat that shreds the sofa"
+      },
+      {
+        "a": "Be followed everywhere by a loyal goose",
+        "b": "Be followed everywhere by a loyal pug"
+      },
+      {
+        "a": "Walk twenty dogs at once",
+        "b": "Look after twenty cats at once"
+      },
+      {
+        "a": "Keep a giraffe in your backyard",
+        "b": "Keep a hippo in your pool"
+      },
+      {
+        "a": "Wake up to a parrot reciting your secrets",
+        "b": "Wake up to a rooster crowing every five minutes"
+      },
+      {
+        "a": "Share your home with a friendly snake",
+        "b": "Share your home with a friendly tarantula"
+      },
+      {
+        "a": "Swim with dolphins",
+        "b": "Swim with sea turtles"
+      },
+      {
+        "a": "Commute on an elephant",
+        "b": "Commute on a horse"
+      },
+      {
+        "a": "Own a cat that thinks it's a dog",
+        "b": "Own a dog that thinks it's a cat"
+      },
+      {
+        "a": "Have a dog that howls whenever you sing",
+        "b": "Have a cat that sits on your keyboard whenever you work"
+      },
+      {
+        "a": "Befriend a penguin",
+        "b": "Befriend a koala"
+      },
+      {
+        "a": "Be a bird for a day",
+        "b": "Be a dolphin for a day"
+      },
+      {
+        "a": "Be chased by an angry goose",
+        "b": "Be chased by an angry swan"
+      },
+      {
+        "a": "Keep a cow in your living room",
+        "b": "Keep a pig in your living room"
+      },
+      {
+        "a": "Cuddle a baby panda",
+        "b": "Cuddle a baby otter"
+      },
+      {
+        "a": "Have an octopus as your best friend",
+        "b": "Have a crow as your best friend"
+      },
+      {
+        "a": "Have a cat that brings you a dead mouse daily",
+        "b": "Have a dog that brings you a muddy stick daily"
+      },
+      {
+        "a": "Own a parrot that swears at guests",
+        "b": "Own a cat that ignores guests completely"
+      },
+      {
+        "a": "Live on a sheep farm",
+        "b": "Live next to a zoo"
+      },
+      {
+        "a": "Share your bed with a Great Dane",
+        "b": "Share your bed with three cats"
+      },
+      {
+        "a": "Raise a baby kangaroo in a pouch",
+        "b": "Raise a baby sloth in a sling"
+      },
+      {
+        "a": "Teach a dog a trick that goes viral",
+        "b": "Teach a parrot a phrase that embarrasses you"
+      },
+      {
+        "a": "Be able to bark like a dog on command",
+        "b": "Be able to purr like a cat on command"
+      },
+      {
+        "a": "Have an elephant the size of a cat",
+        "b": "Have a cat the size of an elephant"
+      },
+      {
+        "a": "Race a horse on foot",
+        "b": "Race a cheetah on a bike"
+      },
+      {
+        "a": "Be stuck in a lift with a skunk",
+        "b": "Be stuck in a lift with a very excited puppy"
+      },
+      {
+        "a": "Run a zoo for a week",
+        "b": "Run a vet clinic for a week"
+      },
+      {
+        "a": "Have a hamster that escapes every night",
+        "b": "Have a goldfish that never learns your face"
+      },
+      {
+        "a": "Wake up with a cat sitting on your face",
+        "b": "Wake up with a wet dog nose in your ear"
+      },
+      {
+        "a": "Have a duck as a security guard",
+        "b": "Have a chicken as an alarm clock"
+      },
+      {
+        "a": "Own a pet dragon the size of a lizard",
+        "b": "Own a pet lizard the size of a dragon"
+      },
+      {
+        "a": "Wrestle a bear for charity",
+        "b": "Race a gorilla for charity"
+      },
+      {
+        "a": "See a whale up close from a tiny boat",
+        "b": "See a lion up close from a tiny jeep"
+      },
+      {
+        "a": "Be able to talk to horses",
+        "b": "Be able to talk to dogs"
+      },
+      {
+        "a": "Have a dog that is perfectly obedient but dull",
+        "b": "Have a dog that is wildly disobedient but hilarious"
+      },
+      {
+        "a": "Hold a snake",
+        "b": "Hold a bat"
+      },
+      {
+        "a": "Be best friends with a seagull",
+        "b": "Be best friends with a magpie"
+      },
+      {
+        "a": "Train a pigeon to deliver your post",
+        "b": "Train a fox to guard your house"
+      },
+      {
+        "a": "Own a goat that eats everything",
+        "b": "Own a llama that spits at everyone"
+      },
+      {
+        "a": "Share a room with a snoring bulldog",
+        "b": "Share a room with a squeaking guinea pig"
+      },
+      {
+        "a": "Never be greeted at the door by a pet again",
+        "b": "Never be allowed a pet on your bed again"
+      },
+      {
+        "a": "Look after a hedgehog that squeaks all night",
+        "b": "Look after a rabbit that chews every cable"
+      },
+      {
+        "a": "Live with a cat that hates you but needs you",
+        "b": "Live with a dog that loves you but needs everything"
+      },
+      {
+        "a": "Have a pet crab that walks sideways around the house",
+        "b": "Have a pet snail that leaves a trail on every wall"
+      }
+    ]
+  }
+}

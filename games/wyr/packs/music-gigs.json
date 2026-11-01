@@ -1,0 +1,202 @@
+{
+  "id": "music-gigs",
+  "title": "Music and Gigs",
+  "emoji": "🎸",
+  "blurb": "Festivals, earworms, bands and karaoke nightmares.",
+  "tags": [
+    "music"
+  ],
+  "order": 120,
+  "content": {
+    "pairs": [
+      {
+        "a": "See your favourite band reunite in a stadium",
+        "b": "See them play a tiny gig in a pub for twenty people"
+      },
+      {
+        "a": "Be the lead singer who forgets the lyrics",
+        "b": "Be the drummer nobody can hear"
+      },
+      {
+        "a": "Only listen to one album for a year",
+        "b": "Listen to a random shuffle of songs you hate for a month"
+      },
+      {
+        "a": "Learn the guitar perfectly overnight",
+        "b": "Learn the piano perfectly overnight"
+      },
+      {
+        "a": "Get stuck at the back of a huge festival crowd",
+        "b": "Get squashed against the barrier at a small gig"
+      },
+      {
+        "a": "Have a catchy jingle stuck in your head all week",
+        "b": "Have the same four bars of a song in your head forever"
+      },
+      {
+        "a": "Play air guitar in front of a packed arena",
+        "b": "Do karaoke solo in front of strangers"
+      },
+      {
+        "a": "Sing every sentence like a musical for a day",
+        "b": "Rap every sentence for a day"
+      },
+      {
+        "a": "Headline a festival but play only covers",
+        "b": "Support a legend and play only originals"
+      },
+      {
+        "a": "Go to a gig where the sound cuts out halfway through",
+        "b": "Go to a gig where the singer is hopelessly out of tune"
+      },
+      {
+        "a": "Lose all your playlists",
+        "b": "Lose your headphones every week"
+      },
+      {
+        "a": "Listen to music only through a tinny phone speaker",
+        "b": "Listen to music only through a thumping car stereo"
+      },
+      {
+        "a": "Meet your teenage idol and have nothing to say",
+        "b": "Meet them and talk their ear off"
+      },
+      {
+        "a": "Join a band with your best mates and be terrible",
+        "b": "Join a band of strangers and be brilliant"
+      },
+      {
+        "a": "Know the lyrics to every song ever",
+        "b": "Know the chords to every song ever"
+      },
+      {
+        "a": "Have your own theme song that plays in every shop you enter",
+        "b": "Have a different walk-on song for every meeting"
+      },
+      {
+        "a": "Sit through a twenty-minute drum solo",
+        "b": "Sit through a twenty-minute guitar solo"
+      },
+      {
+        "a": "Only ever dance in a conga line",
+        "b": "Only ever dance in a mosh pit"
+      },
+      {
+        "a": "Be forced to buy every album on vinyl",
+        "b": "Be forced to stream everything in tiny, tinny quality"
+      },
+      {
+        "a": "Play the triangle in the orchestra for life",
+        "b": "Play the bagpipes in the orchestra for life"
+      },
+      {
+        "a": "Get a bad earworm from a nursery rhyme",
+        "b": "Get a bad earworm from an ad jingle"
+      },
+      {
+        "a": "Have every song you hear play at double speed",
+        "b": "Have every song you hear play at half speed"
+      },
+      {
+        "a": "Have a great voice but severe stage fright",
+        "b": "Have a terrible voice but total confidence"
+      },
+      {
+        "a": "Go to a silent disco with terrible headphones",
+        "b": "Go to a quiet orchestra with noisy neighbours"
+      },
+      {
+        "a": "Never be able to listen to pop again",
+        "b": "Never be able to listen to rock again"
+      },
+      {
+        "a": "Go on tour with a band in a cramped van",
+        "b": "Go on tour with an orchestra on a luxury coach"
+      },
+      {
+        "a": "Write one song that is a hit forever",
+        "b": "Write ten songs that are respected but never famous"
+      },
+      {
+        "a": "Be a one-hit wonder",
+        "b": "Be a session musician on a hundred albums"
+      },
+      {
+        "a": "Be in a boy band or girl band in matching outfits",
+        "b": "Be a solo artist in a different outfit each night"
+      },
+      {
+        "a": "Have an accordion player follow you to every romantic moment",
+        "b": "Have a trumpet fanfare announce each time you enter a room"
+      },
+      {
+        "a": "Have to sing \"Happy Birthday\" at every party",
+        "b": "Have to give the toast at every wedding"
+      },
+      {
+        "a": "Live in a world where all music is acoustic",
+        "b": "Live in a world where all music is electronic"
+      },
+      {
+        "a": "Have free tickets to every gig in your city",
+        "b": "Have a front-row seat once a year at any gig on Earth"
+      },
+      {
+        "a": "Go to a gig and the opening act plays for four hours",
+        "b": "Go to a gig and the headliner plays for ten minutes"
+      },
+      {
+        "a": "Hear your favourite song in every shop for a year",
+        "b": "Never hear it again"
+      },
+      {
+        "a": "Play a wedding gig where the bride requests only one song, all night",
+        "b": "Play a wedding gig where the groom keeps taking over the mic"
+      },
+      {
+        "a": "Have your mum film your gig in portrait mode",
+        "b": "Have your dad request \"Wonderwall\" from the front row"
+      },
+      {
+        "a": "Be able to hum any song perfectly but never know the title",
+        "b": "Know every song title but never be able to hum a tune"
+      },
+      {
+        "a": "Sing the national anthem solo at a big match",
+        "b": "Play the national anthem on a kazoo at a big match"
+      },
+      {
+        "a": "Make the playlist for every road trip",
+        "b": "Never be allowed to touch the aux cord again"
+      },
+      {
+        "a": "Be the one who always picks the song at karaoke and then sings off-key",
+        "b": "Be the one who always forgets the words and just does the dance"
+      },
+      {
+        "a": "Play the same one song at every gig for the rest of your career",
+        "b": "Never play the same song twice at any gig"
+      },
+      {
+        "a": "Go to a gig with sound so loud your ears ring for a week",
+        "b": "Go to a gig so quiet you can hear the person sipping next to you"
+      },
+      {
+        "a": "Own every album by one band on cassette",
+        "b": "Own a single album by every band on vinyl"
+      },
+      {
+        "a": "Be a roadie for your favourite band, carrying amps all night",
+        "b": "Be the merch seller who never hears the gig"
+      },
+      {
+        "a": "Go to a festival where it pours all weekend",
+        "b": "Go to a festival in 40 degree heat with no shade"
+      },
+      {
+        "a": "Have a laugh track play after everything you say",
+        "b": "Have sad violin music play whenever you're disappointed"
+      }
+    ]
+  }
+}

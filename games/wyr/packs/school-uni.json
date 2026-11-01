@@ -1,0 +1,195 @@
+{
+  "id": "school-uni",
+  "title": "School and Uni",
+  "emoji": "🎓",
+  "blurb": "Exams, lectures, detention and group projects.",
+  "tags": [
+    "school",
+    "uni"
+  ],
+  "order": 100,
+  "content": {
+    "pairs": [
+      {
+        "a": "Sit a maths exam you didn't study for",
+        "b": "Give a speech to the whole school you didn't prepare"
+      },
+      {
+        "a": "Go back to high school for a year with all you know now",
+        "b": "Go back to primary school for a year with your current body"
+      },
+      {
+        "a": "Have a teacher who reads every essay out loud",
+        "b": "Have a teacher who never gives marks back"
+      },
+      {
+        "a": "Live in a noisy uni dorm",
+        "b": "Live at home and commute two hours each way"
+      },
+      {
+        "a": "Pull an all-nighter before every exam",
+        "b": "Study for weeks and still blank on the day"
+      },
+      {
+        "a": "Be the teacher's pet",
+        "b": "Be the class clown"
+      },
+      {
+        "a": "Do a group project with your best mates who never work",
+        "b": "Do a group project with strangers who do everything"
+      },
+      {
+        "a": "Have a lecture at 8am every day",
+        "b": "Have a lecture at 6pm every day"
+      },
+      {
+        "a": "Wear your school uniform to work forever",
+        "b": "Wear pyjamas to every lecture forever"
+      },
+      {
+        "a": "Get free textbooks with microscopic print",
+        "b": "Pay full price for textbooks that are brilliant"
+      },
+      {
+        "a": "Eat canteen food for every meal",
+        "b": "Eat a cold packed sandwich for every meal"
+      },
+      {
+        "a": "Fail a subject by one mark",
+        "b": "Pass every subject by exactly one mark"
+      },
+      {
+        "a": "Get detention for something you didn't do",
+        "b": "Get away with something while your best mate gets detention"
+      },
+      {
+        "a": "Have no homework but a ten-hour school day",
+        "b": "Have homework every night but finish at noon"
+      },
+      {
+        "a": "Have a teacher who forgets everyone's name all year",
+        "b": "Have a teacher who remembers every mistake you ever made"
+      },
+      {
+        "a": "Do PE in the rain every week",
+        "b": "Sit through assembly in 40 degree heat every week"
+      },
+      {
+        "a": "Lose your assignment an hour before it's due",
+        "b": "Have your laptop crash in the middle of your final exam"
+      },
+      {
+        "a": "Share a desk with someone who chews pen lids",
+        "b": "Share a locker with someone who never washes their gym gear"
+      },
+      {
+        "a": "Do your whole degree online",
+        "b": "Do your degree in a lecture hall with 500 sleepy students"
+      },
+      {
+        "a": "Be the first to finish an exam and walk out",
+        "b": "Be the last one left in the exam hall"
+      },
+      {
+        "a": "Pick your own timetable with no breaks",
+        "b": "Get a set timetable with long breaks"
+      },
+      {
+        "a": "Go on an excursion to a museum every week",
+        "b": "Go to a swimming carnival every week"
+      },
+      {
+        "a": "Be voted most likely to succeed",
+        "b": "Be voted funniest in your year"
+      },
+      {
+        "a": "Take an exam in a room with a loud ticking clock",
+        "b": "Take an exam next to someone who sniffs constantly"
+      },
+      {
+        "a": "Study abroad for a year where you don't speak the language",
+        "b": "Stay home and finish your degree a year early"
+      },
+      {
+        "a": "Learn every school subject by song",
+        "b": "Learn every school subject by interpretive dance"
+      },
+      {
+        "a": "Sit through a week of icebreaker games at orientation",
+        "b": "Skip orientation and know nobody"
+      },
+      {
+        "a": "Have a lecturer who drones for three hours",
+        "b": "Have a lecturer who tells wild stories and never covers the material"
+      },
+      {
+        "a": "Skip one subject for your whole schooling",
+        "b": "Redo one year of school with a fresh start"
+      },
+      {
+        "a": "Have your school report read out at dinner to the whole family",
+        "b": "Have your report stuck on the fridge for a year"
+      },
+      {
+        "a": "Always sit in the front row",
+        "b": "Always sit in the back row next to the talkers"
+      },
+      {
+        "a": "Walk five kilometres to school every day",
+        "b": "Take a two-hour bus ride to school every day"
+      },
+      {
+        "a": "Study in total silence",
+        "b": "Study in a loud, busy cafe"
+      },
+      {
+        "a": "Have a pop quiz every day",
+        "b": "Have one giant exam at the end of the year"
+      },
+      {
+        "a": "Remember every fact but have zero creativity",
+        "b": "Be wildly creative but forget every fact"
+      },
+      {
+        "a": "Join the debating team",
+        "b": "Join the school band"
+      },
+      {
+        "a": "Be the kid who forgot their lunch",
+        "b": "Be the kid whose lunch always gets squashed"
+      },
+      {
+        "a": "Play the recorder solo at assembly",
+        "b": "Do a solo dance at assembly"
+      },
+      {
+        "a": "Share a house with five students and one bathroom",
+        "b": "Live alone in a tiny studio on instant noodles"
+      },
+      {
+        "a": "Accidentally call your teacher \"Mum\" every day",
+        "b": "Accidentally call your boss \"Miss\" every day"
+      },
+      {
+        "a": "Get a cheap degree in something fun",
+        "b": "Get an expensive degree in something useful"
+      },
+      {
+        "a": "Read a 900-page novel in a weekend",
+        "b": "Write a 5,000 word essay in a weekend"
+      },
+      {
+        "a": "Get a late pass for life",
+        "b": "Get a free canteen lunch for life"
+      },
+      {
+        "a": "Be class captain",
+        "b": "Be the mascot at the school sports day"
+      },
+      {
+        "a": "Have a free period right after lunch every day",
+        "b": "Have a free period first thing every day"
+      }
+    ]
+  }
+}

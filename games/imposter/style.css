@@ -1,0 +1,72 @@
+/* Imposter: the flip card, hold-to-peek and the reveal. Game colour from --accent. */
+.imp-stage { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; width: 100%; }
+
+/* ---------- the card ---------- */
+.imp-card { width: min(100%, 330px); aspect-ratio: 3 / 4; border: 0; padding: 0; background: none; perspective: 1200px; }
+.imp-inner { position: relative; display: block; width: 100%; height: 100%; transform-style: preserve-3d; transition: transform 0.65s var(--spring); }
+.imp-card.flipped .imp-inner { transform: rotateY(180deg); }
+.imp-card:active .imp-inner { scale: 0.98; }
+.imp-face {
+  position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px;
+  padding: 24px; border-radius: 30px; backface-visibility: hidden; -webkit-backface-visibility: hidden; overflow: hidden;
+  box-shadow: 0 30px 60px -28px rgba(0, 0, 0, 0.9), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+.imp-front { background: linear-gradient(160deg, var(--accent), color-mix(in oklab, var(--accent) 55%, #1a0610)); color: var(--accent-ink); }
+.imp-front::before { content: ''; position: absolute; inset: 0; background: var(--dots); -webkit-mask: var(--dots); background-color: rgba(0, 0, 0, 0.2); opacity: 0.35; }
+.imp-mark { position: relative; font: 800 170px/0.8 var(--display); font-stretch: 75%; opacity: 0.9; text-shadow: 0 6px 0 rgba(0, 0, 0, 0.18); }
+.imp-front-cta { position: relative; display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 0 22px; border-radius: 999px; background: #0b0812; color: #fff; font: 750 18px var(--display); box-shadow: 0 10px 24px -10px rgba(0, 0, 0, 0.6); }
+.imp-back { transform: rotateY(180deg); background: radial-gradient(90% 60% at 50% 0%, color-mix(in oklab, var(--accent) 34%, transparent), transparent 70%), linear-gradient(165deg, var(--surface-3), var(--surface)); }
+.imp-back.is-imposter { background: linear-gradient(160deg, #3a0712, #12020a); }
+.imp-back.is-imposter::before { content: ''; position: absolute; inset: 0; background: repeating-linear-gradient(-45deg, transparent 0 18px, color-mix(in oklab, var(--accent) 14%, transparent) 18px 36px); }
+.imp-role { position: relative; color: var(--dim); font: 700 17px var(--display); letter-spacing: 0.08em; text-transform: uppercase; }
+.imp-word { position: relative; font: 800 clamp(52px, 17vw, 72px)/0.95 var(--display); font-stretch: 78%; text-align: center; overflow-wrap: anywhere; letter-spacing: -0.03em; color: var(--text); }
+.is-imposter .imp-word { color: var(--accent); text-transform: uppercase; font-size: clamp(56px, 18vw, 76px); }
+.imp-cat { position: relative; padding: 8px 18px; border-radius: 999px; background: color-mix(in oklab, var(--accent) 22%, var(--surface)); color: var(--text); font-size: 17px; font-weight: 700; }
+.imp-card.auto-flip .imp-inner { animation: imp-autoflip 0.75s var(--spring) 0.15s both; }
+@keyframes imp-autoflip { from { transform: rotateY(0deg); } to { transform: rotateY(180deg); } }
+
+/* ---------- hold to peek ---------- */
+.imp-peek {
+  position: relative; min-height: 56px; min-width: 240px; padding: 0 22px; border-radius: 18px; border: 0;
+  background: var(--surface-2); color: var(--dim); font: 700 16px var(--display); touch-action: none; -webkit-user-select: none; user-select: none;
+  box-shadow: var(--press);
+}
+.imp-peek .peek-hide, .imp-peek .peek-show { display: inline-flex; align-items: center; gap: 8px; transition: opacity 0.15s; }
+.imp-peek .peek-show { position: absolute; inset: 0; justify-content: center; opacity: 0; color: var(--accent-ink); }
+.imp-peek.show { background: var(--accent); }
+.imp-peek.show .peek-hide { opacity: 0; }
+.imp-peek.show .peek-show { opacity: 1; }
+
+/* ---------- the reveal ---------- */
+.imp-result { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 14px; text-align: center; }
+.imp-headline { font: 800 clamp(56px, 18vw, 84px)/0.9 var(--display); font-stretch: 76%; letter-spacing: -0.04em; text-transform: uppercase; animation: imp-slam 0.6s var(--spring) both; }
+.imp-result.win .imp-headline { color: var(--good); }
+.imp-result.lose .imp-headline { color: var(--accent); }
+@keyframes imp-slam { from { opacity: 0; transform: scale(1.6) rotate(-4deg); } }
+.imp-sub { color: var(--dim); font-size: 17px; font-weight: 600; max-width: 32ch; animation: rise 0.4s var(--ease) 0.25s both; }
+.imp-reveal { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; width: 100%; }
+.imp-reveal > div { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; padding: 16px 12px; border-radius: 22px; background: var(--surface); animation: imp-flipin 0.6s var(--spring) both; }
+.imp-reveal > div:nth-child(1) { animation-delay: 0.35s; }
+.imp-reveal > div:nth-child(2) { animation-delay: 0.55s; background: color-mix(in oklab, var(--accent) 22%, var(--surface)); }
+@keyframes imp-flipin { from { opacity: 0; transform: perspective(600px) rotateY(80deg); } }
+.imp-reveal > div > span { color: var(--dim); font: 700 12px var(--display); letter-spacing: 0.08em; text-transform: uppercase; }
+.imp-reveal strong { font: 800 26px/1.02 var(--display); font-stretch: 82%; overflow-wrap: anywhere; }
+.imp-who { display: flex; flex-direction: column; gap: 6px; align-items: center; }
+.imp-who > span { display: inline-flex; flex-direction: column; align-items: center; gap: 4px; color: var(--text); font-size: 20px; }
+.imp-votes { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; }
+.imp-votes li { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px 4px 4px; border-radius: 999px; background: var(--surface); color: var(--dim); font-size: 14px; animation: rise 0.35s var(--ease) 0.7s both; }
+.imp-votes li .i { transform: rotate(180deg); color: var(--faint); }
+.imp-votes .hit { color: var(--good); font-weight: 700; }
+.imp-votes .miss { color: var(--accent); font-weight: 700; }
+
+/* ---------- the TV ---------- */
+.tv-surface .imp-headline { font-size: 9vw; }
+.tv-surface .imp-sub { font-size: 1.9vw; max-width: 50vw; }
+.tv-surface .imp-reveal { max-width: 56vw; gap: 1vw; }
+.tv-surface .imp-reveal > div { padding: 1.6vw; border-radius: 1.6vw; gap: 0.8vw; }
+.tv-surface .imp-reveal > div > span { font-size: 1vw; }
+.tv-surface .imp-reveal strong { font-size: 3.4vw; }
+.tv-surface .imp-who > span { font-size: 2.2vw; }
+.tv-surface .imp-votes li { font-size: 1.2vw; padding: 0.3vw 1vw 0.3vw 0.3vw; }
+.tv-surface .imp-result .waiting-line { font-size: 1.3vw; }
+.tv-surface .imp-who .av { --s: 4.6vw !important; }

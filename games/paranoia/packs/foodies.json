@@ -1,0 +1,194 @@
+{
+  "id": "foodies",
+  "title": "Foodies",
+  "emoji": "🍕",
+  "blurb": "Hot sauce heroes, fussy eaters, brunch snobs and who steals your chips.",
+  "tags": [
+    "food"
+  ],
+  "order": 80,
+  "content": {
+    "questions": [
+      {
+        "text": "Who would be most likely to order something just because they couldn't pronounce it?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to steal a chip off your plate and lie about it?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to argue about the right way to make a carbonara?",
+        "spicy": false
+      },
+      {
+        "text": "Who would put pineapple on everything?",
+        "spicy": false
+      },
+      {
+        "text": "Who has the worst taste in pizza toppings?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to own a drawer full of sauces they never open?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to enter a hot wing challenge and regret every bite?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to cry while chopping onions in front of everyone?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to burn toast in a toaster with a \"perfect\" setting?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to bring a cheeseboard to a barbecue unasked?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to order dessert first?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to take a picture of their food, then eat it cold?",
+        "spicy": false
+      },
+      {
+        "text": "Who would eat a whole block of cheese in one go?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to say they're \"not that hungry\" and finish everyone's leftovers?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to start a bakery after one good loaf of bread?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to try a sushi train and stack the plates higher than their head?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to wait in a queue for an hour for a doughnut?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to ask the waiter \"what's good here?\" and order something else?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to get food on their shirt before the entrée arrives?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to tell you the exact month that mangoes are best?",
+        "spicy": false
+      },
+      {
+        "text": "Who would complain that the portion was too small and then not finish it?",
+        "spicy": false
+      },
+      {
+        "text": "Who would last longest on a diet of only one food forever?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to put hot sauce on a dessert?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to try the weirdest ice cream flavour on the menu?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to take a cooking class and then never cook again?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to go to a fancy restaurant and ask for tomato sauce?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to fall asleep after a big lunch and wake up hungry again?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to ruin a casserole with \"a few extra ingredients\"?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to host a dinner party where nothing is ready on time?",
+        "spicy": false
+      },
+      {
+        "text": "Who would survive a cooking show on charm alone?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to eat the garnish and then the plate?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to be banned from a buffet?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to bring a mystery dish to a potluck with no label?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to get a coffee order that takes ten minutes to say?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to eat breakfast food at dinner every night?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to put Vegemite on something that isn't toast and defend it?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to eat a mystery meat pie at a footy ground and ask for a second?",
+        "spicy": false
+      },
+      {
+        "text": "Who would sneak their own snacks into a fancy restaurant?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to start a food blog and post one review?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to survive a day foraging in the bush?",
+        "spicy": false
+      },
+      {
+        "text": "Who has the best secret recipe that they refuse to share?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to take leftovers home and forget them for a week?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to put sprinkles on something savoury?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to plan an entire holiday around where to eat?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to win a competitive eating contest by sheer enthusiasm?",
+        "spicy": false
+      }
+    ]
+  }
+}

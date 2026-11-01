@@ -1,0 +1,479 @@
+{
+  "id": "squishy-science",
+  "title": "Squishy Science",
+  "emoji": "🧠",
+  "blurb": "Brains, bruises, hiccups and boiling water: the body and everyday science, gross bits included.",
+  "tags": [
+    "body",
+    "science"
+  ],
+  "content": {
+    "categories": {
+      "sq-body": {
+        "label": "Your Amazing Body",
+        "multiple": [
+          {
+            "id": "sq-bod-m-1",
+            "difficulty": "easy",
+            "text": "What is the longest bone in the human body?",
+            "options": [
+              "Tibia",
+              "Humerus",
+              "Femur",
+              "Fibula"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "sq-bod-m-2",
+            "difficulty": "easy",
+            "text": "Which part of the body is the patella?",
+            "options": [
+              "Kneecap",
+              "Shoulder blade",
+              "Collarbone",
+              "Ankle"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "sq-bod-m-3",
+            "difficulty": "easy",
+            "text": "Which pair of organs filters your blood to make urine?",
+            "options": [
+              "Lungs",
+              "Tonsils",
+              "Ovaries",
+              "Kidneys"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "sq-bod-m-4",
+            "difficulty": "medium",
+            "text": "Roughly how much blood does an average adult have?",
+            "options": [
+              "About 1 litre",
+              "About 5 litres",
+              "About 10 litres",
+              "About 20 litres"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "sq-bod-m-5",
+            "difficulty": "medium",
+            "text": "Which part of the brain is mainly in charge of balance and coordination?",
+            "options": [
+              "Cerebellum",
+              "Hippocampus",
+              "Brainstem",
+              "Frontal lobe"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "sq-bod-m-6",
+            "difficulty": "medium",
+            "text": "What is the proper name for the windpipe?",
+            "options": [
+              "Larynx",
+              "Oesophagus",
+              "Pharynx",
+              "Trachea"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "sq-bod-m-7",
+            "difficulty": "medium",
+            "text": "How many pairs of ribs do most people have?",
+            "options": [
+              "8 pairs",
+              "12 pairs",
+              "10 pairs",
+              "14 pairs"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "sq-bod-m-8",
+            "difficulty": "medium",
+            "text": "What is the coloured ring of muscle in your eye that controls the size of the pupil?",
+            "options": [
+              "Cornea",
+              "Retina",
+              "Iris",
+              "Sclera"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "sq-bod-m-9",
+            "difficulty": "hard",
+            "text": "The cochlea is part of which organ?",
+            "options": [
+              "The eye",
+              "The ear",
+              "The nose",
+              "The lung"
+            ],
+            "answer": 1
+          }
+        ],
+        "boolean": [
+          {
+            "id": "sq-bod-b-1",
+            "difficulty": "easy",
+            "text": "Humans only use ten percent of their brains.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "sq-bod-b-2",
+            "difficulty": "medium",
+            "text": "Brain tissue itself has no pain receptors and cannot feel pain.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "sq-bod-b-3",
+            "difficulty": "medium",
+            "text": "Identical twins have identical fingerprints.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "sq-bod-b-4",
+            "difficulty": "hard",
+            "text": "Your left lung is smaller than your right lung.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "sq-gross": {
+        "label": "Gross but True",
+        "multiple": [
+          {
+            "id": "sq-grs-m-1",
+            "difficulty": "easy",
+            "text": "Which protein makes up your hair and fingernails?",
+            "options": [
+              "Collagen",
+              "Keratin",
+              "Melanin",
+              "Haemoglobin"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "sq-grs-m-2",
+            "difficulty": "easy",
+            "text": "A bout of hiccups is caused by a sudden spasm of which muscle?",
+            "options": [
+              "The diaphragm",
+              "The bicep",
+              "The tongue",
+              "The heart"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "sq-grs-m-3",
+            "difficulty": "medium",
+            "text": "Which acid in your stomach helps break down food?",
+            "options": [
+              "Sulphuric acid",
+              "Citric acid",
+              "Acetic acid",
+              "Hydrochloric acid"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "sq-grs-m-4",
+            "difficulty": "medium",
+            "text": "Roughly how much saliva does your mouth make in a day?",
+            "options": [
+              "About 10 millilitres",
+              "About 1 litre",
+              "About 100 millilitres",
+              "About 10 litres"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "sq-grs-m-5",
+            "difficulty": "medium",
+            "text": "Goosebumps happen when tiny muscles tug on what?",
+            "options": [
+              "Sweat glands",
+              "Taste buds",
+              "Hair follicles",
+              "Fingernails"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "sq-grs-m-6",
+            "difficulty": "medium",
+            "text": "Which organ makes bile to help digest fats?",
+            "options": [
+              "Stomach",
+              "Liver",
+              "Pancreas",
+              "Spleen"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "sq-grs-m-7",
+            "difficulty": "hard",
+            "text": "As a bruise heals, it turns green and yellow as your body breaks down what?",
+            "options": [
+              "Melanin",
+              "Keratin",
+              "Haemoglobin from blood",
+              "Collagen"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "sq-grs-m-8",
+            "difficulty": "hard",
+            "text": "Which clear part of the eye has no blood vessels and takes much of its oxygen straight from the air?",
+            "options": [
+              "Cornea",
+              "Retina",
+              "Iris",
+              "Optic nerve"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "sq-grs-m-9",
+            "difficulty": "hard",
+            "text": "What are the tiny holes in the corners of your eyelids that drain tears called?",
+            "options": [
+              "Follicles",
+              "Alveoli",
+              "Villi",
+              "Puncta"
+            ],
+            "answer": 3
+          }
+        ],
+        "boolean": [
+          {
+            "id": "sq-grs-b-1",
+            "difficulty": "hard",
+            "text": "Your body contains about ten times more bacterial cells than human cells.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "sq-grs-b-2",
+            "difficulty": "easy",
+            "text": "Cracking your knuckles gives you arthritis.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "sq-grs-b-3",
+            "difficulty": "medium",
+            "text": "Saliva starts digesting starch before the food even leaves your mouth.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "sq-grs-b-4",
+            "difficulty": "medium",
+            "text": "Fingernails grow faster than toenails.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      "sq-home": {
+        "label": "Everyday Science",
+        "multiple": [
+          {
+            "id": "sq-hom-m-1",
+            "difficulty": "easy",
+            "text": "What is the chemical formula for water?",
+            "options": [
+              "CO2",
+              "H2O",
+              "H2O2",
+              "O2"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "sq-hom-m-2",
+            "difficulty": "easy",
+            "text": "At sea level, at what temperature in Celsius does water boil?",
+            "options": [
+              "90 degrees",
+              "120 degrees",
+              "100 degrees",
+              "212 degrees"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "sq-hom-m-3",
+            "difficulty": "easy",
+            "text": "Which of these is the best conductor of electricity?",
+            "options": [
+              "Rubber",
+              "Copper",
+              "Wood",
+              "Glass"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "sq-hom-m-4",
+            "difficulty": "medium",
+            "text": "What is the chemical name for baking soda?",
+            "options": [
+              "Sodium chloride",
+              "Calcium carbonate",
+              "Sodium bicarbonate",
+              "Sodium hydroxide"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "sq-hom-m-5",
+            "difficulty": "medium",
+            "text": "Which colour of visible light bends the most when it passes through a prism?",
+            "options": [
+              "Violet",
+              "Red",
+              "Green",
+              "Yellow"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "sq-hom-m-6",
+            "difficulty": "medium",
+            "text": "Why does the daytime sky look blue?",
+            "options": [
+              "It reflects the ocean's colour",
+              "Ozone gas is blue",
+              "The Sun gives off mostly blue light",
+              "Air scatters blue light the most"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "sq-hom-m-7",
+            "difficulty": "medium",
+            "text": "What does a barometer measure?",
+            "options": [
+              "Wind speed",
+              "Air pressure",
+              "Humidity",
+              "Rainfall"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "sq-hom-m-8",
+            "difficulty": "hard",
+            "text": "Microwave ovens mainly heat food by making which molecules vibrate?",
+            "options": [
+              "Water",
+              "Salt",
+              "Starch",
+              "Protein"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "sq-hom-m-9",
+            "difficulty": "hard",
+            "text": "Which state of matter is found in lightning bolts and neon signs?",
+            "options": [
+              "Solid",
+              "Liquid",
+              "Gel",
+              "Plasma"
+            ],
+            "answer": 3
+          }
+        ],
+        "boolean": [
+          {
+            "id": "sq-hom-b-1",
+            "difficulty": "easy",
+            "text": "A kilogram of feathers has the same mass as a kilogram of bricks.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "sq-hom-b-2",
+            "difficulty": "medium",
+            "text": "Sound travels faster through water than through air.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "sq-hom-b-3",
+            "difficulty": "medium",
+            "text": "Thunder reaches you before lightning does, because sound travels faster than light.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "sq-hom-b-4",
+            "difficulty": "medium",
+            "text": "Water boils at a higher temperature on top of a mountain than at sea level.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    }
+  }
+}

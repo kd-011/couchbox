@@ -1,0 +1,66 @@
+{
+  "id": "christmas-and-holidays",
+  "title": "Christmas and Holidays",
+  "emoji": "🎄",
+  "blurb": "Christmas, Easter, Halloween, New Year and the rest of the calendar.",
+  "tags": [
+    "holidays",
+    "family"
+  ],
+  "content": {
+    "easy": [
+      "christmas tree",
+      "present",
+      "candy cane",
+      "stocking",
+      "santa hat",
+      "bauble",
+      "wreath",
+      "easter egg",
+      "fireworks",
+      "party popper",
+      "angel",
+      "sleigh",
+      "snowman",
+      "candle",
+      "pumpkin",
+      "snowflake"
+    ],
+    "medium": [
+      "gingerbread man",
+      "reindeer",
+      "elf",
+      "chimney",
+      "mistletoe",
+      "fairy lights",
+      "advent calendar",
+      "easter bunny",
+      "christmas cracker",
+      "trick or treat",
+      "haunted house",
+      "valentine card",
+      "christmas pudding",
+      "santa on the roof",
+      "easter basket",
+      "ghost costume"
+    ],
+    "hard": [
+      "carol singers",
+      "snow globe",
+      "tinsel",
+      "menorah",
+      "turkey dinner",
+      "pinata",
+      "new year countdown",
+      "gift wrapping",
+      "christmas jumper",
+      "north pole",
+      "nutcracker",
+      "cupid",
+      "secret santa",
+      "new year resolution",
+      "boxing day sale",
+      "dragon dance"
+    ]
+  }
+}

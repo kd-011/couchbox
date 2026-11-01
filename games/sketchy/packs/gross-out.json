@@ -1,0 +1,67 @@
+{
+  "id": "gross-out",
+  "title": "Gross Out",
+  "emoji": "🤢",
+  "blurb": "Slime, stink and things you really do not want to touch.",
+  "tags": [
+    "gross",
+    "silly"
+  ],
+  "order": 90,
+  "content": {
+    "easy": [
+      "banana peel",
+      "worm",
+      "housefly",
+      "slime blob",
+      "dirty sock",
+      "rubbish bin",
+      "toilet paper",
+      "cockroach",
+      "rotten apple",
+      "bad egg",
+      "tooth cavity",
+      "tongue",
+      "snot",
+      "maggot",
+      "mouse trap",
+      "plunger"
+    ],
+    "medium": [
+      "stinky feet",
+      "blocked toilet",
+      "sneezing",
+      "food poisoning",
+      "dog poo",
+      "mouldy sandwich",
+      "garbage truck",
+      "dirty dishes",
+      "wet dog smell",
+      "belly button fluff",
+      "picking nose",
+      "stepping in gum",
+      "fly in soup",
+      "burping",
+      "rat in kitchen",
+      "muddy boots"
+    ],
+    "hard": [
+      "body odour",
+      "bad breath",
+      "hairball",
+      "pimple popping",
+      "travel sickness",
+      "hangover",
+      "brain freeze",
+      "cold sore",
+      "sticky floor",
+      "sour milk",
+      "head lice",
+      "sunburn peeling",
+      "bin juice",
+      "fridge experiment",
+      "sweaty armpits",
+      "toilet humour"
+    ]
+  }
+}

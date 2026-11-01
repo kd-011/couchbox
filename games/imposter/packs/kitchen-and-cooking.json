@@ -1,0 +1,85 @@
+{
+  "id": "kitchen-and-cooking",
+  "title": "Kitchen and Cooking",
+  "emoji": "🍳",
+  "blurb": "Whisks, flambe fails and celebrity chefs. Too many cooks, one fake.",
+  "tags": [
+    "food",
+    "home"
+  ],
+  "order": 70,
+  "content": {
+    "categories": {
+      "tools": {
+        "label": "Tools and appliances",
+        "items": [
+          "Wooden spoon",
+          "Whisk",
+          "Colander",
+          "Rolling pin",
+          "Cheese grater",
+          "Tongs",
+          "Spatula",
+          "Chopping board",
+          "Air fryer",
+          "Slow cooker",
+          "Microwave",
+          "Rice cooker",
+          "Mortar and pestle",
+          "Garlic press"
+        ]
+      },
+      "techniques": {
+        "label": "Cooking moves",
+        "items": [
+          "Sauteing",
+          "Deep frying",
+          "Simmering",
+          "Blanching",
+          "Flambe",
+          "Marinating",
+          "Kneading dough",
+          "Caramelising",
+          "Whipping cream",
+          "Poaching",
+          "Zesting",
+          "Carving"
+        ]
+      },
+      "disasters": {
+        "label": "Kitchen disasters",
+        "items": [
+          "Burnt toast",
+          "Boiled-over pot",
+          "Smoke alarm",
+          "Soggy bottom",
+          "Overcooked steak",
+          "Collapsed souffle",
+          "Raw chicken",
+          "Salty soup",
+          "Spilled flour",
+          "Pile of dishes",
+          "Grease fire",
+          "Curdled sauce"
+        ]
+      },
+      "chefs": {
+        "label": "Cooking shows and chefs",
+        "items": [
+          "MasterChef",
+          "Gordon Ramsay",
+          "Jamie Oliver",
+          "Julia Child",
+          "Bake Off",
+          "Nigella Lawson",
+          "Kitchen Nightmares",
+          "Hell's Kitchen",
+          "Curtis Stone",
+          "Matt Preston",
+          "Poh Ling Yeow",
+          "Margaret Fulton"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "office-party",
+  "title": "Office Party",
+  "emoji": "🎉",
+  "blurb": "Work-safe truths and dares for the Christmas party or Friday drinks.",
+  "tags": [
+    "work"
+  ],
+  "content": {
+    "mild": {
+      "truth": [
+        "What's the most creative excuse you've ever given for being late to work?",
+        "What's the worst job you've ever had?",
+        "What's the longest you've spent pretending to work while doing nothing at all?",
+        "Who was your favourite boss ever, and what made them great?",
+        "What's the strangest thing you've overheard at work?",
+        "What's one meeting you sat through that definitely could have been an email?",
+        "If you could ban one office habit forever, what would it be?",
+        "What's the weirdest thing you've ever been asked to do at work?",
+        "What's the worst Secret Santa gift you've ever received?",
+        "What would your job title be if it described what you actually do all day?",
+        "What's the most embarrassing thing you've said on a work video call?",
+        "What's your go-to snack to survive a long afternoon?",
+        "What did you want to be when you grew up, and how close did you get?",
+        "What's a work buzzword you secretly love using?",
+        "What's the most awkward small talk you've been stuck in at a work event?",
+        "What's the first thing you'd change if you were made CEO tomorrow?",
+        "Which job would you be hopeless at but love to try for a day?",
+        "What's the pettiest thing that has ever annoyed you at work?",
+        "What's the best thing a colleague has ever done for you?",
+        "What's the most dramatic thing that's happened at a work event you attended?",
+        "What's the worst piece of career advice you've ever heard?",
+        "What's your worst reply-all regret?",
+        "What would your colleagues say is your most annoying work habit?",
+        "If you could swap jobs with anyone at the party for a day, who would it be?"
+      ],
+      "dare": [
+        "Give a 30-second end-of-year motivational speech to the room.",
+        "Act out losing a fight with the office photocopier.",
+        "Pitch a ridiculous new product to the group in under a minute.",
+        "Give a short guided tour of this room like a very serious tour guide.",
+        "Present the weather forecast for this room like a TV presenter.",
+        "Answer an imaginary phone call as the receptionist of a very fancy company.",
+        "Do a dramatic slow-motion high five with the person on your left.",
+        "Give everyone in the room a made-up job title based on vibes alone.",
+        "Speak like a corporate press release until your next turn.",
+        "Sell the person on your right an imaginary stapler with maximum enthusiasm.",
+        "Spin around three times and finish in your best power pose.",
+        "Act out getting caught online shopping when the boss walks past.",
+        "Hum your best phone hold music for 20 seconds.",
+        "Write an out-of-office reply for your current mood and read it aloud.",
+        "Announce the next player's turn like a game show host.",
+        "Perform an interpretive dance called \"The Last Day Before Holidays\".",
+        "Give a heartfelt toast to the most underrated object in this room.",
+        "Invent a company slogan for this party and lead the room in chanting it.",
+        "Give a mock performance review of the person on your left, kind and ridiculous.",
+        "Deliver a 20-second TED talk on how to survive a Monday.",
+        "Pretend to be a manager announcing very bad news with a very cheerful face.",
+        "Fake a very serious conference call with a mug as your client.",
+        "Do your best impression of a person running late to a meeting they are chairing.",
+        "Describe the most boring task you do at work as if it were an action movie trailer."
+      ]
+    }
+  },
+  "order": 50
+}

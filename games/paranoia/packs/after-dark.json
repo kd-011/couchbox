@@ -1,0 +1,231 @@
+{
+  "id": "after-dark",
+  "title": "After Dark",
+  "emoji": "🌙",
+  "blurb": "Big nights out, kebab runs, lost phones and a few cheeky ones on Spicy.",
+  "tags": [
+    "party",
+    "spicy"
+  ],
+  "order": 10,
+  "content": {
+    "questions": [
+      {
+        "text": "Who at this table would be the last one still dancing at the end of the night?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to get a kebab on the way home every single time?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to lose their phone on a night out?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to talk their way past a bouncer?",
+        "spicy": false
+      },
+      {
+        "text": "Who would start a conga line?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to leave a party without saying goodbye to anyone?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to fall asleep in the middle of a party?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to make a new best friend in the bathroom queue?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to request the same song from the DJ three times?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to wake up with a random souvenir and no idea why they bought it?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to send the group chat an essay at three in the morning?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to grab the karaoke mic without being asked?",
+        "spicy": false
+      },
+      {
+        "text": "Who would cry at a song in the middle of a club?",
+        "spicy": false
+      },
+      {
+        "text": "Who at this table would be the best person to call when a night goes wrong?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to show up to a themed party in the wrong costume?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to say \"just one drink\" and stay out until sunrise?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to start a dance-off in the middle of a wedding?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to order a round of something terrible for everyone?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to plan a huge night out and then cancel at eight?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to spend the whole party in the kitchen?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to be on the dance floor before the music even starts?",
+        "spicy": false
+      },
+      {
+        "text": "Who would give a speech nobody asked for at midnight?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to sneak out of their own party to go to bed?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to wear sunglasses inside a club?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to eat cold pizza for breakfast the next morning?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to lose one shoe on a night out and not notice until Tuesday?",
+        "spicy": false
+      },
+      {
+        "text": "Who would cry first when the lights come on at closing time?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to befriend a stranger's dog outside the pub and ignore everyone inside?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to order a flaming cocktail and instantly regret it?",
+        "spicy": false
+      },
+      {
+        "text": "Who has the worst taste in late-night food?",
+        "spicy": false
+      },
+      {
+        "text": "Who would start a 2am debate about whether a hot dog is a sandwich?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to lead the whole group into the wrong bar and act like it was the plan?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to give a stranger a full life-advice talk in the smoking area?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to book a rideshare to the wrong suburb?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to hide in the toilets to escape a bad conversation?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to leave a pub wearing someone else's jacket?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to take ten minutes of selfies in the club bathroom?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to fall asleep on the last train and wake up at the end of the line?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to drag the quiet one up to sing karaoke?",
+        "spicy": false
+      },
+      {
+        "text": "Who would still be keen for one more bar at 3am when everyone else has gone home?",
+        "spicy": false
+      },
+      {
+        "text": "Who would say \"I'm fine\" and then get emotional in the back of a cab?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to text \"home safe\" to the group from the kebab shop?",
+        "spicy": false
+      },
+      {
+        "text": "Who at this table would be most likely to kiss someone at midnight on New Year's Eve?",
+        "spicy": true
+      },
+      {
+        "text": "Who would be most likely to leave a party with someone they just met?",
+        "spicy": true
+      },
+      {
+        "text": "Who do you reckon is most likely to swap numbers with someone in the taxi queue?",
+        "spicy": true
+      },
+      {
+        "text": "Who's the one most likely to wake up with someone's number written on their arm?",
+        "spicy": true
+      },
+      {
+        "text": "Who would be most likely to get caught sneaking someone out the next morning?",
+        "spicy": true
+      },
+      {
+        "text": "Who is most likely to flirt with the bartender for free drinks?",
+        "spicy": true
+      },
+      {
+        "text": "Who would be most likely to dance far too close to their crush all night?",
+        "spicy": true
+      },
+      {
+        "text": "Who at this table would be the best kisser?",
+        "spicy": true
+      },
+      {
+        "text": "Who would make out in the back of a taxi?",
+        "spicy": true
+      },
+      {
+        "text": "Who among us is most likely to get a drink sent over by a stranger and actually go and say hi?",
+        "spicy": true
+      },
+      {
+        "text": "Who would be most likely to message someone they met tonight before they even get home?",
+        "spicy": true
+      },
+      {
+        "text": "Who do you reckon is most likely to wake up at a friend's place with no idea how they got there?",
+        "spicy": true
+      }
+    ]
+  }
+}

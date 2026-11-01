@@ -1,0 +1,181 @@
+{
+  "id": "game-day",
+  "title": "Game Day",
+  "emoji": "🏟️",
+  "blurb": "Pit lanes, boxing rings and tennis finals. Pick a venue and keep up.",
+  "tags": [
+    "sport"
+  ],
+  "content": {
+    "locations": [
+      {
+        "key": "athletes-village-canteen",
+        "label": "Athletes' Village Canteen",
+        "roles": [
+          "Weightlifter",
+          "Gymnast",
+          "Marathon Runner",
+          "Team Doctor",
+          "Dietitian",
+          "Head Coach",
+          "Volunteer Server",
+          "Team Mascot"
+        ]
+      },
+      {
+        "key": "centre-court-tennis-final",
+        "label": "Centre Court Tennis Final",
+        "roles": [
+          "Umpire",
+          "Line Judge",
+          "Ball Kid",
+          "Racquet-Smashing Player",
+          "Player's Coach",
+          "Royal Box Guest",
+          "Commentator",
+          "Hawk-Eye Operator"
+        ]
+      },
+      {
+        "key": "ice-hockey-rink",
+        "label": "Ice Hockey Rink",
+        "roles": [
+          "Goalie",
+          "Enforcer",
+          "Zamboni Driver",
+          "Referee",
+          "Head Coach",
+          "Mascot",
+          "Hot Dog Seller",
+          "Face-Painted Fan"
+        ]
+      },
+      {
+        "key": "race-day-at-the-track",
+        "label": "Race Day at the Track",
+        "roles": [
+          "Jockey",
+          "Trainer",
+          "Bookmaker",
+          "Punter in Fascinator",
+          "Steward",
+          "Stable Hand",
+          "Race Caller",
+          "Horse Owner"
+        ]
+      },
+      {
+        "key": "basketball-arena",
+        "label": "Basketball Arena",
+        "roles": [
+          "Point Guard",
+          "Coach",
+          "Referee",
+          "Cheerleader",
+          "Kiss-Cam Operator",
+          "Courtside Celebrity",
+          "Halftime Shooter",
+          "Bench Warmer"
+        ]
+      },
+      {
+        "key": "tenpin-bowling-alley",
+        "label": "Tenpin Bowling Alley",
+        "roles": [
+          "Shoe Counter Attendant",
+          "League Captain",
+          "Birthday Party Host",
+          "Bumper-Lane Toddler",
+          "Gutter Ball Specialist",
+          "Pro Bowler",
+          "Arcade Kid",
+          "Pin Mechanic"
+        ]
+      },
+      {
+        "key": "marathon-finish-line",
+        "label": "Marathon Finish Line",
+        "roles": [
+          "Winning Runner",
+          "Last-Place Costume Runner",
+          "Race Director",
+          "Finish Line Medic",
+          "Cheering Spouse",
+          "Medal Volunteer",
+          "Pacer",
+          "Water Station Volunteer"
+        ]
+      },
+      {
+        "key": "rock-climbing-gym",
+        "label": "Rock Climbing Gym",
+        "roles": [
+          "Route Setter",
+          "Belayer",
+          "Instructor",
+          "Beginner Kid",
+          "Chalk-Covered Pro",
+          "Boulderer",
+          "Party Parent",
+          "Front Desk Staff"
+        ]
+      },
+      {
+        "key": "formula-1-pit-lane",
+        "label": "Formula 1 Pit Lane",
+        "roles": [
+          "Driver",
+          "Team Principal",
+          "Tyre Changer",
+          "Race Engineer",
+          "Pit Reporter",
+          "Track Marshal",
+          "Paddock Club Guest",
+          "Chief Mechanic"
+        ]
+      },
+      {
+        "key": "skate-park",
+        "label": "Skate Park",
+        "roles": [
+          "Pro Skater",
+          "Scooter Kid",
+          "BMX Rider",
+          "Skate Photographer",
+          "Worried Parent",
+          "Kid in a Cast",
+          "Council Ranger",
+          "Skate Shop Owner"
+        ]
+      },
+      {
+        "key": "boxing-arena",
+        "label": "Boxing Arena",
+        "roles": [
+          "Boxer",
+          "Trainer",
+          "Cut Man",
+          "Sparring Partner",
+          "Ring Announcer",
+          "Judge",
+          "Fight Promoter",
+          "Cardio Boxing Mum"
+        ]
+      },
+      {
+        "key": "esports-arena",
+        "label": "Esports Arena",
+        "roles": [
+          "Pro Gamer",
+          "Shoutcaster",
+          "Team Coach",
+          "Cosplay Fan",
+          "Tournament Admin",
+          "Sponsor Rep",
+          "Team Analyst",
+          "Streamer"
+        ]
+      }
+    ]
+  }
+}

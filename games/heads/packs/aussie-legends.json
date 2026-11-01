@@ -1,0 +1,20 @@
+{
+  "id": "aussie-legends",
+  "title": "Aussie Legends",
+  "emoji": "🇦🇺",
+  "blurb": "Famous Australians from the stage, the screen, the pool and the pitch.",
+  "tags": ["aussie", "sport"],
+  "order": 45,
+  "content": {
+    "categories": {
+      "aussie-entertainers": {
+        "label": "Aussie entertainers",
+        "items": ["Steve Irwin", "Kylie Minogue", "Nicole Kidman", "Cate Blanchett", "Heath Ledger", "Keith Urban", "Sia", "John Farnham", "Olivia Newton-John", "Rebel Wilson", "Delta Goodrem", "Jimmy Barnes", "Paul Hogan", "Troye Sivan", "Bindi Irwin", "Hamish Blake", "Jessica Mauboy", "Baz Luhrmann", "Russell Crowe", "Geoffrey Rush", "Naomi Watts", "Tim Minchin", "Natalie Imbruglia", "Magda Szubanski", "Barry Humphries", "Angus Young"]
+      },
+      "aussie-sport-stars": {
+        "label": "Aussie sport stars",
+        "items": ["Cathy Freeman", "Ian Thorpe", "Don Bradman", "Ash Barty", "Dawn Fraser", "Daniel Ricciardo", "Ellyse Perry", "Pat Rafter", "Ricky Ponting", "Adam Goodes", "Steve Waugh", "Lleyton Hewitt", "Dylan Alcott", "Emma McKeon", "Mick Fanning", "Johnathan Thurston", "Stephanie Gilmore", "Oscar Piastri", "Shane Warne", "Sam Kerr", "Patty Mills", "Cadel Evans", "Layne Beachley", "Kieren Perkins", "Rod Laver", "Greg Norman", "Mark Webber"]
+      }
+    }
+  }
+}

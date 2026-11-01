@@ -1,0 +1,182 @@
+{
+  "id": "behind-the-screens",
+  "title": "Behind the Screens",
+  "emoji": "📺",
+  "blurb": "Reality villas, game show studios and soap sets. Lights, camera, suspect.",
+  "tags": [
+    "tv",
+    "movies"
+  ],
+  "content": {
+    "locations": [
+      {
+        "key": "reality-show-villa",
+        "label": "Reality Show Villa",
+        "roles": [
+          "Show Host",
+          "Producer in Earpiece",
+          "Camera Operator",
+          "Villain Contestant",
+          "Lovestruck Contestant",
+          "Sneaky Strategist",
+          "Evicted Housemate",
+          "Make-up Artist"
+        ]
+      },
+      {
+        "key": "game-show-studio",
+        "label": "Game Show Studio",
+        "roles": [
+          "Quizmaster",
+          "Contestant",
+          "Warm-Up Comedian",
+          "Floor Manager",
+          "Studio Audience Member",
+          "Prize Presenter",
+          "Contestant's Mum",
+          "Sound Engineer"
+        ]
+      },
+      {
+        "key": "cooking-competition-set",
+        "label": "Cooking Competition Set",
+        "roles": [
+          "Head Judge",
+          "Nervous Home Cook",
+          "Food Stylist",
+          "Runner",
+          "Show Host",
+          "Sweating Finalist",
+          "Dishwasher",
+          "Winner's Crying Family"
+        ]
+      },
+      {
+        "key": "soap-opera-set",
+        "label": "Soap Opera Set",
+        "roles": [
+          "Leading Actress",
+          "Evil Twin",
+          "Director",
+          "Continuity Supervisor",
+          "Actor Playing the Doctor",
+          "Script Writer",
+          "Boom Operator",
+          "Extra in the Cafe"
+        ]
+      },
+      {
+        "key": "drive-in-cinema",
+        "label": "Drive-In Cinema",
+        "roles": [
+          "Projectionist",
+          "Snack Bar Cook",
+          "Couple in a Ute",
+          "Family in a Minivan",
+          "Teens in the Boot",
+          "Ticket Taker",
+          "Horn Honker",
+          "Film Buff in a Camper"
+        ]
+      },
+      {
+        "key": "animation-studio",
+        "label": "Animation Studio",
+        "roles": [
+          "Lead Animator",
+          "Storyboard Artist",
+          "Voice Actor",
+          "Foley Artist",
+          "Intern Colouring Frames",
+          "Director",
+          "Render Technician",
+          "Merchandise Executive"
+        ]
+      },
+      {
+        "key": "breakfast-radio-studio",
+        "label": "Breakfast Radio Studio",
+        "roles": [
+          "Breakfast Host",
+          "Sidekick",
+          "News Reader",
+          "Traffic Reporter",
+          "Producer Behind Glass",
+          "Competition Caller",
+          "Rock Star Guest",
+          "Overnight DJ"
+        ]
+      },
+      {
+        "key": "haunted-house-movie-set",
+        "label": "Haunted House Movie Set",
+        "roles": [
+          "Scream Queen",
+          "Monster Suit Actor",
+          "Prosthetics Artist",
+          "Stunt Coordinator",
+          "Horror Director",
+          "Fog Machine Operator",
+          "Spooked Runner",
+          "Location Owner"
+        ]
+      },
+      {
+        "key": "talent-show-auditions",
+        "label": "Talent Show Auditions",
+        "roles": [
+          "Head Judge",
+          "Sassy Judge",
+          "Nervous Singer",
+          "Dodgy Magician",
+          "Pushy Stage Parent",
+          "Backstage Producer",
+          "Dancing Dog Owner",
+          "Hopeful With No Talent"
+        ]
+      },
+      {
+        "key": "stunt-backlot",
+        "label": "Stunt Backlot",
+        "roles": [
+          "Stunt Performer",
+          "Action Director",
+          "Safety Officer",
+          "Pyrotechnician",
+          "Stunt Double",
+          "Set Medic",
+          "Afraid-of-Heights Star",
+          "Rigging Specialist"
+        ]
+      },
+      {
+        "key": "sitcom-set",
+        "label": "Sitcom Set",
+        "roles": [
+          "Sitcom Star",
+          "Head Writer",
+          "Prop Master",
+          "Child Actor",
+          "Live Audience Member",
+          "Series Director",
+          "Wardrobe Assistant",
+          "Guest Star"
+        ]
+      },
+      {
+        "key": "costume-warehouse",
+        "label": "Costume Warehouse",
+        "roles": [
+          "Costume Designer",
+          "Seamstress",
+          "Actor Who Split Pants",
+          "Wardrobe Supervisor",
+          "Period Drama Extra",
+          "Dresser",
+          "Armourer",
+          "Wig Maker"
+        ]
+      }
+    ]
+  }
+}

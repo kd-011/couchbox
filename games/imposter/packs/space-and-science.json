@@ -1,0 +1,85 @@
+{
+  "id": "space-and-science",
+  "title": "Space and Science",
+  "emoji": "🚀",
+  "blurb": "Planets, rockets, lab gear and famous brains. Houston, we have an imposter.",
+  "tags": [
+    "science",
+    "space"
+  ],
+  "order": 80,
+  "content": {
+    "categories": {
+      "sky": {
+        "label": "Out in space",
+        "items": [
+          "Mars",
+          "Jupiter",
+          "Saturn",
+          "Pluto",
+          "The Sun",
+          "The Moon",
+          "Halley's Comet",
+          "Milky Way",
+          "Black hole",
+          "Andromeda",
+          "Asteroid belt",
+          "Neptune",
+          "Venus",
+          "Supernova"
+        ]
+      },
+      "missions": {
+        "label": "Space exploration",
+        "items": [
+          "Apollo 11",
+          "Hubble telescope",
+          "Space Shuttle",
+          "Mars rover",
+          "Voyager 1",
+          "Sputnik",
+          "Neil Armstrong",
+          "Yuri Gagarin",
+          "Spacesuit",
+          "Rocket launch",
+          "Moonwalk",
+          "Satellite",
+          "Starship",
+          "Space station"
+        ]
+      },
+      "lab": {
+        "label": "Lab gear",
+        "items": [
+          "Microscope",
+          "Bunsen burner",
+          "Test tube",
+          "Periodic table",
+          "Petri dish",
+          "Lab coat",
+          "Beaker",
+          "Magnet",
+          "Safety goggles",
+          "Tesla coil",
+          "Pendulum",
+          "Volcano experiment"
+        ]
+      },
+      "scientists": {
+        "label": "Famous scientists",
+        "items": [
+          "Albert Einstein",
+          "Marie Curie",
+          "Isaac Newton",
+          "Charles Darwin",
+          "Stephen Hawking",
+          "Nikola Tesla",
+          "Galileo",
+          "Carl Sagan",
+          "Jane Goodall",
+          "Alexander Fleming"
+        ]
+      }
+    }
+  }
+}

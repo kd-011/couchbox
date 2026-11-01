@@ -1,0 +1,195 @@
+{
+  "id": "aussie-spots",
+  "title": "Aussie Spots",
+  "emoji": "🦘",
+  "blurb": "Bunnings, the servo, the footy and a backyard barbie. Very Australian.",
+  "tags": [
+    "aussie"
+  ],
+  "content": {
+    "locations": [
+      {
+        "key": "bunnings",
+        "label": "Bunnings Warehouse",
+        "roles": [
+          "Sausage Sizzle Volunteer",
+          "Paint Mixer",
+          "Forklift Driver",
+          "Tradie",
+          "Weekend DIYer",
+          "Garden Centre Staffer",
+          "Checkout Operator",
+          "Key Cutter"
+        ]
+      },
+      {
+        "key": "footy-grandstand",
+        "label": "Footy Grandstand",
+        "roles": [
+          "Diehard Fan",
+          "Pie Vendor",
+          "Club President",
+          "Radio Commentator",
+          "Security Guard",
+          "Cheer Squad Member",
+          "Ground Announcer",
+          "Season Ticket Holder"
+        ]
+      },
+      {
+        "key": "servo",
+        "label": "Servo at Midnight",
+        "roles": [
+          "Console Operator",
+          "Truckie",
+          "Tow Truck Driver",
+          "Delivery Driver",
+          "Lost Tourist",
+          "Car Wash Attendant",
+          "Fuel Tanker Driver",
+          "Night Shift Cop"
+        ]
+      },
+      {
+        "key": "backyard-barbie",
+        "label": "Backyard Barbie",
+        "roles": [
+          "Grill Master",
+          "Nosy Neighbour",
+          "Chatty Uncle",
+          "Kid in the Pool",
+          "Salad Bringer",
+          "Backyard Cricket Bowler",
+          "Esky Keeper",
+          "Host"
+        ]
+      },
+      {
+        "key": "surf-club",
+        "label": "Surf Life Saving Club",
+        "roles": [
+          "Patrol Captain",
+          "Volunteer Lifesaver",
+          "Nipper",
+          "Rescue Boat Driver",
+          "Bistro Cook",
+          "Bar Staff",
+          "Meat Raffle Seller",
+          "Surf Coach"
+        ]
+      },
+      {
+        "key": "outback-roadhouse",
+        "label": "Outback Roadhouse",
+        "roles": [
+          "Road Train Driver",
+          "Grey Nomad",
+          "Roadhouse Cook",
+          "Mechanic",
+          "Backpacker",
+          "Flying Doctor Pilot",
+          "Station Hand",
+          "Owner"
+        ]
+      },
+      {
+        "key": "country-pub",
+        "label": "Country Pub",
+        "roles": [
+          "Publican",
+          "Bartender",
+          "Trivia Night Host",
+          "Local Regular",
+          "Chef",
+          "Cover Band Singer",
+          "Farmer",
+          "Travelling Salesperson"
+        ]
+      },
+      {
+        "key": "cricket-test",
+        "label": "Boxing Day Test",
+        "roles": [
+          "Opening Batter",
+          "Fast Bowler",
+          "Wicketkeeper",
+          "Umpire",
+          "Commentator",
+          "Groundskeeper",
+          "Drinks Runner",
+          "Fan in the Bay"
+        ]
+      },
+      {
+        "key": "caravan-park",
+        "label": "Caravan Park",
+        "roles": [
+          "Park Manager",
+          "Retired Traveller",
+          "Camp Kitchen Cook",
+          "Kid on a Bike",
+          "Pool Cleaner",
+          "Fisherman",
+          "Family on Holiday",
+          "Groundskeeper"
+        ]
+      },
+      {
+        "key": "school-fete",
+        "label": "School Fete",
+        "roles": [
+          "Principal",
+          "Cake Stall Parent",
+          "Face Painter",
+          "Jumping Castle Attendant",
+          "Teacher",
+          "Dunk Tank Volunteer",
+          "Student",
+          "Book Stall Helper"
+        ]
+      },
+      {
+        "key": "bush-campsite",
+        "label": "Bush Campsite",
+        "roles": [
+          "Park Ranger",
+          "Bushwalker",
+          "4WD Enthusiast",
+          "Wildlife Photographer",
+          "Camp Cook",
+          "Scout Leader",
+          "Birdwatcher",
+          "Stargazer"
+        ]
+      },
+      {
+        "key": "food-court",
+        "label": "Shopping Centre Food Court",
+        "roles": [
+          "Kebab Shop Owner",
+          "Cleaner",
+          "Security Guard",
+          "Teenager",
+          "Parent with a Pram",
+          "Barista",
+          "Bubble Tea Server",
+          "Centre Manager"
+        ]
+      },
+      {
+        "key": "rottnest-ferry",
+        "label": "Rottnest Island Ferry",
+        "roles": [
+          "Ferry Skipper",
+          "Deckhand",
+          "Day Tripper",
+          "Cyclist",
+          "Snorkeller",
+          "Kiosk Attendant",
+          "Tour Guide",
+          "Quokka Photographer"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+/* Celebrity Heads: the forehead card, the clue-giver's word and the recap.
+   Game colour from --accent. */
+.hd-stage { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; text-align: center; }
+.hd-you { font: 800 clamp(36px, 11vw, 52px)/0.98 var(--display); font-stretch: 80%; letter-spacing: -0.03em; animation: hd-in 0.5s var(--spring) both; }
+.hd-stage .av { animation: hd-in 0.5s var(--spring) both; }
+.hd-tally { display: flex; gap: 10px; }
+.hd-tally span { padding: 8px 16px; border-radius: 999px; background: var(--surface); color: var(--dim); font: 700 16px var(--display); }
+.hd-tally b { font-size: 22px; color: var(--text); }
+.hd-tally .got { background: color-mix(in oklab, var(--good) 18%, var(--surface)); }
+.hd-tally .got b { color: var(--good); }
+
+/* ---------- the word ---------- */
+.hd-play { flex: 1; display: flex; flex-direction: column; gap: 14px; }
+.hd-top { display: flex; align-items: center; gap: 10px; color: var(--dim); font-size: 18px; font-weight: 650; }
+.hd-top b { color: var(--good); }
+.hd-top .cd { margin-left: auto; font: 800 40px var(--display); font-stretch: 80%; color: var(--text); }
+.hd-top .cd.urgent { color: var(--bad); }
+.hd-word {
+  position: relative; overflow: hidden; flex: 1; display: grid; place-items: center; min-height: 40vh; padding: 22px; border-radius: 30px;
+  background: linear-gradient(160deg, var(--accent), color-mix(in oklab, var(--accent) 70%, #3a1500));
+  color: var(--accent-ink);
+  box-shadow: inset 0 -8px 0 rgba(0, 0, 0, 0.16), 0 30px 60px -30px var(--accent);
+  font: 800 clamp(48px, 16vw, 104px)/0.92 var(--display); font-stretch: 76%; letter-spacing: -0.035em;
+  text-align: center; text-wrap: balance; overflow-wrap: anywhere;
+  animation: hd-in 0.38s var(--spring) both;
+}
+.hd-word::before { content: ''; position: absolute; inset: 0; background-color: rgba(0, 0, 0, 0.12); -webkit-mask: var(--dots); mask: var(--dots); pointer-events: none; }
+@keyframes hd-in { from { opacity: 0; transform: scale(0.86) translateY(10px); } }
+.hd-buttons { display: grid; grid-template-columns: 1fr 1.6fr; gap: 10px; }
+.hd-buttons .btn { min-height: 80px; font: 800 24px var(--display); font-stretch: 84%; border-radius: 22px; text-transform: uppercase; letter-spacing: 0.01em; }
+.hd-got { background: var(--good); color: var(--good-ink); box-shadow: var(--press), 0 14px 30px -14px rgba(61, 220, 151, 0.9); }
+.hd-pass { background: var(--surface-2); color: var(--dim); box-shadow: var(--press); }
+.hd-forehead .hd-word { min-height: 48vh; }
+
+/* ---------- the recap ---------- */
+.hd-recap { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 16px; }
+.hd-score-big { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.hd-score-big strong { font: 800 140px/0.82 var(--display); font-stretch: 75%; color: var(--accent); letter-spacing: -0.04em; animation: hd-count 0.6s var(--spring) both; }
+.hd-score-big.zero strong { color: var(--faint); }
+@keyframes hd-count { from { opacity: 0; transform: scale(0.4) rotate(-8deg); } }
+.hd-score-big span { display: inline-flex; align-items: center; gap: 8px; color: var(--dim); font: 700 17px var(--display); }
+.hd-words { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; }
+.hd-words .w { display: inline-flex; align-items: center; gap: 4px; padding: 7px 13px; border-radius: 999px; font: 700 15px var(--display); animation: rise 0.35s var(--ease) both; }
+.hd-words .w:nth-child(2) { animation-delay: 60ms; }
+.hd-words .w:nth-child(3) { animation-delay: 120ms; }
+.hd-words .w:nth-child(n + 4) { animation-delay: 180ms; }
+.hd-words .got { background: var(--good); color: var(--good-ink); }
+.hd-words .passed { background: var(--surface); color: var(--faint); text-decoration: line-through; }
+.hd-words .missed { background: var(--surface-2); color: var(--dim); }
+
+/* ---------- the final ---------- */
+.hd-final { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 16px; }
+.hd-final .winner { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.hd-final .winner-avs { display: flex; gap: 8px; animation: hd-count 0.6s var(--spring) both; }
+.hd-final .winner h2 { font: 800 clamp(44px, 14vw, 64px)/0.95 var(--display); font-stretch: 78%; letter-spacing: -0.03em; color: var(--accent); text-align: center; animation: hd-in 0.5s var(--spring) 0.15s both; }
+
+/* ---------- the TV ---------- */
+.tv-surface .hd-score-big strong { font-size: 14vw; }
+.tv-surface .hd-score-big span { font-size: 1.8vw; }
+.tv-surface .hd-words .w { font-size: 1.5vw; padding: 0.5vw 1.1vw; }
+.tv-surface .hd-final .winner h2 { font-size: 6.4vw; }
+.tv-surface .hd-recap .drinks { max-width: 42vw; }
+.tv-surface .hd-final .winner-avs .av { --s: 8vw !important; }
+.tv-surface .hd-final .scores li { font-size: 1.4vw; padding: 0.7vw 1.2vw; }
+.tv-surface .hd-final .scores .pts { font-size: 2vw; }

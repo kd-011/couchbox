@@ -1,0 +1,193 @@
+{
+  "id": "rewind-90s-00s",
+  "title": "Rewind",
+  "emoji": "📼",
+  "blurb": "Dial-up, mixtapes and the fashion crimes of the 90s and 2000s.",
+  "tags": [
+    "nostalgia"
+  ],
+  "content": {
+    "spectrums": [
+      {
+        "left": "Worth the dial-up wait",
+        "right": "Not worth the dial-up wait"
+      },
+      {
+        "left": "Craze you were devoted to",
+        "right": "Craze you dropped in a week"
+      },
+      {
+        "left": "Mixtape: romantic gesture",
+        "right": "Mixtape: passive aggressive"
+      },
+      {
+        "left": "Flip phone cool",
+        "right": "Flip phone clunky"
+      },
+      {
+        "left": "Cool then, cringe now",
+        "right": "Cringe then, cool now"
+      },
+      {
+        "left": "Video shop classic",
+        "right": "Straight-to-video flop"
+      },
+      {
+        "left": "Pop star polish",
+        "right": "Grunge scruff"
+      },
+      {
+        "left": "Fashion regret",
+        "right": "Fashion comeback"
+      },
+      {
+        "left": "Away message poetry",
+        "right": "Away message cringe"
+      },
+      {
+        "left": "Cartoon you raced home for",
+        "right": "Cartoon you'd switch off"
+      },
+      {
+        "left": "Overblown tech panic",
+        "right": "Justified tech panic"
+      },
+      {
+        "left": "Cool kid gadget",
+        "right": "Nerd gadget"
+      },
+      {
+        "left": "Ringtone: iconic",
+        "right": "Ringtone: embarrassing"
+      },
+      {
+        "left": "Boy band fan",
+        "right": "Girl group fan"
+      },
+      {
+        "left": "Skate park kid",
+        "right": "Shopping mall kid"
+      },
+      {
+        "left": "Peak 90s",
+        "right": "Peak 2000s"
+      },
+      {
+        "left": "Worth a landline call",
+        "right": "A text will do"
+      },
+      {
+        "left": "Worth printing",
+        "right": "Lives in the camera roll"
+      },
+      {
+        "left": "Wore the tape out",
+        "right": "Watched it once"
+      },
+      {
+        "left": "Still useful today",
+        "right": "Pure antique"
+      },
+      {
+        "left": "Genuinely helpful",
+        "right": "Desperately annoying"
+      },
+      {
+        "left": "Playground craze worth the money",
+        "right": "Playground craze waste of pocket money"
+      },
+      {
+        "left": "Peak sleepover activity",
+        "right": "Sleepover dud"
+      },
+      {
+        "left": "First wave reality TV: gripping",
+        "right": "First wave reality TV: trashy"
+      },
+      {
+        "left": "Y2K aesthetic: stylish",
+        "right": "Y2K aesthetic: tacky"
+      },
+      {
+        "left": "Wholesome family TV",
+        "right": "Not-for-kids TV"
+      },
+      {
+        "left": "Built to last",
+        "right": "Broke in a week"
+      },
+      {
+        "left": "Dance craze everyone knew",
+        "right": "Dance craze nobody remembers"
+      },
+      {
+        "left": "Status symbol",
+        "right": "Total nuisance"
+      },
+      {
+        "left": "Worth keeping in the attic",
+        "right": "Straight to the tip"
+      },
+      {
+        "left": "Pocket money price",
+        "right": "Highway robbery"
+      },
+      {
+        "left": "Teen movie classic",
+        "right": "Teen movie forgettable"
+      },
+      {
+        "left": "Mum-approved",
+        "right": "Mum would've confiscated it"
+      },
+      {
+        "left": "Chat room fun",
+        "right": "Chat room danger"
+      },
+      {
+        "left": "Tech you miss",
+        "right": "Tech you're glad is gone"
+      },
+      {
+        "left": "School holiday highlight",
+        "right": "School holiday boredom"
+      },
+      {
+        "left": "Playground legend",
+        "right": "Playground injury waiting to happen"
+      },
+      {
+        "left": "Proud fan",
+        "right": "Secret fan"
+      },
+      {
+        "left": "Clever design",
+        "right": "Fiddly design"
+      },
+      {
+        "left": "Instant classic",
+        "right": "Skip-worthy filler"
+      },
+      {
+        "left": "Slang you used",
+        "right": "Slang you now deny"
+      },
+      {
+        "left": "Schoolyard cred",
+        "right": "Schoolyard shame"
+      },
+      {
+        "left": "Got you through school",
+        "right": "Got you in trouble at school"
+      },
+      {
+        "left": "Underrated 90s sitcom",
+        "right": "Overrated 90s sitcom"
+      },
+      {
+        "left": "Early adopter",
+        "right": "Last to get one"
+      }
+    ]
+  }
+}

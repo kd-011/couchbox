@@ -1,0 +1,206 @@
+{
+  "id": "travel",
+  "title": "Wanderlust",
+  "emoji": "✈️",
+  "blurb": "Planes, packing and holiday dilemmas.",
+  "tags": [
+    "travel"
+  ],
+  "order": 40,
+  "content": {
+    "pairs": [
+      {
+        "a": "Sit next to a crying baby on a fourteen-hour flight",
+        "b": "Sit next to a nonstop talker on a fourteen-hour flight"
+      },
+      {
+        "a": "Travel for a month with only a small backpack",
+        "b": "Travel for a month with five suitcases you carry yourself"
+      },
+      {
+        "a": "Only ever travel by train",
+        "b": "Only ever travel by boat"
+      },
+      {
+        "a": "Get lost in a foreign city with a dead phone",
+        "b": "Get lost on a hiking trail with a full battery and no signal"
+      },
+      {
+        "a": "Stay in a five-star hotel with a car park view",
+        "b": "Stay in a cheap hostel with the best view in the city"
+      },
+      {
+        "a": "Spend every holiday in a huge city",
+        "b": "Spend every holiday somewhere with no shops for miles"
+      },
+      {
+        "a": "Eat only street food on every trip",
+        "b": "Eat only at fancy hotel restaurants on every trip"
+      },
+      {
+        "a": "Have a tour guide who never stops talking",
+        "b": "Have a tour guide who knows absolutely nothing"
+      },
+      {
+        "a": "Spend two weeks on a giant cruise ship",
+        "b": "Spend two weeks in a campervan"
+      },
+      {
+        "a": "Travel completely solo",
+        "b": "Travel with your three loudest friends"
+      },
+      {
+        "a": "Come home with 2,000 photos you never look at",
+        "b": "Come home with zero photos but perfect memories"
+      },
+      {
+        "a": "Learn the local language before every trip",
+        "b": "Wing it with hand gestures every time"
+      },
+      {
+        "a": "Go back to your favourite holiday ever",
+        "b": "Go somewhere new you know nothing about"
+      },
+      {
+        "a": "Get the middle seat, but both armrests",
+        "b": "Get the window seat next to someone who needs the loo hourly"
+      },
+      {
+        "a": "Climb a mountain",
+        "b": "Dive down to a shipwreck"
+      },
+      {
+        "a": "Sleep in a hotel made of ice",
+        "b": "Sleep in a hotel carved into a cave"
+      },
+      {
+        "a": "Holiday where it rains every single day",
+        "b": "Holiday where it's 40 degrees every single day"
+      },
+      {
+        "a": "Have your flight delayed eight hours",
+        "b": "Land on time to find your hotel lost your booking"
+      },
+      {
+        "a": "Always be the navigator",
+        "b": "Always be the driver"
+      },
+      {
+        "a": "Travel with a friend who plans every minute",
+        "b": "Travel with a friend who is late for everything"
+      },
+      {
+        "a": "Accidentally offend a local custom",
+        "b": "Accidentally ride the wrong train for three hours"
+      },
+      {
+        "a": "Pack for every trip in ten minutes flat",
+        "b": "Pack two weeks early and not touch the bag again"
+      },
+      {
+        "a": "Take a 24-hour flight in one go",
+        "b": "Take three days to get there by train"
+      },
+      {
+        "a": "Holiday at a theme park",
+        "b": "Holiday at a silent meditation retreat"
+      },
+      {
+        "a": "See the Northern Lights",
+        "b": "See the pyramids of Giza"
+      },
+      {
+        "a": "Visit Antarctica",
+        "b": "Visit the Amazon rainforest"
+      },
+      {
+        "a": "Only travel in the middle of winter",
+        "b": "Only travel in the middle of summer"
+      },
+      {
+        "a": "Stay with a chatty host family",
+        "b": "Stay in a hotel where nobody speaks to you"
+      },
+      {
+        "a": "Go on a safari",
+        "b": "Swim with whale sharks"
+      },
+      {
+        "a": "Never leave your home country again",
+        "b": "Never stay at home for more than a week again"
+      },
+      {
+        "a": "Have to try every weird local dish",
+        "b": "Never be allowed to try the local food"
+      },
+      {
+        "a": "Travel with no phone at all",
+        "b": "Travel with a phone that only takes photos"
+      },
+      {
+        "a": "Lose your passport on day one",
+        "b": "Lose your wallet on day one"
+      },
+      {
+        "a": "Visit somewhere famous and packed with tourists",
+        "b": "Visit somewhere beautiful nobody has heard of"
+      },
+      {
+        "a": "Take a hot air balloon ride",
+        "b": "Take a helicopter ride"
+      },
+      {
+        "a": "Go on holiday with your in-laws",
+        "b": "Go on holiday with your boss"
+      },
+      {
+        "a": "Visit Japan in cherry blossom season among huge crowds",
+        "b": "Visit Japan in the off-season with empty temples"
+      },
+      {
+        "a": "Stay in an overwater bungalow with no wifi",
+        "b": "Stay in a city penthouse with brilliant wifi"
+      },
+      {
+        "a": "Eat a mystery dish with no menu",
+        "b": "Eat at a chain restaurant you know from home"
+      },
+      {
+        "a": "Take a ten-hour overnight bus",
+        "b": "Take a cheap flight with a six-hour layover"
+      },
+      {
+        "a": "Have your suitcase burst open at security",
+        "b": "Have your suitcase arrive a week late"
+      },
+      {
+        "a": "Take a gap year at 19",
+        "b": "Take a gap year at 59"
+      },
+      {
+        "a": "Live abroad for five years",
+        "b": "Travel for six months, then settle at home"
+      },
+      {
+        "a": "See a famous landmark at 6am with nobody around",
+        "b": "See it at noon with a perfect guide"
+      },
+      {
+        "a": "Get a free upgrade next to a snoring stranger",
+        "b": "Stay in economy next to your best mate"
+      },
+      {
+        "a": "Bring home a souvenir that smells awful",
+        "b": "Bring home a souvenir that sets off every alarm"
+      },
+      {
+        "a": "Do a house swap with a total stranger",
+        "b": "Rent a spare room in a stranger's home"
+      },
+      {
+        "a": "Spend a week on a tropical island in a storm",
+        "b": "Spend a week in Paris during a train strike"
+      }
+    ]
+  }
+}

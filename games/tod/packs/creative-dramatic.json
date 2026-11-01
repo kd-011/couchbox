@@ -1,0 +1,65 @@
+{
+  "id": "creative-dramatic",
+  "title": "Creative and Dramatic",
+  "emoji": "🎭",
+  "blurb": "Impressions, improv and doodles. For the group that likes to perform.",
+  "tags": [
+    "creative",
+    "acting",
+    "improv"
+  ],
+  "order": 65,
+  "content": {
+    "mild": {
+      "truth": [
+        "What's the best character you've ever played in a school play or game?",
+        "Which celebrity would you like to be for a day?",
+        "What's the most dramatic thing you've done in real life?",
+        "What fictional role would you be perfect for?",
+        "What's a talent you'd love to be professional at?",
+        "What superhero name would you choose for yourself?",
+        "If you wrote a book, what would the title be?",
+        "What's the strangest costume you've ever worn?",
+        "What's your best impression, and who is it of?",
+        "If you had to give a TED talk tomorrow, what would it be about?",
+        "If you had your own TV show, what would it be called?",
+        "Who is your favourite comedian and why?",
+        "What's the best show or movie you've seen that made you want to act?",
+        "Which song would you choose as your walk-on music?",
+        "What's the most creative thing you've ever made?",
+        "If you could paint one thing, what would it be?",
+        "What's the most dramatic goodbye you've ever given?",
+        "What's a character trait you secretly share with a villain?",
+        "Which famous painting would you like on your wall?",
+        "If your life had a catchphrase, what would it be?",
+        "What's the funniest thing you've drawn?",
+        "What art form have you always wanted to try?"
+      ],
+      "dare": [
+        "Draw your best portrait of the person opposite you in 30 seconds and show everyone.",
+        "Act out a Shakespeare-style death scene for a small insect.",
+        "Do an impression of a famous person and have the group guess who.",
+        "Be a mime trapped in a box, then escape.",
+        "Speak in rhyme for the next two turns.",
+        "Act out a nature documentary about the group, with your best narrator voice.",
+        "Improvise a 20-second sales pitch for a pet rock.",
+        "Deliver a dramatic soap opera confession about the last biscuit.",
+        "Draw a monster with your non-writing hand and give it a name.",
+        "Pretend you are a statue of a famous person and hold the pose for 20 seconds.",
+        "Do a 15-second one-person play in which you are a door.",
+        "Do a movie-trailer voice-over for the story of someone's morning.",
+        "Create a new dance move and teach it to the group.",
+        "Sculpt something out of whatever is lying around, and present it as art.",
+        "Act out the same sentence in angry, sad and joyful styles.",
+        "Give a 20-second speech on why cats secretly rule the world.",
+        "Mime your favourite animal, charades style, until the group guesses it.",
+        "Narrate the room as if you're a fantasy epic storyteller.",
+        "Be a tree in a storm for ten seconds.",
+        "Draw a self-portrait without lifting your pen from the paper.",
+        "Act like a character who has just discovered fire.",
+        "Perform a 20-second stand-up routine about socks.",
+        "Do a freeze-frame of a famous painting and have the group guess it."
+      ]
+    }
+  }
+}

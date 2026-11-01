@@ -1,0 +1,193 @@
+{
+  "id": "school-daze",
+  "title": "School Daze",
+  "emoji": "🎒",
+  "blurb": "Canteen crimes, group projects and the teacher you still think about.",
+  "tags": [
+    "school"
+  ],
+  "content": {
+    "spectrums": [
+      {
+        "left": "Teacher's pet",
+        "right": "Class clown"
+      },
+      {
+        "left": "Worth the homework",
+        "right": "Pointless homework"
+      },
+      {
+        "left": "Canteen legend",
+        "right": "Canteen crime"
+      },
+      {
+        "left": "A fun excursion",
+        "right": "A very long walk with worksheets"
+      },
+      {
+        "left": "Beloved teacher",
+        "right": "Feared teacher"
+      },
+      {
+        "left": "Easy A",
+        "right": "All-night study session"
+      },
+      {
+        "left": "Group project dream",
+        "right": "Group project nightmare"
+      },
+      {
+        "left": "Useful in real life",
+        "right": "Never used since"
+      },
+      {
+        "left": "Assembly flies by",
+        "right": "Assembly never ends"
+      },
+      {
+        "left": "Sports carnival highlight",
+        "right": "Sports carnival dread"
+      },
+      {
+        "left": "Best seat in the room",
+        "right": "Worst seat in the room"
+      },
+      {
+        "left": "Cool school bag",
+        "right": "Embarrassing school bag"
+      },
+      {
+        "left": "Fine to copy",
+        "right": "Straight to the principal"
+      },
+      {
+        "left": "Playground classic",
+        "right": "Banned after one incident"
+      },
+      {
+        "left": "Exam you'd ace",
+        "right": "Exam you'd cry over"
+      },
+      {
+        "left": "Maths brain",
+        "right": "Art brain"
+      },
+      {
+        "left": "Perfect school lunch",
+        "right": "Soggy school lunch"
+      },
+      {
+        "left": "Free period bliss",
+        "right": "Double period of doom"
+      },
+      {
+        "left": "Uniform you'd wear again",
+        "right": "Uniform crime"
+      },
+      {
+        "left": "Cool teacher move",
+        "right": "Cringe teacher move"
+      },
+      {
+        "left": "Best school memory",
+        "right": "Best forgotten"
+      },
+      {
+        "left": "Indoor kid",
+        "right": "Outdoor kid"
+      },
+      {
+        "left": "Pop quiz: easy",
+        "right": "Pop quiz: panic"
+      },
+      {
+        "left": "School camp highlight",
+        "right": "School camp horror"
+      },
+      {
+        "left": "Quiet achiever",
+        "right": "Loud and proud"
+      },
+      {
+        "left": "Always early",
+        "right": "Always late"
+      },
+      {
+        "left": "Reading aloud: confident",
+        "right": "Reading aloud: mortifying"
+      },
+      {
+        "left": "School disco dream",
+        "right": "School disco disaster"
+      },
+      {
+        "left": "Gets a medal",
+        "right": "Gets a participation sticker"
+      },
+      {
+        "left": "Subject you loved",
+        "right": "Subject you dreaded"
+      },
+      {
+        "left": "Substitute teacher chaos",
+        "right": "Substitute teacher silence"
+      },
+      {
+        "left": "Fundraiser worth buying",
+        "right": "Fundraiser you hide from"
+      },
+      {
+        "left": "Class pet joy",
+        "right": "Class pet tragedy"
+      },
+      {
+        "left": "Neat handwriting",
+        "right": "Handwriting nobody can read"
+      },
+      {
+        "left": "Yearbook photo: flattering",
+        "right": "Yearbook photo: regrettable"
+      },
+      {
+        "left": "Kids love it",
+        "right": "Teachers love it"
+      },
+      {
+        "left": "Prefect energy",
+        "right": "Rebel energy"
+      },
+      {
+        "left": "Genuinely sick day",
+        "right": "Suspiciously fine sick day"
+      },
+      {
+        "left": "Front of the school bus",
+        "right": "Back of the school bus"
+      },
+      {
+        "left": "Top of the class",
+        "right": "Bottom of the class"
+      },
+      {
+        "left": "Couldn't wait to leave",
+        "right": "Didn't want it to end"
+      },
+      {
+        "left": "Detention: deserved",
+        "right": "Detention: unjust"
+      },
+      {
+        "left": "Handy school hack",
+        "right": "Rule-breaking hack"
+      },
+      {
+        "left": "Science experiment: wow",
+        "right": "Science experiment: fizzle"
+      },
+      {
+        "left": "Wears the blazer proudly",
+        "right": "Ditches the blazer at the gate"
+      }
+    ]
+  }
+}

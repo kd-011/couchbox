@@ -1,0 +1,191 @@
+{
+  "id": "relationships",
+  "title": "Mates and Dates",
+  "emoji": "💞",
+  "blurb": "Mates, dates, families and group chats.",
+  "tags": [
+    "friends",
+    "dating"
+  ],
+  "order": 50,
+  "content": {
+    "pairs": [
+      {
+        "a": "Have a friend who always cancels at the last minute",
+        "b": "Have a friend who always turns up unannounced"
+      },
+      {
+        "a": "Be the group's driver forever",
+        "b": "Be the group's photographer forever"
+      },
+      {
+        "a": "Have your best friend move overseas",
+        "b": "Have your best friend move in with you permanently"
+      },
+      {
+        "a": "Go on a first date to a petting zoo",
+        "b": "Go on a first date to a go-kart track"
+      },
+      {
+        "a": "Meet your partner's parents on date three",
+        "b": "Meet your ex's new partner at a party tonight"
+      },
+      {
+        "a": "Date someone who is always late",
+        "b": "Date someone who is always early and impatient"
+      },
+      {
+        "a": "Date someone who sings badly in the shower",
+        "b": "Date someone who talks in their sleep"
+      },
+      {
+        "a": "Share a bed with a blanket thief",
+        "b": "Share a bed with a snorer"
+      },
+      {
+        "a": "Always say \"I love you\" first",
+        "b": "Always wait to hear it first"
+      },
+      {
+        "a": "Get a surprise birthday party with everyone you know",
+        "b": "Get a quiet dinner with one person"
+      },
+      {
+        "a": "Have one friend who knows all your secrets",
+        "b": "Have ten fun mates who know none of them"
+      },
+      {
+        "a": "Reply to every text within a minute",
+        "b": "Reply to every text a week late"
+      },
+      {
+        "a": "Overhear your friends talking about you",
+        "b": "Never find out what they really think"
+      },
+      {
+        "a": "Live with your best friend",
+        "b": "Live with your partner"
+      },
+      {
+        "a": "Have a friend who is always right",
+        "b": "Have a friend who is always fun and always wrong"
+      },
+      {
+        "a": "Go on a double date with your parents",
+        "b": "Go on a double date with your boss"
+      },
+      {
+        "a": "Give an unscripted speech at your best friend's wedding",
+        "b": "Be the surprise subject of a roast at your own party"
+      },
+      {
+        "a": "Lend your car to a friend with a bad driving record",
+        "b": "Lend your best clothes to a friend who spills everything"
+      },
+      {
+        "a": "Have a partner who plans every date night",
+        "b": "Have a partner who only wants spontaneous plans"
+      },
+      {
+        "a": "Spend Valentine's Day alone with takeaway",
+        "b": "Spend it in a packed restaurant with a set menu"
+      },
+      {
+        "a": "Have your mum comment on every post you make",
+        "b": "Have your mum friend all your friends"
+      },
+      {
+        "a": "Be known as the funny one",
+        "b": "Be known as the kind one"
+      },
+      {
+        "a": "Grow up with six siblings",
+        "b": "Grow up as an only child"
+      },
+      {
+        "a": "Receive only homemade gifts forever",
+        "b": "Give only homemade gifts forever"
+      },
+      {
+        "a": "Host all your cousins for a month",
+        "b": "Host one distant uncle for a month"
+      },
+      {
+        "a": "Hold hands in public all the time",
+        "b": "Never hold hands in public again"
+      },
+      {
+        "a": "Have a partner who cooks terribly but tries",
+        "b": "Have a partner who orders takeaway every night"
+      },
+      {
+        "a": "Have a partner who laughs at all your jokes",
+        "b": "Have a partner who never laughs but truly gets you"
+      },
+      {
+        "a": "Forget your anniversary",
+        "b": "Forget your partner's birthday"
+      },
+      {
+        "a": "Host the game night every week",
+        "b": "Win the game night every week"
+      },
+      {
+        "a": "Go on a big trip with your friends once a year",
+        "b": "Meet your friends for coffee every single week"
+      },
+      {
+        "a": "Sit through a long silence on a first date",
+        "b": "Sit through nonstop talking on a first date"
+      },
+      {
+        "a": "Meet the one at 25 and do long distance for five years",
+        "b": "Meet the one at 35 and live together straight away"
+      },
+      {
+        "a": "Have a friend who critiques every outfit",
+        "b": "Have a friend who compliments every outfit"
+      },
+      {
+        "a": "Have a friend skip your wedding",
+        "b": "Have a friend cry louder than you at your wedding"
+      },
+      {
+        "a": "Send a heart emoji to your boss by accident",
+        "b": "Send a voice note rant to the person you were ranting about"
+      },
+      {
+        "a": "Have a partner who always wants to cuddle",
+        "b": "Have a partner who needs lots of alone time"
+      },
+      {
+        "a": "Marry someone a bit boring but reliable",
+        "b": "Marry someone exciting but unpredictable"
+      },
+      {
+        "a": "Have a friend who borrows things and never returns them",
+        "b": "Have a friend who gives everything back slightly broken"
+      },
+      {
+        "a": "Take a long car trip with your parents' playlist",
+        "b": "Take a long car trip with your friend's toddler"
+      },
+      {
+        "a": "Be forgiven for every mistake immediately",
+        "b": "Be remembered for your best moment forever"
+      },
+      {
+        "a": "Have your friends make a slideshow of your worst haircuts",
+        "b": "Have your friends stage an intervention about your worst habit"
+      },
+      {
+        "a": "Always go to weddings as someone's plus-one",
+        "b": "Always go to weddings on your own"
+      },
+      {
+        "a": "Always be the first to apologise after every fight",
+        "b": "Never get an apology from anyone again"
+      }
+    ]
+  }
+}

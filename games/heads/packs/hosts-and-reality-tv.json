@@ -1,0 +1,24 @@
+{
+  "id": "hosts-and-reality-tv",
+  "title": "Hosts and Reality TV",
+  "emoji": "🎙️",
+  "blurb": "Late-night couches, cooking shows and reality TV: the people holding the microphone.",
+  "tags": ["tv", "hosts"],
+  "order": 130,
+  "content": {
+    "categories": {
+      "talk-show-hosts": {
+        "label": "TV hosts",
+        "items": ["Jimmy Fallon", "Jimmy Kimmel", "Stephen Colbert", "Graham Norton", "David Letterman", "Johnny Carson", "Conan O'Brien", "Jon Stewart", "Trevor Noah", "Rove McManus", "Jay Leno", "Karl Stefanovic", "Julia Morris", "Ryan Seacrest"]
+      },
+      "chefs-and-presenters": {
+        "label": "Chefs and presenters",
+        "items": ["Gordon Ramsay", "Jamie Oliver", "Nigella Lawson", "Julia Child", "Rick Stein", "Curtis Stone", "Matt Preston", "Guy Fieri", "Martha Stewart", "Bob Ross", "David Attenborough", "Bear Grylls", "Michael Palin", "Jeremy Clarkson", "Joe Wicks"]
+      },
+      "reality-tv-stars": {
+        "label": "Reality TV names",
+        "items": ["Simon Cowell", "Khloe Kardashian", "Kylie Jenner", "Kris Jenner", "Snooki", "Heidi Klum", "Tyra Banks", "Tim Gunn", "RuPaul", "Paula Abdul", "Judge Judy", "Dr Phil", "Jeff Probst"]
+      }
+    }
+  }
+}

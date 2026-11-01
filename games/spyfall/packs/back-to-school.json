@@ -1,0 +1,182 @@
+{
+  "id": "back-to-school",
+  "title": "Back to School",
+  "emoji": "🎒",
+  "blurb": "Assemblies, lecture theatres and exam-week libraries. Who skipped class?",
+  "tags": [
+    "school",
+    "uni"
+  ],
+  "content": {
+    "locations": [
+      {
+        "key": "school-assembly",
+        "label": "School Assembly",
+        "roles": [
+          "Principal",
+          "Prefect",
+          "Year 7 Newbie",
+          "Music Teacher",
+          "Guest Speaker",
+          "Sleeping Student",
+          "Relief Teacher",
+          "Award Winner"
+        ]
+      },
+      {
+        "key": "lecture-theatre",
+        "label": "Lecture Theatre",
+        "roles": [
+          "Professor",
+          "Tutor",
+          "Front-Row Keener",
+          "Back-Row Napper",
+          "Late Arriver",
+          "Exchange Student",
+          "AV Technician",
+          "Mature-Age Student"
+        ]
+      },
+      {
+        "key": "library-in-exam-week",
+        "label": "Library in Exam Week",
+        "roles": [
+          "Panicking Student",
+          "Librarian",
+          "Study Group Leader",
+          "Highlighter Addict",
+          "Security Guard",
+          "Coffee Cart Barista",
+          "Procrastinator",
+          "Snoring Student"
+        ]
+      },
+      {
+        "key": "school-bus",
+        "label": "School Bus",
+        "roles": [
+          "Bus Driver",
+          "Back-Seat Legend",
+          "Travel-Sick Kid",
+          "Kid With Smelly Lunch",
+          "Teacher Supervisor",
+          "Kindy Kid",
+          "Sleepy Teenager",
+          "Late Runner"
+        ]
+      },
+      {
+        "key": "chemistry-lab",
+        "label": "Chemistry Lab",
+        "roles": [
+          "Chemistry Teacher",
+          "Lab Technician",
+          "Careless Student",
+          "Safety Officer",
+          "Useless Lab Partner",
+          "Nervous Beginner",
+          "Visiting Inspector",
+          "Keen Overachiever"
+        ]
+      },
+      {
+        "key": "student-halls",
+        "label": "Student Halls",
+        "roles": [
+          "Resident Adviser",
+          "Pizza Delivery Driver",
+          "Homesick First-Year",
+          "Night-Owl Gamer",
+          "Party Host",
+          "Noise-Complaint Neighbour",
+          "Mature Postgrad",
+          "Hall Cleaner"
+        ]
+      },
+      {
+        "key": "school-musical-rehearsal",
+        "label": "School Musical Rehearsal",
+        "roles": [
+          "Drama Teacher",
+          "Lead Actor",
+          "Understudy",
+          "Stage Manager",
+          "Set Painter",
+          "Rehearsal Pianist",
+          "Lighting Kid",
+          "Forgotten Chorus Member"
+        ]
+      },
+      {
+        "key": "swimming-carnival",
+        "label": "Swimming Carnival",
+        "roles": [
+          "PE Teacher",
+          "Starter With a Whistle",
+          "Timekeeper",
+          "Sunburnt Parent",
+          "House Captain",
+          "Sausage Sizzle Volunteer",
+          "Lifeguard",
+          "Reluctant Swimmer"
+        ]
+      },
+      {
+        "key": "graduation-ceremony",
+        "label": "Graduation Ceremony",
+        "roles": [
+          "Chancellor",
+          "Graduate in Gown",
+          "Proud Grandparent",
+          "Photographer",
+          "Valedictorian",
+          "Name Reader",
+          "Usher",
+          "Gown Hire Attendant"
+        ]
+      },
+      {
+        "key": "staff-room",
+        "label": "Staff Room",
+        "roles": [
+          "Head of Department",
+          "Relief Teacher",
+          "Essay Marker",
+          "Loud Lunch Eater",
+          "Deputy Principal",
+          "School Counsellor",
+          "Office Administrator",
+          "Cranky Caretaker"
+        ]
+      },
+      {
+        "key": "orientation-day-stalls",
+        "label": "Orientation Day Stalls",
+        "roles": [
+          "Club Recruiter",
+          "Lost First-Year",
+          "Student Union Rep",
+          "Free-Stuff Hunter",
+          "Uni Mascot",
+          "Debate Society Zealot",
+          "Campus Security",
+          "Anxious Parent"
+        ]
+      },
+      {
+        "key": "detention-room",
+        "label": "Detention Room",
+        "roles": [
+          "Detention Teacher",
+          "Serial Offender",
+          "Wrongly Accused Kid",
+          "Kid Writing Lines",
+          "Note Passer",
+          "Kid Who Fell Asleep",
+          "Hungry Kid",
+          "Passing Caretaker"
+        ]
+      }
+    ]
+  }
+}

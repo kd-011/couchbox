@@ -1,0 +1,20 @@
+{
+  "id": "cartoon-characters",
+  "title": "Cartoon Characters",
+  "emoji": "📺",
+  "blurb": "Saturday morning favourites, from Bugs Bunny to Peppa Pig.",
+  "tags": ["family", "nostalgia"],
+  "order": 30,
+  "content": {
+    "categories": {
+      "classic-cartoons": {
+        "label": "Classic cartoons",
+        "items": ["Bugs Bunny", "Daffy Duck", "Tweety", "Sylvester", "Road Runner", "Wile E. Coyote", "Taz the Tasmanian Devil", "Scooby-Doo", "Fred Flintstone", "Popeye", "Pink Panther", "Inspector Gadget", "Garfield", "Snoopy", "Charlie Brown", "Casper the Friendly Ghost", "Donald Duck", "Goofy", "Porky Pig", "Elmer Fudd", "Foghorn Leghorn", "Yogi Bear", "Top Cat", "Barney Rubble", "Betty Boop", "Felix the Cat", "Speedy Gonzales", "Mr Magoo", "Woody Woodpecker", "Muttley"]
+      },
+      "modern-cartoons": {
+        "label": "Modern cartoons",
+        "items": ["Bart Simpson", "Peter Griffin", "Patrick Star", "Squidward", "Peppa Pig", "Dora the Explorer", "Johnny Bravo", "Kim Possible", "Fireman Sam", "Thomas the Tank Engine", "Bob the Builder", "Postman Pat", "Cartman", "Blinky Bill", "Clifford the Big Red Dog", "Ben 10", "Tommy Pickles", "Rick Sanchez", "Stewie Griffin", "Bender", "Finn the Human", "Phineas Flynn", "Perry the Platypus", "Courage the Cowardly Dog", "Gumball Watterson", "Mr Krabs", "Lisa Simpson", "Hank Hill", "Bob Belcher", "Timmy Turner"]
+      }
+    }
+  }
+}

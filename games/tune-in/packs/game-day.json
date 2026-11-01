@@ -1,0 +1,189 @@
+{
+  "id": "game-day",
+  "title": "Game Day",
+  "emoji": "⚽",
+  "blurb": "Referees, underdogs and who really counts as an athlete.",
+  "tags": [
+    "sport"
+  ],
+  "content": {
+    "spectrums": [
+      {
+        "left": "Real sport",
+        "right": "Not a real sport"
+      },
+      {
+        "left": "Better to watch",
+        "right": "Better to play"
+      },
+      {
+        "left": "Best on the couch",
+        "right": "Best at the ground"
+      },
+      {
+        "left": "Slow burn",
+        "right": "Non-stop action"
+      },
+      {
+        "left": "Brutal",
+        "right": "Gentle"
+      },
+      {
+        "left": "Team sport",
+        "right": "Solo sport"
+      },
+      {
+        "left": "All natural talent",
+        "right": "All hard graft"
+      },
+      {
+        "left": "Legend of the game",
+        "right": "Overrated champion"
+      },
+      {
+        "left": "Fair umpiring call",
+        "right": "Daylight robbery"
+      },
+      {
+        "left": "Easy to learn",
+        "right": "Takes a lifetime"
+      },
+      {
+        "left": "Great Olympic event",
+        "right": "Cut it from the Olympics"
+      },
+      {
+        "left": "Weekend warrior",
+        "right": "Elite athlete"
+      },
+      {
+        "left": "Rowdy crowd",
+        "right": "Polite crowd"
+      },
+      {
+        "left": "Fine to boo",
+        "right": "Never boo"
+      },
+      {
+        "left": "Gym fanatic",
+        "right": "Gym membership gathering dust"
+      },
+      {
+        "left": "Harmless superstition",
+        "right": "Ridiculous superstition"
+      },
+      {
+        "left": "Intimidating venue",
+        "right": "Friendly venue"
+      },
+      {
+        "left": "Tactical masterclass",
+        "right": "Chaotic scramble"
+      },
+      {
+        "left": "Dull draw",
+        "right": "Thriller"
+      },
+      {
+        "left": "Underdog story",
+        "right": "Dynasty"
+      },
+      {
+        "left": "Poor sport",
+        "right": "Good sport"
+      },
+      {
+        "left": "Supportive sideline parent",
+        "right": "Terrifying sideline parent"
+      },
+      {
+        "left": "Summer sport",
+        "right": "Winter sport"
+      },
+      {
+        "left": "Athlete's diet: saintly",
+        "right": "Athlete's diet: pies"
+      },
+      {
+        "left": "Safe as houses",
+        "right": "Needs a helmet and a will"
+      },
+      {
+        "left": "Cheat worth forgiving",
+        "right": "Banned for life"
+      },
+      {
+        "left": "Great mascot",
+        "right": "Terrifying mascot"
+      },
+      {
+        "left": "Cool uniform",
+        "right": "Awful uniform"
+      },
+      {
+        "left": "Parkrun jog",
+        "right": "Ironman insanity"
+      },
+      {
+        "left": "Tall person's game",
+        "right": "Short person's game"
+      },
+      {
+        "left": "Best when young",
+        "right": "Best when old"
+      },
+      {
+        "left": "Backyard game",
+        "right": "Stadium game"
+      },
+      {
+        "left": "Fun to lose",
+        "right": "Painful to lose"
+      },
+      {
+        "left": "Pure sporting joy",
+        "right": "Pure sporting pain"
+      },
+      {
+        "left": "One-page rule book",
+        "right": "Rule book like a novel"
+      },
+      {
+        "left": "Perfect sunny day sport",
+        "right": "Wet and muddy sport"
+      },
+      {
+        "left": "Fitness craze here to stay",
+        "right": "Fitness craze gone by March"
+      },
+      {
+        "left": "Needs a ball",
+        "right": "Needs a mortgage"
+      },
+      {
+        "left": "Commentary gold",
+        "right": "Commentary on mute"
+      },
+      {
+        "left": "Pre-season hope",
+        "right": "Wooden spoon reality"
+      },
+      {
+        "left": "Pub sport",
+        "right": "Posh sport"
+      },
+      {
+        "left": "Gets you fit",
+        "right": "Gets you injured"
+      },
+      {
+        "left": "Referee: invisible",
+        "right": "Referee: the main character"
+      },
+      {
+        "left": "Training day dread",
+        "right": "Training day highlight"
+      }
+    ]
+  }
+}

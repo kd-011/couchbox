@@ -1,0 +1,241 @@
+{
+  "id": "behind-the-screen",
+  "title": "Behind the Screen",
+  "emoji": "🎬",
+  "blurb": "True backstage oddities from movies, TV and music that sound like fan fiction.",
+  "tags": [
+    "movies",
+    "tv",
+    "music"
+  ],
+  "order": 21,
+  "content": {
+    "prompts": [
+      {
+        "id": "bts1",
+        "text": "The malfunctioning mechanical shark in Jaws was nicknamed _____, reportedly after Steven Spielberg's lawyer.",
+        "answer": "Bruce"
+      },
+      {
+        "id": "bts2",
+        "text": "The sound of the knife entering flesh in the Psycho shower scene was created by plunging a knife into a _____.",
+        "answer": "melon"
+      },
+      {
+        "id": "bts3",
+        "text": "Darth Vader's breathing was created by sound designer Ben Burtt recording a _____ regulator.",
+        "answer": "scuba"
+      },
+      {
+        "id": "bts4",
+        "text": "While writing \"Yesterday\", Paul McCartney used the working title \"Scrambled _____\".",
+        "answer": "Eggs"
+      },
+      {
+        "id": "bts5",
+        "text": "Before Michael J. Fox, the role of Marty McFly in Back to the Future was originally filmed with _____.",
+        "answer": "Eric Stoltz"
+      },
+      {
+        "id": "bts6",
+        "text": "In an early draft of Back to the Future, the time machine was a _____ instead of a DeLorean.",
+        "answer": "refrigerator"
+      },
+      {
+        "id": "bts7",
+        "text": "The barking calls of the velociraptors in Jurassic Park were built from recordings of tortoises _____.",
+        "answer": "mating"
+      },
+      {
+        "id": "bts8",
+        "text": "The very first Kermit puppet, built in 1955, had eyes made from halves of a _____ ball.",
+        "answer": "ping-pong"
+      },
+      {
+        "id": "bts9",
+        "text": "Walt Disney originally wanted to call Mickey Mouse by the name _____ Mouse.",
+        "answer": "Mortimer"
+      },
+      {
+        "id": "bts10",
+        "text": "In the first season of Sesame Street, Oscar the Grouch was not green but _____.",
+        "answer": "orange"
+      },
+      {
+        "id": "bts11",
+        "text": "In 1940 the first African American to win an Academy Award, for Gone with the Wind, was _____.",
+        "answer": "Hattie McDaniel"
+      },
+      {
+        "id": "bts12",
+        "text": "The Lord of the Rings: The Return of the King won all _____ of the Oscars it was nominated for.",
+        "answer": "11"
+      },
+      {
+        "id": "bts13",
+        "text": "The first Academy Award for Best Animated Feature, handed out in 2002, went to _____.",
+        "answer": "Shrek"
+      },
+      {
+        "id": "bts14",
+        "text": "Stranger Things was originally going to be titled _____, after a famous conspiracy theory.",
+        "answer": "Montauk"
+      },
+      {
+        "id": "bts15",
+        "text": "Friends was first pitched to NBC under the title _____ Cafe.",
+        "answer": "Insomnia"
+      },
+      {
+        "id": "bts16",
+        "text": "The classic British sitcom Fawlty Towers made only _____ episodes in total.",
+        "answer": "12"
+      },
+      {
+        "id": "bts17",
+        "text": "Kylie Minogue's breakout role on the Australian soap Neighbours was playing a mechanic named _____.",
+        "answer": "Charlene"
+      },
+      {
+        "id": "bts18",
+        "text": "Freddie Mercury was born with the name Farrokh _____.",
+        "answer": "Bulsara"
+      },
+      {
+        "id": "bts19",
+        "text": "In the United States, the first Harry Potter book was renamed Harry Potter and the _____ Stone.",
+        "answer": "Sorcerer's"
+      },
+      {
+        "id": "bts20",
+        "text": "The Simpsons first appeared as short cartoons on a sketch show starring _____.",
+        "answer": "Tracey Ullman"
+      },
+      {
+        "id": "bts21",
+        "text": "Wallace, of Wallace and Gromit, is obsessed with a crumbly cheese from Yorkshire called _____.",
+        "answer": "Wensleydale"
+      },
+      {
+        "id": "bts22",
+        "text": "Toy Story, the first fully computer-animated feature film, was released in _____.",
+        "answer": "1995"
+      },
+      {
+        "id": "bts23",
+        "text": "Disney's Snow White, the first full-length cel-animated feature film, premiered in _____.",
+        "answer": "1937"
+      },
+      {
+        "id": "bts24",
+        "text": "Mickey Mouse's first cartoon released with synchronised sound, in 1928, was Steamboat _____.",
+        "answer": "Willie"
+      },
+      {
+        "id": "bts25",
+        "text": "The first music video ever shown on MTV, in 1981, was \"Video Killed the Radio Star\" by The _____.",
+        "answer": "Buggles"
+      },
+      {
+        "id": "bts26",
+        "text": "ABBA won the 1974 Eurovision Song Contest with the song \"_____\".",
+        "answer": "Waterloo"
+      },
+      {
+        "id": "bts27",
+        "text": "In 2016 Bob Dylan became the first musician to win the Nobel Prize in _____.",
+        "answer": "Literature"
+      },
+      {
+        "id": "bts28",
+        "text": "Al Jolson starred in the 1927 film widely credited with launching the talkie era, The _____ Singer.",
+        "answer": "Jazz"
+      },
+      {
+        "id": "bts29",
+        "text": "The Thriller short film by Michael Jackson was directed by John _____.",
+        "answer": "Landis"
+      },
+      {
+        "id": "bts30",
+        "text": "The band John Lennon formed as a teenager in 1956, which later became The Beatles, was called the _____.",
+        "answer": "Quarrymen"
+      },
+      {
+        "id": "bts31",
+        "text": "The Rolling Stones took their name from a song by bluesman Muddy _____.",
+        "answer": "Waters"
+      },
+      {
+        "id": "bts32",
+        "text": "Queen guitarist Brian May has a PhD in _____.",
+        "answer": "astrophysics"
+      },
+      {
+        "id": "bts33",
+        "text": "Before he became Mr. Bean, Rowan Atkinson studied _____ engineering at university.",
+        "answer": "electrical"
+      },
+      {
+        "id": "bts34",
+        "text": "SpongeBob SquarePants was created by Stephen Hillenburg, who used to teach marine _____.",
+        "answer": "biology"
+      },
+      {
+        "id": "bts35",
+        "text": "The hit Australian cartoon Bluey is made in the city of _____.",
+        "answer": "Brisbane"
+      },
+      {
+        "id": "bts36",
+        "text": "The plot of The Lion King borrows heavily from Shakespeare's play _____.",
+        "answer": "Hamlet"
+      },
+      {
+        "id": "bts37",
+        "text": "In E.T., the alien is lured with Reese's Pieces after Mars turned down the product placement of its own candy, _____.",
+        "answer": "M&Ms"
+      },
+      {
+        "id": "bts38",
+        "text": "The Hobbiton film set from the Lord of the Rings movies sits on a farm in New Zealand's _____ region.",
+        "answer": "Waikato"
+      },
+      {
+        "id": "bts39",
+        "text": "The first film in the official James Bond series, released in 1962, was titled Dr. _____.",
+        "answer": "No"
+      },
+      {
+        "id": "bts40",
+        "text": "The Hollywood sign, built in 1923 to advertise a housing development, originally read Hollywood_____.",
+        "answer": "land"
+      },
+      {
+        "id": "bts41",
+        "text": "Scooby-Doo's full name is _____ Doo.",
+        "answer": "Scoobert"
+      },
+      {
+        "id": "bts42",
+        "text": "Homer Simpson's middle name is _____.",
+        "answer": "Jay"
+      },
+      {
+        "id": "bts43",
+        "text": "In L. Frank Baum's original Oz book, Dorothy's magic slippers were _____ instead of ruby.",
+        "answer": "silver"
+      },
+      {
+        "id": "bts44",
+        "text": "Before Star Wars made him famous, Harrison Ford worked as a professional _____.",
+        "answer": "carpenter"
+      },
+      {
+        "id": "bts45",
+        "text": "In Monty Python and the Holy Grail, the knights have no horses, so a servant clops _____ together instead.",
+        "answer": "coconuts"
+      }
+    ]
+  }
+}

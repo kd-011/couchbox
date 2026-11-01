@@ -1,0 +1,72 @@
+{
+  "id": "horror-movies",
+  "title": "Horror Movie Night",
+  "emoji": "🎃",
+  "blurb": "Slashers, ghosts and jump scares, minus the actual nightmares.",
+  "tags": [
+    "movies",
+    "spooky"
+  ],
+  "order": 45,
+  "content": {
+    "categories": {
+      "monsters": {
+        "label": "Killers and monsters",
+        "items": [
+          "Freddy Krueger",
+          "Jason Voorhees",
+          "Michael Myers",
+          "Ghostface",
+          "Chucky",
+          "Pennywise",
+          "Dracula",
+          "Frankenstein's monster",
+          "Xenomorph",
+          "Jigsaw",
+          "Pinhead",
+          "Leatherface",
+          "The Babadook",
+          "Samara"
+        ]
+      },
+      "horror-films": {
+        "label": "Scary films",
+        "items": [
+          "Scream",
+          "Halloween",
+          "The Shining",
+          "Psycho",
+          "The Exorcist",
+          "Get Out",
+          "A Quiet Place",
+          "Hereditary",
+          "Insidious",
+          "The Conjuring",
+          "Poltergeist",
+          "The Ring",
+          "Saw",
+          "Paranormal Activity"
+        ]
+      },
+      "horror-tropes": {
+        "label": "Horror tropes",
+        "items": [
+          "Haunted house",
+          "Ouija board",
+          "Creepy doll",
+          "Final girl",
+          "Jump scare",
+          "Abandoned cabin",
+          "Cursed video tape",
+          "Full moon",
+          "Foggy graveyard",
+          "Hockey mask",
+          "Flickering lights",
+          "Seance",
+          "Phone with no signal",
+          "Creaky staircase"
+        ]
+      }
+    }
+  }
+}

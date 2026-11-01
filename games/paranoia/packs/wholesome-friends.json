@@ -1,0 +1,195 @@
+{
+  "id": "wholesome-friends",
+  "title": "Wholesome Friends",
+  "emoji": "🌻",
+  "blurb": "Soft hearts, group hugs, kind surprises and who remembers everyone's birthday.",
+  "tags": [
+    "wholesome",
+    "friends"
+  ],
+  "order": 150,
+  "content": {
+    "questions": [
+      {
+        "text": "Who would be most likely to remember everyone's birthday without being reminded?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to bake a cake for no reason?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to give a heartfelt speech at a casual dinner?",
+        "spicy": false
+      },
+      {
+        "text": "Who would knit everyone a scarf for Christmas?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to bring soup when you're sick and stay to watch telly?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to hug a stranger who looks sad?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to make a group playlist for every occasion?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to write a card with a paragraph of kind words?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to pull over to move a turtle off the road?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to start a kindness jar for the group?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to rescue a stray puppy and find it a home?",
+        "spicy": false
+      },
+      {
+        "text": "Who would cry happy tears at a surprise party?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to organise a picnic and bring all the extras?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to be the first to say \"I'm proud of you\"?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to give their jacket to someone who's cold?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to plant a tree for a friend's birthday?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to make friends with every neighbour on the street?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to collect dog toys for a shelter?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to send a care package to a friend overseas?",
+        "spicy": false
+      },
+      {
+        "text": "Who would remember what you said you wanted three months ago?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to offer to drive someone to the airport at 4am?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to turn up with flowers just because it's Tuesday?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to make a bad day better with a silly dance?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to leave a nice note in a lunchbox?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to lend a hand moving house without being asked?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to write a thank you letter to a teacher years later?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to throw the world's most thoughtful baby shower?",
+        "spicy": false
+      },
+      {
+        "text": "Who would hold the door for ten people in a row?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to spend all weekend helping a friend paint a room?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to learn sign language to talk to a friend?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to say \"tell me everything\" and mean it?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to send a photo of a cute animal just to brighten your day?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to run a tiny free library on their street?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to organise a group trip so everyone can catch up?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to bring a thermos of hot chocolate to a cold footy match?",
+        "spicy": false
+      },
+      {
+        "text": "Who would cheer the loudest at someone else's win?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to call to check in after a rough week?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to remember the name of every pet in the group?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to give the best advice when things get tough?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to say sorry first after an argument?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to make a friendship bracelet for everyone here?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to volunteer at a charity every weekend?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to pay for the stranger's coffee behind them?",
+        "spicy": false
+      },
+      {
+        "text": "Who would cry while reading out a birthday card?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to make a scrapbook of all our adventures?",
+        "spicy": false
+      }
+    ]
+  }
+}

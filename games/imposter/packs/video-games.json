@@ -1,0 +1,87 @@
+{
+  "id": "video-games",
+  "title": "Video Games",
+  "emoji": "🎮",
+  "blurb": "Consoles, mascots, megahits and rage quits. Press start and bluff.",
+  "tags": [
+    "gaming",
+    "pop culture"
+  ],
+  "order": 15,
+  "content": {
+    "categories": {
+      "consoles": {
+        "label": "Consoles and kit",
+        "items": [
+          "PlayStation",
+          "Xbox",
+          "Nintendo Switch",
+          "Sega Mega Drive",
+          "Atari 2600",
+          "Dreamcast",
+          "Steam Deck",
+          "Joy-Con",
+          "VR headset",
+          "Arcade cabinet",
+          "Light gun",
+          "Gaming headset"
+        ]
+      },
+      "characters": {
+        "label": "Game characters",
+        "items": [
+          "Mario",
+          "Sonic",
+          "Pikachu",
+          "Link",
+          "Pac-Man",
+          "Lara Croft",
+          "Master Chief",
+          "Kratos",
+          "Donkey Kong",
+          "Kirby",
+          "Steve from Minecraft",
+          "Crash Bandicoot",
+          "Bowser",
+          "Princess Peach"
+        ]
+      },
+      "games": {
+        "label": "Famous games",
+        "items": [
+          "Minecraft",
+          "Fortnite",
+          "Tetris",
+          "Mario Kart",
+          "Animal Crossing",
+          "Among Us",
+          "Call of Duty",
+          "The Sims",
+          "Grand Theft Auto",
+          "Roblox",
+          "Candy Crush",
+          "Space Invaders",
+          "Pong",
+          "Elden Ring"
+        ]
+      },
+      "gamer-life": {
+        "label": "Gamer moments",
+        "items": [
+          "Boss fight",
+          "Respawn",
+          "Loot box",
+          "Cheat code",
+          "Speedrun",
+          "Easter egg",
+          "Rage quit",
+          "Save point",
+          "Power-up",
+          "Lag spike",
+          "Side quest",
+          "Leaderboard"
+        ]
+      }
+    }
+  }
+}

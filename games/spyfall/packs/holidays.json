@@ -1,0 +1,181 @@
+{
+  "id": "holidays",
+  "title": "Holiday Spots",
+  "emoji": "✈️",
+  "blurb": "Resorts, sleeper trains, safaris and summer camp: places you go on holiday.",
+  "tags": [
+    "travel"
+  ],
+  "content": {
+    "locations": [
+      {
+        "key": "summer-camp",
+        "label": "Summer Camp",
+        "roles": [
+          "Camp Counsellor",
+          "Camp Nurse",
+          "Archery Instructor",
+          "Homesick Kid",
+          "Canoe Instructor",
+          "Camp Cook",
+          "Camp Director",
+          "Talent Show Host"
+        ]
+      },
+      {
+        "key": "tropical-resort",
+        "label": "All-Inclusive Resort",
+        "roles": [
+          "Pool Bartender",
+          "Entertainment Host",
+          "Honeymooner",
+          "Lifeguard",
+          "Housekeeper",
+          "Buffet Chef",
+          "Massage Therapist",
+          "Kids Club Leader"
+        ]
+      },
+      {
+        "key": "sleeper-train",
+        "label": "Overnight Sleeper Train",
+        "roles": [
+          "Conductor",
+          "Dining Car Chef",
+          "Ticket Inspector",
+          "Engine Driver",
+          "Backpacker",
+          "Retired Couple",
+          "Mystery Writer",
+          "Sleepy Commuter"
+        ]
+      },
+      {
+        "key": "roadside-motel",
+        "label": "Roadside Motel",
+        "roles": [
+          "Motel Owner",
+          "Night Receptionist",
+          "Truck Driver",
+          "Family on a Road Trip",
+          "Room Cleaner",
+          "Vending Machine Restocker",
+          "Travelling Musician",
+          "Newlyweds"
+        ]
+      },
+      {
+        "key": "safari-lodge",
+        "label": "Safari Lodge",
+        "roles": [
+          "Safari Guide",
+          "Animal Tracker",
+          "Wildlife Photographer",
+          "Lodge Manager",
+          "Jeep Driver",
+          "Anniversary Couple",
+          "Game Ranger",
+          "Lodge Chef"
+        ]
+      },
+      {
+        "key": "city-bus-tour",
+        "label": "City Bus Tour",
+        "roles": [
+          "Tour Guide",
+          "Bus Driver",
+          "Tourist with a Selfie Stick",
+          "Exchange Student",
+          "Retired Teacher",
+          "Souvenir Seller",
+          "Street Performer",
+          "Travel Blogger"
+        ]
+      },
+      {
+        "key": "water-park",
+        "label": "Water Park",
+        "roles": [
+          "Slide Attendant",
+          "Lifeguard",
+          "Wave Pool Operator",
+          "Kid on School Holidays",
+          "Snack Bar Worker",
+          "First Aid Officer",
+          "Season Pass Holder",
+          "Sunbather"
+        ]
+      },
+      {
+        "key": "fancy-hotel",
+        "label": "Fancy Hotel Lobby",
+        "roles": [
+          "Concierge",
+          "Bellhop",
+          "Receptionist",
+          "Doorman",
+          "Room Service Waiter",
+          "Celebrity Guest",
+          "Wedding Guest",
+          "Hotel Manager"
+        ]
+      },
+      {
+        "key": "snorkel-boat",
+        "label": "Reef Snorkel Boat",
+        "roles": [
+          "Boat Captain",
+          "Dive Instructor",
+          "Seasick Tourist",
+          "Marine Biologist",
+          "Deckhand",
+          "Underwater Photographer",
+          "Snorkeller",
+          "Lunch Server"
+        ]
+      },
+      {
+        "key": "christmas-market",
+        "label": "Christmas Market",
+        "roles": [
+          "Mulled Wine Seller",
+          "Carol Singer",
+          "Toy Maker",
+          "Pretzel Baker",
+          "Ice Rink Attendant",
+          "Santa",
+          "Tourist",
+          "Candle Maker"
+        ]
+      },
+      {
+        "key": "music-festival",
+        "label": "Music Festival",
+        "roles": [
+          "Headliner",
+          "Roadie",
+          "Festival Goer",
+          "Sound Engineer",
+          "Security Guard",
+          "First Aid Volunteer",
+          "Glitter Face Painter",
+          "Merch Seller"
+        ]
+      },
+      {
+        "key": "houseboat",
+        "label": "Houseboat Holiday",
+        "roles": [
+          "Skipper for the Week",
+          "Bored Teenager",
+          "Fishing Grandpa",
+          "Hire Company Rep",
+          "Water Skier",
+          "Birthday Guest",
+          "Lock Keeper",
+          "Cook on Duty"
+        ]
+      }
+    ]
+  }
+}

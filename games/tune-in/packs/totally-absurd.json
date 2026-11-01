@@ -1,0 +1,193 @@
+{
+  "id": "totally-absurd",
+  "title": "Totally Absurd",
+  "emoji": "🛸",
+  "blurb": "Conspiracy pigeons, bad band names and hypotheticals with no sensible answer.",
+  "tags": [
+    "absurd"
+  ],
+  "content": {
+    "spectrums": [
+      {
+        "left": "Plausible",
+        "right": "Absolutely not"
+      },
+      {
+        "left": "Dignified entrance",
+        "right": "Chaotic entrance"
+      },
+      {
+        "left": "Believable excuse",
+        "right": "Ridiculous excuse"
+      },
+      {
+        "left": "Reasonable hill to die on",
+        "right": "Ridiculous hill to die on"
+      },
+      {
+        "left": "Great band name",
+        "right": "Terrible band name"
+      },
+      {
+        "left": "Sounds made up but real",
+        "right": "Sounds real but made up"
+      },
+      {
+        "left": "Realistic conspiracy",
+        "right": "Absurd conspiracy"
+      },
+      {
+        "left": "Cursed",
+        "right": "Blessed"
+      },
+      {
+        "left": "Ideal dinner guest",
+        "right": "Dinner guest from hell"
+      },
+      {
+        "left": "Surprisingly practical",
+        "right": "Impractically glamorous"
+      },
+      {
+        "left": "Normal hobby",
+        "right": "Alarming hobby"
+      },
+      {
+        "left": "Clever boat name",
+        "right": "Cringe boat name"
+      },
+      {
+        "left": "Worth a million dollars",
+        "right": "Worth a goat"
+      },
+      {
+        "left": "Something a villain would say",
+        "right": "Something a hero would say"
+      },
+      {
+        "left": "Good luck charm",
+        "right": "Bad omen"
+      },
+      {
+        "left": "Weird flex",
+        "right": "Legit flex"
+      },
+      {
+        "left": "Top-tier shower thought",
+        "right": "Bottom-tier shower thought"
+      },
+      {
+        "left": "Normal pet",
+        "right": "Concerning pet"
+      },
+      {
+        "left": "Fits in a pocket",
+        "right": "Needs a truck"
+      },
+      {
+        "left": "Grandma would approve",
+        "right": "Grandma would faint"
+      },
+      {
+        "left": "Sounds like a cheese",
+        "right": "Sounds like a sneeze"
+      },
+      {
+        "left": "Convincing pirate",
+        "right": "Hopeless pirate"
+      },
+      {
+        "left": "Right thing to grab in a fire",
+        "right": "Wrong thing to grab in a fire"
+      },
+      {
+        "left": "Appliance that stays loyal",
+        "right": "Appliance that would rebel"
+      },
+      {
+        "left": "Standing ovation",
+        "right": "Booed off stage"
+      },
+      {
+        "left": "Belongs in the past",
+        "right": "Belongs in the future"
+      },
+      {
+        "left": "Great first impression on aliens",
+        "right": "Terrible first impression on aliens"
+      },
+      {
+        "left": "Invention we need",
+        "right": "Invention nobody asked for"
+      },
+      {
+        "left": "Genius life hack",
+        "right": "Dubious life hack"
+      },
+      {
+        "left": "Costume that wins",
+        "right": "Costume that flops"
+      },
+      {
+        "left": "Wise talking animal",
+        "right": "Rude talking animal"
+      },
+      {
+        "left": "Friendly ghost",
+        "right": "Menacing ghost"
+      },
+      {
+        "left": "A dream that means something",
+        "right": "Just pizza before bed"
+      },
+      {
+        "left": "Will happen eventually",
+        "right": "Will never happen"
+      },
+      {
+        "left": "Normal thing in a pocket",
+        "right": "Alarming thing in a pocket"
+      },
+      {
+        "left": "Sounds like a rock band",
+        "right": "Sounds like a cleaning product"
+      },
+      {
+        "left": "Handy apocalypse skill",
+        "right": "Useless apocalypse skill"
+      },
+      {
+        "left": "Evil mastermind energy",
+        "right": "Golden retriever energy"
+      },
+      {
+        "left": "Ancient wisdom",
+        "right": "Ancient nonsense"
+      },
+      {
+        "left": "Great wizard spell",
+        "right": "Useless wizard spell"
+      },
+      {
+        "left": "Good password",
+        "right": "Terrible password"
+      },
+      {
+        "left": "Epic superhero name",
+        "right": "Ridiculous superhero name"
+      },
+      {
+        "left": "Raised by wolves",
+        "right": "Raised by seagulls"
+      },
+      {
+        "left": "Reasonable to shout in a library",
+        "right": "Never shout in a library"
+      },
+      {
+        "left": "Great idea for the Moon",
+        "right": "Terrible idea for the Moon"
+      }
+    ]
+  }
+}

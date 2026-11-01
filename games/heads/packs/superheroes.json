@@ -1,0 +1,24 @@
+{
+  "id": "superheroes",
+  "title": "Superheroes and Villains",
+  "emoji": "🦸",
+  "blurb": "Capes, masks and secret identities from Marvel, DC and beyond, plus the baddies they fight.",
+  "tags": ["superheroes", "movies", "comics"],
+  "order": 20,
+  "content": {
+    "categories": {
+      "marvel-heroes": {
+        "label": "Marvel heroes",
+        "items": ["Spider-Man", "Black Widow", "Hawkeye", "Doctor Strange", "Ant-Man", "Captain Marvel", "Scarlet Witch", "Deadpool", "Daredevil", "Storm", "Professor X", "Groot", "Rocket Raccoon", "Star-Lord", "Falcon", "Vision"]
+      },
+      "dc-and-more-heroes": {
+        "label": "DC and other heroes",
+        "items": ["Batman", "Wonder Woman", "Aquaman", "The Flash", "Green Lantern", "Supergirl", "Batgirl", "Robin", "Green Arrow", "Cyborg", "Shazam", "Nightwing", "Mr Incredible", "Elastigirl", "Hellboy", "Catwoman"]
+      },
+      "super-villains": {
+        "label": "Super villains",
+        "items": ["Lex Luthor", "Green Goblin", "Doctor Doom", "Venom", "Red Skull", "Ultron", "The Penguin", "Two-Face", "Bane", "The Riddler", "Poison Ivy", "Darkseid", "Kingpin", "Doctor Octopus", "Harley Quinn"]
+      }
+    }
+  }
+}

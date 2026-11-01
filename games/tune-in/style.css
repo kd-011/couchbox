@@ -1,0 +1,121 @@
+/* Tune In: the dial is the whole game. Everything else is plain text. */
+
+.ti-role { display: inline-flex; padding: 6px 14px; border-radius: 999px; background: var(--accent); color: var(--accent-ink); font: 800 14px var(--display); letter-spacing: 0.04em; text-transform: uppercase; }
+.ti-clue { display: flex; flex-direction: column; align-items: center; gap: 2px; animation: ti-slam 0.5s var(--spring) both; }
+.ti-clue span { color: var(--dim); font-size: 13px; font-weight: 750; letter-spacing: 0.06em; text-transform: uppercase; }
+.ti-clue strong { font: 800 clamp(40px, 13vw, 62px)/0.92 var(--display); font-stretch: 76%; letter-spacing: -0.035em; color: var(--accent); overflow-wrap: anywhere; text-wrap: balance; }
+@keyframes ti-slam { from { opacity: 0; transform: scale(1.5); } }
+.ti-up { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+.ti-up > .av, .ti-up > :first-child { animation: ti-bob 2.6s ease-in-out infinite; }
+@keyframes ti-bob { 50% { transform: translateY(-6px) rotate(3deg); } }
+.ti-big { font: 800 clamp(30px, 9vw, 42px)/0.98 var(--display); font-stretch: 80%; letter-spacing: -0.03em; max-width: 14ch; }
+.ti-in { display: inline-flex; align-items: center; gap: 6px; color: var(--good); }
+
+.ti-dial { display: flex; flex-direction: column; align-items: stretch; gap: 10px; width: 100%; max-width: 560px; margin: 6px 0; }
+
+.ti-ends { display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; }
+.ti-end { max-width: 48%; font: 800 17px/1.05 var(--display); font-stretch: 86%; color: var(--text); }
+.ti-end-left { text-align: left; }
+.ti-end-right { text-align: right; }
+
+/* The track is the whole hit target: tall enough that dragging anywhere on
+   it works, not just on the small visible handle. */
+.ti-track {
+  position: relative;
+  height: 64px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  box-shadow: inset 0 0 0 1.5px var(--line);
+  touch-action: none;
+  user-select: none;
+}
+.ti-track-live { cursor: grab; }
+.ti-track-live:active { cursor: grabbing; }
+.ti-track-live:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+.ti-track-static, .ti-track-neutral { height: 36px; background: var(--surface); box-shadow: inset 0 0 0 1px var(--line); }
+
+/* A center tick so the midpoint of the spectrum reads at a glance. */
+.ti-track::before {
+  content: ''; position: absolute; left: 50%; top: 8px; bottom: 8px; width: 2px;
+  background: var(--line); transform: translateX(-50%); border-radius: 2px;
+}
+.ti-track-static::before, .ti-track-neutral::before { top: 6px; bottom: 6px; opacity: 0.6; }
+
+.ti-fill {
+  position: absolute; inset: 0 auto 0 0; border-radius: 999px;
+  background: color-mix(in oklab, var(--accent) 30%, transparent);
+  pointer-events: none;
+}
+.ti-track-static .ti-fill, .ti-track-neutral .ti-fill { display: none; }
+
+.ti-marker {
+  position: absolute; top: 50%; transform: translate(-50%, -50%);
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  pointer-events: none;
+}
+.ti-marker-dot {
+  width: 40px; height: 40px; border-radius: 50%;
+  background: var(--accent); box-shadow: 0 6px 16px -4px color-mix(in oklab, var(--accent) 70%, transparent), 0 0 0 4px var(--surface-2);
+}
+.ti-marker.is-target .ti-marker-dot {
+  background: var(--amber); box-shadow: 0 6px 16px -4px rgba(255, 179, 71, 0.7), 0 0 0 4px var(--surface-2);
+  clip-path: polygon(50% 100%, 10% 30%, 10% 0%, 90% 0%, 90% 30%);
+}
+.ti-marker.is-final .ti-marker-dot { background: var(--good); box-shadow: 0 6px 16px -4px rgba(61, 220, 151, 0.7), 0 0 0 4px var(--surface-2); }
+.ti-track-static .ti-marker-dot, .ti-track-neutral .ti-marker-dot { width: 24px; height: 24px; }
+
+.ti-marker-tag {
+  font: 700 11px var(--body); letter-spacing: 0.04em; text-transform: uppercase; color: var(--dim);
+  background: var(--surface-3); padding: 2px 8px; border-radius: 999px; white-space: nowrap;
+}
+
+.ti-readout { text-align: center; color: var(--faint); font-weight: 700; font-size: 14px; }
+
+.ti-clue-form { display: flex; flex-direction: column; gap: 12px; width: 100%; max-width: 420px; }
+
+.ti-result { display: flex; flex-direction: column; align-items: center; gap: 10px; width: 100%; }
+.ti-band { font: 800 clamp(48px, 15vw, 72px)/0.88 var(--display); font-stretch: 76%; letter-spacing: -0.04em; margin: 2px 0 0; animation: ti-slam 0.5s var(--spring) 1.1s both; }
+.ti-band-bullseye { color: var(--good); }
+.ti-band-close { color: var(--accent); }
+.ti-band-okay { color: var(--amber); }
+.ti-band-miss { color: var(--bad); }
+
+/* The half-moon reveal: the needle sweeps up to the guess, then the bands
+   light up around the target. */
+.ti-arc { width: 100%; max-width: 420px; align-self: center; overflow: visible; }
+.ti-arc-track { fill: var(--surface-2); }
+.ti-arc-tick { stroke: var(--line-2); stroke-width: 2; stroke-linecap: round; }
+.ti-zones { transform-box: view-box; transform-origin: 100px 100px; animation: ti-zones 0.55s var(--spring) 0.8s both; }
+.ti-zone { transition: opacity 0.3s; }
+.ti-zone-okay { fill: color-mix(in oklab, var(--amber) 48%, var(--surface-2)); }
+.ti-zone-close { fill: color-mix(in oklab, var(--accent) 70%, var(--surface-2)); }
+.ti-zone-bullseye { fill: var(--good); }
+.ti-zone.lit { animation: ti-lit 1s ease-in-out 1.3s 2; }
+@keyframes ti-zones { from { opacity: 0; transform: scale(0.4); } }
+@keyframes ti-lit { 50% { filter: brightness(1.45); } }
+.ti-needle { transform-box: view-box; transform-origin: 100px 100px; transform: rotate(var(--deg)); animation: ti-sweep 0.95s var(--ease) both; }
+.ti-needle path { stroke: var(--text); stroke-width: 5; stroke-linecap: round; }
+.ti-needle circle { fill: var(--text); }
+@keyframes ti-sweep { from { transform: rotate(-90deg); } }
+.ti-reveal .ti-ends { margin-top: -6px; }
+.ti-reveal { max-width: 420px; }
+.ti-over { font: 800 clamp(26px, 8vw, 36px)/1 var(--display); font-stretch: 82%; letter-spacing: -0.02em; color: var(--amber); text-transform: none; animation: ti-slam 0.5s var(--spring) 1.3s both; }
+.ti-reveal .ti-readout { animation: rise 0.4s var(--ease) 1s both; }
+
+.tv-surface .ti-dial { max-width: 70vw; }
+.tv-surface .ti-end { font-size: 1.3vw; }
+.tv-surface .ti-track { height: 5vw; }
+.tv-surface .ti-marker-dot { width: 3.2vw; height: 3.2vw; }
+.tv-surface .ti-marker-tag { font-size: 0.9vw; padding: 0.3vw 0.8vw; }
+.tv-surface .ti-readout { font-size: 1.1vw; }
+
+.tv-surface .ti-clue span { font-size: 1.1vw; }
+.tv-surface .ti-clue strong { font-size: 5.4vw; }
+.tv-surface .ti-arc { max-width: min(40vw, 62vh); }
+.tv-surface .ti-reveal { max-width: 40vw; }
+.tv-surface .ti-result .scores { display: none; }
+.tv-surface .ti-big { font-size: 4vw; max-width: none; }
+.tv-surface .ti-result { gap: 0.6vw; }
+.tv-surface .ti-band { font-size: 6vw; }
+.tv-surface .ti-over { font-size: 3vw; }

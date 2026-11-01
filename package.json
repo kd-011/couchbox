@@ -1,0 +1,24 @@
+{
+  "name": "games",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "Games: free party and drinking games, pass-and-play or everyone on their own phone.",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test 'test/**/*.test.mjs' 'games/**/*.test.mjs'",
+    "e2e": "node e2e/play.mjs",
+    "canary": "node e2e/canary.mjs",
+    "plays": "node lib/plays.mjs",
+    "deps": "npm ci --no-audit --no-fund",
+    "scan": "node scripts/secret-scan.mjs . --tracked",
+    "export": "node scripts/export-public.mjs"
+  },
+  "dependencies": {
+    "qrcode-generator": "2.0.4",
+    "ws": "8.22.0"
+  },
+  "devDependencies": {
+    "playwright-core": "1.63.0"
+  }
+}

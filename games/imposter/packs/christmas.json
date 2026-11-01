@@ -1,0 +1,72 @@
+{
+  "id": "christmas",
+  "title": "Christmas",
+  "emoji": "🎄",
+  "blurb": "Tinsel, ham, Santa and the Secret Santa swap. Merry bluffmas.",
+  "tags": [
+    "holidays",
+    "family"
+  ],
+  "order": 35,
+  "content": {
+    "categories": {
+      "decorations": {
+        "label": "Decorations and gear",
+        "items": [
+          "Christmas tree",
+          "Tinsel",
+          "Baubles",
+          "Fairy lights",
+          "Advent calendar",
+          "Wreath",
+          "Stockings",
+          "Mistletoe",
+          "Snow globe",
+          "Candy cane",
+          "Gingerbread house",
+          "Christmas cracker",
+          "Paper hat",
+          "Wrapping paper"
+        ]
+      },
+      "christmas-food": {
+        "label": "Christmas feast",
+        "items": [
+          "Roast turkey",
+          "Christmas pudding",
+          "Mince pies",
+          "Glazed ham",
+          "Eggnog",
+          "Panettone",
+          "Pigs in blankets",
+          "Brussels sprouts",
+          "Cranberry sauce",
+          "Trifle",
+          "Pavlova",
+          "Yule log",
+          "Cold prawns",
+          "Mango"
+        ]
+      },
+      "christmas-people": {
+        "label": "Santa and traditions",
+        "items": [
+          "Santa Claus",
+          "Rudolph",
+          "The Grinch",
+          "Elf on the Shelf",
+          "Frosty the Snowman",
+          "Mrs Claus",
+          "Buddy the Elf",
+          "Carols by candlelight",
+          "Secret Santa",
+          "Boxing Day sales",
+          "Letter to Santa",
+          "Sleigh",
+          "North Pole",
+          "Nativity play"
+        ]
+      }
+    }
+  }
+}

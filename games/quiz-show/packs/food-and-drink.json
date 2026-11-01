@@ -1,0 +1,491 @@
+{
+  "id": "food-and-drink",
+  "title": "Food and Drink",
+  "emoji": "🍕",
+  "blurb": "World dishes, drinks from the bar and the science of your kitchen.",
+  "tags": [
+    "food",
+    "drinks"
+  ],
+  "content": {
+    "categories": {
+      "fd-world": {
+        "label": "World Food",
+        "multiple": [
+          {
+            "id": "fd-world-m-1",
+            "difficulty": "easy",
+            "text": "Paella is a classic rice dish from which country?",
+            "options": [
+              "Italy",
+              "Mexico",
+              "Spain",
+              "Portugal"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "fd-world-m-2",
+            "difficulty": "easy",
+            "text": "Kimchi, a spicy fermented side dish, comes from which country?",
+            "options": [
+              "Korea",
+              "Japan",
+              "Thailand",
+              "Vietnam"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "fd-world-m-3",
+            "difficulty": "easy",
+            "text": "What is the main ingredient of guacamole?",
+            "options": [
+              "Lime",
+              "Green capsicum",
+              "Peas",
+              "Avocado"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "fd-world-m-4",
+            "difficulty": "easy",
+            "text": "Which nut is ground up to make marzipan?",
+            "options": [
+              "Hazelnut",
+              "Almond",
+              "Cashew",
+              "Walnut"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "fd-world-m-5",
+            "difficulty": "easy",
+            "text": "Pho is a noodle soup from which country?",
+            "options": [
+              "Vietnam",
+              "Thailand",
+              "China",
+              "The Philippines"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "fd-world-m-6",
+            "difficulty": "medium",
+            "text": "In Japanese cooking, what is sashimi?",
+            "options": [
+              "Fish on vinegared rice",
+              "Sliced raw fish served without rice",
+              "Rolls wrapped in seaweed",
+              "Battered and deep-fried prawns"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "fd-world-m-7",
+            "difficulty": "medium",
+            "text": "Which fruit is caramelised in a classic upside-down tarte Tatin?",
+            "options": [
+              "Pear",
+              "Apricot",
+              "Apple",
+              "Plum"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "fd-world-m-8",
+            "difficulty": "hard",
+            "text": "Which pasta's name translates as \"little tongues\"?",
+            "options": [
+              "Orecchiette",
+              "Farfalle",
+              "Vermicelli",
+              "Linguine"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "fd-world-m-9",
+            "difficulty": "hard",
+            "text": "Spain's Manchego cheese is made from which milk?",
+            "options": [
+              "Goat's milk",
+              "Sheep's milk",
+              "Cow's milk",
+              "Buffalo milk"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "fd-world-m-10",
+            "difficulty": "hard",
+            "text": "Halloumi cheese traditionally comes from which island?",
+            "options": [
+              "Crete",
+              "Sicily",
+              "Cyprus",
+              "Malta"
+            ],
+            "answer": 2
+          }
+        ],
+        "boolean": [
+          {
+            "id": "fd-world-b-1",
+            "difficulty": "easy",
+            "text": "Hummus is made mainly from lentils.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "fd-world-b-2",
+            "difficulty": "hard",
+            "text": "Real wasabi comes from a plant in the same family as cabbage and mustard.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "fd-world-b-3",
+            "difficulty": "easy",
+            "text": "Prosciutto is made from beef.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "fd-world-b-4",
+            "difficulty": "medium",
+            "text": "The name tiramisu roughly means \"pick me up\" in Italian.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      "fd-drinks": {
+        "label": "Drinks",
+        "multiple": [
+          {
+            "id": "fd-drinks-m-1",
+            "difficulty": "easy",
+            "text": "Traditional Japanese sake is brewed from which grain?",
+            "options": [
+              "Rice",
+              "Barley",
+              "Wheat",
+              "Millet"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "fd-drinks-m-2",
+            "difficulty": "easy",
+            "text": "Which spirit is the base of a classic mojito?",
+            "options": [
+              "Gin",
+              "Vodka",
+              "Tequila",
+              "White rum"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "fd-drinks-m-3",
+            "difficulty": "easy",
+            "text": "Traditional cider is made from the fermented juice of which fruit?",
+            "options": [
+              "Pears",
+              "Grapes",
+              "Apples",
+              "Plums"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "fd-drinks-m-4",
+            "difficulty": "easy",
+            "text": "Guinness stout was first brewed in which city?",
+            "options": [
+              "London",
+              "Dublin",
+              "Cork",
+              "Belfast"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "fd-drinks-m-5",
+            "difficulty": "medium",
+            "text": "What gives tonic water its bitter taste?",
+            "options": [
+              "Quinine",
+              "Gentian",
+              "Caffeine",
+              "Hops"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "fd-drinks-m-6",
+            "difficulty": "medium",
+            "text": "Which berry gives gin its main flavour?",
+            "options": [
+              "Elderberry",
+              "Juniper",
+              "Blackcurrant",
+              "Sloe"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "fd-drinks-m-7",
+            "difficulty": "medium",
+            "text": "Which country grows the most coffee?",
+            "options": [
+              "Colombia",
+              "Vietnam",
+              "Ethiopia",
+              "Brazil"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "fd-drinks-m-8",
+            "difficulty": "medium",
+            "text": "Which orange liqueur is a standard ingredient in a margarita?",
+            "options": [
+              "Amaretto",
+              "Frangelico",
+              "Triple sec",
+              "Chambord"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "fd-drinks-m-9",
+            "difficulty": "hard",
+            "text": "New Zealand's Marlborough region is best known for which white wine grape?",
+            "options": [
+              "Riesling",
+              "Chardonnay",
+              "Sauvignon blanc",
+              "Pinot gris"
+            ],
+            "answer": 2
+          }
+        ],
+        "boolean": [
+          {
+            "id": "fd-drinks-b-1",
+            "difficulty": "easy",
+            "text": "Decaf coffee contains no caffeine at all.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "fd-drinks-b-2",
+            "difficulty": "medium",
+            "text": "Tequila can legally be made anywhere in the world.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "fd-drinks-b-3",
+            "difficulty": "easy",
+            "text": "Coffee beans are the seeds of a fruit.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "fd-drinks-b-4",
+            "difficulty": "medium",
+            "text": "Prosecco is a sparkling wine from Italy.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      "fd-kitchen": {
+        "label": "Kitchen Science",
+        "multiple": [
+          {
+            "id": "fd-kitchen-m-1",
+            "difficulty": "easy",
+            "text": "Which compound makes chillies taste hot?",
+            "options": [
+              "Caffeine",
+              "Menthol",
+              "Tannin",
+              "Capsaicin"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "fd-kitchen-m-2",
+            "difficulty": "easy",
+            "text": "Which gas makes yeasted bread dough rise?",
+            "options": [
+              "Oxygen",
+              "Carbon dioxide",
+              "Nitrogen",
+              "Hydrogen"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "fd-kitchen-m-3",
+            "difficulty": "easy",
+            "text": "Besides oil, what is the key ingredient of classic mayonnaise?",
+            "options": [
+              "Cream",
+              "Butter",
+              "Egg yolk",
+              "Mustard"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "fd-kitchen-m-4",
+            "difficulty": "easy",
+            "text": "Botanically speaking, which of these is a fruit?",
+            "options": [
+              "Tomato",
+              "Carrot",
+              "Celery",
+              "Potato"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "fd-kitchen-m-5",
+            "difficulty": "medium",
+            "text": "The browning reaction on seared steak and toast is named after which French chemist?",
+            "options": [
+              "Maillard",
+              "Pasteur",
+              "Lavoisier",
+              "Béchamel"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "fd-kitchen-m-6",
+            "difficulty": "medium",
+            "text": "What does the Italian cooking term \"al dente\" literally mean?",
+            "options": [
+              "Of the day",
+              "To the tooth",
+              "With butter",
+              "Lightly salted"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "fd-kitchen-m-7",
+            "difficulty": "medium",
+            "text": "Which crop supplies most of the world's sugar?",
+            "options": [
+              "Sugar beet",
+              "Corn",
+              "Sorghum",
+              "Sugarcane"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "fd-kitchen-m-8",
+            "difficulty": "hard",
+            "text": "The savoury taste called umami comes mainly from which compound?",
+            "options": [
+              "Glucose",
+              "Sodium chloride",
+              "Glutamate",
+              "Citric acid"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "fd-kitchen-m-9",
+            "difficulty": "hard",
+            "text": "Bananas are very slightly radioactive because they contain which element?",
+            "options": [
+              "Potassium",
+              "Calcium",
+              "Iron",
+              "Magnesium"
+            ],
+            "answer": 0
+          }
+        ],
+        "boolean": [
+          {
+            "id": "fd-kitchen-b-1",
+            "difficulty": "medium",
+            "text": "To a botanist, bananas count as berries but strawberries do not.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "fd-kitchen-b-2",
+            "difficulty": "easy",
+            "text": "Adding salt to a pot of water makes it boil noticeably faster.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "fd-kitchen-b-3",
+            "difficulty": "easy",
+            "text": "Peanuts grow underground.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "fd-kitchen-b-4",
+            "difficulty": "hard",
+            "text": "White chocolate contains no cocoa butter.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    }
+  }
+}

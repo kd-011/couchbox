@@ -1,0 +1,214 @@
+{
+  "id": "aussie-life",
+  "title": "Aussie Life",
+  "emoji": "🦘",
+  "blurb": "Thongs, servos, magpies, Bunnings and the great Aussie summer.",
+  "tags": [
+    "aussie"
+  ],
+  "order": 60,
+  "content": {
+    "pairs": [
+      {
+        "a": "Give up Vegemite for life",
+        "b": "Give up Tim Tams for life"
+      },
+      {
+        "a": "Spend Christmas Day at the beach",
+        "b": "Spend Christmas Day in the snow overseas"
+      },
+      {
+        "a": "Find a huntsman in your car while driving",
+        "b": "Find a huntsman in your bed at night"
+      },
+      {
+        "a": "Wear thongs everywhere, weddings included",
+        "b": "Never wear thongs again"
+      },
+      {
+        "a": "Get a free Bunnings sausage every Saturday",
+        "b": "Get free Maccas every Friday"
+      },
+      {
+        "a": "Have a pool in the backyard",
+        "b": "Live five minutes' walk from the beach"
+      },
+      {
+        "a": "Watch the AFL Grand Final live at the MCG",
+        "b": "Watch the Melbourne Cup live at Flemington"
+      },
+      {
+        "a": "Get swooped by a magpie every spring",
+        "b": "Have a possum living in your roof"
+      },
+      {
+        "a": "Drink only instant coffee for a year",
+        "b": "Pay eight dollars for every flat white"
+      },
+      {
+        "a": "Drive across the Nullarbor with no air con",
+        "b": "Drive across the Nullarbor with a car full of toddlers"
+      },
+      {
+        "a": "Only eat fairy bread at every party",
+        "b": "Only eat sausage rolls at every party"
+      },
+      {
+        "a": "Live next door to a rooster",
+        "b": "Live next door to someone who mows at 7am on Sunday"
+      },
+      {
+        "a": "Do a lap of Australia in a caravan",
+        "b": "Do a lap of the world with only a backpack"
+      },
+      {
+        "a": "Get sunburnt on day one of the holidays",
+        "b": "Get eaten alive by mozzies all holidays"
+      },
+      {
+        "a": "Have a lifetime supply of meat pies",
+        "b": "Have a lifetime supply of lamingtons"
+      },
+      {
+        "a": "Spend a day at the cricket in 40 degree heat",
+        "b": "Spend a day at the footy in sideways rain"
+      },
+      {
+        "a": "Wear Ugg boots to a job interview",
+        "b": "Wear budgie smugglers to a dinner party"
+      },
+      {
+        "a": "Have a bin chicken steal your sandwich",
+        "b": "Have a seagull steal your chips"
+      },
+      {
+        "a": "Survive a summer up north with no air con",
+        "b": "Survive a Canberra winter with no heater"
+      },
+      {
+        "a": "Be stuck behind a road train for 200 kilometres",
+        "b": "Be stuck in Sydney traffic for two hours"
+      },
+      {
+        "a": "Have a kangaroo bounce through your yard every morning",
+        "b": "Have a kookaburra cackle outside your window at 5am"
+      },
+      {
+        "a": "Only listen to Aussie pub rock forever",
+        "b": "Only listen to The Wiggles forever"
+      },
+      {
+        "a": "Step on a patch of bindis barefoot",
+        "b": "Get stung by a bluebottle"
+      },
+      {
+        "a": "Walk into Bunnings for one thing and leave with one thing",
+        "b": "Walk into Kmart for one thing and leave with twenty"
+      },
+      {
+        "a": "Live with Darwin's humidity",
+        "b": "Live with Hobart's cold"
+      },
+      {
+        "a": "Umpire one AFL Grand Final",
+        "b": "Commentate one AFL Grand Final"
+      },
+      {
+        "a": "Camp in the outback under the stars",
+        "b": "Camp at a packed caravan park on Boxing Day"
+      },
+      {
+        "a": "Eat a witchetty grub",
+        "b": "Eat a heaped spoonful of Vegemite straight from the jar"
+      },
+      {
+        "a": "Be on barbie duty every family Christmas",
+        "b": "Be on dishes duty every family Christmas"
+      },
+      {
+        "a": "Spend a night in a tent with a curious possum",
+        "b": "Spend a night in a swag with the mozzies"
+      },
+      {
+        "a": "Live on a cattle station 500 kilometres from town",
+        "b": "Live in a shoebox city apartment for the same price"
+      },
+      {
+        "a": "Only eat servo food on every road trip",
+        "b": "Only eat food you packed yourself on every road trip"
+      },
+      {
+        "a": "Always be asked to bring the pav",
+        "b": "Always be asked to bring the ice"
+      },
+      {
+        "a": "Have quokkas photobomb every photo you take",
+        "b": "Have a cockatoo screech at you every morning"
+      },
+      {
+        "a": "Holiday on the Gold Coast during schoolies",
+        "b": "Holiday in the outback during fly season"
+      },
+      {
+        "a": "Have Tim Tams that never go soft in your tea",
+        "b": "Have Vegemite toast that never goes cold"
+      },
+      {
+        "a": "Ride the Rottnest ferry in a rough swell",
+        "b": "Drive the Great Ocean Road with a bus full of schoolkids"
+      },
+      {
+        "a": "Live where the flies never leave but it's sunny all year",
+        "b": "Live where the flies never come but it's grey half the year"
+      },
+      {
+        "a": "Call everyone \"mate\" for the rest of your life",
+        "b": "Shorten every word and add an \"o\" for the rest of your life"
+      },
+      {
+        "a": "Holiday at the Big Pineapple",
+        "b": "Holiday at the Big Merino"
+      },
+      {
+        "a": "Get bogged in sand on a beach with the tide coming in",
+        "b": "Get a flat tyre on a dirt road with no reception"
+      },
+      {
+        "a": "Wait for a tram in Melbourne's four seasons in one day",
+        "b": "Wait for a train in Perth's 42 degree heatwave"
+      },
+      {
+        "a": "Watch the Boxing Day Test every year",
+        "b": "Watch the Sydney to Hobart start every year"
+      },
+      {
+        "a": "Own an esky that keeps drinks icy for a month",
+        "b": "Own a ute that can go absolutely anywhere"
+      },
+      {
+        "a": "Say \"no worries\" to every request, even impossible ones",
+        "b": "Say \"yeah, nah\" to every request, even easy ones"
+      },
+      {
+        "a": "Live in a town with one servo and no phone reception",
+        "b": "Live in a suburb with five cafes and nowhere to park"
+      },
+      {
+        "a": "Eat a Cherry Ripe straight from the freezer",
+        "b": "Eat a Violet Crumble that shatters over your lap"
+      },
+      {
+        "a": "Be chased by an emu",
+        "b": "Be chased by a cassowary"
+      },
+      {
+        "a": "Have a sunburn in the exact shape of your thong straps",
+        "b": "Have a farmer's tan that never fades"
+      },
+      {
+        "a": "Win a year of free petrol",
+        "b": "Win a year of free groceries"
+      }
+    ]
+  }
+}

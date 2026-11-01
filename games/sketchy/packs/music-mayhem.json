@@ -1,0 +1,66 @@
+{
+  "id": "music-mayhem",
+  "title": "Music Mayhem",
+  "emoji": "🎸",
+  "blurb": "Instruments, gigs and the worst karaoke night ever.",
+  "tags": [
+    "music"
+  ],
+  "order": 50,
+  "content": {
+    "easy": [
+      "guitar",
+      "drum",
+      "piano",
+      "trumpet",
+      "headphones",
+      "microphone",
+      "violin",
+      "music note",
+      "radio",
+      "vinyl record",
+      "speaker",
+      "harp",
+      "flute",
+      "cassette tape",
+      "saxophone",
+      "maracas"
+    ],
+    "medium": [
+      "rock concert",
+      "street busker",
+      "karaoke night",
+      "choir",
+      "rap battle",
+      "dj turntable",
+      "marching band",
+      "music festival",
+      "opera singer",
+      "piano lessons",
+      "guitar solo",
+      "boom box",
+      "mosh pit",
+      "backstage pass",
+      "conductor",
+      "jukebox"
+    ],
+    "hard": [
+      "off key",
+      "stage fright",
+      "encore",
+      "earworm",
+      "one hit wonder",
+      "air guitar",
+      "sing along",
+      "crowd surfing",
+      "sound check",
+      "lip sync",
+      "stage dive",
+      "mixtape",
+      "silent disco",
+      "power ballad",
+      "lullaby",
+      "harmony"
+    ]
+  }
+}

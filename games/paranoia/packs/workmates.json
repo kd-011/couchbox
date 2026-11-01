@@ -1,0 +1,214 @@
+{
+  "id": "workmates",
+  "title": "Workmates",
+  "emoji": "💼",
+  "blurb": "Office gossip, reply-all disasters and who really runs the place.",
+  "tags": [
+    "work"
+  ],
+  "order": 40,
+  "content": {
+    "questions": [
+      {
+        "text": "Who at this table would be the first to volunteer to organise the office party?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to hit reply all to the whole company by accident?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to bring in a homemade cake for no reason at all?",
+        "spicy": false
+      },
+      {
+        "text": "Who at this table would last the longest on holiday without checking work email?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to fall asleep in a meeting and then deny it?",
+        "spicy": false
+      },
+      {
+        "text": "Who would end up as the boss of everyone here?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to have a secret snack drawer at work?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to quit their job dramatically to chase a dream?",
+        "spicy": false
+      },
+      {
+        "text": "Who at this table would be the worst at keeping a work secret?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to label their food in the office fridge?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to run the office tipping comp?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to wear a costume to work when nobody else does?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to get stuck in a lift and make friends with everyone inside?",
+        "spicy": false
+      },
+      {
+        "text": "Who at this table would be the best at pretending to look busy?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to win employee of the month without doing much at all?",
+        "spicy": false
+      },
+      {
+        "text": "Who would bring their pet to work?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to colour-code their entire work calendar?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to share the wrong screen in a big meeting?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to be secretly running a side business?",
+        "spicy": false
+      },
+      {
+        "text": "Who at this table would last the longest in a really boring job?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to know all the office gossip before anyone else?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to sleep at their desk to meet a deadline?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to talk their way into a pay rise?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to book a meeting to plan another meeting?",
+        "spicy": false
+      },
+      {
+        "text": "Who would forget their own work anniversary?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to eat someone else's lunch and never confess?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to go viral for a work presentation?",
+        "spicy": false
+      },
+      {
+        "text": "Who at this table would be the best person to be stuck with on a work trip?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to get the whole team lost on a team building day?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to cry at a colleague's farewell?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to write \"per my last email\" in anger?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to send a Slack message that just says \"hey\" and then go quiet?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to mute themselves, then loudly complain on the open call?",
+        "spicy": false
+      },
+      {
+        "text": "Who would eat a very smelly lunch at their desk?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to sign off an email with six exclamation marks?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to bring their whole personality to the Secret Santa?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to start a petition about the office coffee?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to say \"let's circle back\" to end any argument?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to lose a work laptop in a taxi?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to quietly run a fantasy footy league during work hours?",
+        "spicy": false
+      },
+      {
+        "text": "Who has the worst taste in desk decorations?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to survive a restructure by being impossible to replace?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be the star of the Christmas party karaoke?",
+        "spicy": false
+      },
+      {
+        "text": "Who would cry first at the office Christmas party slideshow?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to call a two-minute chat a \"quick sync\" that lasts an hour?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to accidentally call the boss \"mum\"?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to go to a conference just for the free lanyards?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to have a crush on a coworker?",
+        "spicy": true
+      },
+      {
+        "text": "Who would be most likely to date someone from work and keep it a secret?",
+        "spicy": true
+      },
+      {
+        "text": "Who at this table would be most likely to end up kissing someone at the office party?",
+        "spicy": true
+      }
+    ]
+  }
+}

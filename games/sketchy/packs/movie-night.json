@@ -1,0 +1,67 @@
+{
+  "id": "movie-night",
+  "title": "Movie Night",
+  "emoji": "🍿",
+  "blurb": "Blockbusters, binge-watching and terrible sequels.",
+  "tags": [
+    "movies",
+    "tv"
+  ],
+  "order": 40,
+  "content": {
+    "easy": [
+      "popcorn",
+      "film reel",
+      "clapperboard",
+      "movie camera",
+      "3d glasses",
+      "remote control",
+      "cinema ticket",
+      "television",
+      "movie screen",
+      "magic wand",
+      "cowboy hat",
+      "spaceship",
+      "tv antenna",
+      "director chair",
+      "hero cape",
+      "red carpet"
+    ],
+    "medium": [
+      "superhero landing",
+      "car chase",
+      "western showdown",
+      "sword fight",
+      "space battle",
+      "shark attack",
+      "drive-in movie",
+      "news reporter",
+      "game show",
+      "talent show",
+      "movie poster",
+      "dinosaur park",
+      "monster movie",
+      "karate fight",
+      "stunt double",
+      "haunted mansion"
+    ],
+    "hard": [
+      "plot twist",
+      "cliffhanger",
+      "spoiler alert",
+      "binge watching",
+      "jump scare",
+      "happy ending",
+      "sequel",
+      "blooper reel",
+      "product placement",
+      "laugh track",
+      "post-credits scene",
+      "buddy cop",
+      "cameo",
+      "montage",
+      "love triangle",
+      "cooking show"
+    ]
+  }
+}

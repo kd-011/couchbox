@@ -1,0 +1,214 @@
+{
+  "id": "food-fights",
+  "title": "Food Fights",
+  "emoji": "🍕",
+  "blurb": "Snacks, sauces and dinner-table dilemmas to split the room.",
+  "tags": [
+    "food"
+  ],
+  "order": 20,
+  "content": {
+    "pairs": [
+      {
+        "a": "Only eat pizza with no cheese",
+        "b": "Only eat burgers with no bun"
+      },
+      {
+        "a": "Give up chocolate forever",
+        "b": "Give up cheese forever"
+      },
+      {
+        "a": "Eat a whole lemon, peel and all",
+        "b": "Eat a whole raw onion like an apple"
+      },
+      {
+        "a": "Have every meal served stone cold",
+        "b": "Have every drink served lukewarm"
+      },
+      {
+        "a": "Only ever eat breakfast foods",
+        "b": "Never eat breakfast foods again"
+      },
+      {
+        "a": "Put tomato sauce on absolutely everything",
+        "b": "Never have sauce on anything again"
+      },
+      {
+        "a": "Share your chips with everyone, every time",
+        "b": "Never be offered anyone else's chips again"
+      },
+      {
+        "a": "Live without bread",
+        "b": "Live without rice"
+      },
+      {
+        "a": "Have unlimited free sushi",
+        "b": "Have unlimited free tacos"
+      },
+      {
+        "a": "Eat dinner at 4pm every day",
+        "b": "Eat dinner at 10pm every day"
+      },
+      {
+        "a": "Eat your cereal with water",
+        "b": "Eat your cereal with orange juice"
+      },
+      {
+        "a": "Always have slightly burnt toast",
+        "b": "Always have slightly underdone toast"
+      },
+      {
+        "a": "Only eat with a spoon for a year",
+        "b": "Only eat with a knife for a year"
+      },
+      {
+        "a": "Give up soft drink forever",
+        "b": "Give up potato chips forever"
+      },
+      {
+        "a": "Never eat pasta again",
+        "b": "Never eat potatoes again"
+      },
+      {
+        "a": "Eat ice cream that tastes like garlic",
+        "b": "Eat garlic bread that tastes like ice cream"
+      },
+      {
+        "a": "Have every sandwich be a bit soggy",
+        "b": "Have every biscuit be a bit stale"
+      },
+      {
+        "a": "Be a famous chef who can't taste anything",
+        "b": "Be a famous food critic who can't cook anything"
+      },
+      {
+        "a": "Have pineapple on every pizza you ever eat",
+        "b": "Never eat pizza again"
+      },
+      {
+        "a": "Always get your order wrong, but it's free",
+        "b": "Always get your order right, but it costs double"
+      },
+      {
+        "a": "Only eat food you cooked yourself",
+        "b": "Only eat food from a petrol station"
+      },
+      {
+        "a": "Have broccoli taste like your favourite fruit",
+        "b": "Have your favourite fruit taste like broccoli"
+      },
+      {
+        "a": "Eat a raw egg",
+        "b": "Drink a glass of pickle juice"
+      },
+      {
+        "a": "Pour the milk before the cereal forever",
+        "b": "Eat pizza with a knife and fork forever"
+      },
+      {
+        "a": "Only eat the crusts of every sandwich",
+        "b": "Only eat the toppings off every pizza"
+      },
+      {
+        "a": "Have a lifetime supply of your favourite snack",
+        "b": "Have one meal at the best restaurant in the world"
+      },
+      {
+        "a": "Eat at a buffet with a ten-minute time limit",
+        "b": "Eat a five-course meal that takes five hours"
+      },
+      {
+        "a": "Have hot chips with every meal",
+        "b": "Have dessert with every meal"
+      },
+      {
+        "a": "Cook every family dinner forever",
+        "b": "Do the dishes after every family dinner forever"
+      },
+      {
+        "a": "Have a fridge stocked with only vegetables",
+        "b": "Have a fridge stocked with only junk food"
+      },
+      {
+        "a": "Eat a sandwich someone has sat on",
+        "b": "Eat a pie that has been dropped on the floor"
+      },
+      {
+        "a": "Know every recipe in the world by heart",
+        "b": "Taste any dish and know its exact ingredients"
+      },
+      {
+        "a": "Only eat food that is bright green",
+        "b": "Only eat food that is beige"
+      },
+      {
+        "a": "Have a chocolate fountain in your kitchen",
+        "b": "Have a pizza oven in your backyard"
+      },
+      {
+        "a": "Eat the hottest chilli in the world once",
+        "b": "Eat plain boiled cabbage every day for a week"
+      },
+      {
+        "a": "Never be able to finish a meal",
+        "b": "Never feel full no matter how much you eat"
+      },
+      {
+        "a": "Eat soup with a fork for life",
+        "b": "Eat noodles with a teaspoon for life"
+      },
+      {
+        "a": "Have your favourite takeaway arrive cold every time",
+        "b": "Have mediocre takeaway arrive piping hot every time"
+      },
+      {
+        "a": "Always find a hair in your food",
+        "b": "Always find a tiny stone in your rice"
+      },
+      {
+        "a": "Have every chocolate taste like soap",
+        "b": "Have every soft drink taste like soup"
+      },
+      {
+        "a": "Only ever season food with salt",
+        "b": "Only ever season food with chilli"
+      },
+      {
+        "a": "Live on instant noodles for a year",
+        "b": "Live on plain porridge for a year"
+      },
+      {
+        "a": "Always get the burnt edge of the cake",
+        "b": "Always get the middle slice with no icing"
+      },
+      {
+        "a": "Eat a burger the size of your head in ten minutes",
+        "b": "Eat ten tiny burgers in ten minutes"
+      },
+      {
+        "a": "Be forced to share every dessert",
+        "b": "Be forced to share every main"
+      },
+      {
+        "a": "Drink everything through a cocktail straw",
+        "b": "Drink everything from a mug that weighs a kilo"
+      },
+      {
+        "a": "Eat leftover pizza for breakfast every day",
+        "b": "Eat leftover curry for breakfast every day"
+      },
+      {
+        "a": "Eat peanut butter and pickle sandwiches daily",
+        "b": "Eat cheese and jam sandwiches daily"
+      },
+      {
+        "a": "Only drink water that's slightly fizzy",
+        "b": "Only drink juice that's slightly watered down"
+      },
+      {
+        "a": "Have the last chip in every packet be stale",
+        "b": "Have the first chip in every packet be soggy"
+      }
+    ]
+  }
+}

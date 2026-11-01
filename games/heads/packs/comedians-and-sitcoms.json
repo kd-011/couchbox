@@ -1,0 +1,24 @@
+{
+  "id": "comedians-and-sitcoms",
+  "title": "Comedians and Sitcom Stars",
+  "emoji": "😂",
+  "blurb": "Stand-ups, sketch legends and the laugh-track faces we grew up watching.",
+  "tags": ["comedy", "tv"],
+  "order": 60,
+  "content": {
+    "categories": {
+      "comedians": {
+        "label": "Comedians",
+        "items": ["Kevin Hart", "Ricky Gervais", "Jerry Seinfeld", "Robin Williams", "Amy Schumer", "John Cleese", "Rowan Atkinson", "Jim Carrey", "Steve Martin", "Billy Connolly", "Tina Fey", "Amy Poehler", "Will Ferrell", "Adam Sandler", "Melissa McCarthy", "Kristen Wiig", "Mike Myers", "Eddie Izzard", "Sacha Baron Cohen", "Jack Black", "Eddie Murphy", "Ali Wong"]
+      },
+      "sitcom-actors": {
+        "label": "Sitcom actors",
+        "items": ["Jennifer Aniston", "Courteney Cox", "Lisa Kudrow", "David Schwimmer", "Matt LeBlanc", "Steve Carell", "Jim Parsons", "Neil Patrick Harris", "Larry David", "Julia Louis-Dreyfus", "Kaley Cuoco", "Sofia Vergara", "Eugene Levy", "Catherine O'Hara", "John Krasinski", "Ted Danson"]
+      },
+      "sitcom-characters": {
+        "label": "Sitcom characters",
+        "items": ["Michael Scott", "Sheldon Cooper", "Ross Geller", "Chandler Bing", "Joey Tribbiani", "Phoebe Buffay", "Monica Geller", "Rachel Green", "Kramer", "George Costanza", "Barney Stinson", "Leslie Knope", "Dwight Schrute", "Del Boy", "Basil Fawlty", "Edina Monsoon", "Ron Swanson", "Moira Rose", "Frasier Crane", "Fonzie"]
+      }
+    }
+  }
+}

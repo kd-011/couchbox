@@ -1,0 +1,233 @@
+{
+  "id": "strange-history",
+  "title": "Strange History",
+  "emoji": "📜",
+  "blurb": "True stories from the past that sound completely made up.",
+  "tags": [
+    "history"
+  ],
+  "content": {
+    "prompts": [
+      {
+        "id": "sh1",
+        "text": "Cleopatra lived closer in time to the Moon landing than to the building of the Great _____ of Giza.",
+        "answer": "Pyramid"
+      },
+      {
+        "id": "sh2",
+        "text": "Oxford University is older than the _____ Empire.",
+        "answer": "Aztec"
+      },
+      {
+        "id": "sh3",
+        "text": "In 1518, a dancing plague saw hundreds of people dance for days on end in the city of _____.",
+        "answer": "Strasbourg"
+      },
+      {
+        "id": "sh4",
+        "text": "Roman laundries, run by workers called fullers, cleaned togas by soaking them in stale _____.",
+        "answer": "urine"
+      },
+      {
+        "id": "sh5",
+        "text": "The Hundred Years' War between England and France actually lasted _____ years.",
+        "answer": "116"
+      },
+      {
+        "id": "sh6",
+        "text": "The Eiffel Tower was only meant to stand for _____ years before being taken down.",
+        "answer": "20"
+      },
+      {
+        "id": "sh7",
+        "text": "In 1923, jockey Frank Hayes won a race in New York even though he was _____ when he crossed the line.",
+        "answer": "dead"
+      },
+      {
+        "id": "sh8",
+        "text": "Abraham Lincoln has been honoured by America's national hall of fame for _____.",
+        "answer": "wrestling"
+      },
+      {
+        "id": "sh9",
+        "text": "The horned helmets we picture on Vikings were popularised by costumes for 19th-century _____.",
+        "answer": "opera"
+      },
+      {
+        "id": "sh10",
+        "text": "According to Herodotus, when a family's cat died, ancient Egyptians mourned by shaving off their _____.",
+        "answer": "eyebrows"
+      },
+      {
+        "id": "sh11",
+        "text": "Between 1912 and 1948, Olympic medals were also handed out for _____.",
+        "answer": "art"
+      },
+      {
+        "id": "sh12",
+        "text": "In 1919 a giant storage tank burst in Boston, flooding the streets with a wave of _____.",
+        "answer": "molasses"
+      },
+      {
+        "id": "sh13",
+        "text": "The 1859 standoff between the US and Britain over the San Juan Islands had only one casualty: a _____.",
+        "answer": "pig"
+      },
+      {
+        "id": "sh14",
+        "text": "Russia's Peter the Great introduced a tax on _____.",
+        "answer": "beards"
+      },
+      {
+        "id": "sh15",
+        "text": "The world's first webcam was set up at Cambridge University to keep an eye on a _____.",
+        "answer": "coffee pot"
+      },
+      {
+        "id": "sh16",
+        "text": "Woolly _____ were still alive on a remote Arctic island while the pyramids of Giza were being built.",
+        "answer": "mammoths"
+      },
+      {
+        "id": "sh17",
+        "text": "In 1952, Albert Einstein was offered the job of president of _____.",
+        "answer": "Israel"
+      },
+      {
+        "id": "sh18",
+        "text": "Lord Byron was banned from keeping his dog at Cambridge, so he kept a pet _____ instead.",
+        "answer": "bear"
+      },
+      {
+        "id": "sh19",
+        "text": "According to ancient writers, the Roman emperor Caligula planned to make his favourite _____ a consul.",
+        "answer": "horse"
+      },
+      {
+        "id": "sh20",
+        "text": "Long before video games, Nintendo was founded in 1889 to make _____.",
+        "answer": "playing cards"
+      },
+      {
+        "id": "sh21",
+        "text": "The Roman emperor Commodus loved to fight in the arena as a _____.",
+        "answer": "gladiator"
+      },
+      {
+        "id": "sh22",
+        "text": "In medieval Europe, courts sometimes put _____ on trial for crimes.",
+        "answer": "animals"
+      },
+      {
+        "id": "sh23",
+        "text": "Athletes at the ancient Greek Olympic Games competed _____.",
+        "answer": "naked"
+      },
+      {
+        "id": "sh24",
+        "text": "In the 1904 Olympic marathon, the first man over the line was disqualified for riding part of the course in a _____.",
+        "answer": "car"
+      },
+      {
+        "id": "sh25",
+        "text": "The first person fined for speeding in Britain, in 1896, was doing about _____ miles per hour.",
+        "answer": "eight"
+      },
+      {
+        "id": "sh26",
+        "text": "A brown oil paint popular with Victorian artists was made from ground-up Egyptian _____.",
+        "answer": "mummies"
+      },
+      {
+        "id": "sh27",
+        "text": "France carried out its last execution by guillotine in _____.",
+        "answer": "1977"
+      },
+      {
+        "id": "sh28",
+        "text": "The Paris Catacombs hold the bones of roughly _____ million people.",
+        "answer": "six"
+      },
+      {
+        "id": "sh29",
+        "text": "The purple dye worn by Roman emperors was made from sea _____.",
+        "answer": "snails"
+      },
+      {
+        "id": "sh30",
+        "text": "One of history's most powerful pirates, _____, commanded a huge fleet off the coast of China in the early 1800s.",
+        "answer": "Ching Shih"
+      },
+      {
+        "id": "sh31",
+        "text": "Alexander Fleming discovered penicillin in 1928 after leaving a dish of bacteria out while he went on _____.",
+        "answer": "holiday"
+      },
+      {
+        "id": "sh32",
+        "text": "Napoleon is remembered as tiny, but he was actually about _____ for a Frenchman of his time.",
+        "answer": "average height"
+      },
+      {
+        "id": "sh33",
+        "text": "The Great Stink of 1858 finally forced _____ to fix the sewage-filled River Thames.",
+        "answer": "Parliament"
+      },
+      {
+        "id": "sh34",
+        "text": "In 1859 a San Francisco businessman named Joshua Norton declared himself Emperor of the _____.",
+        "answer": "United States"
+      },
+      {
+        "id": "sh35",
+        "text": "Operation Mincemeat in 1943 used a dead man carrying fake papers, given the false identity of Major William _____.",
+        "answer": "Martin"
+      },
+      {
+        "id": "sh36",
+        "text": "The airship Hindenburg burned in 1937 because it was filled with flammable _____ instead of helium.",
+        "answer": "hydrogen"
+      },
+      {
+        "id": "sh37",
+        "text": "According to a medieval Arab historian, Mali's Mansa Musa gave away so much gold on his 1324 pilgrimage that its value dropped in _____.",
+        "answer": "Cairo"
+      },
+      {
+        "id": "sh38",
+        "text": "The Terracotta Army in China was found in 1974 by farmers who were digging a _____.",
+        "answer": "well"
+      },
+      {
+        "id": "sh39",
+        "text": "The 1494 Treaty of Tordesillas split the newly explored world between Spain and _____.",
+        "answer": "Portugal"
+      },
+      {
+        "id": "sh40",
+        "text": "The workers who built Egypt's pyramids were partly paid in daily rations of bread and _____.",
+        "answer": "beer"
+      },
+      {
+        "id": "sh41",
+        "text": "George Washington's false teeth were never wooden; they were made from things like hippo ivory, gold and real _____.",
+        "answer": "human teeth"
+      },
+      {
+        "id": "sh42",
+        "text": "In 897, Pope Stephen VI put the dug-up corpse of his predecessor, Pope _____, on trial.",
+        "answer": "Formosus"
+      },
+      {
+        "id": "sh43",
+        "text": "France's King Charles VI spent years convinced that his body was made of _____.",
+        "answer": "glass"
+      },
+      {
+        "id": "sh44",
+        "text": "The smaller bluestones of Stonehenge came from the Preseli Hills in _____.",
+        "answer": "Wales"
+      }
+    ]
+  }
+}

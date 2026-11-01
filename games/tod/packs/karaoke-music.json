@@ -1,0 +1,64 @@
+{
+  "id": "karaoke-music",
+  "title": "Karaoke and Music",
+  "emoji": "🎤",
+  "blurb": "Shower singers, guilty playlists and a dare or two to sing for. Mics optional.",
+  "tags": [
+    "music",
+    "karaoke"
+  ],
+  "order": 110,
+  "content": {
+    "mild": {
+      "truth": [
+        "What's your karaoke go-to, and how bad is it?",
+        "What's the first album or CD you ever bought?",
+        "What's the most embarrassing song on your 'recently played'?",
+        "What's the best concert you've ever been to?",
+        "Who's the artist you'd cross the country to see live?",
+        "What's the worst song that always gets stuck in your head?",
+        "What's a lyric you've been singing wrong for years?",
+        "Which band would you be a roadie for?",
+        "What song makes you cry every single time?",
+        "What was the first song you ever danced to at a school disco?",
+        "What instrument did you learn or want to learn?",
+        "What's the most surprising song on your workout playlist?",
+        "Which song do you skip every time it comes on?",
+        "What's your guilty-pleasure genre?",
+        "Who's your music hero from when you were a teenager?",
+        "Which song would you want played at your wedding?",
+        "What's the cheesiest song you actually love?",
+        "What's the worst live performance you've ever seen?",
+        "What's your all-time favourite cover version?",
+        "What was your first concert, and who went with you?",
+        "What song makes you instantly nostalgic for a summer?",
+        "If you started a band, what would you call it?"
+      ],
+      "dare": [
+        "Sing the first line of any song as if you're an opera star.",
+        "Lip sync the chorus of a song the group picks.",
+        "Hum a song and make the group guess it within 15 seconds.",
+        "Rap the alphabet, with your own beat and flourishes.",
+        "Do air guitar for 20 seconds as if you're headlining a festival.",
+        "Perform an interpretive dance to the last song you listened to.",
+        "Sing a song of your choice entirely in the voice of a cartoon character.",
+        "Sing the chorus of a song using only the word 'meow'.",
+        "Perform the lead-in to your favourite song as a radio host.",
+        "Create a jingle for the person on your right in 20 seconds.",
+        "Sing happy birthday in the style of three different genres.",
+        "Do a drum solo on your lap or the table for 15 seconds.",
+        "Sing a verse of a nursery rhyme as a heavy metal singer.",
+        "Sing one line of any song as slowly as you can, ending on a big dramatic pose.",
+        "Invent a boy-band or girl-group dance routine in 20 seconds.",
+        "Sing a pop song in your best slow ballad voice.",
+        "Perform a one-line rap about the last thing you ate.",
+        "Sing your name to the tune of a well-known song.",
+        "Introduce your fake band to the room with a ridiculous backstory.",
+        "Perform a dramatic piano solo on an invisible keyboard.",
+        "Mime being a rock star smashing a guitar, gently.",
+        "Start a clap-along beat and get everyone to join in.",
+        "Sing the national anthem in the style of a lounge singer."
+      ]
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "embarrassing-phone",
+  "title": "Phone Confessions",
+  "emoji": "📱",
+  "blurb": "Camera rolls, group chats and search history. Mild first, spicy for the brave.",
+  "tags": [
+    "phone",
+    "tech",
+    "spicy"
+  ],
+  "order": 40,
+  "content": {
+    "mild": {
+      "truth": [
+        "How many unread notifications are on your phone right now?",
+        "What's the most embarrassing app on your home screen?",
+        "What was your first mobile phone, and how much do you miss it?",
+        "What's the weirdest thing in your camera roll right now?",
+        "What's your screen time average, and does it make you wince?",
+        "What's the longest you've gone without checking your phone?",
+        "What's the most-played song in your streaming history that you'd rather hide?",
+        "What's your most-used emoji, and what does it say about you?",
+        "Which contact in your phone has the funniest name saved?",
+        "What's the last meme you saved?",
+        "Have you ever sent a message to the wrong group chat? What happened?",
+        "What's the oddest thing you've ever used your phone's torch for?",
+        "What's the cracked screen or phone disaster story you tell the most?",
+        "How many photos do you take of the same thing before you pick one?",
+        "What's the strangest voicemail you've ever left or received?",
+        "What's the worst thing about your phone's autocorrect?",
+        "What's your most-liked post ever, and what was it of?",
+        "What's the most embarrassing thing you've said to a voice assistant?",
+        "What do you do with your phone when you're trying to look busy?",
+        "What's the oldest photo you still have on your phone?",
+        "What's a notification sound you hate with every fibre of your being?",
+        "What's a game on your phone you've spent too much time on?"
+      ],
+      "dare": [
+        "Show the group your most recent photo of a pet, plant or meal.",
+        "Read the last three messages in your family group chat aloud in a movie trailer voice.",
+        "Take a selfie with the most ridiculous face you can pull and show it off.",
+        "Let the group pick a funny contact name to rename someone in your phone for the night.",
+        "Read out your next calendar event in a dramatic news anchor voice.",
+        "Let the person on your left set your wallpaper to something silly for an hour.",
+        "Do an impression of your own ringtone and make the group guess the song.",
+        "Record a 10-second voice memo as a pirate announcing the weather.",
+        "Open your music app and play 10 seconds of the most recent song, then commit to the dance.",
+        "Show the group your home screen and explain every app as if you're selling the phone.",
+        "Draw a portrait of the person opposite with your eyes closed, on your phone, and show everyone.",
+        "Send a friend a text containing only a word the group picks, no context.",
+        "Use your phone's voice-to-text to dictate a sentence the group gives you, no editing.",
+        "Take a photo of the room as if you're a real estate agent and describe it dramatically.",
+        "Set an alarm called 'Time to be amazing' for tomorrow morning, and show everyone.",
+        "Film a 10-second unboxing of whatever is in your pocket or bag, then show the group.",
+        "Hold your phone to your ear and have a one-sided argument with your own voice assistant.",
+        "Show the group the most-used row of your emoji keyboard.",
+        "Take a photo of your most dramatic 'I just saw a ghost' face and show it off.",
+        "Take a panorama photo where the person next to you appears twice, then show it.",
+        "Switch your phone to a language you can't read for two minutes.",
+        "Read out your next notification in your best movie narrator voice.",
+        "Post a story with a harmless caption the group picks, and delete it after the next round."
+      ]
+    },
+    "spicy": {
+      "truth": [
+        "What's the most embarrassing thing in your search history that you'll admit?",
+        "Who was the last person you stalked on social media?",
+        "What's the cringiest message you've ever sent to someone you liked?",
+        "What's a photo on your phone you'd hate this room to see?",
+        "What's the most embarrassing thing you've posted online and later deleted?",
+        "What's a message you drafted but never sent?",
+        "Who's the most recent person you muted without telling them?",
+        "What's the last thing you screenshot to send to a friend about someone else?",
+        "What's the most awkward 'like' you've ever accidentally given?",
+        "What's the worst thing you've sent that you couldn't unsend?",
+        "Which contact do you avoid replying to the longest?",
+        "What's something you've typed in a text and then deleted because it was too honest?"
+      ],
+      "dare": [
+        "Let the group read out your last sent text message.",
+        "Show the group your most recent three search suggestions.",
+        "Let the group pick a contact for you to send a single funny emoji to, with no explanation.",
+        "Read out the funniest message in your phone, if you're okay with it.",
+        "Show the room the oldest unanswered message on your phone.",
+        "Pick a friend in your contacts and send them a voice message singing happy birthday.",
+        "Read out the last message you sent to a crush or partner.",
+        "Hand your phone to the person on your left and let them scroll your photos for 10 seconds, with you picking the album.",
+        "Let the group write a harmless one-line status about you, and post it for ten minutes.",
+        "Read your last three notes or reminders out loud.",
+        "Show the group your favourites contact list and explain why each person is there.",
+        "Take the worst selfie you can and send it to the group chat."
+      ]
+    }
+  }
+}

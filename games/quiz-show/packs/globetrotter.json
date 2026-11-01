@@ -1,0 +1,479 @@
+{
+  "id": "globetrotter",
+  "title": "Globetrotter",
+  "emoji": "🧭",
+  "blurb": "Capitals, wonders, rivers and peaks, from Ottawa to Uluru and the bottom of the Mariana Trench.",
+  "tags": [
+    "geography",
+    "travel"
+  ],
+  "content": {
+    "categories": {
+      "gt-capitals": {
+        "label": "Capitals & Countries",
+        "multiple": [
+          {
+            "id": "gt-cap-m-1",
+            "difficulty": "easy",
+            "text": "Which city is the capital of Canada?",
+            "options": [
+              "Toronto",
+              "Vancouver",
+              "Ottawa",
+              "Montreal"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "gt-cap-m-2",
+            "difficulty": "easy",
+            "text": "Wellington is the capital of which country?",
+            "options": [
+              "New Zealand",
+              "Australia",
+              "Fiji",
+              "Papua New Guinea"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "gt-cap-m-3",
+            "difficulty": "medium",
+            "text": "Which city became the capital of Brazil in 1960?",
+            "options": [
+              "Rio de Janeiro",
+              "São Paulo",
+              "Salvador",
+              "Brasília"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "gt-cap-m-4",
+            "difficulty": "medium",
+            "text": "What is the capital of Turkey?",
+            "options": [
+              "Istanbul",
+              "Ankara",
+              "Izmir",
+              "Antalya"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "gt-cap-m-5",
+            "difficulty": "medium",
+            "text": "Which city is the capital of Morocco?",
+            "options": [
+              "Rabat",
+              "Casablanca",
+              "Marrakech",
+              "Fez"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "gt-cap-m-6",
+            "difficulty": "medium",
+            "text": "What is the capital of Vietnam?",
+            "options": [
+              "Ho Chi Minh City",
+              "Da Nang",
+              "Hue",
+              "Hanoi"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "gt-cap-m-7",
+            "difficulty": "medium",
+            "text": "Which city has been the capital of Nigeria since 1991?",
+            "options": [
+              "Lagos",
+              "Abuja",
+              "Kano",
+              "Port Harcourt"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "gt-cap-m-8",
+            "difficulty": "hard",
+            "text": "Naypyidaw, a purpose-built city of the 2000s, is the capital of which country?",
+            "options": [
+              "Laos",
+              "Bangladesh",
+              "Myanmar",
+              "Cambodia"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "gt-cap-m-9",
+            "difficulty": "hard",
+            "text": "Ulaanbaatar is the capital of which country?",
+            "options": [
+              "Kazakhstan",
+              "Mongolia",
+              "Kyrgyzstan",
+              "Bhutan"
+            ],
+            "answer": 1
+          }
+        ],
+        "boolean": [
+          {
+            "id": "gt-cap-b-1",
+            "difficulty": "easy",
+            "text": "Sydney is the capital of Australia.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "gt-cap-b-2",
+            "difficulty": "easy",
+            "text": "Vatican City is the smallest country in the world by area.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "gt-cap-b-3",
+            "difficulty": "medium",
+            "text": "Portugal shares a land border with France.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "gt-cap-b-4",
+            "difficulty": "hard",
+            "text": "Bolivia and Paraguay are the only landlocked countries in South America.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "gt-wonders": {
+        "label": "Wonders of the World",
+        "multiple": [
+          {
+            "id": "gt-won-m-1",
+            "difficulty": "easy",
+            "text": "In which Indian city will you find the Taj Mahal?",
+            "options": [
+              "Delhi",
+              "Agra",
+              "Jaipur",
+              "Mumbai"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "gt-won-m-2",
+            "difficulty": "easy",
+            "text": "Which ancient civilisation built Machu Picchu high in the Andes?",
+            "options": [
+              "Inca",
+              "Aztec",
+              "Maya",
+              "Olmec"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "gt-won-m-3",
+            "difficulty": "easy",
+            "text": "Christ the Redeemer watches over which city?",
+            "options": [
+              "Lima",
+              "Buenos Aires",
+              "Bogotá",
+              "Rio de Janeiro"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "gt-won-m-4",
+            "difficulty": "medium",
+            "text": "Uluru stands in which Australian state or territory?",
+            "options": [
+              "Western Australia",
+              "Northern Territory",
+              "South Australia",
+              "Queensland"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "gt-won-m-5",
+            "difficulty": "medium",
+            "text": "The rock-cut city of Petra is in which country?",
+            "options": [
+              "Egypt",
+              "Syria",
+              "Jordan",
+              "Oman"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "gt-won-m-6",
+            "difficulty": "medium",
+            "text": "Which Catalan architect devoted his final decades to the Sagrada Família in Barcelona?",
+            "options": [
+              "Santiago Calatrava",
+              "Antoni Gaudí",
+              "Oscar Niemeyer",
+              "Frank Gehry"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "gt-won-m-7",
+            "difficulty": "medium",
+            "text": "Which pharaoh was the Great Pyramid of Giza built for?",
+            "options": [
+              "Tutankhamun",
+              "Ramses II",
+              "Khufu",
+              "Akhenaten"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "gt-won-m-8",
+            "difficulty": "hard",
+            "text": "Chichen Itza's stepped pyramid, El Castillo, stands in which country?",
+            "options": [
+              "Mexico",
+              "Guatemala",
+              "Peru",
+              "Belize"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "gt-won-m-9",
+            "difficulty": "hard",
+            "text": "The Alhambra, a hilltop palace and fortress, overlooks which Spanish city?",
+            "options": [
+              "Seville",
+              "Córdoba",
+              "Toledo",
+              "Granada"
+            ],
+            "answer": 3
+          }
+        ],
+        "boolean": [
+          {
+            "id": "gt-won-b-1",
+            "difficulty": "easy",
+            "text": "Stonehenge is located in Scotland.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "gt-won-b-2",
+            "difficulty": "medium",
+            "text": "The Great Wall of China can be seen with the naked eye from the Moon.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "gt-won-b-3",
+            "difficulty": "medium",
+            "text": "The Sydney Opera House was designed by a Danish architect.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "gt-won-b-4",
+            "difficulty": "medium",
+            "text": "The Eiffel Tower was built for the 1889 World's Fair in Paris.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      "gt-nature": {
+        "label": "Rivers, Peaks & Oceans",
+        "multiple": [
+          {
+            "id": "gt-nat-m-1",
+            "difficulty": "easy",
+            "text": "Which is the largest ocean on Earth?",
+            "options": [
+              "Atlantic Ocean",
+              "Pacific Ocean",
+              "Indian Ocean",
+              "Arctic Ocean"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "gt-nat-m-2",
+            "difficulty": "easy",
+            "text": "Which river flows past the Perth city skyline?",
+            "options": [
+              "Murray River",
+              "Yarra River",
+              "Swan River",
+              "Derwent River"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "gt-nat-m-3",
+            "difficulty": "medium",
+            "text": "Mount Everest sits on the border of Nepal and which other country?",
+            "options": [
+              "India",
+              "China",
+              "Bhutan",
+              "Pakistan"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "gt-nat-m-4",
+            "difficulty": "medium",
+            "text": "Which river runs through the middle of Paris?",
+            "options": [
+              "Loire",
+              "Rhône",
+              "Seine",
+              "Rhine"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "gt-nat-m-5",
+            "difficulty": "medium",
+            "text": "Which single named river is Australia's longest, at about 2,500 kilometres?",
+            "options": [
+              "Murray",
+              "Darling",
+              "Murrumbidgee",
+              "Fitzroy"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "gt-nat-m-6",
+            "difficulty": "medium",
+            "text": "Which mountain is the highest in Africa?",
+            "options": [
+              "Mount Kenya",
+              "Toubkal",
+              "Mount Meru",
+              "Kilimanjaro"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "gt-nat-m-7",
+            "difficulty": "medium",
+            "text": "Into which sea does the Nile River empty?",
+            "options": [
+              "Red Sea",
+              "Mediterranean Sea",
+              "Black Sea",
+              "Arabian Sea"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "gt-nat-m-8",
+            "difficulty": "hard",
+            "text": "Which lake is the deepest in the world?",
+            "options": [
+              "Lake Baikal",
+              "Lake Superior",
+              "Lake Victoria",
+              "Lake Titicaca"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "gt-nat-m-9",
+            "difficulty": "hard",
+            "text": "The Challenger Deep, Earth's deepest known point, lies in which ocean trench?",
+            "options": [
+              "Tonga Trench",
+              "Java Trench",
+              "Puerto Rico Trench",
+              "Mariana Trench"
+            ],
+            "answer": 3
+          }
+        ],
+        "boolean": [
+          {
+            "id": "gt-nat-b-1",
+            "difficulty": "medium",
+            "text": "The Sahara is the largest hot desert in the world.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "gt-nat-b-2",
+            "difficulty": "medium",
+            "text": "The Atlantic is the smallest of the world's oceans.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "gt-nat-b-3",
+            "difficulty": "easy",
+            "text": "The Amazon River empties into the Pacific Ocean.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "gt-nat-b-4",
+            "difficulty": "hard",
+            "text": "Measured from its base on the seabed, Mauna Kea is taller than Mount Everest.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    }
+  }
+}

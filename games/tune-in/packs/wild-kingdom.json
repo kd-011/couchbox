@@ -1,0 +1,197 @@
+{
+  "id": "wild-kingdom",
+  "title": "Wild Kingdom",
+  "emoji": "🦁",
+  "blurb": "Sharks, geese, sloths and who would win in a fight.",
+  "tags": [
+    "animals"
+  ],
+  "content": {
+    "spectrums": [
+      {
+        "left": "Cute",
+        "right": "Terrifying"
+      },
+      {
+        "left": "Smarter than a dog",
+        "right": "Dumber than a rock"
+      },
+      {
+        "left": "Good pet",
+        "right": "Terrible pet"
+      },
+      {
+        "left": "Cuddly",
+        "right": "Sharp"
+      },
+      {
+        "left": "Would win a fight",
+        "right": "Would lose to a goose"
+      },
+      {
+        "left": "Majestic",
+        "right": "Ridiculous"
+      },
+      {
+        "left": "Hunter",
+        "right": "Hunted"
+      },
+      {
+        "left": "Lazy",
+        "right": "Hyperactive"
+      },
+      {
+        "left": "Loyal",
+        "right": "Aloof"
+      },
+      {
+        "left": "Fast",
+        "right": "Slow"
+      },
+      {
+        "left": "Loud",
+        "right": "Silent"
+      },
+      {
+        "left": "Fluffy",
+        "right": "Slimy"
+      },
+      {
+        "left": "Survives a zoo escape",
+        "right": "Hopeless in the wild"
+      },
+      {
+        "left": "Grumpy face",
+        "right": "Smiley face"
+      },
+      {
+        "left": "Better in the water",
+        "right": "Better in the air"
+      },
+      {
+        "left": "Cat person animal",
+        "right": "Dog person animal"
+      },
+      {
+        "left": "Best parent",
+        "right": "Worst parent"
+      },
+      {
+        "left": "Smells great",
+        "right": "Smells awful"
+      },
+      {
+        "left": "Documentary star",
+        "right": "Background extra"
+      },
+      {
+        "left": "Zoo highlight",
+        "right": "Zoo skip"
+      },
+      {
+        "left": "Farm animal with attitude",
+        "right": "Farm animal with manners"
+      },
+      {
+        "left": "Needs a lot as a pet",
+        "right": "Needs nothing as a pet"
+      },
+      {
+        "left": "Mascot material",
+        "right": "Not mascot material"
+      },
+      {
+        "left": "Sidekick animal",
+        "right": "Lead animal"
+      },
+      {
+        "left": "Tiny",
+        "right": "Enormous"
+      },
+      {
+        "left": "Looks friendly, is not",
+        "right": "Looks scary, is gentle"
+      },
+      {
+        "left": "Deserves more respect",
+        "right": "Deserves less respect"
+      },
+      {
+        "left": "Hypnotic to watch",
+        "right": "Dull to watch"
+      },
+      {
+        "left": "Funniest walk",
+        "right": "Most graceful walk"
+      },
+      {
+        "left": "Hibernation lifestyle",
+        "right": "Always on the go"
+      },
+      {
+        "left": "Pack animal",
+        "right": "Lone wolf"
+      },
+      {
+        "left": "Could be your boss",
+        "right": "Could be your intern"
+      },
+      {
+        "left": "Mythical creature you'd believe in",
+        "right": "Mythical creature you'd laugh at"
+      },
+      {
+        "left": "Songbird",
+        "right": "Screamer"
+      },
+      {
+        "left": "Garden pest",
+        "right": "Pollinator hero"
+      },
+      {
+        "left": "Friendly sea creature",
+        "right": "Nightmare sea creature"
+      },
+      {
+        "left": "Cute baby animal",
+        "right": "Unsettling baby animal"
+      },
+      {
+        "left": "Safe to pat",
+        "right": "Do not touch"
+      },
+      {
+        "left": "Pet in clothes: adorable",
+        "right": "Pet in clothes: undignified"
+      },
+      {
+        "left": "Name suits the pet",
+        "right": "Name was a mistake"
+      },
+      {
+        "left": "Belongs on a farm",
+        "right": "Belongs in the wild"
+      },
+      {
+        "left": "Bird genius",
+        "right": "Bird brain"
+      },
+      {
+        "left": "Sleeps anywhere",
+        "right": "Fussy about bedtime"
+      },
+      {
+        "left": "Would make a great detective",
+        "right": "Would make a terrible detective"
+      },
+      {
+        "left": "Brave",
+        "right": "Easily spooked"
+      },
+      {
+        "left": "Out at night",
+        "right": "Up with the sun"
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "road-trip",
+  "title": "Road Trip",
+  "emoji": "🚗",
+  "blurb": "Backseat confessions, servo snacks and the playlist wars. Pack the car, pick a card.",
+  "tags": [
+    "travel",
+    "road trip"
+  ],
+  "order": 90,
+  "content": {
+    "mild": {
+      "truth": [
+        "What's the longest road trip you've ever been on?",
+        "What's your road trip snack of choice, and what's the one that always runs out first?",
+        "What's the worst car song you've been forced to listen to?",
+        "Who's the worst backseat driver you know?",
+        "What's the most lost you've ever been without GPS?",
+        "What's your family's car game from when you were a kid?",
+        "What's the best roadside stop you've ever visited?",
+        "Do you drive with the window down, or the aircon on?",
+        "What's the strangest thing you've seen from a car window?",
+        "What's the worst car you've ever owned or driven?",
+        "What's the most unusual thing you've found in the back of a car?",
+        "What's your go-to album for a long drive?",
+        "What's the best view you've ever seen on a trip?",
+        "Have you ever run out of petrol? Tell the story.",
+        "What's the first thing you do when you reach a hotel or caravan park?",
+        "Who gets shotgun in your friend group, and why?",
+        "What's the most embarrassing thing that's happened at a servo?",
+        "What's the best name you've ever given a car?",
+        "What's your worst travel sickness or car sickness story?",
+        "What would you never leave home without on a long drive?",
+        "Which landmark or giant roadside statue would you most like to visit?",
+        "What's the longest you've ever had to hold on for a toilet stop?"
+      ],
+      "dare": [
+        "Be the GPS: give turn-by-turn directions to the bathroom in a dramatic robot voice.",
+        "Sing the first line of three different road trip songs in a row.",
+        "Do your best impression of a very bored toll booth attendant.",
+        "Act out parallel parking an invisible car into a very tight spot.",
+        "Make the sound of a car that won't start, then successfully start it.",
+        "Mime changing a flat tyre in a rainstorm as fast as you can.",
+        "Pretend you're stuck in traffic and everyone's honking. Show us your face.",
+        "Tell the group where you'd go on a road trip using only hand signals.",
+        "Be a pushy backseat navigator for the next 30 seconds.",
+        "Do a dramatic commentary of a pit stop as if it's a Grand Prix.",
+        "Give a 20-second ad for the most boring town you've ever driven through.",
+        "Pretend the car has no aircon and fan yourself through a 15-second heatwave drama.",
+        "Beg the person on your left for the last chip like a road trip survivor.",
+        "Narrate spotting a kangaroo by the roadside like a wildlife documentary host.",
+        "Do an impression of a sleepy passenger waking up asking 'are we there yet?'",
+        "Perform the dramatic scene of the car running out of petrol on the highway.",
+        "Re-enact a scene from your worst road trip in 15 seconds.",
+        "Act like a radio DJ introducing your next song, then hum it.",
+        "Be a tour guide pointing out every boring landmark on a straight highway.",
+        "Pretend to be a motel owner welcoming guests to the worst motel in the world.",
+        "Spell out your name in the air as if you're writing on a foggy car window.",
+        "Lead a round of 'I spy' using only things you can see from the sofa.",
+        "Describe your dream car in 15 seconds, including a ridiculous feature."
+      ]
+    }
+  }
+}

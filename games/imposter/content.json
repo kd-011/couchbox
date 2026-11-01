@@ -1,0 +1,48 @@
+{
+  "categories": {
+    "movies": {
+      "label": "Movies",
+      "items": ["Titanic", "Jaws", "Frozen", "Inception", "The Matrix", "Avatar", "Jurassic Park", "Shrek", "Toy Story", "The Lion King", "Star Wars", "Harry Potter", "The Godfather", "Finding Nemo", "The Avengers", "Rocky", "Grease", "Home Alone", "The Notebook", "Barbie", "Mad Max", "Top Gun", "Ghostbusters", "Mean Girls", "Gladiator", "The Terminator", "Moana", "Jumanji", "Twilight"]
+    },
+    "celebrities": {
+      "label": "Famous people",
+      "items": ["Taylor Swift", "Elon Musk", "Beyonce", "Dwayne Johnson", "Oprah Winfrey", "Tom Cruise", "Rihanna", "Lionel Messi", "Serena Williams", "Leonardo DiCaprio", "Ed Sheeran", "Emma Watson", "Adele", "Cristiano Ronaldo", "Zendaya", "Keanu Reeves", "Barack Obama", "Kim Kardashian", "Hugh Jackman", "Margot Robbie", "Will Smith", "Jennifer Lawrence", "Shakira", "David Beckham", "Selena Gomez", "Chris Hemsworth", "Billie Eilish"]
+    },
+    "animals": {
+      "label": "Animals",
+      "items": ["Lion", "Elephant", "Dolphin", "Kangaroo", "Penguin", "Giraffe", "Octopus", "Tiger", "Koala", "Shark", "Eagle", "Panda", "Crocodile", "Owl", "Gorilla", "Flamingo", "Platypus", "Wombat", "Cheetah", "Hedgehog", "Emu", "Sloth", "Zebra", "Camel", "Peacock", "Kookaburra", "Meerkat"]
+    },
+    "jobs": {
+      "label": "Jobs",
+      "items": ["Doctor", "Teacher", "Firefighter", "Chef", "Pilot", "Plumber", "Electrician", "Lawyer", "Nurse", "Mechanic", "Farmer", "Dentist", "Photographer", "Librarian", "Police officer", "Architect", "Barista", "Hairdresser", "Vet", "Builder", "Lifeguard", "DJ", "Pharmacist", "Journalist", "Accountant", "Flight attendant", "Butcher"]
+    },
+    "places": {
+      "label": "Places",
+      "items": ["Beach", "Hospital", "School", "Airport", "Casino", "Restaurant", "Library", "Zoo", "Gym", "Cinema", "Supermarket", "Church", "Nightclub", "Museum", "Playground", "Prison", "Spaceship", "Submarine", "Campsite", "Theme park", "Petrol station", "Wedding", "Farm", "Desert island", "Ski resort", "Shopping mall", "Police station"]
+    },
+    "food": {
+      "label": "Food and drink",
+      "items": ["Pizza", "Sushi", "Meat pie", "Pavlova", "Tacos", "Burger", "Lasagne", "Vegemite toast", "Fish and chips", "Pad thai", "Ice cream", "Sausage sizzle", "Espresso martini", "Kebab", "Pancakes", "Dumplings", "Fairy bread", "Curry", "Avocado toast", "Lamington", "Hot chips", "Chicken parmigiana", "Nachos", "Croissant", "Ramen", "Spring rolls", "Churros"]
+    },
+    "sports": {
+      "label": "Sports",
+      "items": ["Cricket", "Surfing", "Tennis", "Golf", "Boxing", "Swimming", "Rugby", "Netball", "Basketball", "Skiing", "Darts", "Bowling", "Cycling", "Marathon", "Skateboarding", "Sumo wrestling", "Table tennis", "Rock climbing", "Fishing", "Lawn bowls", "Archery", "Volleyball", "Horse racing", "Ice hockey", "Badminton", "Snowboarding", "Water polo"]
+    },
+    "things": {
+      "label": "Household things",
+      "items": ["Toaster", "Toothbrush", "Couch", "Fridge", "Umbrella", "Remote control", "Mirror", "Lamp", "Washing machine", "Pillow", "Kettle", "Bin", "Ladder", "Candle", "Clothes peg", "Bathtub", "Doormat", "Alarm clock", "Hose", "Blender", "Vacuum cleaner", "Hairdryer", "Stapler", "Thermometer", "Wheelbarrow", "Fire extinguisher", "Clothesline"]
+    },
+    "brands": {
+      "label": "Brands",
+      "items": ["Nike", "Coca-Cola", "Apple", "McDonald's", "Lego", "Google", "Adidas", "Netflix", "Woolworths", "Qantas", "Ikea", "Samsung", "Toyota", "Gucci", "Spotify", "Milo", "Bunnings", "Uber", "Amazon", "YouTube", "Colgate", "Pepsi", "Ford", "Nintendo", "Disney", "Red Bull", "Visa"]
+    },
+    "countries": {
+      "label": "Countries",
+      "items": ["Australia", "Japan", "Brazil", "Canada", "Egypt", "France", "Italy", "Mexico", "India", "Germany", "Spain", "Greece", "Thailand", "New Zealand", "South Korea", "Iceland", "Kenya", "Norway", "Argentina", "Portugal", "Vietnam", "Scotland", "Ireland", "Fiji", "Switzerland", "Morocco", "Cuba"]
+    },
+    "vehicles": {
+      "label": "Vehicles",
+      "items": ["Bicycle", "Motorbike", "Helicopter", "Tractor", "Ambulance", "Fire truck", "Scooter", "Caravan", "Yacht", "Hot air balloon", "Tank", "Golf cart", "Forklift", "Train", "Tram", "Jet ski", "Monster truck", "Rickshaw", "Hovercraft", "Garbage truck", "School bus", "Limousine", "Segway", "Snowmobile", "Canoe", "Bulldozer", "Cable car"]
+    }
+  }
+}

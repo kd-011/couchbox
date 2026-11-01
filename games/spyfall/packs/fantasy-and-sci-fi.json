@@ -1,0 +1,210 @@
+{
+  "id": "fantasy-and-sci-fi",
+  "title": "Fantasy and Sci-Fi",
+  "emoji": "🐉",
+  "blurb": "Wizard schools, starships, dragon lairs and Mars colonies.",
+  "tags": [
+    "fantasy",
+    "sci fi"
+  ],
+  "content": {
+    "locations": [
+      {
+        "key": "starship-bridge",
+        "label": "Starship Bridge",
+        "roles": [
+          "Starship Captain",
+          "First Officer",
+          "Helm Pilot",
+          "Science Officer",
+          "Communications Officer",
+          "Security Chief",
+          "Ship's Doctor",
+          "Alien Ambassador"
+        ]
+      },
+      {
+        "key": "wizard-school",
+        "label": "Wizard School",
+        "roles": [
+          "Headmaster",
+          "Potions Teacher",
+          "First Year Student",
+          "Caretaker",
+          "Broomstick Coach",
+          "Librarian",
+          "Resident Ghost",
+          "Prefect"
+        ]
+      },
+      {
+        "key": "dragons-lair",
+        "label": "Dragon's Lair",
+        "roles": [
+          "Dragon Tamer",
+          "Knight Errant",
+          "Treasure Thief",
+          "Royal Hostage",
+          "Bard",
+          "Squire",
+          "Dwarf Miner",
+          "Egg Collector"
+        ]
+      },
+      {
+        "key": "mars-colony",
+        "label": "Mars Colony",
+        "roles": [
+          "Colony Governor",
+          "Greenhouse Botanist",
+          "Rover Driver",
+          "Habitat Engineer",
+          "Geologist",
+          "Colony Doctor",
+          "Mars-born Teenager",
+          "Supply Pilot"
+        ]
+      },
+      {
+        "key": "medieval-tavern",
+        "label": "Medieval Tavern",
+        "roles": [
+          "Innkeeper",
+          "Wandering Bard",
+          "Hooded Stranger",
+          "Travelling Merchant",
+          "Off-duty Knight",
+          "Stablehand",
+          "Tavern Cook",
+          "Tipsy Farmer"
+        ]
+      },
+      {
+        "key": "alien-mothership",
+        "label": "Alien Mothership",
+        "roles": [
+          "Alien Commander",
+          "Alien Scientist",
+          "Abducted Farmer",
+          "Tractor Beam Operator",
+          "Saucer Pilot",
+          "Universal Translator",
+          "Galactic Tourist",
+          "Specimen Keeper"
+        ]
+      },
+      {
+        "key": "enchanted-forest",
+        "label": "Enchanted Forest",
+        "roles": [
+          "Fairy Queen",
+          "Forest Witch",
+          "Elf Archer",
+          "Woodcutter",
+          "Bridge Troll",
+          "Unicorn Keeper",
+          "Lost Traveller",
+          "Talking Owl"
+        ]
+      },
+      {
+        "key": "time-travel-lab",
+        "label": "Time Travel Lab",
+        "roles": [
+          "Inventor",
+          "Lab Assistant",
+          "Time Cop",
+          "Visitor from the Future",
+          "Confused Caveman",
+          "Nervous Investor",
+          "Safety Inspector",
+          "Future Self"
+        ]
+      },
+      {
+        "key": "robot-factory",
+        "label": "Robot Factory",
+        "roles": [
+          "Chief Engineer",
+          "Assembly Robot",
+          "Quality Tester",
+          "Rogue AI",
+          "Factory Owner",
+          "Night Watchman",
+          "Programmer",
+          "Drone Pilot"
+        ]
+      },
+      {
+        "key": "sky-pirate-airship",
+        "label": "Sky Pirate Airship",
+        "roles": [
+          "Sky Captain",
+          "Navigator",
+          "Balloon Rigger",
+          "Cannon Gunner",
+          "Stowaway",
+          "Lookout",
+          "Ship's Cook",
+          "Map Keeper"
+        ]
+      },
+      {
+        "key": "underwater-city",
+        "label": "Underwater City",
+        "roles": [
+          "Merfolk Mayor",
+          "Submarine Taxi Driver",
+          "Kelp Farmer",
+          "Pearl Merchant",
+          "Dome Engineer",
+          "Shark Wrangler",
+          "Coral Gardener",
+          "Surface Visitor"
+        ]
+      },
+      {
+        "key": "throne-room",
+        "label": "Royal Throne Room",
+        "roles": [
+          "King",
+          "Queen",
+          "Court Jester",
+          "Royal Advisor",
+          "Royal Guard",
+          "Visiting Ambassador",
+          "Court Wizard",
+          "Food Taster"
+        ]
+      },
+      {
+        "key": "haunted-mansion",
+        "label": "Haunted Mansion",
+        "roles": [
+          "Ghost Hunter",
+          "Butler",
+          "Resident Spirit",
+          "Spirit Medium",
+          "Heir to the Estate",
+          "Paranormal Podcaster",
+          "Gardener",
+          "Housekeeper"
+        ]
+      },
+      {
+        "key": "superhero-hq",
+        "label": "Superhero Headquarters",
+        "roles": [
+          "Team Leader",
+          "Sidekick",
+          "Gadget Inventor",
+          "Retired Hero",
+          "Hero in Training",
+          "Press Officer",
+          "Captured Villain",
+          "Receptionist"
+        ]
+      }
+    ]
+  }
+}

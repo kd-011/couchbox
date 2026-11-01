@@ -1,0 +1,239 @@
+{
+  "id": "body-of-evidence",
+  "title": "Body of Evidence",
+  "emoji": "🦴",
+  "blurb": "Gross, weird and completely true facts about the thing you live in.",
+  "tags": [
+    "body",
+    "science"
+  ],
+  "content": {
+    "prompts": [
+      {
+        "id": "bod1",
+        "text": "The three tiny bones in your middle ear are the hammer, the anvil and the _____.",
+        "answer": "stirrup"
+      },
+      {
+        "id": "bod2",
+        "text": "The longest bone in the human body is the thigh bone, also called the _____.",
+        "answer": "femur"
+      },
+      {
+        "id": "bod3",
+        "text": "Your cornea has no blood supply, so it takes its oxygen straight from the _____.",
+        "answer": "air"
+      },
+      {
+        "id": "bod4",
+        "text": "A baby's kneecaps start out as soft _____ and only slowly harden into bone over the first several years.",
+        "answer": "cartilage"
+      },
+      {
+        "id": "bod5",
+        "text": "Your brain is about 2 percent of your body weight but burns roughly _____ percent of your energy.",
+        "answer": "20"
+      },
+      {
+        "id": "bod6",
+        "text": "Surgeons can operate on an awake patient's brain because brain tissue itself has no _____ receptors.",
+        "answer": "pain"
+      },
+      {
+        "id": "bod7",
+        "text": "Identical twins share the same DNA but not their _____.",
+        "answer": "fingerprints"
+      },
+      {
+        "id": "bod8",
+        "text": "Your hair and fingernails are both made mostly of a protein called _____.",
+        "answer": "keratin"
+      },
+      {
+        "id": "bod9",
+        "text": "After surgery removes a big chunk of it, the _____ can regrow much of the lost tissue.",
+        "answer": "liver"
+      },
+      {
+        "id": "bod10",
+        "text": "The thinnest skin on your body, under a millimetre thick, covers your _____.",
+        "answer": "eyelids"
+      },
+      {
+        "id": "bod11",
+        "text": "A hiccup is a spasm of your _____ followed by your vocal cords snapping shut.",
+        "answer": "diaphragm"
+      },
+      {
+        "id": "bod12",
+        "text": "The funny bone is not a bone at all but the _____ nerve.",
+        "answer": "ulnar"
+      },
+      {
+        "id": "bod13",
+        "text": "A red blood cell lives for about _____ days before it is recycled.",
+        "answer": "120"
+      },
+      {
+        "id": "bod14",
+        "text": "The medical name for earwax is _____.",
+        "answer": "cerumen"
+      },
+      {
+        "id": "bod15",
+        "text": "The hardest substance in the human body is tooth _____.",
+        "answer": "enamel"
+      },
+      {
+        "id": "bod16",
+        "text": "Sweat itself is nearly odourless; the smell appears when _____ on your skin break it down.",
+        "answer": "bacteria"
+      },
+      {
+        "id": "bod17",
+        "text": "Your left lung is smaller than your right to make room for your _____.",
+        "answer": "heart"
+      },
+      {
+        "id": "bod18",
+        "text": "Your skin makes vitamin _____ when sunlight hits it.",
+        "answer": "D"
+      },
+      {
+        "id": "bod19",
+        "text": "Red blood cells are made inside your bones, in the soft tissue called bone _____.",
+        "answer": "marrow"
+      },
+      {
+        "id": "bod20",
+        "text": "An ice-cream headache happens when something cold hits the roof of your _____.",
+        "answer": "mouth"
+      },
+      {
+        "id": "bod21",
+        "text": "Your sense of balance depends on three fluid-filled loops in the inner ear called semicircular _____.",
+        "answer": "canals"
+      },
+      {
+        "id": "bod22",
+        "text": "The pale half-moon at the base of a fingernail is called the _____.",
+        "answer": "lunula"
+      },
+      {
+        "id": "bod23",
+        "text": "Your tailbone has a medical name: the _____.",
+        "answer": "coccyx"
+      },
+      {
+        "id": "bod24",
+        "text": "Children usually have _____ baby teeth.",
+        "answer": "20"
+      },
+      {
+        "id": "bod25",
+        "text": "The medical name for a rumbling stomach is _____.",
+        "answer": "borborygmi"
+      },
+      {
+        "id": "bod26",
+        "text": "The soft spots on a newborn's skull, where the bones haven't fused yet, are called _____.",
+        "answer": "fontanelles"
+      },
+      {
+        "id": "bod27",
+        "text": "Most people have _____ ribs.",
+        "answer": "24"
+      },
+      {
+        "id": "bod28",
+        "text": "The largest muscle in the human body by mass is the gluteus _____.",
+        "answer": "maximus"
+      },
+      {
+        "id": "bod29",
+        "text": "A full adult set of teeth, wisdom teeth included, is _____ teeth.",
+        "answer": "32"
+      },
+      {
+        "id": "bod30",
+        "text": "Colour vision depends on light-sensing cells in the retina called _____.",
+        "answer": "cones"
+      },
+      {
+        "id": "bod31",
+        "text": "Most human cells carry _____ chromosomes.",
+        "answer": "46"
+      },
+      {
+        "id": "bod32",
+        "text": "The muscles that bend your fingers are mostly located in your _____.",
+        "answer": "forearm"
+      },
+      {
+        "id": "bod33",
+        "text": "Each human hand contains _____ bones.",
+        "answer": "27"
+      },
+      {
+        "id": "bod34",
+        "text": "Roughly a quarter of all the bones in your body are in your _____.",
+        "answer": "feet"
+      },
+      {
+        "id": "bod35",
+        "text": "Each eye has a blind spot where the _____ nerve leaves the retina.",
+        "answer": "optic"
+      },
+      {
+        "id": "bod36",
+        "text": "The first human heart transplant, in 1967, was performed in _____.",
+        "answer": "Cape Town"
+      },
+      {
+        "id": "bod37",
+        "text": "In 1980 the world declared the first human disease wiped out entirely: _____.",
+        "answer": "smallpox"
+      },
+      {
+        "id": "bod38",
+        "text": "The stethoscope was invented in 1816 by a doctor who first used a rolled-up tube of _____.",
+        "answer": "paper"
+      },
+      {
+        "id": "bod39",
+        "text": "The hormone nicknamed the hunger hormone, made mainly in your stomach, is called _____.",
+        "answer": "ghrelin"
+      },
+      {
+        "id": "bod40",
+        "text": "When it gets dark, your brain releases the sleep-timing hormone _____.",
+        "answer": "melatonin"
+      },
+      {
+        "id": "bod41",
+        "text": "In the United States, the hormone adrenaline is usually called _____.",
+        "answer": "epinephrine"
+      },
+      {
+        "id": "bod42",
+        "text": "People who can't digest milk sugar lack an enzyme called _____.",
+        "answer": "lactase"
+      },
+      {
+        "id": "bod43",
+        "text": "Your gallbladder stores a digestive fluid made by the liver called _____.",
+        "answer": "bile"
+      },
+      {
+        "id": "bod44",
+        "text": "In 1908 Kikunae Ikeda isolated the savoury taste umami from a broth made with the seaweed _____.",
+        "answer": "kombu"
+      },
+      {
+        "id": "bod45",
+        "text": "The smell of intestinal gas comes from tiny amounts of _____ compounds.",
+        "answer": "sulfur"
+      }
+    ]
+  }
+}

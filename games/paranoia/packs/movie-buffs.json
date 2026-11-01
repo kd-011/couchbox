@@ -1,0 +1,191 @@
+{
+  "id": "movie-buffs",
+  "title": "Movie Buffs",
+  "emoji": "🎬",
+  "blurb": "Quote machines, sequel defenders, popcorn thieves and the one who cries at cartoons.",
+  "tags": [
+    "movies",
+    "tv"
+  ],
+  "order": 110,
+  "content": {
+    "questions": [
+      {
+        "text": "Who would cry first at the end of an animated movie about a toy?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to quote a film in every conversation?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to talk through the entire movie?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to defend a terrible sequel to the death?",
+        "spicy": false
+      },
+      {
+        "text": "Who would fall asleep in the cinema and snore?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to guess the twist in the first five minutes and ruin it for everyone?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to walk out of a movie in the middle?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to get emotional at a superhero film?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to say \"the book was better\" about a book they never read?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to pick the worst movie for movie night?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to bring snacks into the cinema in a handbag?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to survive a horror movie by being too annoying to kill?",
+        "spicy": false
+      },
+      {
+        "text": "Who has the worst taste in rom-coms?",
+        "spicy": false
+      },
+      {
+        "text": "Who would scream at the screen during a thriller?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to hide behind a pillow during a scary part?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to cast themselves as the hero in their own biopic?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to win an acting award for a role they played at a party?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to say \"I've seen it before\" and then be surprised by every scene?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to host a movie marathon that lasts longer than a work week?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to watch a film in a language they don't speak just for the vibe?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to be the villain in a heist movie?",
+        "spicy": false
+      },
+      {
+        "text": "Who would pause the film every five minutes to explain the plot?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to make a ten-minute trailer for their own life?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to pick a film because they liked the poster?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to name their pet after a movie character?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to have a favourite movie that nobody else has heard of?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to know all the words to a musical?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to ask \"who's that actor?\" every thirty seconds?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to hijack the remote and start a documentary night?",
+        "spicy": false
+      },
+      {
+        "text": "Who would look up an old film's trivia in the middle of the scene?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to star in a disaster movie as the one who panics first?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to dress up as a character to a premiere?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to keep every ticket stub from every film?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to finish the popcorn before the trailers are over?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to clap at the end of a film in an empty cinema?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to be the stunt double that falls over?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to start a fan club for a minor character?",
+        "spicy": false
+      },
+      {
+        "text": "Who would rewatch the same comfort movie every Christmas?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to demand a different ending?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to run a film club with themselves as the only member?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to say a certain film is \"basically a documentary\"?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to spoil a movie by accident while trying to avoid spoilers?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to book the front row and spend the whole film with a sore neck?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to write a bad review for a good film out of spite?",
+        "spicy": false
+      }
+    ]
+  }
+}

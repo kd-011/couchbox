@@ -1,0 +1,480 @@
+{
+  "id": "aussie-trivia",
+  "title": "Aussie Trivia",
+  "emoji": "🦘",
+  "blurb": "Australian history, places, sport and pop culture, from the First Fleet to Summer Bay.",
+  "tags": [
+    "aussie",
+    "history",
+    "sport"
+  ],
+  "content": {
+    "categories": {
+      "au-history": {
+        "label": "History & Politics",
+        "multiple": [
+          {
+            "id": "au-hist-m-1",
+            "difficulty": "easy",
+            "text": "In which year did the First Fleet sail into Sydney Cove?",
+            "options": [
+              "1770",
+              "1801",
+              "1788",
+              "1851"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "au-hist-m-2",
+            "difficulty": "easy",
+            "text": "The six Australian colonies federated into one nation in which year?",
+            "options": [
+              "1891",
+              "1901",
+              "1915",
+              "1927"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "au-hist-m-3",
+            "difficulty": "easy",
+            "text": "Who was sworn in as Australia's first Prime Minister?",
+            "options": [
+              "Alfred Deakin",
+              "Henry Parkes",
+              "Robert Menzies",
+              "Edmund Barton"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "au-hist-m-4",
+            "difficulty": "easy",
+            "text": "Who was Australia's first female Prime Minister?",
+            "options": [
+              "Julia Gillard",
+              "Julie Bishop",
+              "Quentin Bryce",
+              "Joan Kirner"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "au-hist-m-5",
+            "difficulty": "medium",
+            "text": "Before Canberra was ready, which city was home to Federal Parliament?",
+            "options": [
+              "Sydney",
+              "Adelaide",
+              "Melbourne",
+              "Brisbane"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "au-hist-m-6",
+            "difficulty": "medium",
+            "text": "The 1854 armed uprising of goldminers at Ballarat is known as what?",
+            "options": [
+              "The Rum Rebellion",
+              "The Castle Hill Rising",
+              "The Lambing Flat Riots",
+              "The Eureka Stockade"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "au-hist-m-7",
+            "difficulty": "medium",
+            "text": "Which Prime Minister vanished while swimming off Cheviot Beach in 1967?",
+            "options": [
+              "John Gorton",
+              "Harold Holt",
+              "William McMahon",
+              "Ben Chifley"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "au-hist-m-8",
+            "difficulty": "hard",
+            "text": "Ned Kelly's gang made its last stand in 1880 at which Victorian town?",
+            "options": [
+              "Glenrowan",
+              "Beechworth",
+              "Benalla",
+              "Euroa"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "au-hist-m-9",
+            "difficulty": "hard",
+            "text": "Which Governor-General dismissed Prime Minister Gough Whitlam in 1975?",
+            "options": [
+              "John Kerr",
+              "Paul Hasluck",
+              "Zelman Cowen",
+              "William Deane"
+            ],
+            "answer": 0
+          }
+        ],
+        "boolean": [
+          {
+            "id": "au-hist-b-1",
+            "difficulty": "medium",
+            "text": "Western Australia once voted in a referendum to leave the Commonwealth.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "au-hist-b-2",
+            "difficulty": "easy",
+            "text": "Captain James Cook commanded the First Fleet.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "au-hist-b-3",
+            "difficulty": "hard",
+            "text": "Women in South Australia won the right to vote before Federation.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "au-hist-b-4",
+            "difficulty": "medium",
+            "text": "Robert Menzies is Australia's shortest-serving Prime Minister.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "au-places": {
+        "label": "Places & Nature",
+        "multiple": [
+          {
+            "id": "au-place-m-1",
+            "difficulty": "easy",
+            "text": "Which city is the capital of the Northern Territory?",
+            "options": [
+              "Alice Springs",
+              "Darwin",
+              "Katherine",
+              "Tennant Creek"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "au-place-m-2",
+            "difficulty": "easy",
+            "text": "Which is Australia's largest state by area?",
+            "options": [
+              "Queensland",
+              "New South Wales",
+              "South Australia",
+              "Western Australia"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "au-place-m-3",
+            "difficulty": "easy",
+            "text": "Rottnest Island, home of the quokka, sits off the coast of which city?",
+            "options": [
+              "Adelaide",
+              "Melbourne",
+              "Perth",
+              "Hobart"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "au-place-m-4",
+            "difficulty": "easy",
+            "text": "Which stretch of water separates Tasmania from the mainland?",
+            "options": [
+              "Bass Strait",
+              "Torres Strait",
+              "Cook Strait",
+              "Spencer Gulf"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "au-place-m-5",
+            "difficulty": "medium",
+            "text": "What is the highest mountain on the Australian mainland?",
+            "options": [
+              "Mount Townsend",
+              "Mount Kosciuszko",
+              "Mount Bogong",
+              "Mount Ossa"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "au-place-m-6",
+            "difficulty": "medium",
+            "text": "Kati Thanda-Lake Eyre, Australia's largest lake, is in which state?",
+            "options": [
+              "Northern Territory",
+              "Queensland",
+              "South Australia",
+              "New South Wales"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "au-place-m-7",
+            "difficulty": "medium",
+            "text": "Which is the largest desert in Australia?",
+            "options": [
+              "Simpson Desert",
+              "Great Sandy Desert",
+              "Tanami Desert",
+              "Great Victoria Desert"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "au-place-m-8",
+            "difficulty": "hard",
+            "text": "The name \"Nullarbor\" comes from Latin words meaning what?",
+            "options": [
+              "No trees",
+              "Long road",
+              "Red earth",
+              "Wide sky"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "au-place-m-9",
+            "difficulty": "hard",
+            "text": "Queensland's Fraser Island is now officially known by which name?",
+            "options": [
+              "K'gari",
+              "Minjerribah",
+              "Mulgumpin",
+              "Moreton"
+            ],
+            "answer": 0
+          }
+        ],
+        "boolean": [
+          {
+            "id": "au-place-b-1",
+            "difficulty": "medium",
+            "text": "Mainland Australia is wider from east to west than the Moon is across.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "au-place-b-2",
+            "difficulty": "easy",
+            "text": "Canberra is Australia's most populous city.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "au-place-b-3",
+            "difficulty": "medium",
+            "text": "Darwin is further north than Cairns.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "au-place-b-4",
+            "difficulty": "medium",
+            "text": "Mount Kosciuszko is more than 3,000 metres tall.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "au-pop": {
+        "label": "Sport & Pop Culture",
+        "multiple": [
+          {
+            "id": "au-pop-m-1",
+            "difficulty": "easy",
+            "text": "Which horse race is known as \"the race that stops a nation\"?",
+            "options": [
+              "The Caulfield Cup",
+              "The Melbourne Cup",
+              "The Cox Plate",
+              "The Golden Slipper"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "au-pop-m-2",
+            "difficulty": "easy",
+            "text": "Which band had a worldwide hit with \"Down Under\"?",
+            "options": [
+              "INXS",
+              "Midnight Oil",
+              "Crowded House",
+              "Men at Work"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "au-pop-m-3",
+            "difficulty": "easy",
+            "text": "Cathy Freeman won Olympic gold in the 400 metres at which Games?",
+            "options": [
+              "Atlanta 1996",
+              "Athens 2004",
+              "Sydney 2000",
+              "Beijing 2008"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "au-pop-m-4",
+            "difficulty": "easy",
+            "text": "Which TV soap is set in the fictional town of Summer Bay?",
+            "options": [
+              "Home and Away",
+              "Neighbours",
+              "A Country Practice",
+              "Packed to the Rafters"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "au-pop-m-5",
+            "difficulty": "medium",
+            "text": "What was Don Bradman's career Test batting average?",
+            "options": [
+              "99.94",
+              "89.94",
+              "101.50",
+              "95.14"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "au-pop-m-6",
+            "difficulty": "medium",
+            "text": "How many players per team are on the field at once in an AFL match?",
+            "options": [
+              "15",
+              "18",
+              "16",
+              "20"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "au-pop-m-7",
+            "difficulty": "medium",
+            "text": "Which singer played Charlene in \"Neighbours\"?",
+            "options": [
+              "Dannii Minogue",
+              "Delta Goodrem",
+              "Kylie Minogue",
+              "Natalie Imbruglia"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "au-pop-m-8",
+            "difficulty": "hard",
+            "text": "Which Australian driver won the 1980 Formula One World Championship?",
+            "options": [
+              "Jack Brabham",
+              "Mark Webber",
+              "Daniel Ricciardo",
+              "Alan Jones"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "au-pop-m-9",
+            "difficulty": "hard",
+            "text": "The heart of the racehorse Phar Lap is on display in which city?",
+            "options": [
+              "Melbourne",
+              "Canberra",
+              "Sydney",
+              "Wellington"
+            ],
+            "answer": 1
+          }
+        ],
+        "boolean": [
+          {
+            "id": "au-pop-b-1",
+            "difficulty": "easy",
+            "text": "The pavlova is named after a Russian ballerina.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "au-pop-b-2",
+            "difficulty": "medium",
+            "text": "Don Bradman was out for a duck in his final Test innings.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "au-pop-b-3",
+            "difficulty": "easy",
+            "text": "The AFL Grand Final is traditionally played at the SCG.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "au-pop-b-4",
+            "difficulty": "hard",
+            "text": "AC/DC formed in Perth.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "id": "utterly-bonkers",
+  "title": "Utterly Bonkers",
+  "emoji": "🤪",
+  "blurb": "Cheese rolling, pie contests and nap championships. Keep a straight face.",
+  "tags": [
+    "weird",
+    "silly"
+  ],
+  "content": {
+    "locations": [
+      {
+        "key": "cheese-rolling-hill",
+        "label": "Cheese Rolling Hill",
+        "roles": [
+          "Reigning Champion",
+          "Brave Rookie",
+          "Cheese Maker",
+          "Medic at the Bottom",
+          "Race Marshal",
+          "Hill Owner",
+          "Commentator",
+          "Confused Tourist"
+        ]
+      },
+      {
+        "key": "clown-college",
+        "label": "Clown College",
+        "roles": [
+          "Dean of Clowns",
+          "Mime Professor",
+          "Unicycle Student",
+          "Juggling Coach",
+          "Balloon Animal Teacher",
+          "Pie-Thrower",
+          "Terrified Parent",
+          "Clown Car Driver"
+        ]
+      },
+      {
+        "key": "ghost-train-ride",
+        "label": "Ghost Train Ride",
+        "roles": [
+          "Ride Operator",
+          "Ghost Actor",
+          "Screaming Teenager",
+          "Terrified Date",
+          "Maintenance Technician",
+          "Child Who Isn't Scared",
+          "Fog Machine Guy",
+          "Queue Jumper"
+        ]
+      },
+      {
+        "key": "sandcastle-championships",
+        "label": "Sandcastle Championships",
+        "roles": [
+          "Master Sculptor",
+          "Head Judge",
+          "Tide Watcher",
+          "Rival Team Captain",
+          "Kid With a Spade",
+          "Bucket Sponsor",
+          "Sunscreen Seller",
+          "Sandy Photographer"
+        ]
+      },
+      {
+        "key": "moustache-championships",
+        "label": "Moustache Championships",
+        "roles": [
+          "Head Judge",
+          "Handlebar Champion",
+          "Beard Barber",
+          "Wax Salesman",
+          "Fake-Moustache Cheat",
+          "Long-Suffering Spouse",
+          "Press Photographer",
+          "Anxious Newcomer"
+        ]
+      },
+      {
+        "key": "pillow-fight-league",
+        "label": "Pillow Fight League",
+        "roles": [
+          "Referee",
+          "Reigning Champion",
+          "Underdog",
+          "Ring Announcer",
+          "Feather Sweeper",
+          "Pillow Maker",
+          "Commentator",
+          "Allergic Medic"
+        ]
+      },
+      {
+        "key": "garden-gnome-convention",
+        "label": "Garden Gnome Convention",
+        "roles": [
+          "Gnome Collector",
+          "Gnome Sculptor",
+          "Auctioneer",
+          "Rival Dealer",
+          "Gnome Forger",
+          "Keynote Speaker",
+          "Security Guard",
+          "Gnome Photographer"
+        ]
+      },
+      {
+        "key": "pie-eating-contest",
+        "label": "Pie Eating Contest",
+        "roles": [
+          "Defending Champion",
+          "Nervous Rookie",
+          "Pie Baker",
+          "Referee",
+          "Commentator",
+          "Butcher Sponsor",
+          "Paramedic",
+          "Sauce Bottle Holder"
+        ]
+      },
+      {
+        "key": "lost-property-office",
+        "label": "Lost Property Office",
+        "roles": [
+          "Lost Property Clerk",
+          "Umbrella Seeker",
+          "Frantic Tourist",
+          "Wallet Returner",
+          "Sorting Intern",
+          "Claimant With No Proof",
+          "Man Who Lost a Trombone",
+          "Unclaimed Item Auctioneer"
+        ]
+      },
+      {
+        "key": "rubber-duck-derby",
+        "label": "Rubber Duck Derby",
+        "roles": [
+          "Duck Wrangler",
+          "Race Starter",
+          "Duck Owner",
+          "Duck Painter",
+          "River Marshal",
+          "Charity Sponsor",
+          "Kid Fishing Out Ducks",
+          "Race Commentator"
+        ]
+      },
+      {
+        "key": "mascot-changing-room",
+        "label": "Mascot Changing Room",
+        "roles": [
+          "Mascot in the Suit",
+          "Mascot Handler",
+          "Rival Mascot",
+          "Suit Repairer",
+          "Team Manager",
+          "Sweaty Intern",
+          "Fan Wanting a Selfie",
+          "Fan Club President"
+        ]
+      },
+      {
+        "key": "napping-championship",
+        "label": "Napping Championship",
+        "roles": [
+          "Reigning Nap Champion",
+          "Snore Marshal",
+          "Mattress Sponsor",
+          "Insomniac Contestant",
+          "Sleep Scientist",
+          "Alarm Clock Salesman",
+          "Pyjama Judge",
+          "Blanket Handler"
+        ]
+      }
+    ]
+  }
+}

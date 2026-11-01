@@ -1,0 +1,64 @@
+{
+  "id": "siblings-cousins",
+  "title": "Siblings and Cousins",
+  "emoji": "👯",
+  "blurb": "Family secrets, childhood crimes and who got away with what. Best played with relatives.",
+  "tags": [
+    "family",
+    "siblings"
+  ],
+  "order": 130,
+  "content": {
+    "mild": {
+      "truth": [
+        "What's the worst thing you did to a sibling or cousin as a kid?",
+        "Who was the favourite in your family, and does everyone know it?",
+        "What's the best prank you ever pulled at home?",
+        "What's your funniest memory of a family holiday?",
+        "What's something you blamed on a sibling or cousin that was actually you?",
+        "Who in the family would survive longest in a zombie apocalypse?",
+        "What's the worst nickname your family gave you?",
+        "What's a toy you fought over with a sibling or cousin?",
+        "Who in your family has the loudest laugh?",
+        "What's a family tradition you secretly love?",
+        "What's the most embarrassing family photo of you?",
+        "Which relative would make the best prime minister?",
+        "What's your funniest memory at a family wedding or funeral?",
+        "What's the most unexpected thing a grandparent has taught you?",
+        "What did your family always argue about at the dinner table?",
+        "What's the worst thing you've ever been grounded for?",
+        "What's the best thing you've ever received from a relative?",
+        "Which relative do you get compared to most often?",
+        "What's the best hiding spot you ever found in your childhood home?",
+        "What's a family recipe that nobody should ever try to recreate?",
+        "What would your sibling or cousin say is your most annoying habit?",
+        "What's the worst haircut a family member ever gave you?"
+      ],
+      "dare": [
+        "Do your best impression of your mum, dad or auntie telling everyone off.",
+        "Act out your sibling or cousin losing at a board game.",
+        "Do an impression of Grandma or Grandpa trying to use a smartphone.",
+        "Perform the 'family photo' pose everyone does badly at Christmas.",
+        "Give a heartfelt apology to the sibling or cousin you wronged the most, in character.",
+        "Pretend to be a parent searching for the TV remote for the fifth time.",
+        "Narrate the sibling next to you eating, like a nature documentary.",
+        "Challenge a willing player to a best-of-three thumb war.",
+        "Pull a face like one of your relatives and have the group guess who it is.",
+        "Hide a small object in the room and see who finds it first.",
+        "Mime a classic backyard game you played as kids, and let the others guess it.",
+        "Tell a bedtime story in 20 seconds using only silly voices.",
+        "Make up a chant to settle who gets the front seat, and lead it.",
+        "Show the group how you used to dance when you were five.",
+        "Give a toast to the relative who always makes the best desserts.",
+        "Act out getting caught sneaking a biscuit before dinner.",
+        "Do a dramatic reading of an imaginary note sent home from school.",
+        "Mimic the way your sibling or cousin laughs.",
+        "Do an impression of the way your funniest relative walks.",
+        "Re-enact a classic family car argument over the radio station.",
+        "Play the part of the youngest in the family trying to be taken seriously.",
+        "Pretend to be a family reporter announcing the family news, whether true or silly.",
+        "Teach the group a childhood hand-clap game, or invent one on the spot."
+      ]
+    }
+  }
+}

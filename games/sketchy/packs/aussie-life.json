@@ -1,0 +1,66 @@
+{
+  "id": "aussie-life",
+  "title": "Aussie Life",
+  "emoji": "🦘",
+  "blurb": "Barbies, thongs and a very big country.",
+  "tags": [
+    "aussie"
+  ],
+  "order": 80,
+  "content": {
+    "easy": [
+      "thongs",
+      "boomerang",
+      "vegemite jar",
+      "esky",
+      "meat pie",
+      "lamington",
+      "cricket bat",
+      "ute",
+      "akubra hat",
+      "didgeridoo",
+      "southern cross",
+      "gum tree",
+      "billy can",
+      "tim tam",
+      "pavlova",
+      "flat white"
+    ],
+    "medium": [
+      "backyard barbecue",
+      "drop bear",
+      "shearing a sheep",
+      "road train",
+      "outback pub",
+      "cane toad",
+      "harbour bridge",
+      "bush walk",
+      "fairy bread",
+      "quokka selfie",
+      "swan river",
+      "bogan",
+      "sheep station",
+      "uluru",
+      "school fete",
+      "hardware store"
+    ],
+    "hard": [
+      "she'll be right",
+      "fair dinkum",
+      "tall poppy",
+      "mateship",
+      "long weekend",
+      "bring a plate",
+      "no worries",
+      "down under",
+      "chucking a sickie",
+      "bush tucker",
+      "fire season",
+      "wet season",
+      "working holiday",
+      "heatwave",
+      "servo run",
+      "smoko break"
+    ]
+  }
+}

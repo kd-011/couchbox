@@ -1,0 +1,190 @@
+{
+  "id": "gaming",
+  "title": "Gaming Dilemmas",
+  "emoji": "🎮",
+  "blurb": "Boss fights, lag spikes, lost saves and loot.",
+  "tags": [
+    "gaming"
+  ],
+  "order": 110,
+  "content": {
+    "pairs": [
+      {
+        "a": "Lose your game save after 100 hours",
+        "b": "Lose a boss fight on the very last hit"
+      },
+      {
+        "a": "Play one game forever",
+        "b": "Play a different game every day and never finish any"
+      },
+      {
+        "a": "Only play co-op with your noisy mates",
+        "b": "Only play solo in complete silence"
+      },
+      {
+        "a": "Win every Mario Kart race by a whisker",
+        "b": "Lose every Mario Kart race but blue-shell the leader each time"
+      },
+      {
+        "a": "Play every game on the hardest difficulty",
+        "b": "Play every game on the easiest difficulty"
+      },
+      {
+        "a": "Skip every cutscene",
+        "b": "Be forced to watch every cutscene"
+      },
+      {
+        "a": "Be stuck in the Zelda world",
+        "b": "Be stuck in the Pokemon world"
+      },
+      {
+        "a": "Have a Pokemon partner who follows you around",
+        "b": "Have a Minecraft house that builds itself"
+      },
+      {
+        "a": "Wait an hour in a queue for a game server",
+        "b": "Wait an hour for a game to update"
+      },
+      {
+        "a": "Lose your internet in the final match of a tournament",
+        "b": "Have your game crash in the final match of a tournament"
+      },
+      {
+        "a": "Have unlimited lives in every game",
+        "b": "Have a perfect map of every level"
+      },
+      {
+        "a": "Play Tetris for a week straight",
+        "b": "Play Snake for a week straight"
+      },
+      {
+        "a": "Have your console die just after the warranty ends",
+        "b": "Have your best game get a boring sequel"
+      },
+      {
+        "a": "Beat a game with an impossible final boss",
+        "b": "Beat a game with an ending that makes no sense"
+      },
+      {
+        "a": "Have a gaming PC but no desk",
+        "b": "Have a desk setup and only a very old laptop"
+      },
+      {
+        "a": "Find a rare item and lose it right away",
+        "b": "Never find a rare item at all"
+      },
+      {
+        "a": "Be the best in the world at one retro arcade game",
+        "b": "Be pretty good at every modern game"
+      },
+      {
+        "a": "Be a pro gamer with no fans",
+        "b": "Be a casual streamer with a loyal crowd"
+      },
+      {
+        "a": "Play with random strangers online who all quit",
+        "b": "Play with your best friends who all argue"
+      },
+      {
+        "a": "Be stuck on the same level for a year",
+        "b": "Replay the same easy level every day"
+      },
+      {
+        "a": "Take a break from gaming for a year",
+        "b": "Play every game with the volume off"
+      },
+      {
+        "a": "Lose to a toddler at your favourite game",
+        "b": "Beat your grandmother at a game she loves and have her sulk"
+      },
+      {
+        "a": "Only ever play pixel art games",
+        "b": "Only ever play photorealistic games"
+      },
+      {
+        "a": "Have every game require a 100GB download first",
+        "b": "Have every game cost a mystery price at checkout"
+      },
+      {
+        "a": "Play a board game with a bad loser",
+        "b": "Play a board game with someone who reads every rule aloud"
+      },
+      {
+        "a": "Have a cheat code for real life",
+        "b": "Have a save point in real life"
+      },
+      {
+        "a": "Always spawn next to the enemy base",
+        "b": "Always get killed by the first thing you meet"
+      },
+      {
+        "a": "Have to grind for an hour for every level up",
+        "b": "Have to pay for every power-up with real money"
+      },
+      {
+        "a": "Have an amazing game launch with massive bugs",
+        "b": "Have a mediocre game launch that works perfectly"
+      },
+      {
+        "a": "Be a hero with a sidekick who keeps dying",
+        "b": "Be a lone wolf in an empty open world"
+      },
+      {
+        "a": "Collect every item in the game",
+        "b": "Finish the story as fast as possible"
+      },
+      {
+        "a": "Play a game that is relaxing but boring",
+        "b": "Play a game that is stressful but thrilling"
+      },
+      {
+        "a": "Be locked in a boss room with no health potions",
+        "b": "Be in an open field with infinite potions but no map"
+      },
+      {
+        "a": "Always be the healer in the party",
+        "b": "Always be the tank in the party"
+      },
+      {
+        "a": "Play only games from the 80s",
+        "b": "Play only games from the last year"
+      },
+      {
+        "a": "Have the loudest mic in the lobby",
+        "b": "Have the quietest mic in the lobby"
+      },
+      {
+        "a": "Go to a LAN party with no snacks",
+        "b": "Go to a LAN party with no chairs"
+      },
+      {
+        "a": "Use a steering wheel for every game",
+        "b": "Use a dance mat for every game"
+      },
+      {
+        "a": "Play online with a controller that drifts left",
+        "b": "Play online with a keyboard that has a sticky spacebar"
+      },
+      {
+        "a": "Have your rage quit clipped and shared",
+        "b": "Have your luckiest win clipped and shared"
+      },
+      {
+        "a": "Spend half an hour in a settings menu before every game",
+        "b": "Skip the tutorial and die in the first minute every time"
+      },
+      {
+        "a": "Play with a friend who always picks the best character",
+        "b": "Play with a friend who picks a random one and somehow wins"
+      },
+      {
+        "a": "Hear a loud teenager shouting in your headset",
+        "b": "Hear the same menu music on loop for six hours"
+      },
+      {
+        "a": "Play with a friend who narrates every move",
+        "b": "Play with a friend who sighs at every move you make"
+      }
+    ]
+  }
+}

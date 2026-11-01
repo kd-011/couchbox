@@ -1,0 +1,207 @@
+{
+  "id": "tech-internet",
+  "title": "Tech and Internet",
+  "emoji": "📱",
+  "blurb": "Phones, wifi, group chats and being very online.",
+  "tags": [
+    "tech",
+    "online"
+  ],
+  "order": 140,
+  "content": {
+    "pairs": [
+      {
+        "a": "Lose your phone for a week",
+        "b": "Lose your laptop for a week"
+      },
+      {
+        "a": "Have your browser history read aloud at dinner",
+        "b": "Have your most recent search shown to your boss"
+      },
+      {
+        "a": "Reply-all to a company email with a meme",
+        "b": "Post your cringiest old photo on your work chat"
+      },
+      {
+        "a": "Have no wifi at home but great data",
+        "b": "Have great wifi at home and no phone signal"
+      },
+      {
+        "a": "Have a battery that lasts a week but a cracked screen",
+        "b": "Have a perfect screen that dies at 3pm"
+      },
+      {
+        "a": "Have every website load slowly",
+        "b": "Have every website covered in pop-ups"
+      },
+      {
+        "a": "Only use dark mode in bright sunlight forever",
+        "b": "Only use light mode in a dark room forever"
+      },
+      {
+        "a": "Have to type every message with one finger",
+        "b": "Have to dictate every message out loud in public"
+      },
+      {
+        "a": "Delete every app but one",
+        "b": "Keep all apps but only use them for five minutes a day"
+      },
+      {
+        "a": "Have all your passwords be your pet's name",
+        "b": "Have to remember a different 30 character password for each site"
+      },
+      {
+        "a": "Have infinite storage that is slow",
+        "b": "Have tiny storage that is lightning fast"
+      },
+      {
+        "a": "Have to update your phone every day",
+        "b": "Never update your phone again and get all the bugs"
+      },
+      {
+        "a": "Read the terms and conditions of every app",
+        "b": "Click \"accept\" and never know what you agreed to"
+      },
+      {
+        "a": "Be a famous YouTuber with no privacy",
+        "b": "Be a hidden coder who built the app everyone uses"
+      },
+      {
+        "a": "Get a rude comment on every post",
+        "b": "Get zero reactions on every post"
+      },
+      {
+        "a": "Have a smart fridge that judges your snacks",
+        "b": "Have a smart toaster that tells your fortune daily"
+      },
+      {
+        "a": "Have a robot vacuum that eats socks",
+        "b": "Have a robot lawnmower that chases the cat"
+      },
+      {
+        "a": "Meet your online friends in real life and be awkward",
+        "b": "Never meet your online friends and keep the mystery"
+      },
+      {
+        "a": "Have your video call freeze on a silly face",
+        "b": "Have your video call show your messy room"
+      },
+      {
+        "a": "Know the answer to every question instantly but never be believed",
+        "b": "Be right about every prediction but nobody asks you"
+      },
+      {
+        "a": "Have a perfect online reputation but zero real friends",
+        "b": "Have a terrible online reputation but amazing real friends"
+      },
+      {
+        "a": "Be stuck on a loading screen for 30 seconds before every task",
+        "b": "Have an ad play for 30 seconds before every task"
+      },
+      {
+        "a": "Have your voice assistant answer every question with a joke",
+        "b": "Have your voice assistant answer every question with a long lecture"
+      },
+      {
+        "a": "Get a \"low battery\" warning at 50 percent every time",
+        "b": "Get a \"storage full\" warning every time you take a photo"
+      },
+      {
+        "a": "Go back to dial-up internet",
+        "b": "Go back to a world with no internet at all"
+      },
+      {
+        "a": "Wear smart glasses that overlay ads on everything",
+        "b": "Wear a smartwatch that buzzes constantly"
+      },
+      {
+        "a": "Have your name trending for something silly",
+        "b": "Have your face become a famous meme"
+      },
+      {
+        "a": "Use only a flip phone for a year",
+        "b": "Use only a tablet as a phone for a year"
+      },
+      {
+        "a": "Be a tech support worker for your whole family",
+        "b": "Be a tech support worker for strangers"
+      },
+      {
+        "a": "Have autocorrect change every swear word to \"duck\"",
+        "b": "Have autocorrect change your name to something random"
+      },
+      {
+        "a": "Prove you are not a robot by identifying traffic lights forever",
+        "b": "Prove you are not a robot by answering riddles forever"
+      },
+      {
+        "a": "Have a drone deliver your food and drop it from three metres",
+        "b": "Have a robot deliver your food and take a wrong turn every time"
+      },
+      {
+        "a": "Send a voice note about your boss to your boss",
+        "b": "Send your group chat a photo meant for your doctor"
+      },
+      {
+        "a": "Never lose a charging cable again",
+        "b": "Never see a low battery warning again"
+      },
+      {
+        "a": "Be stuck with a cracked screen forever",
+        "b": "Be stuck with a screen that is always too bright"
+      },
+      {
+        "a": "Keep a perfect backup of your photos",
+        "b": "Keep a perfect backup of your messages"
+      },
+      {
+        "a": "Be unable to use emojis again",
+        "b": "Be unable to use GIFs again"
+      },
+      {
+        "a": "Have a smart home that mishears every command",
+        "b": "Have an old home where you flip every switch by hand"
+      },
+      {
+        "a": "Get zero spam calls and zero calls from friends",
+        "b": "Get ten spam calls a day and every friend call"
+      },
+      {
+        "a": "Watch only videos shorter than ten seconds",
+        "b": "Watch only videos longer than three hours"
+      },
+      {
+        "a": "Have your phone read every text aloud in public",
+        "b": "Have your phone show every notification on the TV"
+      },
+      {
+        "a": "Have your phone's keyboard stuck in all caps",
+        "b": "Have your phone's keyboard stuck in a foreign language"
+      },
+      {
+        "a": "Go viral for a terrible dance",
+        "b": "Go viral for a rude email you meant to send privately"
+      },
+      {
+        "a": "Lose your phone at the beach",
+        "b": "Lose your phone in a lake at a wedding"
+      },
+      {
+        "a": "Be the only person without a smart TV remote",
+        "b": "Be the only person without a streaming account"
+      },
+      {
+        "a": "Get a group chat notification every minute",
+        "b": "Be left out of every group chat"
+      },
+      {
+        "a": "Have every app ask you to rate it every hour",
+        "b": "Have every website ask about cookies on every page"
+      },
+      {
+        "a": "Never have a video call glitch again",
+        "b": "Never have a file fail to upload again"
+      }
+    ]
+  }
+}

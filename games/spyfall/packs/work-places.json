@@ -1,0 +1,195 @@
+{
+  "id": "work-places",
+  "title": "Nine to Five",
+  "emoji": "💼",
+  "blurb": "Offices, kitchens, building sites and the bank: everyday workplaces.",
+  "tags": [
+    "work"
+  ],
+  "content": {
+    "locations": [
+      {
+        "key": "open-plan-office",
+        "label": "Open Plan Office",
+        "roles": [
+          "CEO",
+          "Intern",
+          "IT Support",
+          "HR Manager",
+          "Receptionist",
+          "Accountant",
+          "Sales Rep",
+          "Office Cleaner"
+        ]
+      },
+      {
+        "key": "call-centre",
+        "label": "Call Centre",
+        "roles": [
+          "Team Leader",
+          "Phone Operator",
+          "Quality Assessor",
+          "Trainer",
+          "New Starter",
+          "IT Technician",
+          "Night Shift Supervisor",
+          "Complaints Specialist"
+        ]
+      },
+      {
+        "key": "construction-site",
+        "label": "Construction Site",
+        "roles": [
+          "Site Foreman",
+          "Crane Operator",
+          "Bricklayer",
+          "Electrician",
+          "Architect",
+          "Safety Officer",
+          "Concreter",
+          "Apprentice"
+        ]
+      },
+      {
+        "key": "restaurant-kitchen",
+        "label": "Restaurant Kitchen",
+        "roles": [
+          "Head Chef",
+          "Sous Chef",
+          "Kitchen Porter",
+          "Pastry Cook",
+          "Line Cook",
+          "Waiter",
+          "Food Critic",
+          "Restaurant Owner"
+        ]
+      },
+      {
+        "key": "tv-newsroom",
+        "label": "TV Newsroom",
+        "roles": [
+          "News Anchor",
+          "Weather Presenter",
+          "Producer",
+          "Camera Operator",
+          "Makeup Artist",
+          "Investigative Reporter",
+          "Sports Reporter",
+          "Autocue Operator"
+        ]
+      },
+      {
+        "key": "primary-school",
+        "label": "Primary School",
+        "roles": [
+          "Principal",
+          "Class Teacher",
+          "Student",
+          "Crossing Guard",
+          "School Librarian",
+          "Canteen Worker",
+          "Janitor",
+          "Music Teacher"
+        ]
+      },
+      {
+        "key": "supermarket",
+        "label": "Supermarket",
+        "roles": [
+          "Checkout Operator",
+          "Shelf Stacker",
+          "Deli Worker",
+          "Store Manager",
+          "Security Guard",
+          "Butcher",
+          "Trolley Collector",
+          "Shopper"
+        ]
+      },
+      {
+        "key": "vet-clinic",
+        "label": "Vet Clinic",
+        "roles": [
+          "Veterinarian",
+          "Vet Nurse",
+          "Receptionist",
+          "Dog Owner",
+          "Cat Owner",
+          "Dog Groomer",
+          "Pet Food Rep",
+          "Animal Behaviourist"
+        ]
+      },
+      {
+        "key": "police-station",
+        "label": "Police Station",
+        "roles": [
+          "Desk Sergeant",
+          "Detective",
+          "Rookie Officer",
+          "Lawyer",
+          "Suspect",
+          "Witness",
+          "Dog Handler",
+          "Forensic Analyst"
+        ]
+      },
+      {
+        "key": "bank-branch",
+        "label": "Bank Branch",
+        "roles": [
+          "Bank Teller",
+          "Branch Manager",
+          "Security Guard",
+          "Loan Officer",
+          "Customer",
+          "Cash Courier",
+          "Financial Adviser",
+          "Cleaner"
+        ]
+      },
+      {
+        "key": "fire-station",
+        "label": "Fire Station",
+        "roles": [
+          "Fire Chief",
+          "Firefighter",
+          "Fire Truck Driver",
+          "Dispatcher",
+          "Rookie Firefighter",
+          "Station Cook",
+          "Fire Investigator",
+          "Visiting School Kid"
+        ]
+      },
+      {
+        "key": "hair-salon",
+        "label": "Hair Salon",
+        "roles": [
+          "Hairdresser",
+          "Colourist",
+          "Apprentice",
+          "Receptionist",
+          "Customer",
+          "Barber",
+          "Nail Technician",
+          "Salon Owner"
+        ]
+      },
+      {
+        "key": "tech-startup",
+        "label": "Tech Startup",
+        "roles": [
+          "Founder",
+          "Venture Capitalist",
+          "Software Developer",
+          "UX Designer",
+          "Product Manager",
+          "Office Manager",
+          "Data Scientist",
+          "Unpaid Intern"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "id": "word-nerds",
+  "title": "Word Nerds",
+  "emoji": "🔤",
+  "blurb": "Odd origins, secret meanings and the language trivia nobody asked for.",
+  "tags": [
+    "language",
+    "words"
+  ],
+  "content": {
+    "prompts": [
+      {
+        "id": "lng1",
+        "text": "The word 'pandemonium' was invented by the poet John _____ for the capital of Hell in Paradise Lost.",
+        "answer": "Milton"
+      },
+      {
+        "id": "lng2",
+        "text": "Lewis Carroll invented the word 'chortle' by blending 'chuckle' and _____.",
+        "answer": "snort"
+      },
+      {
+        "id": "lng3",
+        "text": "Alexander Graham Bell wanted people to answer the telephone by saying '_____', but 'hello' won out.",
+        "answer": "Ahoy"
+      },
+      {
+        "id": "lng4",
+        "text": "The word 'mortgage' comes from Old French for 'death _____'.",
+        "answer": "pledge"
+      },
+      {
+        "id": "lng5",
+        "text": "The coffee 'cappuccino' is named after the brown robes of _____ friars.",
+        "answer": "Capuchin"
+      },
+      {
+        "id": "lng6",
+        "text": "The word 'vaccine' comes from the Latin word for _____.",
+        "answer": "cow"
+      },
+      {
+        "id": "lng7",
+        "text": "The word 'pedigree' comes from French for 'crane's _____', after a branching mark in old family trees.",
+        "answer": "foot"
+      },
+      {
+        "id": "lng8",
+        "text": "The word 'calculate' comes from the Latin for a small _____ once used for counting.",
+        "answer": "pebble"
+      },
+      {
+        "id": "lng9",
+        "text": "The word 'sarcasm' comes from a Greek word meaning 'to tear _____'.",
+        "answer": "flesh"
+      },
+      {
+        "id": "lng10",
+        "text": "The word 'window' comes from Old Norse words meaning 'wind _____'.",
+        "answer": "eye"
+      },
+      {
+        "id": "lng11",
+        "text": "The word 'candidate' comes from the Latin for 'dressed in _____', the colour of a Roman office-seeker's toga.",
+        "answer": "white"
+      },
+      {
+        "id": "lng12",
+        "text": "The flower name 'dandelion' comes from French for 'lion's _____'.",
+        "answer": "tooth"
+      },
+      {
+        "id": "lng13",
+        "text": "The language with the most native speakers in the world is _____.",
+        "answer": "Mandarin"
+      },
+      {
+        "id": "lng14",
+        "text": "The country with the most languages, over 800, is _____.",
+        "answer": "Papua New Guinea"
+      },
+      {
+        "id": "lng15",
+        "text": "Only one letter of the alphabet does not appear in any US state name: _____.",
+        "answer": "Q"
+      },
+      {
+        "id": "lng16",
+        "text": "The dot over a lowercase 'i' has its own name: the _____.",
+        "answer": "tittle"
+      },
+      {
+        "id": "lng17",
+        "text": "Besides hash and pound, the # symbol is sometimes known as the _____.",
+        "answer": "octothorpe"
+      },
+      {
+        "id": "lng18",
+        "text": "In Italian, the @ symbol is called a chiocciola, which means _____.",
+        "answer": "snail"
+      },
+      {
+        "id": "lng19",
+        "text": "The punctuation mark that combines a question mark and an exclamation mark is called the _____.",
+        "answer": "interrobang"
+      },
+      {
+        "id": "lng20",
+        "text": "The constructed language Esperanto was created in 1887 by the eye doctor L. L. _____.",
+        "answer": "Zamenhof"
+      },
+      {
+        "id": "lng21",
+        "text": "The Klingon language from Star Trek was developed by the linguist Marc _____.",
+        "answer": "Okrand"
+      },
+      {
+        "id": "lng22",
+        "text": "J.R.R. Tolkien invented two main Elvish languages: Sindarin and _____.",
+        "answer": "Quenya"
+      },
+      {
+        "id": "lng23",
+        "text": "Louis Braille, inventor of the reading system for the blind, lost his own sight as a child in an accident with his father's _____.",
+        "answer": "awl"
+      },
+      {
+        "id": "lng24",
+        "text": "In Cockney rhyming slang, 'apples and pears' means _____.",
+        "answer": "stairs"
+      },
+      {
+        "id": "lng25",
+        "text": "In Aussie slang, a 'servo' is a _____.",
+        "answer": "service station"
+      },
+      {
+        "id": "lng26",
+        "text": "In Australian English, a 'doona' is a _____.",
+        "answer": "duvet"
+      },
+      {
+        "id": "lng27",
+        "text": "The world's longest official place name, as listed by Guinness World Records, belongs to a hill in _____.",
+        "answer": "New Zealand"
+      },
+      {
+        "id": "lng28",
+        "text": "The Welsh village with the longest place name in the United Kingdom, Llanfairpwllgwyngyll and so on, is on the island of _____.",
+        "answer": "Anglesey"
+      },
+      {
+        "id": "lng29",
+        "text": "Most Icelanders use patronymics instead of family _____.",
+        "answer": "names"
+      },
+      {
+        "id": "lng30",
+        "text": "Written Japanese mixes kanji, hiragana and a third script called _____.",
+        "answer": "katakana"
+      },
+      {
+        "id": "lng31",
+        "text": "The Korean alphabet, Hangul, was designed in the 1440s under King _____.",
+        "answer": "Sejong"
+      },
+      {
+        "id": "lng32",
+        "text": "The French scholar who cracked Egyptian hieroglyphs in 1822 was Jean-Francois _____.",
+        "answer": "Champollion"
+      },
+      {
+        "id": "lng33",
+        "text": "Samuel Johnson published his Dictionary of the English Language in the year _____.",
+        "answer": "1755"
+      },
+      {
+        "id": "lng34",
+        "text": "Dr William Minor sent thousands of quotations to the Oxford English Dictionary while living in a criminal _____.",
+        "answer": "asylum"
+      },
+      {
+        "id": "lng35",
+        "text": "'Floccinaucinihilipilification' is the act of deciding something is _____.",
+        "answer": "worthless"
+      },
+      {
+        "id": "lng36",
+        "text": "A word that spells a different word backwards, like 'stressed' and 'desserts', is called a _____.",
+        "answer": "semordnilap"
+      },
+      {
+        "id": "lng37",
+        "text": "'Eunoia', the shortest English word containing all five vowels, means 'beautiful _____'.",
+        "answer": "thinking"
+      },
+      {
+        "id": "lng38",
+        "text": "Misusing a word in a silly way is called a malapropism, named after a character in Sheridan's play The _____.",
+        "answer": "Rivals"
+      },
+      {
+        "id": "lng39",
+        "text": "The word 'whisky' comes from the Gaelic 'uisge beatha', meaning water of _____.",
+        "answer": "life"
+      },
+      {
+        "id": "lng40",
+        "text": "The Japanese word 'karaoke' means 'empty _____'.",
+        "answer": "orchestra"
+      },
+      {
+        "id": "lng41",
+        "text": "The word 'safari' is Swahili for _____.",
+        "answer": "journey"
+      },
+      {
+        "id": "lng42",
+        "text": "The word 'orangutan' is Malay for 'person of the _____'.",
+        "answer": "forest"
+      },
+      {
+        "id": "lng43",
+        "text": "The word 'bungalow' comes from an Indian word for a house in the style of the region of _____.",
+        "answer": "Bengal"
+      },
+      {
+        "id": "lng44",
+        "text": "The word 'khaki' came into English via Hindi and Urdu from a Persian word meaning _____.",
+        "answer": "dusty"
+      },
+      {
+        "id": "lng45",
+        "text": "The word 'dinosaur' was coined in 1842 by the English palaeontologist Richard _____.",
+        "answer": "Owen"
+      }
+    ]
+  }
+}

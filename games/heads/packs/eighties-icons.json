@@ -1,0 +1,24 @@
+{
+  "id": "eighties-icons",
+  "title": "80s Icons",
+  "emoji": "📼",
+  "blurb": "Big hair, big shoulder pads and big hits: the faces and characters of the 1980s.",
+  "tags": ["eighties", "nostalgia"],
+  "order": 70,
+  "content": {
+    "categories": {
+      "eighties-music": {
+        "label": "80s music",
+        "items": ["Cyndi Lauper", "Boy George", "George Michael", "Billy Idol", "Rick Astley", "Phil Collins", "Lionel Richie", "Debbie Harry", "Annie Lennox", "Sting", "David Hasselhoff", "Bono", "Duran Duran", "Run-DMC"]
+      },
+      "eighties-screen": {
+        "label": "80s screen stars",
+        "items": ["Molly Ringwald", "Patrick Swayze", "Michael J. Fox", "Arnold Schwarzenegger", "Sylvester Stallone", "Bruce Willis", "Harrison Ford", "Tom Selleck", "Matthew Broderick", "John Travolta", "Demi Moore", "Rob Lowe", "Brooke Shields", "Jodie Foster"]
+      },
+      "eighties-characters": {
+        "label": "80s characters",
+        "items": ["He-Man", "Skeletor", "Optimus Prime", "ALF", "Papa Smurf", "Doc Brown", "Mr Miyagi", "Gizmo", "Slimer", "Max Headroom", "Rainbow Brite", "Michael Knight", "Master Splinter", "Daniel LaRusso"]
+      }
+    }
+  }
+}

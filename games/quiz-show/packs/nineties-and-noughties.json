@@ -1,0 +1,480 @@
+{
+  "id": "nineties-and-noughties",
+  "title": "90s and 00s",
+  "emoji": "📼",
+  "blurb": "Pop hits, telly, films and gadgets from 1990 to 2009.",
+  "tags": [
+    "nostalgia",
+    "pop culture",
+    "music"
+  ],
+  "content": {
+    "categories": {
+      "nn-music": {
+        "label": "Music",
+        "multiple": [
+          {
+            "id": "nn-music-m-1",
+            "difficulty": "easy",
+            "text": "Which girl group released \"Wannabe\" in 1996?",
+            "options": [
+              "All Saints",
+              "Destiny's Child",
+              "Spice Girls",
+              "TLC"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "nn-music-m-2",
+            "difficulty": "easy",
+            "text": "Which band released the album \"Nevermind\" in 1991?",
+            "options": [
+              "Pearl Jam",
+              "Soundgarden",
+              "Green Day",
+              "Nirvana"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "nn-music-m-3",
+            "difficulty": "easy",
+            "text": "Which boy band sang \"I Want It That Way\"?",
+            "options": [
+              "NSYNC",
+              "Backstreet Boys",
+              "Westlife",
+              "Boyzone"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "nn-music-m-4",
+            "difficulty": "easy",
+            "text": "Which rapper's alter ego is Slim Shady?",
+            "options": [
+              "Eminem",
+              "50 Cent",
+              "Dr. Dre",
+              "Nelly"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "nn-music-m-5",
+            "difficulty": "medium",
+            "text": "Which Australian singer had a 1997 hit with \"Torn\"?",
+            "options": [
+              "Natalie Imbruglia",
+              "Kylie Minogue",
+              "Delta Goodrem",
+              "Tina Arena"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "nn-music-m-6",
+            "difficulty": "medium",
+            "text": "Which duo had a hit with \"Truly Madly Deeply\"?",
+            "options": [
+              "Roxette",
+              "Savage Garden",
+              "Air Supply",
+              "Everything but the Girl"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "nn-music-m-7",
+            "difficulty": "medium",
+            "text": "Which group released \"No Scrubs\" in 1999?",
+            "options": [
+              "Destiny's Child",
+              "En Vogue",
+              "TLC",
+              "Salt-N-Pepa"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "nn-music-m-8",
+            "difficulty": "hard",
+            "text": "Which Spanish duo started the 1990s dance craze \"Macarena\"?",
+            "options": [
+              "Gipsy Kings",
+              "Las Ketchup",
+              "Los Lobos",
+              "Los del Río"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "nn-music-m-9",
+            "difficulty": "hard",
+            "text": "Which band released the album \"OK Computer\" in 1997?",
+            "options": [
+              "Coldplay",
+              "Radiohead",
+              "Muse",
+              "Placebo"
+            ],
+            "answer": 1
+          }
+        ],
+        "boolean": [
+          {
+            "id": "nn-music-b-1",
+            "difficulty": "easy",
+            "text": "The Spice Girls had five members.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "nn-music-b-2",
+            "difficulty": "medium",
+            "text": "Dave Grohl was Nirvana's lead singer.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "nn-music-b-3",
+            "difficulty": "hard",
+            "text": "Mariah Carey's \"All I Want for Christmas Is You\" first came out in 1994.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "nn-music-b-4",
+            "difficulty": "easy",
+            "text": "\"Mr. Brightside\" is a song by Coldplay.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "nn-screen": {
+        "label": "Film & TV",
+        "multiple": [
+          {
+            "id": "nn-screen-m-1",
+            "difficulty": "easy",
+            "text": "Which coffee shop do the gang in \"Friends\" hang out in?",
+            "options": [
+              "Java Joe's",
+              "Monk's Café",
+              "The Max",
+              "Central Perk"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "nn-screen-m-2",
+            "difficulty": "easy",
+            "text": "In \"The Matrix\", which colour pill does Neo take?",
+            "options": [
+              "Red",
+              "Blue",
+              "Green",
+              "White"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "nn-screen-m-3",
+            "difficulty": "easy",
+            "text": "Which 1995 film was the first fully computer-animated feature?",
+            "options": [
+              "A Bug's Life",
+              "Toy Story",
+              "Antz",
+              "Shrek"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "nn-screen-m-4",
+            "difficulty": "easy",
+            "text": "Which Australian actor first played Wolverine in 2000's \"X-Men\"?",
+            "options": [
+              "Russell Crowe",
+              "Eric Bana",
+              "Hugh Jackman",
+              "Heath Ledger"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "nn-screen-m-5",
+            "difficulty": "medium",
+            "text": "In which town is \"Buffy the Vampire Slayer\" set?",
+            "options": [
+              "Sunnydale",
+              "Springfield",
+              "Mystic Falls",
+              "Hawkins"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "nn-screen-m-6",
+            "difficulty": "medium",
+            "text": "Which 2004 film gave us \"On Wednesdays we wear pink\"?",
+            "options": [
+              "Clueless",
+              "Legally Blonde",
+              "Mean Girls",
+              "She's All That"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "nn-screen-m-7",
+            "difficulty": "hard",
+            "text": "In \"Seinfeld\", what is Kramer's first name?",
+            "options": [
+              "Cliff",
+              "Cosmo",
+              "Carl",
+              "Calvin"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "nn-screen-m-8",
+            "difficulty": "hard",
+            "text": "In \"Lost\", which plane crash strands the survivors on the island?",
+            "options": [
+              "Pacific Flight 247",
+              "Atlas Flight 102",
+              "Meridian Flight 77",
+              "Oceanic Flight 815"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "nn-screen-m-9",
+            "difficulty": "hard",
+            "text": "How many Oscars did \"Titanic\" win, tying the all-time record?",
+            "options": [
+              "9",
+              "12",
+              "11",
+              "14"
+            ],
+            "answer": 2
+          }
+        ],
+        "boolean": [
+          {
+            "id": "nn-screen-b-1",
+            "difficulty": "easy",
+            "text": "Jennifer Aniston played Rachel in \"Friends\".",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "nn-screen-b-2",
+            "difficulty": "easy",
+            "text": "\"The Lion King\" (1994) was made by Pixar.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "nn-screen-b-3",
+            "difficulty": "medium",
+            "text": "Heath Ledger played the Joker in \"The Dark Knight\".",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "nn-screen-b-4",
+            "difficulty": "medium",
+            "text": "\"Seinfeld\" was still making new episodes in the 2000s.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "nn-tech": {
+        "label": "Tech & Toys",
+        "multiple": [
+          {
+            "id": "nn-tech-m-1",
+            "difficulty": "easy",
+            "text": "Which egg-shaped digital pet came out of Japan in 1996?",
+            "options": [
+              "Tamagotchi",
+              "Furby",
+              "Bop It",
+              "Neopet"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "nn-tech-m-2",
+            "difficulty": "easy",
+            "text": "Which Nokia phone from 2000 became famous for being nearly indestructible?",
+            "options": [
+              "8210",
+              "6110",
+              "5110",
+              "3310"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "nn-tech-m-3",
+            "difficulty": "easy",
+            "text": "Which Nintendo console launched in 2006 with motion-sensing controllers?",
+            "options": [
+              "GameCube",
+              "Wii",
+              "Switch",
+              "Nintendo 64"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "nn-tech-m-4",
+            "difficulty": "medium",
+            "text": "What was the nickname of the paperclip assistant in Microsoft Office?",
+            "options": [
+              "Clipper",
+              "Staples",
+              "Clippy",
+              "Paperboy"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "nn-tech-m-5",
+            "difficulty": "medium",
+            "text": "Which file-sharing service did Metallica sue in 2000?",
+            "options": [
+              "Napster",
+              "LimeWire",
+              "Kazaa",
+              "BitTorrent"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "nn-tech-m-6",
+            "difficulty": "medium",
+            "text": "Which IBM computer beat chess champion Garry Kasparov in 1997?",
+            "options": [
+              "Watson",
+              "Big Blue",
+              "Deep Blue",
+              "Deep Thought"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "nn-tech-m-7",
+            "difficulty": "medium",
+            "text": "On MySpace, who was automatically every new user's first friend?",
+            "options": [
+              "Mark",
+              "Tom",
+              "Steve",
+              "Chris"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "nn-tech-m-8",
+            "difficulty": "hard",
+            "text": "What was Sega's last home console, launched in 1998?",
+            "options": [
+              "Saturn",
+              "Mega Drive",
+              "Game Gear",
+              "Dreamcast"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "nn-tech-m-9",
+            "difficulty": "hard",
+            "text": "What was the name of the robot dog Sony launched in 1999?",
+            "options": [
+              "ASIMO",
+              "Pleo",
+              "AIBO",
+              "Rover"
+            ],
+            "answer": 2
+          }
+        ],
+        "boolean": [
+          {
+            "id": "nn-tech-b-1",
+            "difficulty": "medium",
+            "text": "Google was founded before Yahoo.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "nn-tech-b-2",
+            "difficulty": "easy",
+            "text": "The Nintendo 64 used cartridges rather than discs.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "nn-tech-b-3",
+            "difficulty": "medium",
+            "text": "The PlayStation 2 could play DVD movies.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "nn-tech-b-4",
+            "difficulty": "easy",
+            "text": "The original Game Boy had a colour screen.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    }
+  }
+}

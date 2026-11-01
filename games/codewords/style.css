@@ -1,0 +1,116 @@
+/* Codewords: the board is the star. Hidden tiles are dark cards with the
+   word in heavy condensed type; a revealed tile flips over to a solid fill in
+   its team's colour (neutral goes dim, the Bomb goes red). Teams are fills,
+   never outlines. */
+
+.cw-stage { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 12px; width: 100%; text-align: center; padding: 4px 0 8px; }
+.cw-tv { grid-column: 1 / -1; display: flex; flex-direction: column; align-items: center; gap: 1vw; width: 100%; min-height: 0; }
+.cw-tv .cw-stage { padding: 0; gap: 1vw; }
+
+/* ---------- team strip ---------- */
+.cw-teams { display: flex; gap: 8px; width: 100%; margin-bottom: 2px; }
+.cw-team {
+  flex: 1; display: flex; align-items: center; gap: 10px; min-width: 0; text-align: left; padding: 8px 12px 8px 8px; border-radius: 18px;
+  background: var(--surface); color: var(--dim); transition: background 0.3s var(--ease), color 0.3s, transform 0.3s var(--ease);
+}
+.cw-team.active { background: var(--c); color: #0b0812; transform: translateY(-2px); box-shadow: var(--press), 0 14px 28px -16px var(--c); }
+.cw-team.active .av { box-shadow: 0 0 0 3px #0b0812; }
+.cw-team-info { display: flex; flex-direction: column; min-width: 0; }
+.cw-team-info strong { font: 800 17px/1.05 var(--display); font-stretch: 86%; }
+.cw-team-sub { font-size: 12.5px; font-weight: 650; opacity: 0.8; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cw-left { margin-left: auto; font: 800 26px/1 var(--display); font-stretch: 80%; font-variant-numeric: tabular-nums; }
+
+/* ---------- the board ---------- */
+.cw-board { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; width: 100%; perspective: 900px; }
+.cw-size-25 { grid-template-columns: repeat(5, 1fr); }
+
+.cw-tile {
+  position: relative; min-height: 58px; border-radius: 12px; border: 0; padding: 6px 3px;
+  display: flex; align-items: center; justify-content: center; text-align: center;
+  background: var(--surface-2); box-shadow: var(--press);
+  font: 800 12.5px/1.05 var(--display); font-stretch: 82%; letter-spacing: -0.01em; text-transform: uppercase; color: var(--text);
+  transition: transform 0.15s var(--ease), background 0.25s, filter 0.2s;
+}
+.cw-board.can-tap .cw-tile:not(:disabled) { background: var(--surface-3); }
+.cw-tile:not(:disabled):active { transform: scale(0.92); }
+.cw-tile:disabled { cursor: default; }
+.cw-word { overflow-wrap: anywhere; hyphens: auto; }
+.cw-tile.cw-long { font-size: 10.5px; letter-spacing: -0.02em; }
+/* SCREENSAVER, PLAYSTATION: shrink to fit rather than break mid-word. */
+.cw-tile.cw-xlong { font-size: 9px; letter-spacing: -0.03em; }
+
+/* The Caller's key: unrevealed tiles washed in their colour, no outlines. */
+.cw-tile.cw-key { background: color-mix(in oklab, var(--c) 42%, var(--surface)); }
+
+/* Revealed: a solid team colour, dark ink. */
+.cw-tile.cw-revealed { background: var(--c); color: #0b0812; box-shadow: var(--press), 0 10px 20px -14px var(--c); }
+.cw-tile.cw-revealed.cw-neutral { background: var(--surface); color: var(--faint); box-shadow: none; }
+.cw-tile.cw-revealed.cw-bomb { background: var(--deadly); color: var(--deadly-ink); }
+.cw-tile.cw-just { animation: cw-flip 0.7s var(--spring) both; z-index: 1; }
+.cw-final .cw-tile.cw-revealed { animation: cw-flip 0.6s var(--ease) both; animation-delay: calc(var(--i, 0) * 30ms); }
+.cw-final .cw-tile.cw-just { animation-delay: 0s; }
+@keyframes cw-flip {
+  0% { transform: rotateY(90deg) scale(1.1); filter: brightness(1.6); }
+  100% { transform: rotateY(0) scale(1); filter: none; }
+}
+.cw-bomb-mark { position: absolute; top: 3px; right: 3px; display: grid; }
+.cw-key .cw-bomb-mark { color: var(--deadly); }
+
+/* ---------- clue ---------- */
+.cw-clue { display: flex; align-items: center; justify-content: center; gap: 14px; animation: cw-slam 0.5s var(--spring) both; }
+.cw-clue-word { font: 800 clamp(40px, 13vw, 60px)/0.9 var(--display); font-stretch: 76%; letter-spacing: -0.03em; text-transform: uppercase; color: var(--c, var(--accent)); overflow-wrap: anywhere; }
+.cw-clue-count { display: grid; place-items: center; min-width: 52px; height: 52px; padding: 0 10px; border-radius: 999px; background: var(--c, var(--accent)); color: #0b0812; font: 800 30px/1 var(--display); font-stretch: 82%; }
+@keyframes cw-slam { from { opacity: 0; transform: scale(1.5); } }
+.cw-left-line { color: var(--dim); font-weight: 700; margin-top: -6px; }
+
+.cw-last { color: var(--dim); font-weight: 650; }
+.cw-last.is-good { color: var(--good); }
+.cw-thinking { font: 800 clamp(28px, 8vw, 38px)/1 var(--display); font-stretch: 82%; color: var(--c, var(--text)); }
+
+/* ---------- the Caller's form ---------- */
+.cw-clue-form { display: flex; flex-direction: column; gap: 10px; width: 100%; max-width: 420px; }
+.cw-clue-form .input { text-align: center; font: 800 24px var(--display); font-stretch: 86%; text-transform: uppercase; }
+.cw-count-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; }
+.cw-count-chip { position: relative; cursor: pointer; padding: 8px 14px; min-width: 48px; min-height: 48px; display: inline-flex; align-items: center; justify-content: center; font: 800 20px var(--display); }
+.cw-count-chip input { position: absolute; opacity: 0; inset: 0; cursor: pointer; }
+.cw-count-chip:has(input:checked) { background: var(--accent); color: var(--accent-ink); }
+
+/* ---------- final ---------- */
+.cw-final .winner-avs { display: flex; justify-content: center; animation: pop-in 0.6s var(--spring) both; }
+.cw-why { color: var(--dim); font-weight: 700; margin-top: -6px; animation: rise 0.4s var(--ease) 0.35s both; }
+.cw-final h2.cw-win { font: 800 clamp(38px, 12vw, 56px)/0.92 var(--display); font-stretch: 78%; letter-spacing: -0.035em; color: var(--c, var(--text)); animation: cw-slam 0.55s var(--spring) 0.15s both; }
+
+/* ---------- TV: the grid takes the room ---------- */
+.tv-surface .cw-teams { max-width: 80vw; gap: 1.2vw; }
+.tv-surface .cw-team { padding: 0.8vw 1.4vw 0.8vw 0.8vw; border-radius: 1.4vw; gap: 1vw; }
+.tv-surface .cw-team .av { --s: 3.4vw !important; }
+.tv-surface .cw-team-info strong { font-size: 1.9vw; }
+.tv-surface .cw-team-sub { font-size: 1.05vw; }
+.tv-surface .cw-left { font-size: 3vw; }
+.tv-surface .cw-board { max-width: 78vw; gap: 0.7vw; }
+.tv-surface .cw-tile { min-height: 5.4vw; border-radius: 1vw; font-size: 1.75vw; padding: 0.4vw; }
+.tv-surface .cw-size-16 .cw-tile { min-height: 6.6vw; font-size: 2.1vw; }
+.tv-surface .cw-bomb-mark .i { width: 1.6vw; height: 1.6vw; }
+.tv-surface .cw-clue-word { font-size: 5vw; }
+.tv-surface .cw-clue-count { min-width: 4.4vw; height: 4.4vw; font-size: 2.6vw; }
+.tv-surface .cw-left-line, .tv-surface .cw-last { font-size: 1.4vw; }
+.tv-surface .cw-thinking { font-size: 3vw; }
+.tv-surface .cw-final h2.cw-win { font-size: 5.4vw; }
+.tv-surface .cw-why { font-size: 1.6vw; }
+.tv-surface .cw-stage:not(.cw-final) .cw-size-25 .cw-tile { min-height: min(6vw, 7.4vh); }
+/* The TV cannot scroll: the board keeps its height bounded by the screen, and
+   this turn's drinks sit in one wrapping row above it, not a tall column. */
+.tv-surface .cw-tile { min-height: min(5.4vw, 7.4vh); }
+.tv-surface .cw-size-16 .cw-tile { min-height: min(6.6vw, 9.6vh); }
+.tv-surface .cw-tv > .drinks { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.6vw; max-width: 78vw; }
+.tv-surface .cw-tv > .drinks .drink { flex: 0 1 auto; min-width: 16vw; padding-block: 0.4vw; }
+.tv-surface .cw-final .winner-avs .av { --s: 5vw !important; }
+.tv-surface .cw-final .scores { display: none; }
+
+/* TV final: the verdict on the left, the whole uncovered key on the right. */
+.tv-surface .cw-final { display: grid; grid-template-columns: 26vw 1fr; column-gap: 3vw; row-gap: 1vw; align-content: center; justify-items: center; }
+.tv-surface .cw-final > * { grid-column: 1; }
+.tv-surface .cw-final > .cw-board { grid-column: 2; grid-row: 1 / span 6; align-self: center; }
+.tv-surface .cw-final .drinks { max-width: 26vw; }
+.tv-surface .cw-tile.cw-long { font-size: 1.45vw; }
+.tv-surface .cw-tile.cw-xlong { font-size: 1.25vw; }

@@ -1,0 +1,479 @@
+{
+  "id": "science-and-space",
+  "title": "Science and Space",
+  "emoji": "🚀",
+  "blurb": "Planets and rockets, the human body and the chemistry lab.",
+  "tags": [
+    "science",
+    "space"
+  ],
+  "content": {
+    "categories": {
+      "ss-space": {
+        "label": "Space",
+        "multiple": [
+          {
+            "id": "ss-space-m-1",
+            "difficulty": "easy",
+            "text": "Which planet is closest to the Sun?",
+            "options": [
+              "Venus",
+              "Mars",
+              "Earth",
+              "Mercury"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "ss-space-m-2",
+            "difficulty": "easy",
+            "text": "Which is the largest planet in our solar system?",
+            "options": [
+              "Jupiter",
+              "Saturn",
+              "Neptune",
+              "Uranus"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "ss-space-m-3",
+            "difficulty": "easy",
+            "text": "In 2006, Pluto was reclassified as what?",
+            "options": [
+              "An asteroid",
+              "A comet",
+              "A dwarf planet",
+              "A moon of Neptune"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "ss-space-m-4",
+            "difficulty": "medium",
+            "text": "Which is the hottest planet in our solar system?",
+            "options": [
+              "Mercury",
+              "Venus",
+              "Mars",
+              "Jupiter"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "ss-space-m-5",
+            "difficulty": "medium",
+            "text": "Roughly how long does sunlight take to reach Earth?",
+            "options": [
+              "About 8 seconds",
+              "About 8 hours",
+              "About 8 days",
+              "About 8 minutes"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "ss-space-m-6",
+            "difficulty": "medium",
+            "text": "The giant volcano Olympus Mons is on which planet?",
+            "options": [
+              "Venus",
+              "Mars",
+              "Mercury",
+              "Jupiter"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "ss-space-m-7",
+            "difficulty": "hard",
+            "text": "What was the Apollo 11 lunar module called?",
+            "options": [
+              "Eagle",
+              "Columbia",
+              "Falcon",
+              "Intrepid"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "ss-space-m-8",
+            "difficulty": "hard",
+            "text": "Which planet has the shortest day?",
+            "options": [
+              "Saturn",
+              "Mercury",
+              "Jupiter",
+              "Earth"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "ss-space-m-9",
+            "difficulty": "hard",
+            "text": "Which space telescope launched on Christmas Day 2021?",
+            "options": [
+              "Hubble",
+              "Kepler",
+              "James Webb",
+              "Spitzer"
+            ],
+            "answer": 2
+          }
+        ],
+        "boolean": [
+          {
+            "id": "ss-space-b-1",
+            "difficulty": "easy",
+            "text": "Sound can travel through the vacuum of space.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "ss-space-b-2",
+            "difficulty": "medium",
+            "text": "Mars has two moons.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "ss-space-b-3",
+            "difficulty": "hard",
+            "text": "Venus takes longer to spin once on its axis than to orbit the Sun.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "ss-space-b-4",
+            "difficulty": "easy",
+            "text": "The Moon gives off its own light.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "ss-body": {
+        "label": "The Human Body",
+        "multiple": [
+          {
+            "id": "ss-body-m-1",
+            "difficulty": "easy",
+            "text": "What is the largest organ of the human body?",
+            "options": [
+              "Liver",
+              "Brain",
+              "Lungs",
+              "Skin"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "ss-body-m-2",
+            "difficulty": "easy",
+            "text": "How many chambers does the human heart have?",
+            "options": [
+              "4",
+              "2",
+              "3",
+              "6"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "ss-body-m-3",
+            "difficulty": "medium",
+            "text": "How many bones are in a typical adult human skeleton?",
+            "options": [
+              "186",
+              "212",
+              "206",
+              "256"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "ss-body-m-4",
+            "difficulty": "medium",
+            "text": "Which organ produces insulin?",
+            "options": [
+              "Liver",
+              "Pancreas",
+              "Kidneys",
+              "Spleen"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "ss-body-m-5",
+            "difficulty": "medium",
+            "text": "Which blood type is the universal donor for red blood cells?",
+            "options": [
+              "AB positive",
+              "A negative",
+              "O positive",
+              "O negative"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "ss-body-m-6",
+            "difficulty": "easy",
+            "text": "Which vitamin does your skin make when exposed to sunlight?",
+            "options": [
+              "Vitamin A",
+              "Vitamin C",
+              "Vitamin D",
+              "Vitamin B12"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "ss-body-m-7",
+            "difficulty": "hard",
+            "text": "Where in the body is the stapes, the smallest bone?",
+            "options": [
+              "The nose",
+              "The ear",
+              "The toe",
+              "The finger"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "ss-body-m-8",
+            "difficulty": "hard",
+            "text": "Which pigment gives human skin and hair most of their colour?",
+            "options": [
+              "Melanin",
+              "Keratin",
+              "Carotene",
+              "Haemoglobin"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "ss-body-m-9",
+            "difficulty": "hard",
+            "text": "Which organ can regrow to full size after part of it is removed?",
+            "options": [
+              "Liver",
+              "Pancreas",
+              "Heart",
+              "Kidney"
+            ],
+            "answer": 0
+          }
+        ],
+        "boolean": [
+          {
+            "id": "ss-body-b-1",
+            "difficulty": "medium",
+            "text": "Babies are born with more bones than adults have.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "ss-body-b-2",
+            "difficulty": "easy",
+            "text": "The blood in your veins is blue.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "ss-body-b-3",
+            "difficulty": "medium",
+            "text": "Fingernails keep growing after death.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "ss-body-b-4",
+            "difficulty": "easy",
+            "text": "A full adult set of teeth, including wisdom teeth, is 32.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      "ss-lab": {
+        "label": "Chemistry & Physics",
+        "multiple": [
+          {
+            "id": "ss-lab-m-1",
+            "difficulty": "easy",
+            "text": "Which gas makes up most of Earth's atmosphere?",
+            "options": [
+              "Oxygen",
+              "Carbon dioxide",
+              "Nitrogen",
+              "Argon"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "ss-lab-m-2",
+            "difficulty": "easy",
+            "text": "Which subatomic particle has no electric charge?",
+            "options": [
+              "Proton",
+              "Neutron",
+              "Electron",
+              "Positron"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "ss-lab-m-3",
+            "difficulty": "easy",
+            "text": "Which metal is a liquid at room temperature?",
+            "options": [
+              "Mercury",
+              "Sodium",
+              "Lead",
+              "Tin"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "ss-lab-m-4",
+            "difficulty": "medium",
+            "text": "Which element has the chemical symbol Na?",
+            "options": [
+              "Nitrogen",
+              "Neon",
+              "Nickel",
+              "Sodium"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "ss-lab-m-5",
+            "difficulty": "medium",
+            "text": "What is the SI unit of force?",
+            "options": [
+              "Joule",
+              "Newton",
+              "Watt",
+              "Pascal"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "ss-lab-m-6",
+            "difficulty": "medium",
+            "text": "Who discovered penicillin in 1928?",
+            "options": [
+              "Louis Pasteur",
+              "Howard Florey",
+              "Alexander Fleming",
+              "Joseph Lister"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "ss-lab-m-7",
+            "difficulty": "medium",
+            "text": "Roughly how fast does light travel in a vacuum?",
+            "options": [
+              "300,000 km per second",
+              "30,000 km per second",
+              "3,000,000 km per second",
+              "300 km per second"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "ss-lab-m-8",
+            "difficulty": "medium",
+            "text": "What is the most abundant element in the universe?",
+            "options": [
+              "Helium",
+              "Oxygen",
+              "Carbon",
+              "Hydrogen"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "ss-lab-m-9",
+            "difficulty": "hard",
+            "text": "Alongside radium, which element did Marie and Pierre Curie discover?",
+            "options": [
+              "Uranium",
+              "Polonium",
+              "Plutonium",
+              "Radon"
+            ],
+            "answer": 1
+          }
+        ],
+        "boolean": [
+          {
+            "id": "ss-lab-b-1",
+            "difficulty": "easy",
+            "text": "Water expands when it freezes.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "ss-lab-b-2",
+            "difficulty": "medium",
+            "text": "Old windows are thicker at the bottom because glass slowly flows downhill.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "ss-lab-b-3",
+            "difficulty": "easy",
+            "text": "Lightning never strikes the same place twice.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "ss-lab-b-4",
+            "difficulty": "medium",
+            "text": "Diamond and graphite are both made of pure carbon.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    }
+  }
+}

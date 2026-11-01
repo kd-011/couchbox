@@ -1,0 +1,193 @@
+{
+  "id": "aussie",
+  "title": "Strewth",
+  "emoji": "🦘",
+  "tags": [
+    "aussie"
+  ],
+  "blurb": "Snags, servos, beaches and bush: rate it on the Aussie scale.",
+  "content": {
+    "spectrums": [
+      {
+        "left": "Peak Aussie",
+        "right": "Not Aussie at all"
+      },
+      {
+        "left": "Fine in thongs",
+        "right": "Needs proper shoes"
+      },
+      {
+        "left": "Bunnings essential",
+        "right": "Bunnings impulse buy"
+      },
+      {
+        "left": "Harmless Aussie animal",
+        "right": "Deadly Aussie animal"
+      },
+      {
+        "left": "She'll be right",
+        "right": "Call triple zero"
+      },
+      {
+        "left": "Country town",
+        "right": "Big city"
+      },
+      {
+        "left": "Belongs on the barbie",
+        "right": "Never goes on the barbie"
+      },
+      {
+        "left": "Servo snack",
+        "right": "Fancy café order"
+      },
+      {
+        "left": "An absolute legend",
+        "right": "A bit of a drongo"
+      },
+      {
+        "left": "Worth the road trip",
+        "right": "Not worth leaving the house"
+      },
+      {
+        "left": "Tradie approved",
+        "right": "Office worker approved"
+      },
+      {
+        "left": "Bogan",
+        "right": "Posh"
+      },
+      {
+        "left": "Very Perth",
+        "right": "Very Sydney"
+      },
+      {
+        "left": "Laid-back",
+        "right": "Highly strung"
+      },
+      {
+        "left": "Daggy",
+        "right": "Trendy"
+      },
+      {
+        "left": "Thongs weather",
+        "right": "Ugg boots weather"
+      },
+      {
+        "left": "Perfect arvo",
+        "right": "Ruined arvo"
+      },
+      {
+        "left": "Wildlife you'd pat",
+        "right": "Wildlife you'd run from"
+      },
+      {
+        "left": "Pub feed",
+        "right": "Fine dining"
+      },
+      {
+        "left": "Underrated Aussie snack",
+        "right": "Overrated Aussie snack"
+      },
+      {
+        "left": "Footy fan thing",
+        "right": "Cricket fan thing"
+      },
+      {
+        "left": "Seen at the servo",
+        "right": "Seen at a wedding"
+      },
+      {
+        "left": "Slang everyone knows",
+        "right": "Slang that baffles tourists"
+      },
+      {
+        "left": "Flat surf",
+        "right": "Massive swell"
+      },
+      {
+        "left": "Camping essential",
+        "right": "Leave it at home"
+      },
+      {
+        "left": "Fair dinkum",
+        "right": "A bit dodgy"
+      },
+      {
+        "left": "Bush",
+        "right": "Beach"
+      },
+      {
+        "left": "Good neighbour",
+        "right": "Nightmare neighbour"
+      },
+      {
+        "left": "Old-school Aussie",
+        "right": "New-age Aussie"
+      },
+      {
+        "left": "Tourist magnet",
+        "right": "Only locals know"
+      },
+      {
+        "left": "Christmas in summer thing",
+        "right": "Christmas in winter thing"
+      },
+      {
+        "left": "Ute essential",
+        "right": "Ute luxury"
+      },
+      {
+        "left": "A great Aussie invention",
+        "right": "A terrible Aussie invention"
+      },
+      {
+        "left": "Fremantle Doctor relief",
+        "right": "Heatwave misery"
+      },
+      {
+        "left": "Vegemite: perfect scrape",
+        "right": "Vegemite: far too much"
+      },
+      {
+        "left": "Kids' birthday party",
+        "right": "Adults-only party"
+      },
+      {
+        "left": "Bakery bestseller",
+        "right": "Bakery shelf-warmer"
+      },
+      {
+        "left": "Backyard cricket: friendly",
+        "right": "Backyard cricket: family feud"
+      },
+      {
+        "left": "Timeless Aussie classic",
+        "right": "Dated Aussie relic"
+      },
+      {
+        "left": "Big roadside attraction: stop",
+        "right": "Big roadside attraction: skip"
+      },
+      {
+        "left": "Long weekend bliss",
+        "right": "Long weekend traffic jam"
+      },
+      {
+        "left": "Mild summer annoyance",
+        "right": "Ruins the whole summer"
+      },
+      {
+        "left": "Cheeky bird behaviour",
+        "right": "Outright bird crime"
+      },
+      {
+        "left": "Charming accent",
+        "right": "Grating accent"
+      },
+      {
+        "left": "Gone in one bite",
+        "right": "Makes it last all day"
+      }
+    ]
+  }
+}

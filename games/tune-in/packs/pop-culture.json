@@ -1,0 +1,197 @@
+{
+  "id": "pop-culture",
+  "title": "Pop Culture",
+  "emoji": "🎬",
+  "tags": [
+    "pop culture"
+  ],
+  "blurb": "Movies, music, TV and celebrities on a sliding scale.",
+  "content": {
+    "spectrums": [
+      {
+        "left": "Hero",
+        "right": "Villain"
+      },
+      {
+        "left": "Forgettable",
+        "right": "Iconic"
+      },
+      {
+        "left": "Kids' movie",
+        "right": "Grown-up movie"
+      },
+      {
+        "left": "Cringe",
+        "right": "Cool"
+      },
+      {
+        "left": "One-hit wonder",
+        "right": "All-time legend"
+      },
+      {
+        "left": "Deserves a sequel",
+        "right": "Should never get a sequel"
+      },
+      {
+        "left": "Best on the big screen",
+        "right": "Fine on a phone"
+      },
+      {
+        "left": "Celebrity you'd trust",
+        "right": "Celebrity you'd never trust"
+      },
+      {
+        "left": "Not scary at all",
+        "right": "Terrifying"
+      },
+      {
+        "left": "Cartoonish",
+        "right": "Realistic"
+      },
+      {
+        "left": "Sidekick energy",
+        "right": "Main character energy"
+      },
+      {
+        "left": "Survives the horror movie",
+        "right": "First to go in the horror movie"
+      },
+      {
+        "left": "Great karaoke song",
+        "right": "Terrible karaoke song"
+      },
+      {
+        "left": "Fills the dance floor",
+        "right": "Empties the dance floor"
+      },
+      {
+        "left": "Better every rewatch",
+        "right": "Only good the first time"
+      },
+      {
+        "left": "Wholesome",
+        "right": "Chaotic"
+      },
+      {
+        "left": "A Christmas movie",
+        "right": "Not a Christmas movie"
+      },
+      {
+        "left": "The book was better",
+        "right": "The movie was better"
+      },
+      {
+        "left": "Great fictional pet",
+        "right": "Terrible fictional pet"
+      },
+      {
+        "left": "Dream fictional home",
+        "right": "Nightmare fictional home"
+      },
+      {
+        "left": "Wins the reality show",
+        "right": "Voted off first"
+      },
+      {
+        "left": "Fictional job you'd love",
+        "right": "Fictional job you'd hate"
+      },
+      {
+        "left": "Old-school",
+        "right": "Brand new"
+      },
+      {
+        "left": "Easy Halloween costume",
+        "right": "Hard Halloween costume"
+      },
+      {
+        "left": "Famous for being famous",
+        "right": "Famous for real talent"
+      },
+      {
+        "left": "Theme song everyone knows",
+        "right": "Theme song nobody remembers"
+      },
+      {
+        "left": "Cosy game",
+        "right": "Rage-quit game"
+      },
+      {
+        "left": "Fashion disaster",
+        "right": "Fashion icon"
+      },
+      {
+        "left": "Comfort TV",
+        "right": "Edge-of-your-seat TV"
+      },
+      {
+        "left": "Saw the twist coming",
+        "right": "Nobody saw the twist coming"
+      },
+      {
+        "left": "Road trip song",
+        "right": "Funeral song"
+      },
+      {
+        "left": "Superpower you'd want",
+        "right": "Useless superpower"
+      },
+      {
+        "left": "Smartest fictional character",
+        "right": "Dumbest fictional character"
+      },
+      {
+        "left": "Ended perfectly",
+        "right": "Ruined by the ending"
+      },
+      {
+        "left": "Album front to back",
+        "right": "Two hits and filler"
+      },
+      {
+        "left": "Song stuck in your head: delightful",
+        "right": "Song stuck in your head: torture"
+      },
+      {
+        "left": "Gig front row",
+        "right": "Gig near the bar"
+      },
+      {
+        "left": "Cover better than the original",
+        "right": "Original is untouchable"
+      },
+      {
+        "left": "Reboot welcome",
+        "right": "Reboot unnecessary"
+      },
+      {
+        "left": "Binge in one night",
+        "right": "One episode a week"
+      },
+      {
+        "left": "Soundtrack stands alone",
+        "right": "Soundtrack needs the film"
+      },
+      {
+        "left": "Plot hole: forgivable",
+        "right": "Plot hole: fatal"
+      },
+      {
+        "left": "Guilty pleasure show",
+        "right": "Prestige drama"
+      },
+      {
+        "left": "Better subtitled",
+        "right": "Better dubbed"
+      },
+      {
+        "left": "Lyrics are poetry",
+        "right": "Lyrics are gibberish"
+      },
+      {
+        "left": "Bursting into song: charming",
+        "right": "Bursting into song: awkward"
+      }
+    ]
+  }
+}

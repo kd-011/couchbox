@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Virtual Host Box: Games</title>
+<meta name="description" content="A browser stand-in for the Deadly Host Box, for testing without hardware.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0b0812">
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/hostbox.css">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+</head>
+<body>
+<div id="app">
+  <div class="screen hb-screen">
+    <header class="topbar"><a class="icon-btn" href="/" aria-label="Back to games" title="Back to games"><svg class="i" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></a><strong>Virtual Host Box</strong></header>
+    <div id="hb-root" class="hb-root"></div>
+  </div>
+</div>
+<audio id="hb-audio" preload="none"></audio>
+<script type="module" src="/js/hostboxsim.js"></script>
+</body>
+</html>

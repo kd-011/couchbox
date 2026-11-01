@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "name": "Games: party and drinking games",
+  "short_name": "Games",
+  "description": "Free party and drinking games: pass one phone round, or everyone on their own phone with a room code and a TV screen.",
+  "start_url": "/?source=app",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone"],
+  "orientation": "portrait",
+  "background_color": "#0b0812",
+  "theme_color": "#0b0812",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Join a room", "short_name": "Join", "url": "/join?source=shortcut", "icons": [{ "src": "/shortcut-join.png", "sizes": "96x96", "type": "image/png" }] },
+    { "name": "Host a game", "short_name": "Host", "url": "/?source=shortcut", "icons": [{ "src": "/shortcut-host.png", "sizes": "96x96", "type": "image/png" }] },
+    { "name": "TV screen", "short_name": "TV", "url": "/tv?source=shortcut", "icons": [{ "src": "/shortcut-tv.png", "sizes": "96x96", "type": "image/png" }] }
+  ]
+}

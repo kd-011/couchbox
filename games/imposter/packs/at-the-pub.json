@@ -1,0 +1,85 @@
+{
+  "id": "at-the-pub",
+  "title": "At the Pub",
+  "emoji": "🍺",
+  "blurb": "Schooners, cocktails, trivia night and last drinks. Find the one faking it.",
+  "tags": [
+    "drinks",
+    "nightlife"
+  ],
+  "content": {
+    "categories": {
+      "drinks": {
+        "label": "Drinks",
+        "items": [
+          "Schooner",
+          "Pint",
+          "Shandy",
+          "Cider",
+          "Jagerbomb",
+          "Mojito",
+          "Margarita",
+          "Gin and tonic",
+          "Pina colada",
+          "Long Island iced tea",
+          "Aperol spritz",
+          "Lemon lime and bitters",
+          "Tequila shot",
+          "Champagne",
+          "Red wine",
+          "Bloody Mary",
+          "Irish coffee",
+          "Mulled wine",
+          "Whisky",
+          "Craft beer",
+          "Negroni",
+          "Sangria"
+        ]
+      },
+      "pub-life": {
+        "label": "Pub life",
+        "items": [
+          "Trivia night",
+          "Pool table",
+          "Jukebox",
+          "Karaoke",
+          "Meat raffle",
+          "Bouncer",
+          "Last drinks",
+          "Bar tab",
+          "Happy hour",
+          "Beer garden",
+          "Hangover",
+          "Designated driver",
+          "Bar stool",
+          "Beer coaster",
+          "Hens night",
+          "Big screen",
+          "Bowl of chips",
+          "Open mic night",
+          "Bartender",
+          "Dartboard",
+          "Cover band"
+        ]
+      },
+      "pub-grub": {
+        "label": "Pub grub",
+        "items": [
+          "Parma and pot",
+          "Schnitzel",
+          "Steak sandwich",
+          "Beer battered chips",
+          "Bar nuts",
+          "Wedges and sour cream",
+          "Chicken wings",
+          "Garlic bread",
+          "Bangers and mash",
+          "Ploughman's lunch",
+          "Pork crackling",
+          "Potato skins"
+        ]
+      }
+    }
+  },
+  "order": 140
+}

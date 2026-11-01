@@ -1,0 +1,79 @@
+{
+  "id": "game-day",
+  "title": "Game Day",
+  "emoji": "🏟️",
+  "blurb": "Gear, big moments and the events everyone stays up to watch.",
+  "tags": [
+    "sport"
+  ],
+  "content": {
+    "categories": {
+      "sporting-gear": {
+        "label": "Sporting gear",
+        "items": [
+          "Mouthguard",
+          "Shin pads",
+          "Footy boots",
+          "Swimming goggles",
+          "Boxing gloves",
+          "Cricket bat",
+          "Whistle",
+          "Stopwatch",
+          "Sweatband",
+          "Hockey stick",
+          "Golf tee",
+          "Ski poles",
+          "Skipping rope",
+          "Shuttlecock",
+          "Goalie gloves",
+          "Cricket helmet",
+          "Rugby ball"
+        ]
+      },
+      "sporting-moments": {
+        "label": "Sporting moments",
+        "items": [
+          "Hat-trick",
+          "Penalty shootout",
+          "Photo finish",
+          "Grand final",
+          "Mexican wave",
+          "Half-time oranges",
+          "Victory lap",
+          "Red card",
+          "Hole in one",
+          "Slam dunk",
+          "Bullseye",
+          "Knockout",
+          "Gold medal",
+          "Own goal",
+          "Sudden death",
+          "Streaker",
+          "Underdog win"
+        ]
+      },
+      "sporting-events": {
+        "label": "Big events",
+        "items": [
+          "Olympics",
+          "World Cup",
+          "Wimbledon",
+          "Super Bowl",
+          "Tour de France",
+          "Melbourne Cup",
+          "Boxing Day Test",
+          "Australian Open",
+          "Commonwealth Games",
+          "State of Origin",
+          "Monaco Grand Prix",
+          "NBA Finals",
+          "The Ashes",
+          "Bathurst 1000",
+          "The Masters",
+          "Rugby World Cup"
+        ]
+      }
+    }
+  },
+  "order": 40
+}

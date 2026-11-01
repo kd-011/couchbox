@@ -1,0 +1,24 @@
+{
+  "id": "noughties-pop-culture",
+  "title": "2000s Pop Culture",
+  "emoji": "📱",
+  "blurb": "Flip phones, MySpace and Hannah Montana: the pop stars, screen faces and crazes of the 2000s.",
+  "tags": ["noughties", "nostalgia"],
+  "order": 90,
+  "content": {
+    "categories": {
+      "noughties-music": {
+        "label": "2000s music",
+        "items": ["Britney Spears", "Christina Aguilera", "Justin Timberlake", "Usher", "Pharrell Williams", "50 Cent", "Jay-Z", "Avril Lavigne", "Kelly Clarkson", "Nelly", "Alicia Keys", "Sean Paul", "Nelly Furtado", "Enrique Iglesias", "Akon", "Lily Allen"]
+      },
+      "noughties-screen": {
+        "label": "2000s screen stars",
+        "items": ["Orlando Bloom", "Keira Knightley", "Daniel Radcliffe", "Rupert Grint", "Hilary Duff", "Lindsay Lohan", "Paris Hilton", "Ashton Kutcher", "Zac Efron", "Vanessa Hudgens", "Ryan Gosling", "Anne Hathaway", "Channing Tatum", "Tobey Maguire", "Christian Bale", "Robert Pattinson"]
+      },
+      "noughties-crazes": {
+        "label": "2000s crazes",
+        "items": ["iPod", "Nokia 3310", "MySpace", "MSN Messenger", "Nintendo Wii", "Guitar Hero", "Bratz dolls", "Motorola Razr", "Crocs", "Napster", "Neopets", "Sudoku", "Heelys", "Hannah Montana"]
+      }
+    }
+  }
+}

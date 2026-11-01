@@ -1,0 +1,195 @@
+{
+  "id": "nineties-kids",
+  "title": "Nineties Nostalgia",
+  "emoji": "📼",
+  "blurb": "Tamagotchis, dial-up, Walkmans and Saturday morning cartoons.",
+  "tags": [
+    "nostalgia",
+    "retro"
+  ],
+  "order": 70,
+  "content": {
+    "pairs": [
+      {
+        "a": "Rewind every cassette with a pencil",
+        "b": "Blow into every game cartridge to make it work"
+      },
+      {
+        "a": "Have a Tamagotchi that never dies",
+        "b": "Have a Furby that never sleeps"
+      },
+      {
+        "a": "Wait a week for your holiday photos to be developed",
+        "b": "Wait ten minutes for dial-up to connect every time"
+      },
+      {
+        "a": "Play Snake on a brick phone forever",
+        "b": "Play Tetris on a Game Boy forever"
+      },
+      {
+        "a": "Spend every Saturday picking a video at Blockbuster",
+        "b": "Spend every Saturday at the roller rink"
+      },
+      {
+        "a": "Have a Walkman with one dead headphone",
+        "b": "Have a Discman that skips if you breathe"
+      },
+      {
+        "a": "Share one landline with a family of five",
+        "b": "Have a cordless phone that only works in the kitchen"
+      },
+      {
+        "a": "Own every Pokemon card but never trade a single one",
+        "b": "Own one shiny holographic card and trade it for a bike"
+      },
+      {
+        "a": "Watch Saturday morning cartoons in your pyjamas forever",
+        "b": "Play outside until the streetlights come on forever"
+      },
+      {
+        "a": "Have a bowl cut for a year",
+        "b": "Have frosted tips for a year"
+      },
+      {
+        "a": "Wear flannel and Doc Martens forever",
+        "b": "Wear a tracksuit and a bucket hat forever"
+      },
+      {
+        "a": "Eat only Dunkaroos and Fruit Roll-Ups",
+        "b": "Eat only Warheads and Pop Rocks"
+      },
+      {
+        "a": "Live inside your favourite 90s sitcom",
+        "b": "Live inside your favourite 90s cartoon"
+      },
+      {
+        "a": "Have a bedroom full of beanie babies",
+        "b": "Have a bedroom ceiling full of glow-in-the-dark stars"
+      },
+      {
+        "a": "Hear a dial-up modem screech every time you open a website",
+        "b": "Hear the Windows 95 startup sound every time you open a door"
+      },
+      {
+        "a": "Do the Macarena at every wedding forever",
+        "b": "Do the Chicken Dance at every wedding forever"
+      },
+      {
+        "a": "Carry a pocketful of Pogs to school",
+        "b": "Carry a pocketful of marbles to school"
+      },
+      {
+        "a": "Own a Nintendo 64 with GoldenEye",
+        "b": "Own a PlayStation with Crash Bandicoot"
+      },
+      {
+        "a": "Chat on MSN Messenger all night",
+        "b": "Chat in an internet chatroom all night"
+      },
+      {
+        "a": "Make a mixtape for your crush",
+        "b": "Pass your crush a folded note in class"
+      },
+      {
+        "a": "Fix a scratched CD with toothpaste",
+        "b": "Fix a chewed video tape with a pencil and sticky tape"
+      },
+      {
+        "a": "Wear butterfly clips in your hair every day",
+        "b": "Wear a choker necklace every day"
+      },
+      {
+        "a": "Message your friends only by pager",
+        "b": "Call your friends only from a payphone"
+      },
+      {
+        "a": "Have a Sega Mega Drive for one year",
+        "b": "Have a Super Nintendo for one year"
+      },
+      {
+        "a": "See Jurassic Park at the cinema for the first time again",
+        "b": "See Titanic at the cinema for the first time again"
+      },
+      {
+        "a": "Be a Spice Girl for a day",
+        "b": "Be a Backstreet Boy for a day"
+      },
+      {
+        "a": "Win tickets to a boy band tour in 1998",
+        "b": "Win tickets to a grunge festival in 1994"
+      },
+      {
+        "a": "Flick through five channels with nothing on",
+        "b": "Watch one channel that only shows reruns"
+      },
+      {
+        "a": "Cover your wrists in slap bracelets",
+        "b": "Cover your fingers in mood rings"
+      },
+      {
+        "a": "Start the school year with a pencil case full of gel pens",
+        "b": "Start the school year with a scented eraser collection"
+      },
+      {
+        "a": "Go to a sleepover that is all ghost stories",
+        "b": "Go to a sleepover that is all prank phone calls"
+      },
+      {
+        "a": "Have the Teletubbies at your birthday",
+        "b": "Have Barney at your birthday"
+      },
+      {
+        "a": "Play marbles for a whole lunch break",
+        "b": "Play handball for a whole lunch break"
+      },
+      {
+        "a": "Spend a school holiday glued to Mario Kart 64",
+        "b": "Spend a school holiday glued to Pokemon Red"
+      },
+      {
+        "a": "Wear a Hypercolor T-shirt that shows every sweaty patch",
+        "b": "Wear jelly sandals in the rain"
+      },
+      {
+        "a": "Have a Tickle Me Elmo that giggles at 3am",
+        "b": "Have a Talkboy that records every secret you whisper"
+      },
+      {
+        "a": "Go to the school disco with the same outfit every week",
+        "b": "Go to the roller disco with a different outfit every week"
+      },
+      {
+        "a": "Own the first iMac in bright blueberry",
+        "b": "Own the first Nokia with the unbreakable screen"
+      },
+      {
+        "a": "Eat a Zooper Dooper too frozen to bite",
+        "b": "Eat a Paddle Pop that melts down your arm"
+      },
+      {
+        "a": "Wear overalls with one strap undone forever",
+        "b": "Wear a baggy denim jacket covered in patches forever"
+      },
+      {
+        "a": "Be a Power Ranger",
+        "b": "Be a Teenage Mutant Ninja Turtle"
+      },
+      {
+        "a": "Wait for your favourite song on the radio with a tape ready to record",
+        "b": "Wait for your favourite show on TV with a VCR ready to record"
+      },
+      {
+        "a": "Be glued to Sailor Moon after school",
+        "b": "Be glued to Dragon Ball Z after school"
+      },
+      {
+        "a": "Collect every Tazo from your chip packets",
+        "b": "Collect every sticker for the footy sticker album"
+      },
+      {
+        "a": "Ride a BMX with a banana seat",
+        "b": "Ride rollerblades with no brakes"
+      }
+    ]
+  }
+}

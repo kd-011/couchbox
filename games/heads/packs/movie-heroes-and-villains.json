@@ -1,0 +1,20 @@
+{
+  "id": "movie-heroes-and-villains",
+  "title": "Movie Heroes and Villains",
+  "emoji": "🎬",
+  "blurb": "Caped saviours, evil masterminds and everyone in between from the big screen.",
+  "tags": ["movies", "pop culture"],
+  "order": 10,
+  "content": {
+    "categories": {
+      "movie-heroes": {
+        "label": "Movie heroes",
+        "items": ["Indiana Jones", "Luke Skywalker", "Princess Leia", "Superman", "Iron Man", "Captain America", "Black Panther", "Thor", "The Hulk", "Wolverine", "Forrest Gump", "Marty McFly", "Neo", "Katniss Everdeen", "Lara Croft", "Hermione Granger", "Gandalf", "Frodo Baggins", "Han Solo", "Ellen Ripley", "John McClane", "Rocky Balboa", "Sarah Connor", "Aragorn", "Obi-Wan Kenobi", "Ethan Hunt"]
+      },
+      "movie-villains": {
+        "label": "Movie villains",
+        "items": ["The Joker", "Voldemort", "Thanos", "Hannibal Lecter", "Scar", "Ursula", "Cruella de Vil", "Maleficent", "Captain Hook", "Wicked Witch of the West", "Gollum", "Loki", "Magneto", "Freddy Krueger", "Dr Evil", "Jafar", "The Grinch", "Pennywise", "Agent Smith", "Hans Gruber", "Emperor Palpatine", "Sauron", "Bellatrix Lestrange", "Norman Bates", "Gaston", "Hades", "Michael Myers", "Davy Jones"]
+      }
+    }
+  }
+}

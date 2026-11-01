@@ -1,0 +1,231 @@
+{
+  "id": "sporting-chaos",
+  "title": "Sporting Chaos",
+  "emoji": "🏅",
+  "blurb": "Olympic mishaps, weird rules and sporting oddities that really happened.",
+  "tags": [
+    "sport",
+    "olympics",
+    "history"
+  ],
+  "order": 20,
+  "content": {
+    "prompts": [
+      {
+        "id": "spc1",
+        "text": "Tug of war was an official Olympic medal event until the year _____.",
+        "answer": "1920"
+      },
+      {
+        "id": "spc2",
+        "text": "The winner of the chaotic 1904 Olympic marathon, Thomas Hicks, was kept going by his trainers with brandy and the poison _____.",
+        "answer": "strychnine"
+      },
+      {
+        "id": "spc3",
+        "text": "At the 1900 Paris Olympics there was no pool, so the swimming races were held in the River _____.",
+        "answer": "Seine"
+      },
+      {
+        "id": "spc4",
+        "text": "Eddie \"the Eagle\" Edwards, who finished last in ski jumping at the 1988 Winter Olympics, was a _____ by trade.",
+        "answer": "plasterer"
+      },
+      {
+        "id": "spc5",
+        "text": "The 2010 Wimbledon match between John Isner and Nicolas Mahut took three days, and its fifth set ended 70 games to _____.",
+        "answer": "68"
+      },
+      {
+        "id": "spc6",
+        "text": "When James Naismith invented basketball in 1891, the first hoops were _____ baskets nailed to a gym balcony.",
+        "answer": "peach"
+      },
+      {
+        "id": "spc7",
+        "text": "Don Bradman was out for a duck in his final Test innings, leaving him with a career Test batting average of _____.",
+        "answer": "99.94"
+      },
+      {
+        "id": "spc8",
+        "text": "The first men's football World Cup, in 1930, was both hosted and won by _____.",
+        "answer": "Uruguay"
+      },
+      {
+        "id": "spc9",
+        "text": "The only national team to have played at every men's football World Cup is _____.",
+        "answer": "Brazil"
+      },
+      {
+        "id": "spc10",
+        "text": "Michael Phelps retired as the most decorated Olympian ever, with _____ Olympic gold medals.",
+        "answer": "23"
+      },
+      {
+        "id": "spc11",
+        "text": "Astronaut Alan Shepard hit golf balls on the Moon in 1971 with a makeshift club built around a _____ iron head.",
+        "answer": "six"
+      },
+      {
+        "id": "spc12",
+        "text": "The 1908 London Olympic marathon started at _____ Castle and finished in front of the royal box, which gave the race its odd 26.2 mile length.",
+        "answer": "Windsor"
+      },
+      {
+        "id": "spc13",
+        "text": "Rugby union is named after a famous boarding school in the English town of Rugby, in the county of _____.",
+        "answer": "Warwickshire"
+      },
+      {
+        "id": "spc14",
+        "text": "In 1962 Wilt Chamberlain scored a record _____ points in a single NBA game.",
+        "answer": "100"
+      },
+      {
+        "id": "spc15",
+        "text": "Referee boss Ken Aston came up with football's red and yellow cards in 1966 while stopped at a _____.",
+        "answer": "traffic light"
+      },
+      {
+        "id": "spc16",
+        "text": "The Olympic torch relay from Greece was introduced at the 1936 Games in _____.",
+        "answer": "Berlin"
+      },
+      {
+        "id": "spc17",
+        "text": "Curling stones are traditionally made from granite quarried on the Scottish island of _____.",
+        "answer": "Ailsa Craig"
+      },
+      {
+        "id": "spc18",
+        "text": "Spyridon Louis, the Greek winner of the first modern Olympic marathon in 1896, made his living as a _____ carrier.",
+        "answer": "water"
+      },
+      {
+        "id": "spc19",
+        "text": "The Ashes got their name from a mock obituary for English cricket, printed after England lost to Australia at The _____ in 1882.",
+        "answer": "Oval"
+      },
+      {
+        "id": "spc20",
+        "text": "In 1966 the stolen World Cup trophy was found wrapped in newspaper by a dog called _____.",
+        "answer": "Pickles"
+      },
+      {
+        "id": "spc21",
+        "text": "Japanese runner Shizo Kanakuri vanished during the 1912 Stockholm Olympic marathon and officially finished the race in the year _____.",
+        "answer": "1967"
+      },
+      {
+        "id": "spc22",
+        "text": "When Nadia Comaneci scored the first perfect 10 in Olympic gymnastics, the scoreboard could only show _____ because it had no room for the extra digit.",
+        "answer": "1.00"
+      },
+      {
+        "id": "spc23",
+        "text": "Muhammad Ali and George Foreman fought the \"Rumble in the Jungle\" in 1974 in the country then called _____.",
+        "answer": "Zaire"
+      },
+      {
+        "id": "spc24",
+        "text": "A maximum break in snooker, potting all 15 reds with blacks and then every colour, is worth _____ points.",
+        "answer": "147"
+      },
+      {
+        "id": "spc25",
+        "text": "The highest possible checkout in darts with three darts is _____.",
+        "answer": "170"
+      },
+      {
+        "id": "spc26",
+        "text": "At the Cooper's Hill cheese-rolling race in England, competitors chase a round of Double _____ down a steep hill.",
+        "answer": "Gloucester"
+      },
+      {
+        "id": "spc27",
+        "text": "Skateboarding made its Olympic debut at the Games delayed to 2021 and held in _____.",
+        "answer": "Tokyo"
+      },
+      {
+        "id": "spc28",
+        "text": "The Olympic motto in Latin, Citius, Altius, Fortius, means Faster, Higher, _____.",
+        "answer": "Stronger"
+      },
+      {
+        "id": "spc29",
+        "text": "The first woman to win an individual Olympic title, in tennis at the 1900 Paris Games, was Britain's Charlotte _____.",
+        "answer": "Cooper"
+      },
+      {
+        "id": "spc30",
+        "text": "The backwards high jump style that won gold at the 1968 Mexico City Olympics is named the _____ Flop.",
+        "answer": "Fosbury"
+      },
+      {
+        "id": "spc31",
+        "text": "At the 1936 Berlin Olympics, American sprinter Jesse Owens won _____ gold medals.",
+        "answer": "four"
+      },
+      {
+        "id": "spc32",
+        "text": "Ethiopia's Abebe Bikila won the 1960 Olympic marathon in Rome running without any _____.",
+        "answer": "shoes"
+      },
+      {
+        "id": "spc33",
+        "text": "Boston's long World Series drought after selling Babe Ruth to the Yankees was blamed on the Curse of the _____.",
+        "answer": "Bambino"
+      },
+      {
+        "id": "spc34",
+        "text": "The first ever Super Bowl, in January 1967, was won by the Green Bay _____.",
+        "answer": "Packers"
+      },
+      {
+        "id": "spc35",
+        "text": "The NHL retired the number _____ across the whole league in honour of Wayne Gretzky.",
+        "answer": "99"
+      },
+      {
+        "id": "spc36",
+        "text": "The first race of the Formula One World Championship, in 1950, was held at the British circuit of _____.",
+        "answer": "Silverstone"
+      },
+      {
+        "id": "spc37",
+        "text": "In 1980 the US ice hockey team pulled off the \"Miracle on Ice\" at Lake Placid by beating the heavily favoured _____.",
+        "answer": "Soviet Union"
+      },
+      {
+        "id": "spc38",
+        "text": "The Rugby World Cup trophy is named after William Webb _____, the schoolboy said to have invented the game.",
+        "answer": "Ellis"
+      },
+      {
+        "id": "spc39",
+        "text": "England's controversial 1932-33 Ashes tactics, aimed at batsmen's bodies, became known as _____ bowling.",
+        "answer": "Bodyline"
+      },
+      {
+        "id": "spc40",
+        "text": "Because of Australia's quarantine laws, the equestrian events of the 1956 Melbourne Olympics were held in _____.",
+        "answer": "Stockholm"
+      },
+      {
+        "id": "spc41",
+        "text": "Swimmer Eric Moussambani of Equatorial Guinea won hearts at Sydney 2000 and was nicknamed Eric the _____.",
+        "answer": "Eel"
+      },
+      {
+        "id": "spc42",
+        "text": "Roger Bannister ran the first sub-four-minute mile in 1954 at the Iffley Road track in the English city of _____.",
+        "answer": "Oxford"
+      },
+      {
+        "id": "spc43",
+        "text": "The NBA introduced a shot clock in 1954 to stop stalling, and it was set at _____ seconds.",
+        "answer": "24"
+      }
+    ]
+  }
+}

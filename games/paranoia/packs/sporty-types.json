@@ -1,0 +1,190 @@
+{
+  "id": "sporty-types",
+  "title": "Sporty Types",
+  "emoji": "⚽",
+  "blurb": "Footy tragics, gym legends, sideline coaches and the keen one who always has a tracksuit on.",
+  "tags": [
+    "sport"
+  ],
+  "order": 100,
+  "content": {
+    "questions": [
+      {
+        "text": "Who would be most likely to shout at a TV like the players can hear them?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to pull a hamstring in a charity fun run?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to win the egg and spoon race at a school reunion?",
+        "spicy": false
+      },
+      {
+        "text": "Who would cry when their team loses a grand final?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to wear a team scarf in thirty-degree heat?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to sign up for a marathon and quit at the first water station?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to buy the full kit of a sport they've never played?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to be the sideline parent who has to be calmed down?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to take a swing at a golf ball and hit the one behind them?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to win a tennis match by sheer stubbornness?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to own a gym membership and use it twice?",
+        "spicy": false
+      },
+      {
+        "text": "Who would claim an old injury every time they lose?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to start a backyard cricket match and refuse to be out?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to lead a team huddle in the middle of a pub quiz?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to run the family footy tipping comp and take it all too seriously?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to have a lucky pair of socks for every big match?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to run a half marathon without telling anyone and then mention it constantly?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to retire from a social sports team and come back the next week?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to get a surfboard and never get in the water?",
+        "spicy": false
+      },
+      {
+        "text": "Who would bring orange slices to a kid's game and be the hero?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to take a rest day and then a rest week?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to join a gym class and spend the whole time hiding at the back?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to bring an esky and camp chairs to a kids' soccer game?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to dive for a ball and miss it by a metre?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to try yoga and fall asleep in the final pose?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to scream at a ref over a game they aren't even watching?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to complain about the weather and then play anyway?",
+        "spicy": false
+      },
+      {
+        "text": "Who would organise a footy trip to another city for one match?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to give a locker-room speech to a team of six-year-olds?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to challenge a stranger to a push-up contest?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to shout \"I was robbed!\" after losing at mini golf?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to wear full lycra for a short walk?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to try a new extreme sport and need an ambulance by lunch?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to get a medal and wear it to dinner?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to say \"I'm just here for the pies\" at a match?",
+        "spicy": false
+      },
+      {
+        "text": "Who would switch teams when theirs starts losing?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to enter a hot dog eating contest to win a prize?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to take a golf lesson and quit after the first swing?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to bring a whistle to a family game?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to be the first picked for the team and the last to be useful?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to play through an injury and insist it is fine?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to swap with the goalie and let in five goals?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to cheer for the wrong team by mistake?",
+        "spicy": false
+      },
+      {
+        "text": "Who would win gold in competitive arguing?",
+        "spicy": false
+      }
+    ]
+  }
+}

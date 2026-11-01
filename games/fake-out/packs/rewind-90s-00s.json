@@ -1,0 +1,226 @@
+{
+  "id": "rewind-90s-00s",
+  "title": "Rewind: 90s and 00s",
+  "emoji": "📼",
+  "blurb": "Dial-up, Tamagotchis and Y2K: true facts from two very specific decades.",
+  "tags": [
+    "nostalgia",
+    "retro",
+    "pop"
+  ],
+  "order": 23,
+  "content": {
+    "prompts": [
+      {
+        "id": "rwd1",
+        "text": "The name Tamagotchi blends the Japanese words for egg and _____.",
+        "answer": "watch"
+      },
+      {
+        "id": "rwd2",
+        "text": "Dolly the sheep, the first mammal cloned from an adult cell, was born in 1996 in _____.",
+        "answer": "Scotland"
+      },
+      {
+        "id": "rwd3",
+        "text": "The music-sharing service launched in 1999 by Shawn Fanning and Sean Parker was called _____.",
+        "answer": "Napster"
+      },
+      {
+        "id": "rwd4",
+        "text": "Before streaming, Netflix began as a service that mailed customers _____.",
+        "answer": "DVDs"
+      },
+      {
+        "id": "rwd5",
+        "text": "The Spice Girls' 1996 debut single was \"_____\".",
+        "answer": "Wannabe"
+      },
+      {
+        "id": "rwd6",
+        "text": "Emma Bunton's Spice Girls nickname was _____ Spice.",
+        "answer": "Baby"
+      },
+      {
+        "id": "rwd7",
+        "text": "Every new MySpace account started with one automatic friend, a man named _____.",
+        "answer": "Tom"
+      },
+      {
+        "id": "rwd8",
+        "text": "The original host of the UK's Who Wants to Be a Millionaire? was Chris _____.",
+        "answer": "Tarrant"
+      },
+      {
+        "id": "rwd9",
+        "text": "Euro coins and notes entered everyday circulation in the year _____.",
+        "answer": "2002"
+      },
+      {
+        "id": "rwd10",
+        "text": "The three Sydney 2000 Olympic mascots were a kookaburra, a platypus and _____.",
+        "answer": "an echidna"
+      },
+      {
+        "id": "rwd11",
+        "text": "In 2006 astronomers reclassified Pluto as a _____ planet.",
+        "answer": "dwarf"
+      },
+      {
+        "id": "rwd12",
+        "text": "The last passenger flights of the supersonic Concorde took place in the year _____.",
+        "answer": "2003"
+      },
+      {
+        "id": "rwd13",
+        "text": "The game Snake first came preinstalled on a Nokia phone, the model _____.",
+        "answer": "6110"
+      },
+      {
+        "id": "rwd14",
+        "text": "The Windows 95 startup sound was composed by musician Brian _____.",
+        "answer": "Eno"
+      },
+      {
+        "id": "rwd15",
+        "text": "The search engine Ask Jeeves was named after the fictional butler in the stories of P. G. _____.",
+        "answer": "Wodehouse"
+      },
+      {
+        "id": "rwd16",
+        "text": "Google bought YouTube in 2006 for about $_____ billion.",
+        "answer": "1.65"
+      },
+      {
+        "id": "rwd17",
+        "text": "When the iTunes Music Store launched in 2003, most songs cost _____ cents.",
+        "answer": "99"
+      },
+      {
+        "id": "rwd18",
+        "text": "Gmail launched on 1 April 2004, so many people assumed it was an April Fools' _____.",
+        "answer": "joke"
+      },
+      {
+        "id": "rwd19",
+        "text": "The original iPod of 2001 was pitched as putting _____ songs in your pocket.",
+        "answer": "1,000"
+      },
+      {
+        "id": "rwd20",
+        "text": "Wikipedia was launched in the year _____.",
+        "answer": "2001"
+      },
+      {
+        "id": "rwd21",
+        "text": "The first Harry Potter book, published in 1997, came from the British publisher _____.",
+        "answer": "Bloomsbury"
+      },
+      {
+        "id": "rwd22",
+        "text": "\"Macarena\" was a worldwide hit in 1996 for the Spanish duo Los del _____.",
+        "answer": "Rio"
+      },
+      {
+        "id": "rwd23",
+        "text": "Mark Zuckerberg launched Facebook in 2004 from his dorm room at _____.",
+        "answer": "Harvard"
+      },
+      {
+        "id": "rwd24",
+        "text": "Google was started in 1998 by two PhD students at _____ University.",
+        "answer": "Stanford"
+      },
+      {
+        "id": "rwd25",
+        "text": "Britney Spears, Christina Aguilera, Justin Timberlake and Ryan Gosling were all on Disney's The All New _____ Club in the early 1990s.",
+        "answer": "Mickey Mouse"
+      },
+      {
+        "id": "rwd26",
+        "text": "The four Teletubbies are Tinky Winky, Dipsy, Laa-Laa and _____.",
+        "answer": "Po"
+      },
+      {
+        "id": "rwd27",
+        "text": "France hosted and won the 1998 men's World Cup, beating _____ 3-0 in the final.",
+        "answer": "Brazil"
+      },
+      {
+        "id": "rwd28",
+        "text": "The 2002 men's World Cup was the first held in Asia, hosted jointly by South Korea and _____.",
+        "answer": "Japan"
+      },
+      {
+        "id": "rwd29",
+        "text": "Steve Jobs unveiled the first iPhone in January _____.",
+        "answer": "2007"
+      },
+      {
+        "id": "rwd30",
+        "text": "The Y2K panic of 1999 happened because many old computers stored years using only two _____.",
+        "answer": "digits"
+      },
+      {
+        "id": "rwd31",
+        "text": "The UK's Millennium Dome was built in the London district of _____.",
+        "answer": "Greenwich"
+      },
+      {
+        "id": "rwd32",
+        "text": "NASA's 1997 Mars Pathfinder mission delivered a small rover named _____.",
+        "answer": "Sojourner"
+      },
+      {
+        "id": "rwd33",
+        "text": "The two-wheeled Segway, unveiled in 2001, was invented by Dean _____.",
+        "answer": "Kamen"
+      },
+      {
+        "id": "rwd34",
+        "text": "The BlackBerry, hugely popular in the early 2000s, was made by the Canadian firm Research In _____.",
+        "answer": "Motion"
+      },
+      {
+        "id": "rwd35",
+        "text": "The International Space Station has had people living aboard continuously since November _____.",
+        "answer": "2000"
+      },
+      {
+        "id": "rwd36",
+        "text": "In 1997 Britain handed over _____ to China.",
+        "answer": "Hong Kong"
+      },
+      {
+        "id": "rwd37",
+        "text": "The 1997 film Titanic gave the world the theme song \"My Heart Will Go On\", sung by _____.",
+        "answer": "Celine Dion"
+      },
+      {
+        "id": "rwd38",
+        "text": "SpongeBob SquarePants first aired on Nickelodeon in the year _____.",
+        "answer": "1999"
+      },
+      {
+        "id": "rwd39",
+        "text": "Ash Ketchum, hero of the Pokemon anime that began in 1997, comes from _____ Town.",
+        "answer": "Pallet"
+      },
+      {
+        "id": "rwd40",
+        "text": "The original Pokemon games of the 1990s featured _____ Pokemon.",
+        "answer": "151"
+      },
+      {
+        "id": "rwd41",
+        "text": "After retiring from basketball in 1993, Michael Jordan spent a season playing minor-league _____.",
+        "answer": "baseball"
+      },
+      {
+        "id": "rwd42",
+        "text": "At the 1995 Rugby World Cup final, Nelson Mandela wore the jersey of the national team, the _____.",
+        "answer": "Springboks"
+      }
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "id": "player-one",
+  "title": "Player One",
+  "emoji": "🎮",
+  "blurb": "Rage quits, loot, boss fights and the controller hand cramp.",
+  "tags": [
+    "gaming"
+  ],
+  "content": {
+    "spectrums": [
+      {
+        "left": "Casual",
+        "right": "Hardcore"
+      },
+      {
+        "left": "Learn in a minute",
+        "right": "Learn in a year"
+      },
+      {
+        "left": "Great with friends",
+        "right": "Better alone"
+      },
+      {
+        "left": "Pure skill",
+        "right": "Pure luck"
+      },
+      {
+        "left": "Story over gameplay",
+        "right": "Gameplay over story"
+      },
+      {
+        "left": "Open world",
+        "right": "Linear path"
+      },
+      {
+        "left": "Worth full price",
+        "right": "Wait for the sale"
+      },
+      {
+        "left": "Retro charm",
+        "right": "Dated"
+      },
+      {
+        "left": "Soundtrack you hum",
+        "right": "Music on mute"
+      },
+      {
+        "left": "Achievements: addictive",
+        "right": "Achievements: pointless"
+      },
+      {
+        "left": "Final boss: epic",
+        "right": "Final boss: anticlimax"
+      },
+      {
+        "left": "Tutorial: helpful",
+        "right": "Tutorial: endless"
+      },
+      {
+        "left": "Microtransactions: fair",
+        "right": "Microtransactions: predatory"
+      },
+      {
+        "left": "Speedrun worthy",
+        "right": "One playthrough is plenty"
+      },
+      {
+        "left": "Couch co-op",
+        "right": "Online lobby"
+      },
+      {
+        "left": "Better to watch a streamer",
+        "right": "Better to play yourself"
+      },
+      {
+        "left": "Great teammate",
+        "right": "Toxic teammate"
+      },
+      {
+        "left": "Mobile game: genuinely fun",
+        "right": "Mobile game: cash grab"
+      },
+      {
+        "left": "Boss you'd solo",
+        "right": "Boss that needs a raid"
+      },
+      {
+        "left": "NPC with personality",
+        "right": "NPC who is furniture"
+      },
+      {
+        "left": "Save often",
+        "right": "Live dangerously"
+      },
+      {
+        "left": "Eats your weekend",
+        "right": "Fits a quick break"
+      },
+      {
+        "left": "Hidden secrets everywhere",
+        "right": "Nothing to find"
+      },
+      {
+        "left": "Loot: exciting",
+        "right": "Loot: inventory clutter"
+      },
+      {
+        "left": "Board game night starter",
+        "right": "Board game friendship ender"
+      },
+      {
+        "left": "Controller comfort",
+        "right": "Controller hand cramp"
+      },
+      {
+        "left": "Photorealistic",
+        "right": "Pixel art"
+      },
+      {
+        "left": "Too long",
+        "right": "Too short"
+      },
+      {
+        "left": "Sequel is better",
+        "right": "Original is better"
+      },
+      {
+        "left": "Cheat code: harmless",
+        "right": "Cheat code: cheating"
+      },
+      {
+        "left": "Lone hero",
+        "right": "Party of misfits"
+      },
+      {
+        "left": "Puzzle solver",
+        "right": "Button masher"
+      },
+      {
+        "left": "Horror: jump scares",
+        "right": "Horror: slow dread"
+      },
+      {
+        "left": "Strategy brain",
+        "right": "Twitch reflexes"
+      },
+      {
+        "left": "Late-night session worth it",
+        "right": "Regret at 7am"
+      },
+      {
+        "left": "Game for kids",
+        "right": "Game for adults"
+      },
+      {
+        "left": "Lag: acceptable",
+        "right": "Lag: unforgivable"
+      },
+      {
+        "left": "Collectathon: satisfying",
+        "right": "Collectathon: tedious"
+      },
+      {
+        "left": "A sport",
+        "right": "A hobby"
+      },
+      {
+        "left": "Relaxing to play",
+        "right": "Rage-inducing"
+      },
+      {
+        "left": "Bargain bin find",
+        "right": "Collector's item"
+      },
+      {
+        "left": "Polished at launch",
+        "right": "Broken at launch"
+      },
+      {
+        "left": "Walkthrough: sensible",
+        "right": "Walkthrough: cheating"
+      },
+      {
+        "left": "Gamertag: cool",
+        "right": "Gamertag: cringe"
+      },
+      {
+        "left": "Forgiving respawns",
+        "right": "One life only"
+      },
+      {
+        "left": "Wins by skill",
+        "right": "Wins by exploit"
+      }
+    ]
+  }
+}

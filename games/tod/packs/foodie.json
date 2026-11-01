@@ -1,0 +1,64 @@
+{
+  "id": "foodie",
+  "title": "Foodie",
+  "emoji": "🍕",
+  "blurb": "Guilty pleasures, kitchen disasters and the great pineapple debate. Come hungry.",
+  "tags": [
+    "food",
+    "cooking"
+  ],
+  "order": 100,
+  "content": {
+    "mild": {
+      "truth": [
+        "What's your most controversial pizza topping?",
+        "What's the worst thing you've ever cooked?",
+        "What's your last-meal dinner, start to finish?",
+        "What food would you happily eat every day for a year?",
+        "What's the strangest food you've ever tried, and would you try it again?",
+        "What's your go-to comfort food on a bad day?",
+        "What's the best meal you've ever had at a restaurant?",
+        "Which food do you think is overrated?",
+        "What's your signature dish, and is it actually good?",
+        "What's a food you can't stand the smell of?",
+        "What's the most you've ever spent on a single meal?",
+        "Do you eat the crust first or last on a pizza?",
+        "What cereal did you eat as a kid, and do you still love it?",
+        "What's the worst kitchen fire or flood you've caused?",
+        "Which fast-food order is the real test of a friend?",
+        "What's a food that tastes better in your memory than in real life?",
+        "What's the most underrated vegetable?",
+        "What's the most embarrassing item in your fridge right now?",
+        "What's the weirdest thing you've ever put on toast?",
+        "What snack do you always hide so no one else eats it?",
+        "What's a dish your grandparent made that you still dream about?",
+        "What's your breakfast of shame?"
+      ],
+      "dare": [
+        "Describe your last meal like a fancy restaurant critic, with lots of adjectives.",
+        "Act like a chef tasting a dish and having a full emotional breakdown over how good it is.",
+        "Do a food ad for the nearest edible thing, as dramatically as possible.",
+        "Mime making your favourite sandwich in 15 seconds.",
+        "Pretend to be a waiter reading out a menu made only of your favourite foods, in a posh voice.",
+        "Eat an imaginary lemon and show the face.",
+        "Make up an upbeat song about a vegetable of the group's choosing.",
+        "Pretend to be a pot of boiling pasta that wants to be released.",
+        "Interview a snack as if it's a celebrity.",
+        "Do a hilarious cooking show demonstration with only invisible ingredients.",
+        "Act out being a cheese that just got grated.",
+        "Do your best cooking-competition judge's critique of a plain slice of bread.",
+        "Give a food ranking: list your top five snacks in 20 seconds.",
+        "Name as many types of pasta as you can in 15 seconds.",
+        "Pretend to be a very picky eater being handed a plate of broccoli.",
+        "Do a dramatic reading of a recipe from your head, with an emotional twist.",
+        "Pitch a ridiculous new flavour of ice cream, and sell it to the room.",
+        "Mime flipping a pancake with a flourish, using an imaginary pan.",
+        "Do a TV chef's catchphrase and sign-off.",
+        "Pretend to taste soup that is far too hot, then far too cold.",
+        "Give a toast to a fruit of your choosing.",
+        "Describe the most disgusting sandwich you can imagine, with a straight face.",
+        "Act like a shopper in a supermarket who's lost their list."
+      ]
+    }
+  }
+}

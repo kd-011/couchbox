@@ -1,0 +1,24 @@
+{
+  "id": "nineties-icons",
+  "title": "90s Icons",
+  "emoji": "💿",
+  "blurb": "Boy bands, grunge, dial-up and Friday night TV: the people and characters of the 1990s.",
+  "tags": ["nineties", "nostalgia"],
+  "order": 80,
+  "content": {
+    "categories": {
+      "nineties-music": {
+        "label": "90s music",
+        "items": ["Backstreet Boys", "Spice Girls", "NSYNC", "Alanis Morissette", "Shania Twain", "Ricky Martin", "Robbie Williams", "Gwen Stefani", "Vanilla Ice", "MC Hammer", "Hanson", "Ace of Base", "Aqua", "TLC", "Savage Garden", "Blur"]
+      },
+      "nineties-screen": {
+        "label": "90s screen stars",
+        "items": ["Brad Pitt", "Julia Roberts", "Sandra Bullock", "Winona Ryder", "Pamela Anderson", "Neve Campbell", "Macaulay Culkin", "Drew Barrymore", "Alicia Silverstone", "Freddie Prinze Jr", "Jennifer Love Hewitt", "Gillian Anderson", "David Duchovny", "Sarah Michelle Gellar", "Mark Wahlberg", "Jason Priestley"]
+      },
+      "nineties-characters": {
+        "label": "90s characters",
+        "items": ["Buffy Summers", "Steve Urkel", "Carlton Banks", "Zack Morris", "Fox Mulder", "Dana Scully", "Beavis", "Butt-Head", "Ash Ketchum", "Woody", "Sabrina Spellman", "Xena", "Cher Horowitz", "Austin Powers", "Ace Ventura", "Wayne Campbell"]
+      }
+    }
+  }
+}

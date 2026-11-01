@@ -1,0 +1,214 @@
+{
+  "id": "office-life",
+  "title": "Office Life",
+  "emoji": "💼",
+  "blurb": "Meetings, inboxes, the office fridge and the work Christmas party.",
+  "tags": [
+    "work"
+  ],
+  "order": 80,
+  "content": {
+    "pairs": [
+      {
+        "a": "Have a desk right next to the office printer",
+        "b": "Have a desk right next to the office kitchen"
+      },
+      {
+        "a": "Have every meeting replaced by an email",
+        "b": "Have every email replaced by a meeting"
+      },
+      {
+        "a": "Be on mute for your entire big presentation",
+        "b": "Accidentally share a screen full of online shopping tabs"
+      },
+      {
+        "a": "Sit next to someone who microwaves fish every day",
+        "b": "Sit next to someone who takes every call on speaker"
+      },
+      {
+        "a": "Have your camera stuck on for every video call",
+        "b": "Have your microphone stuck on for every video call"
+      },
+      {
+        "a": "Organise the work Christmas party",
+        "b": "Give a speech at the work Christmas party"
+      },
+      {
+        "a": "Have a boss who emails you at 2am",
+        "b": "Have a boss who rings you on your day off"
+      },
+      {
+        "a": "Take the minutes in every meeting forever",
+        "b": "Be the person everyone asks to fix the printer forever"
+      },
+      {
+        "a": "Have your lunch stolen from the fridge every Friday",
+        "b": "Be wrongly blamed for every stolen lunch"
+      },
+      {
+        "a": "Work in total silence all day",
+        "b": "Work next to someone who hums all day"
+      },
+      {
+        "a": "Do every team-building exercise ever invented",
+        "b": "Never have a single work social event again"
+      },
+      {
+        "a": "Be the office's go-to person for tech help",
+        "b": "Be the office's go-to person for birthday cakes"
+      },
+      {
+        "a": "Do all your work on a fifteen-year-old laptop",
+        "b": "Do all your work on your phone"
+      },
+      {
+        "a": "Have your manager sit right behind you",
+        "b": "Have your manager video call you every hour to check in"
+      },
+      {
+        "a": "Get a parking spot right by the front door",
+        "b": "Get a free barista coffee every morning"
+      },
+      {
+        "a": "Sign every work email with \"Love,\"",
+        "b": "Sign every work email with \"Cheers, legend\""
+      },
+      {
+        "a": "Have the job title \"Chief Vibes Officer\"",
+        "b": "Have the job title \"Assistant to the Deputy Coordinator\""
+      },
+      {
+        "a": "Run the company's social media account",
+        "b": "Answer the company's complaints line"
+      },
+      {
+        "a": "Have your chat messages read out at the all-hands",
+        "b": "Have your calendar shown to the whole company"
+      },
+      {
+        "a": "Work for a tiny startup that might be huge",
+        "b": "Work for a giant company that never changes"
+      },
+      {
+        "a": "Sit through a three-hour compliance training video",
+        "b": "Redo a whole year of timesheets from scratch"
+      },
+      {
+        "a": "Have a standing desk you can never sit at",
+        "b": "Have a chair that slowly sinks lower all day"
+      },
+      {
+        "a": "Call your boss \"Mum\" in front of the whole team",
+        "b": "Fall asleep in a meeting and snore"
+      },
+      {
+        "a": "Have your performance review written by your team",
+        "b": "Have your performance review written by your mum"
+      },
+      {
+        "a": "Leave at 3pm every day but never get a pay rise",
+        "b": "Get a pay rise every year but never leave before 7pm"
+      },
+      {
+        "a": "Be in a group chat with every manager you've ever had",
+        "b": "Be in a group chat with every ex-colleague you've ever had"
+      },
+      {
+        "a": "Present to the CEO with no slides at all",
+        "b": "Present to the CEO with eighty slides and five minutes"
+      },
+      {
+        "a": "Be the only one in fancy dress at the work party",
+        "b": "Be the only one not in fancy dress at the work party"
+      },
+      {
+        "a": "Find out exactly what everyone at work earns",
+        "b": "Find out exactly what everyone at work thinks of you"
+      },
+      {
+        "a": "Work somewhere with a slide instead of stairs",
+        "b": "Work somewhere with a nap pod for every person"
+      },
+      {
+        "a": "Control the office playlist forever",
+        "b": "Control the office air conditioning forever"
+      },
+      {
+        "a": "Have a coworker who answers everything with \"per my last email\"",
+        "b": "Have a coworker who answers everything with a thumbs up"
+      },
+      {
+        "a": "Do your job brilliantly and never be noticed",
+        "b": "Do your job averagely and be praised constantly"
+      },
+      {
+        "a": "Be stuck on hold with IT for an hour",
+        "b": "Be stuck in a lift with the CEO for an hour"
+      },
+      {
+        "a": "Get every Friday afternoon off",
+        "b": "Start every Monday at 11am"
+      },
+      {
+        "a": "Wear a suit and tie to work every day",
+        "b": "Wear a company mascot costume one day a week"
+      },
+      {
+        "a": "Have a microwave that's always occupied",
+        "b": "Have a kettle that's always empty"
+      },
+      {
+        "a": "Be the person who hits reply-all by mistake",
+        "b": "Be the person who never gets copied in on anything"
+      },
+      {
+        "a": "Have a desk with a lovely view and a broken chair",
+        "b": "Have a desk in a cupboard and the best chair in the world"
+      },
+      {
+        "a": "Introduce yourself with a fun fact in every meeting",
+        "b": "End every meeting with a group stretch"
+      },
+      {
+        "a": "Get a surprise visit from the CEO at your desk",
+        "b": "Get a surprise visit from your mum at your desk"
+      },
+      {
+        "a": "Work in an open-plan office with no walls",
+        "b": "Work in a private office with no windows"
+      },
+      {
+        "a": "Say \"let's take this offline\" in every conversation",
+        "b": "Say \"low-hanging fruit\" in every conversation"
+      },
+      {
+        "a": "Sit near a colleague who crunches snacks in every meeting",
+        "b": "Sit near a colleague who clips their nails at their desk"
+      },
+      {
+        "a": "Lose all your unsaved work every Friday",
+        "b": "Lose your wifi every Tuesday at 2pm"
+      },
+      {
+        "a": "Work a summer in an arctic air-conditioned office",
+        "b": "Work a winter in an office with no heating"
+      },
+      {
+        "a": "Draw your boss in Secret Santa",
+        "b": "Have your boss draw you in Secret Santa"
+      },
+      {
+        "a": "Be known as the office gossip",
+        "b": "Be known as the office grump"
+      },
+      {
+        "a": "Take an unpaid year off to travel",
+        "b": "Take a company-paid course in something dull"
+      },
+      {
+        "a": "Eat lunch alone at your desk every day",
+        "b": "Eat lunch with your boss every day"
+      }
+    ]
+  }
+}

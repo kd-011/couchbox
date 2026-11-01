@@ -1,0 +1,195 @@
+{
+  "id": "housemates",
+  "title": "Housemates",
+  "emoji": "🏠",
+  "blurb": "Dishes, bins, dodgy fridge thieves and whoever never buys toilet paper.",
+  "tags": [
+    "home",
+    "flatmates"
+  ],
+  "order": 50,
+  "content": {
+    "questions": [
+      {
+        "text": "Who in this house would be most likely to leave one dirty fork in the sink for a week?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to eat food with someone else's name on it?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to shrink a jumper in the wash and blame the machine?",
+        "spicy": false
+      },
+      {
+        "text": "Who has the worst taste in music for the shared speaker?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to take the bins out only once the bag is overflowing?",
+        "spicy": false
+      },
+      {
+        "text": "Who would lose a fight with the shower temperature?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to use the last of the toilet paper and say nothing?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to throw a surprise housewarming for forty people?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to burn dinner and open every window instead of confessing?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to hoard a cupboard of things they swear they'll use one day?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to leave the heater on all day and wonder about the bill?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to start the house group chat and then mute it?",
+        "spicy": false
+      },
+      {
+        "text": "Who would cry first on the day the lease ends and we all go separate ways?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to adopt a pet without asking the landlord?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to rearrange the lounge room at midnight?",
+        "spicy": false
+      },
+      {
+        "text": "Who would lose the spare key and swear it was never there?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be the first to lock themselves out wearing only a towel?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to cook a feast for the house on a random Wednesday?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to leave a passive-aggressive note on the fridge?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to sleep through a smoke alarm?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to label every item in the fridge, down to the butter?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to win the biggest bedroom by sheer persistence?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to say they'll do the dishes tomorrow and mean it every time?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to stack takeaway containers into a tower and call it storage?",
+        "spicy": false
+      },
+      {
+        "text": "Who would have a meltdown over a missing remote?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to work from the couch in pyjamas for three days straight?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to invite a mate to \"stay a few days\" that becomes three months?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to give the house spider a name?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to knock on a housemate's door at 1am just to chat?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to flood the bathroom without knowing how?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to try a DIY repair and make it far worse?",
+        "spicy": false
+      },
+      {
+        "text": "Who would take a house games night way too seriously?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to leave washing in the machine until it needs a second wash?",
+        "spicy": false
+      },
+      {
+        "text": "Who would buy a kitchen gadget and use it exactly once?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to build a blanket fort in the lounge?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to get the whole house hooked on a terrible reality show?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to take a loud phone call in the hallway at 7am?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to haggle over the internet bill down to the cent?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to wear a housemate's dressing gown like it's theirs?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to name the sourdough starter and grieve when it dies?",
+        "spicy": false
+      },
+      {
+        "text": "Who is the house parent who reminds everyone about rent?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to have a guest sneak out the front door at dawn?",
+        "spicy": true
+      },
+      {
+        "text": "Who would have housemates hear far too much through a thin wall?",
+        "spicy": true
+      },
+      {
+        "text": "Who among us is most likely to date a housemate's friend and make dinner awkward?",
+        "spicy": true
+      },
+      {
+        "text": "Who would be most likely to borrow a housemate's shirt for a date and never return it?",
+        "spicy": true
+      }
+    ]
+  }
+}

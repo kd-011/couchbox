@@ -1,0 +1,181 @@
+{
+  "id": "lost-in-history",
+  "title": "Lost in History",
+  "emoji": "📜",
+  "blurb": "Pirate ships, gold rushes and codebreaker huts. Blend into any century.",
+  "tags": [
+    "history"
+  ],
+  "content": {
+    "locations": [
+      {
+        "key": "pirate-ship",
+        "label": "Pirate Ship",
+        "roles": [
+          "Captain",
+          "Quartermaster",
+          "Cabin Boy",
+          "Ship's Cook",
+          "Navigator",
+          "Cannon Gunner",
+          "Prisoner on the Plank",
+          "Ship's Surgeon"
+        ]
+      },
+      {
+        "key": "wild-west-saloon",
+        "label": "Wild West Saloon",
+        "roles": [
+          "Sheriff",
+          "Bartender",
+          "Piano Player",
+          "Card Gambler",
+          "Outlaw",
+          "Saloon Singer",
+          "Gold Prospector",
+          "Undertaker"
+        ]
+      },
+      {
+        "key": "viking-longship",
+        "label": "Viking Longship",
+        "roles": [
+          "Chieftain",
+          "Oarsman",
+          "Shield Maiden",
+          "Skald Poet",
+          "Helmsman",
+          "Captured Monk",
+          "Berserker",
+          "Ship's Cook"
+        ]
+      },
+      {
+        "key": "roman-colosseum",
+        "label": "Roman Colosseum",
+        "roles": [
+          "Emperor",
+          "Gladiator",
+          "Lion Tamer",
+          "Senator",
+          "Roman Soldier",
+          "Snack Vendor",
+          "Arena Announcer",
+          "Gladiator Trainer"
+        ]
+      },
+      {
+        "key": "pyramid-building-site",
+        "label": "Pyramid Building Site",
+        "roles": [
+          "Vizier",
+          "Chief Architect",
+          "Stonecutter",
+          "Overseer",
+          "Water Carrier",
+          "High Priest",
+          "Scribe",
+          "Barge Captain"
+        ]
+      },
+      {
+        "key": "gold-rush-diggings",
+        "label": "Gold Rush Diggings",
+        "roles": [
+          "Prospector",
+          "Claim Jumper",
+          "Storekeeper",
+          "Gold Commissioner",
+          "Mounted Trooper",
+          "Assayer",
+          "Camp Cook",
+          "Newspaper Reporter"
+        ]
+      },
+      {
+        "key": "castle-under-siege",
+        "label": "Castle Under Siege",
+        "roles": [
+          "Castle Lord",
+          "Archer on the Wall",
+          "Blacksmith",
+          "Siege Engineer",
+          "Besieging Knight",
+          "Starving Cook",
+          "Squire",
+          "Court Jester"
+        ]
+      },
+      {
+        "key": "stone-age-cave",
+        "label": "Stone Age Cave",
+        "roles": [
+          "Fire Keeper",
+          "Mammoth Hunter",
+          "Cave Painter",
+          "Toolmaker",
+          "Grandmother Elder",
+          "Berry Gatherer",
+          "Kid With a Tusk",
+          "Shaman"
+        ]
+      },
+      {
+        "key": "codebreakers-hut",
+        "label": "Codebreakers' Hut",
+        "roles": [
+          "Chief Codebreaker",
+          "Radio Interceptor",
+          "Typist",
+          "Mathematician",
+          "Security Officer",
+          "Tea Lady",
+          "Dispatch Rider",
+          "Crossword Champion"
+        ]
+      },
+      {
+        "key": "1912-ocean-liner-ballroom",
+        "label": "1912 Ocean Liner Ballroom",
+        "roles": [
+          "Bandleader",
+          "Captain",
+          "Steward",
+          "First-Class Heiress",
+          "Stowaway",
+          "Wireless Operator",
+          "Third-Class Fiddler",
+          "Ship Designer"
+        ]
+      },
+      {
+        "key": "ancient-olympic-games",
+        "label": "Ancient Olympic Games",
+        "roles": [
+          "Olympic Judge",
+          "Discus Thrower",
+          "Wrestler",
+          "Chariot Racer",
+          "Philosopher",
+          "Priest of Zeus",
+          "Olive Vendor",
+          "Athlete's Trainer"
+        ]
+      },
+      {
+        "key": "silk-road-caravan",
+        "label": "Silk Road Caravan",
+        "roles": [
+          "Silk Merchant",
+          "Camel Driver",
+          "Armed Guard",
+          "Interpreter",
+          "Spice Trader",
+          "Pilgrim Monk",
+          "Pickpocket",
+          "Tea Seller"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+/* Most Likely To: the prompt, the crowning and the vote trail. Game colour
+   from --accent. */
+.mlt-prompt { color: var(--dim); font: 700 15px var(--display); letter-spacing: 0.04em; text-transform: uppercase; max-width: 34ch; }
+
+/* The crowned: a big face, a crown that drops on. */
+.mlt-crowned { display: flex; flex-wrap: wrap; justify-content: center; gap: 18px; }
+.mlt-hero { position: relative; display: inline-grid; justify-items: center; padding-top: 26px; }
+.mlt-hero .av { box-shadow: 0 0 0 5px var(--accent), 0 24px 60px -16px var(--accent); animation: mlt-pop 0.55s var(--spring) both; }
+.mlt-crown { position: absolute; top: 0; left: 50%; translate: -50% 0; color: var(--amber); filter: drop-shadow(0 4px 0 rgba(0, 0, 0, 0.3)); animation: mlt-crown 0.6s var(--spring) 0.35s both; }
+@keyframes mlt-crown { from { opacity: 0; transform: translateY(-40px) rotate(-20deg); } }
+@keyframes mlt-pop { from { opacity: 0; transform: scale(0.5); } }
+
+.mlt-headline { font: 800 clamp(36px, 11vw, 54px)/0.98 var(--display); font-stretch: 78%; letter-spacing: -0.03em; text-align: center; max-width: 14ch; animation: mlt-slam 0.5s var(--spring) 0.2s both; }
+@keyframes mlt-slam { from { opacity: 0; transform: scale(1.3); } }
+
+.mlt-votes { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; }
+.mlt-votes li { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px 4px 4px; border-radius: 999px; background: var(--surface); color: var(--dim); font-size: 14px; animation: rise 0.35s var(--ease) both; }
+.mlt-votes li:nth-child(2) { animation-delay: 60ms; }
+.mlt-votes li:nth-child(3) { animation-delay: 120ms; }
+.mlt-votes li:nth-child(n + 4) { animation-delay: 180ms; }
+.mlt-votes li .i { transform: rotate(180deg); color: var(--faint); }
+.mlt-votes .hit { color: var(--accent); font-weight: 750; }
+.mlt-votes .miss { color: var(--dim); font-weight: 700; }
+
+.mlt-result, .mlt-final { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 14px; text-align: center; }
+.mlt-final > .i { color: var(--accent); }
+.mlt-sub { color: var(--dim); font: 700 16px var(--display); }
+
+/* The grace clock once half the table has voted. */
+.mlt-clock { font-weight: 700; }
+.mlt-clock .cd { font-variant-numeric: tabular-nums; font-weight: 800; color: var(--text); }
+.mlt-clock .cd.urgent { color: var(--amber); }
+
+/* ---------- the TV ---------- */
+.tv-surface .mlt-headline { font-size: 6vw; max-width: 60vw; }
+/* Long names or a unanimous verdict: a size down so it stays on two lines. */
+.mlt-headline.mlt-long { font-size: clamp(30px, 8.5vw, 44px); max-width: 18ch; }
+.tv-surface .mlt-headline.mlt-long { font-size: 4.2vw; max-width: 70vw; }
+.tv-surface .mlt-prompt, .tv-surface .mlt-sub { font-size: 1.6vw; max-width: 60vw; }
+.tv-surface .mlt-votes li { font-size: 1.2vw; padding: 0.3vw 1vw 0.3vw 0.3vw; }
+.tv-surface .mlt-hero { padding-top: 3vw; }
+.tv-surface .mlt-hero .av { --s: 9vw !important; }
+.tv-surface .mlt-crown .i { width: 4vw; height: 4vw; }
+.tv-surface .mlt-result .scores, .tv-surface .mlt-final .scores { max-width: 40vw; }
+.tv-surface .mlt-result .scores li, .tv-surface .mlt-final .scores li { font-size: 1.3vw; padding: 0.6vw 1.1vw; }
+.tv-surface .mlt-result .scores .pts, .tv-surface .mlt-final .scores .pts { font-size: 1.8vw; }
+.tv-surface .mlt-clock { font-size: 1.6vw; }

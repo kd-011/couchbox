@@ -1,0 +1,24 @@
+{
+  "id": "fairytale-and-fantasy",
+  "title": "Fairytale and Fantasy",
+  "emoji": "🧙",
+  "blurb": "Wolves in bedclothes, wizards, dragons and everything from once upon a time.",
+  "tags": ["fantasy", "family"],
+  "order": 110,
+  "content": {
+    "categories": {
+      "fairytale-folk": {
+        "label": "Fairytale folk",
+        "items": ["Snow White", "Sleeping Beauty", "Rapunzel", "Little Red Riding Hood", "The Big Bad Wolf", "Hansel and Gretel", "Goldilocks", "Pinocchio", "Peter Pan", "Tinker Bell", "Alice in Wonderland", "The Mad Hatter", "The Queen of Hearts", "Cheshire Cat", "Rumpelstiltskin", "Puss in Boots", "Humpty Dumpty", "The Gingerbread Man", "The Pied Piper", "The Frog Prince"]
+      },
+      "fantasy-heroes": {
+        "label": "Fantasy characters",
+        "items": ["Legolas", "Gimli", "Bilbo Baggins", "Samwise Gamgee", "Galadriel", "Ron Weasley", "Dumbledore", "Hagrid", "Severus Snape", "Draco Malfoy", "Luna Lovegood", "Aslan", "Jon Snow", "Daenerys Targaryen", "Tyrion Lannister", "Merlin", "King Arthur", "Dobby"]
+      },
+      "mythical-creatures": {
+        "label": "Mythical creatures",
+        "items": ["Unicorn", "Dragon", "Mermaid", "Phoenix", "Centaur", "Minotaur", "Medusa", "Pegasus", "Genie", "Leprechaun", "Yeti", "Bigfoot", "Loch Ness Monster", "Troll"]
+      }
+    }
+  }
+}

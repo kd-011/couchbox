@@ -1,0 +1,244 @@
+{
+  "id": "cosmic-oddities",
+  "title": "Cosmic Oddities",
+  "emoji": "🪐",
+  "blurb": "Moons, missions and planets that make less sense than your fake answers.",
+  "tags": [
+    "space",
+    "science"
+  ],
+  "content": {
+    "prompts": [
+      {
+        "id": "spc1",
+        "text": "The Apollo 11 command module pilot, who orbited the Moon while his two crewmates landed, was Michael _____.",
+        "answer": "Collins"
+      },
+      {
+        "id": "spc2",
+        "text": "The tallest volcano in the solar system, Olympus Mons, is on the planet _____.",
+        "answer": "Mars"
+      },
+      {
+        "id": "spc3",
+        "text": "Sunsets on Mars look _____ instead of red.",
+        "answer": "blue"
+      },
+      {
+        "id": "spc4",
+        "text": "Saturn is so light for its size that it would _____ in a big enough bathtub.",
+        "answer": "float"
+      },
+      {
+        "id": "spc5",
+        "text": "Pluto takes about _____ Earth years to orbit the Sun once.",
+        "answer": "248"
+      },
+      {
+        "id": "spc6",
+        "text": "The Sun holds about 99.8 percent of all the _____ in the solar system.",
+        "answer": "mass"
+      },
+      {
+        "id": "spc7",
+        "text": "Before stepping onto the Moon, Buzz Aldrin quietly took _____ inside the lunar module.",
+        "answer": "communion"
+      },
+      {
+        "id": "spc8",
+        "text": "A total solar eclipse is possible because the Sun is about _____ times wider than the Moon and also that many times farther away.",
+        "answer": "400"
+      },
+      {
+        "id": "spc9",
+        "text": "One year on Neptune lasts about _____ Earth years.",
+        "answer": "165"
+      },
+      {
+        "id": "spc10",
+        "text": "William Herschel discovered Uranus in 1781 and wanted to name it after King _____.",
+        "answer": "George III"
+      },
+      {
+        "id": "spc11",
+        "text": "Voyager 1 carries a golden _____ filled with sounds and images of Earth.",
+        "answer": "record"
+      },
+      {
+        "id": "spc12",
+        "text": "In 1962 John Glenn became the first American to eat in space, squeezing _____ from a tube.",
+        "answer": "applesauce"
+      },
+      {
+        "id": "spc13",
+        "text": "In weightlessness an astronaut's spine stretches out, which can make them up to _____ percent taller.",
+        "answer": "3"
+      },
+      {
+        "id": "spc14",
+        "text": "A day on Mars is called a _____.",
+        "answer": "sol"
+      },
+      {
+        "id": "spc15",
+        "text": "Venus spins backwards compared with most planets, so the Sun rises in the _____ there.",
+        "answer": "west"
+      },
+      {
+        "id": "spc16",
+        "text": "The most volcanically active world in the solar system is Jupiter's moon _____.",
+        "answer": "Io"
+      },
+      {
+        "id": "spc17",
+        "text": "Saturn's moon Titan has lakes of liquid methane and _____.",
+        "answer": "ethane"
+      },
+      {
+        "id": "spc18",
+        "text": "A comet's ion tail always points directly away from the _____.",
+        "answer": "Sun"
+      },
+      {
+        "id": "spc19",
+        "text": "The largest object in the asteroid belt is the dwarf planet _____.",
+        "answer": "Ceres"
+      },
+      {
+        "id": "spc20",
+        "text": "Pluto was officially reclassified as a dwarf planet in _____.",
+        "answer": "2006"
+      },
+      {
+        "id": "spc21",
+        "text": "The first woman in space, in 1963, was the Soviet cosmonaut Valentina _____.",
+        "answer": "Tereshkova"
+      },
+      {
+        "id": "spc22",
+        "text": "Betelgeuse, a red supergiant, shines in the constellation _____.",
+        "answer": "Orion"
+      },
+      {
+        "id": "spc23",
+        "text": "The brightest star in Earth's night sky is _____.",
+        "answer": "Sirius"
+      },
+      {
+        "id": "spc24",
+        "text": "NASA's Space Shuttle fleet was retired in _____.",
+        "answer": "2011"
+      },
+      {
+        "id": "spc25",
+        "text": "The Apollo 13 mission was crippled when one of its _____ tanks exploded on the way to the Moon.",
+        "answer": "oxygen"
+      },
+      {
+        "id": "spc26",
+        "text": "The Sun's outer atmosphere, the _____, is hundreds of times hotter than its visible surface.",
+        "answer": "corona"
+      },
+      {
+        "id": "spc27",
+        "text": "The first pulsar was discovered in 1967 by the astronomer Jocelyn _____.",
+        "answer": "Bell Burnell"
+      },
+      {
+        "id": "spc28",
+        "text": "The last person to walk on the Moon, in December 1972, was Apollo 17's Eugene _____.",
+        "answer": "Cernan"
+      },
+      {
+        "id": "spc29",
+        "text": "In 1998 the ashes of geologist Eugene Shoemaker were launched to the Moon aboard NASA's _____.",
+        "answer": "Lunar Prospector"
+      },
+      {
+        "id": "spc30",
+        "text": "NASA's Mars Climate Orbiter was lost in 1999 after one team used imperial units and another used _____ units.",
+        "answer": "metric"
+      },
+      {
+        "id": "spc31",
+        "text": "Saturn's north pole is capped by a giant storm with a very unusual shape: a _____.",
+        "answer": "hexagon"
+      },
+      {
+        "id": "spc32",
+        "text": "Astronauts on the International Space Station see about _____ sunrises every day.",
+        "answer": "16"
+      },
+      {
+        "id": "spc33",
+        "text": "The densest planet in the solar system is _____.",
+        "answer": "Earth"
+      },
+      {
+        "id": "spc34",
+        "text": "Apollo astronauts said fresh moon dust smelled like spent _____.",
+        "answer": "gunpowder"
+      },
+      {
+        "id": "spc35",
+        "text": "NASA's Opportunity rover fell silent on Mars in 2018 after a planet-wide _____ storm blocked its sunlight.",
+        "answer": "dust"
+      },
+      {
+        "id": "spc36",
+        "text": "NASA ended the Cassini mission in 2017 by plunging the probe into _____.",
+        "answer": "Saturn"
+      },
+      {
+        "id": "spc37",
+        "text": "The James Webb Space Telescope launched on _____ Day in 2021.",
+        "answer": "Christmas"
+      },
+      {
+        "id": "spc38",
+        "text": "We only ever see one side of the Moon because it is tidally _____ to Earth.",
+        "answer": "locked"
+      },
+      {
+        "id": "spc39",
+        "text": "Mars has two small moons, Phobos and _____.",
+        "answer": "Deimos"
+      },
+      {
+        "id": "spc40",
+        "text": "Venus is hotter than Mercury, even though Mercury is closer to the Sun, because its thick atmosphere causes a powerful _____ effect.",
+        "answer": "greenhouse"
+      },
+      {
+        "id": "spc41",
+        "text": "Mercury and _____ are the only two planets in the solar system with no moons.",
+        "answer": "Venus"
+      },
+      {
+        "id": "spc42",
+        "text": "The only spacecraft ever to visit Uranus and Neptune is _____.",
+        "answer": "Voyager 2"
+      },
+      {
+        "id": "spc43",
+        "text": "The Apollo 11 lunar module that landed on the Moon in 1969 was named _____.",
+        "answer": "Eagle"
+      },
+      {
+        "id": "spc44",
+        "text": "Pluto's largest moon is _____, so big that the two orbit a point in space between them.",
+        "answer": "Charon"
+      },
+      {
+        "id": "spc45",
+        "text": "The so-called dark side of the Moon gets just as much _____ as the side we see.",
+        "answer": "sunlight"
+      },
+      {
+        "id": "spc46",
+        "text": "Exactly _____ people have ever walked on the Moon.",
+        "answer": "twelve"
+      }
+    ]
+  }
+}

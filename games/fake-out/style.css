@@ -1,0 +1,111 @@
+/* Fake Out: the fact card, write form, vote list and a game-show reveal. */
+.fo-stage { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; width: 100%; text-align: center; }
+.fo-stage > .q { margin: 0; }
+
+/* the fact: the hero card, in the game colour */
+.fo-fact {
+  width: 100%;
+  margin: 0;
+  padding: 22px 22px 24px;
+  border-radius: 26px;
+  background: var(--accent);
+  color: var(--accent-ink);
+  box-shadow: var(--press), 0 24px 44px -24px var(--accent);
+  font: 800 23px/1.18 var(--display);
+  font-stretch: 86%;
+  letter-spacing: -0.015em;
+  text-align: left;
+  text-wrap: pretty;
+  animation: fo-deal 0.5s var(--ease) both;
+}
+@keyframes fo-deal { from { opacity: 0; transform: translateY(16px) rotate(-1.5deg); } }
+.fo-blank {
+  display: inline-block;
+  padding: 0 10px;
+  border-radius: 10px;
+  background: var(--accent-ink);
+  color: var(--accent);
+  letter-spacing: 0.12em;
+}
+.fo-answer { display: inline-block; padding: 0 10px; border-radius: 10px; background: var(--accent-ink); color: #fff; }
+
+.fo-write { display: flex; flex-direction: column; gap: 10px; width: 100%; }
+
+.fo-mine { display: flex; flex-direction: column; gap: 6px; width: 100%; padding: 18px; border-radius: 22px; background: var(--surface); animation: pop-in 0.4s var(--spring) both; }
+.fo-mine-label { display: inline-flex; align-items: center; justify-content: center; gap: 6px; color: var(--good); font-size: 13px; font-weight: 750; letter-spacing: 0.04em; text-transform: uppercase; }
+.fo-mine-text { font: 800 24px/1.1 var(--display); font-stretch: 86%; overflow-wrap: anywhere; }
+
+/* voting: one answer per row, easy to read and to hit */
+.fo-vote-grid { grid-template-columns: 1fr; gap: 8px; }
+.fo-vote-grid .pick { min-height: 64px; padding: 14px 18px; align-items: flex-start; text-align: left; font: 750 19px/1.15 var(--display); font-stretch: 90%; animation: fo-row 0.4s var(--ease) both; }
+.fo-vote-grid > :nth-child(2) { animation-delay: 50ms; }
+.fo-vote-grid > :nth-child(3) { animation-delay: 100ms; }
+.fo-vote-grid > :nth-child(4) { animation-delay: 150ms; }
+.fo-vote-grid > :nth-child(n + 5) { animation-delay: 200ms; }
+@keyframes fo-row { from { opacity: 0; transform: translateX(-14px); } }
+.fo-vote-grid .pick span { overflow-wrap: anywhere; }
+.fo-own { display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 64px; padding: 14px 18px; border-radius: var(--radius); background: transparent; color: var(--faint); font: 700 17px var(--display); text-align: left; box-shadow: inset 0 0 0 1px var(--line); }
+.fo-own-tag { flex: none; padding: 3px 9px; border-radius: 999px; background: var(--surface-2); font: 750 11px var(--body); text-transform: uppercase; letter-spacing: 0.06em; }
+
+/* the reveal */
+.fo-result { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 14px; }
+.fo-fill { position: relative; display: inline-block; }
+.fo-fill .fo-blank { position: absolute; inset: 0; display: grid; place-items: center; overflow: hidden; }
+.fo-fill .fo-blank { animation: fo-out 0.3s var(--ease) var(--truth) both; }
+.fo-fill .fo-answer { animation: fo-in 0.5s var(--spring) var(--truth) both; }
+@keyframes fo-out { to { opacity: 0; transform: scale(0.6); } }
+@keyframes fo-in { from { opacity: 0; transform: scale(1.6); } }
+
+.fo-reveal { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; width: 100%; }
+.fo-reveal > li { animation: fo-card 0.55s var(--spring) var(--d) both; }
+@keyframes fo-card { from { opacity: 0; transform: translateY(18px) scale(0.92); } }
+.fo-duds { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 6px; }
+.fo-duds-h { width: 100%; color: var(--faint); font: 750 12px var(--body); letter-spacing: 0.07em; text-transform: uppercase; }
+.fo-dud { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px 4px 4px; border-radius: 999px; background: var(--surface); color: var(--faint); font-weight: 650; font-size: 14px; text-decoration: line-through; text-decoration-color: color-mix(in oklab, var(--faint) 60%, transparent); }
+.fo-lie, .fo-truth { display: flex; flex-direction: column; gap: 10px; padding: 16px 18px; border-radius: 22px; background: var(--surface); text-align: left; }
+.fo-lie-text, .fo-truth-text { font: 800 24px/1.1 var(--display); font-stretch: 84%; letter-spacing: -0.015em; overflow-wrap: anywhere; }
+.fo-lie-text { color: var(--bad); }
+.fo-lie-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 12px; color: var(--dim); font-weight: 650; font-size: 14px; }
+.fo-by, .fo-fooled { display: inline-flex; align-items: center; gap: 4px; }
+.fo-by b { color: var(--text); margin-left: 4px; }
+.fo-fooled .av { margin-left: -6px; box-shadow: 0 0 0 2px var(--surface); }
+.fo-fooled .av:first-of-type { margin-left: 2px; }
+.fo-pts { margin-left: auto; padding: 2px 10px; border-radius: 999px; background: var(--surface-3); color: var(--text); font: 800 15px var(--display); }
+.fo-lie.is-perfect { background: color-mix(in oklab, var(--deadly) 22%, var(--surface)); }
+.fo-truth { background: var(--good); color: var(--good-ink); padding: 18px 18px 16px; box-shadow: 0 24px 44px -24px var(--good); }
+.fo-reveal > li.fo-truth { animation-name: fo-truth; animation-duration: 0.7s; }
+@keyframes fo-truth { 0% { opacity: 0; transform: scale(1.25) rotate(-2deg); } 60% { opacity: 1; transform: scale(0.98); } 100% { transform: none; } }
+.fo-truth-h { display: inline-flex; align-items: center; gap: 6px; font: 800 14px var(--display); letter-spacing: 0.14em; text-transform: uppercase; }
+.fo-truth-text { font-size: 30px; }
+.fo-truth .fo-lie-meta { color: var(--good-ink); }
+.fo-truth .fo-fooled .av { box-shadow: 0 0 0 2px var(--good); }
+.fo-truth .fo-pts { background: rgba(0, 0, 0, 0.16); color: inherit; }
+.fo-truth.is-mine .fo-truth-h::after { content: 'You found it'; margin-left: 8px; padding: 2px 9px; border-radius: 999px; background: var(--good-ink); color: var(--good); letter-spacing: 0.04em; }
+.fo-after { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 12px; animation: rise 0.5s var(--ease) var(--after) both; }
+.fo-perfect { font: 800 26px/1 var(--display); font-stretch: 82%; color: var(--deadly); text-align: center; }
+
+/* TV: the answers up on screen while phones vote */
+.fo-tv-options { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 1vw; width: 100%; max-width: 64vw; counter-reset: fo; }
+.fo-tv-options li { counter-increment: fo; display: flex; align-items: center; gap: 1vw; padding: 1.1vw 1.4vw; border-radius: 1.4vw; background: var(--surface); font: 750 1.7vw/1.15 var(--display); font-stretch: 88%; text-align: left; animation: fo-card 0.5s var(--spring) both; }
+.fo-tv-options li::before { content: counter(fo, upper-alpha); display: grid; place-items: center; flex: none; width: 2.4vw; height: 2.4vw; border-radius: 50%; background: var(--accent); color: var(--accent-ink); font-size: 1.2vw; }
+.fo-tv-options li:nth-child(2) { animation-delay: 60ms; }
+.fo-tv-options li:nth-child(3) { animation-delay: 120ms; }
+.fo-tv-options li:nth-child(n + 4) { animation-delay: 180ms; }
+
+/* game over */
+.fo-final { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 16px; }
+.fo-final-winner { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.fo-final-avs { display: flex; gap: 8px; animation: pop-in 0.5s var(--spring) both; }
+.fo-final-winner h2 { font: 800 clamp(40px, 12vw, 58px)/0.95 var(--display); font-stretch: 78%; letter-spacing: -0.03em; color: var(--accent); animation: fo-slam 0.55s var(--spring) both; }
+@keyframes fo-slam { from { opacity: 0; transform: scale(1.35); } }
+
+.tv-surface .fo-fact { font-size: 2.4vw; max-width: 64vw; padding: 2vw 2.4vw; border-radius: 2vw; }
+.tv-surface .fo-reveal { max-width: 56vw; gap: 0.8vw; }
+.tv-surface .fo-lie, .tv-surface .fo-truth { padding: 1.2vw 1.6vw; border-radius: 1.6vw; gap: 0.6vw; }
+.tv-surface .fo-lie-text { font-size: 2.2vw; }
+.tv-surface .fo-truth-text { font-size: 2.8vw; }
+.tv-surface .fo-lie-meta, .tv-surface .fo-dud { font-size: 1.15vw; }
+.tv-surface .fo-truth-h { font-size: 1.2vw; }
+.tv-surface .fo-pts { font-size: 1.3vw; }
+.tv-surface .fo-perfect { font-size: 2.6vw; }
+.tv-surface .fo-final-winner h2 { font-size: 6vw; }

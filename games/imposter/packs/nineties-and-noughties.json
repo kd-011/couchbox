@@ -1,0 +1,81 @@
+{
+  "id": "nineties-and-noughties",
+  "title": "Nineties and Noughties",
+  "emoji": "📼",
+  "blurb": "Tamagotchis, dial-up and frosted tips. Peak nostalgia for millennials.",
+  "tags": [
+    "nostalgia",
+    "pop culture"
+  ],
+  "content": {
+    "categories": {
+      "toys-and-gadgets": {
+        "label": "Toys and gadgets",
+        "items": [
+          "Tamagotchi",
+          "Game Boy",
+          "Furby",
+          "Discman",
+          "Nokia 3310",
+          "Polly Pocket",
+          "Beanie Babies",
+          "Tazos",
+          "Bop It",
+          "iPod",
+          "Razor scooter",
+          "Pokemon cards",
+          "Flip phone",
+          "Pogs",
+          "Super Soaker",
+          "Skip-It",
+          "Digital camera"
+        ]
+      },
+      "online-and-on-screen": {
+        "label": "Online and on screen",
+        "items": [
+          "MSN Messenger",
+          "Dial-up internet",
+          "MySpace",
+          "Floppy disk",
+          "Blockbuster",
+          "VHS tape",
+          "Napster",
+          "Neopets",
+          "Friends",
+          "Big Brother",
+          "The Fresh Prince",
+          "Y2K bug",
+          "Clippy",
+          "Hotmail",
+          "Limewire",
+          "Windows 95",
+          "Dawson's Creek"
+        ]
+      },
+      "fashion-and-music": {
+        "label": "Fashion and music",
+        "items": [
+          "Spice Girls",
+          "Backstreet Boys",
+          "Britney Spears",
+          "Frosted tips",
+          "Butterfly clips",
+          "Slap bracelet",
+          "Juicy tracksuit",
+          "Macarena",
+          "Low-rise jeans",
+          "Bucket hat",
+          "Platform sneakers",
+          "Puka shell necklace",
+          "Scrunchie",
+          "Baggy jeans",
+          "Choker necklace",
+          "Doc Martens",
+          "Eminem"
+        ]
+      }
+    }
+  },
+  "order": 20
+}

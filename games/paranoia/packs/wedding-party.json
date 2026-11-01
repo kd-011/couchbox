@@ -1,0 +1,199 @@
+{
+  "id": "wedding-party",
+  "title": "Wedding Party",
+  "emoji": "💍",
+  "blurb": "Speeches, dance floors, bouquet catchers and who cries before the vows.",
+  "tags": [
+    "wedding",
+    "family"
+  ],
+  "order": 130,
+  "content": {
+    "questions": [
+      {
+        "text": "Who would cry first as the bride or groom walks down the aisle?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to give a best man speech that goes terribly wrong?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to catch the bouquet and drop it?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to lose the rings before the ceremony?",
+        "spicy": false
+      },
+      {
+        "text": "Who would arrive late to the ceremony because of a hair emergency?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to start the conga line at the reception?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to eat the entrée, the main and everyone else's dessert?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to do a dramatic slow dance with a stranger?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to give a toast and forget the couple's names?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to forget to RSVP and show up anyway?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to wear white to someone else's wedding?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to cry during the vows and blame allergies?",
+        "spicy": false
+      },
+      {
+        "text": "Who would hijack the DJ's microphone?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to spill red wine on the bride's dress?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to take two hundred photos and none of the couple?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to fall asleep at the head table?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to organise the best stag or hens night?",
+        "spicy": false
+      },
+      {
+        "text": "Who has the worst taste in wedding dance songs?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to elope instead of having a big wedding?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to wear a suit that doesn't fit?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to ask the celebrant a long question during the ceremony?",
+        "spicy": false
+      },
+      {
+        "text": "Who would organise a surprise flash mob at the reception?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to try on the veil when no one is looking?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to take the whole wedding too seriously and run it like a military operation?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to get the best seat in the house and leave their coat there all night?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to say \"I do\" and mean \"I'll think about it\"?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to hand a speech to the wrong person?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to bring a plus one nobody has met?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to sneak out of the reception early to watch the footy?",
+        "spicy": false
+      },
+      {
+        "text": "Who would organise the entire group to give a gift that nobody wants?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to host their own wedding in a weird location, like a bowling alley?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to stand at the buffet and never move?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to make the speech about themselves?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to propose to their partner at someone else's wedding?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to slip out of their shoes by the second song?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to be the human photobooth prop?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to say \"I'm not dancing\" and be the last one off the floor?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to start a chant for the couple to kiss again?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to try to catch the garter and fall over?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to name their wedding hashtag something too clever?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to sing the loudest during the bridal waltz?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to make a ten-minute entrance at their own wedding?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to hook up with a wedding guest and leave early?",
+        "spicy": true
+      },
+      {
+        "text": "Who is most likely to get a bit too friendly with the open bar?",
+        "spicy": true
+      },
+      {
+        "text": "Who would be most likely to say a very awkward thing in their wedding speech about an ex?",
+        "spicy": true
+      },
+      {
+        "text": "Who would wake up in the wrong hotel room after the reception?",
+        "spicy": true
+      }
+    ]
+  }
+}

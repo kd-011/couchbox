@@ -1,0 +1,481 @@
+{
+  "id": "sporting-chance",
+  "title": "Sporting Chance",
+  "emoji": "🏅",
+  "blurb": "Olympic glory, big-ball showdowns and Aussie sporting legends, from Dawn Fraser to the WACA.",
+  "tags": [
+    "sport",
+    "olympics",
+    "aussie"
+  ],
+  "order": 32,
+  "content": {
+    "categories": {
+      "sport-olympic": {
+        "label": "Olympic Glory",
+        "multiple": [
+          {
+            "id": "spt-ol-m-1",
+            "difficulty": "easy",
+            "text": "How many rings are on the Olympic flag?",
+            "options": [
+              "Four",
+              "Five",
+              "Six",
+              "Seven"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "spt-ol-m-2",
+            "difficulty": "easy",
+            "text": "Which Australian city hosted the 2000 Summer Olympics?",
+            "options": [
+              "Melbourne",
+              "Brisbane",
+              "Perth",
+              "Sydney"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "spt-ol-m-3",
+            "difficulty": "easy",
+            "text": "Which Australian sprinter lit the cauldron at Sydney 2000 and went on to win the 400 m?",
+            "options": [
+              "Cathy Freeman",
+              "Dawn Fraser",
+              "Betty Cuthbert",
+              "Sally Pearson"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "spt-ol-m-4",
+            "difficulty": "easy",
+            "text": "In which city were the first modern Olympic Games held, in 1896?",
+            "options": [
+              "Athens",
+              "Paris",
+              "Rome",
+              "London"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "spt-ol-m-5",
+            "difficulty": "medium",
+            "text": "Which Australian city was awarded the 2032 Summer Olympics?",
+            "options": [
+              "Sydney",
+              "Perth",
+              "Melbourne",
+              "Brisbane"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "spt-ol-m-6",
+            "difficulty": "medium",
+            "text": "Which of these sports made its Olympic debut at the Tokyo Games, held in 2021?",
+            "options": [
+              "Skateboarding",
+              "Squash",
+              "Lacrosse",
+              "Cricket"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "spt-ol-m-7",
+            "difficulty": "medium",
+            "text": "Usain Bolt ran a 100 m world record in Berlin in 2009. What was his time?",
+            "options": [
+              "9.48 seconds",
+              "9.58 seconds",
+              "9.69 seconds",
+              "9.72 seconds"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "spt-ol-m-8",
+            "difficulty": "hard",
+            "text": "How many Olympic gold medals did swimmer Michael Phelps win in his career?",
+            "options": [
+              "18",
+              "23",
+              "28",
+              "31"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "spt-ol-m-9",
+            "difficulty": "hard",
+            "text": "Dawn Fraser won the 100 m freestyle at three Olympics in a row. At which Games did that streak start?",
+            "options": [
+              "1948 London",
+              "1952 Helsinki",
+              "1956 Melbourne",
+              "1960 Rome"
+            ],
+            "answer": 2
+          }
+        ],
+        "boolean": [
+          {
+            "id": "spt-ol-b-1",
+            "difficulty": "medium",
+            "text": "The Olympic marathon is 42.195 kilometres long.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "spt-ol-b-2",
+            "difficulty": "medium",
+            "text": "Perth hosted the 1962 British Empire and Commonwealth Games.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "spt-ol-b-3",
+            "difficulty": "easy",
+            "text": "The ancient Olympic Games were held in Rome.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "spt-ol-b-4",
+            "difficulty": "medium",
+            "text": "Since 1994, the Winter and Summer Olympics have been held in the same year.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "sport-ball": {
+        "label": "Ball Sports",
+        "multiple": [
+          {
+            "id": "spt-ba-m-1",
+            "difficulty": "easy",
+            "text": "How many players does each team have on the pitch at the start of a soccer match?",
+            "options": [
+              "Nine",
+              "Ten",
+              "Eleven",
+              "Twelve"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "spt-ba-m-2",
+            "difficulty": "easy",
+            "text": "In tennis, what is the word for a score of zero?",
+            "options": [
+              "Nil",
+              "Love",
+              "Duck",
+              "Zip"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "spt-ba-m-3",
+            "difficulty": "medium",
+            "text": "Which team did France beat 4-2 in the 2018 men's World Cup final?",
+            "options": [
+              "Belgium",
+              "Argentina",
+              "England",
+              "Croatia"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "spt-ba-m-4",
+            "difficulty": "medium",
+            "text": "Which country won the 2022 men's FIFA World Cup, beating France on penalties?",
+            "options": [
+              "Argentina",
+              "Brazil",
+              "Croatia",
+              "Morocco"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "spt-ba-m-5",
+            "difficulty": "medium",
+            "text": "How many points is a try worth in rugby union?",
+            "options": [
+              "3",
+              "4",
+              "5",
+              "6"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "spt-ba-m-6",
+            "difficulty": "medium",
+            "text": "Which Australian golfer won the 2013 Masters at Augusta, a first for his country?",
+            "options": [
+              "Greg Norman",
+              "Jason Day",
+              "Cameron Smith",
+              "Adam Scott"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "spt-ba-m-7",
+            "difficulty": "medium",
+            "text": "Which Australian won the men's singles title at Wimbledon in 2002?",
+            "options": [
+              "Pat Rafter",
+              "Lleyton Hewitt",
+              "Mark Philippoussis",
+              "Pat Cash"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "spt-ba-m-8",
+            "difficulty": "hard",
+            "text": "Donald Bradman needed four runs in his final Test innings to finish with an average of 100. How many did he make?",
+            "options": [
+              "0",
+              "1",
+              "2",
+              "3"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "spt-ba-m-9",
+            "difficulty": "hard",
+            "text": "Which basketball star scored 100 points in a single NBA game in 1962?",
+            "options": [
+              "Bill Russell",
+              "Michael Jordan",
+              "Kareem Abdul-Jabbar",
+              "Wilt Chamberlain"
+            ],
+            "answer": 3
+          }
+        ],
+        "boolean": [
+          {
+            "id": "spt-ba-b-1",
+            "difficulty": "easy",
+            "text": "The men's FIFA World Cup is held every two years.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "spt-ba-b-2",
+            "difficulty": "medium",
+            "text": "In golf, an albatross is a score of three under par on a single hole.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "spt-ba-b-3",
+            "difficulty": "hard",
+            "text": "A 'golden set' in tennis is a set won 6-0 without the winner losing a single point.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "spt-ba-b-4",
+            "difficulty": "medium",
+            "text": "The Australian Open tennis tournament is played on clay.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      "sport-aus": {
+        "label": "Aussie Arenas",
+        "multiple": [
+          {
+            "id": "spt-au-m-1",
+            "difficulty": "easy",
+            "text": "How many points is a goal worth in AFL?",
+            "options": [
+              "Three",
+              "Five",
+              "Six",
+              "Ten"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "spt-au-m-2",
+            "difficulty": "easy",
+            "text": "The Melbourne Cup is run on the first Tuesday of which month?",
+            "options": [
+              "October",
+              "November",
+              "December",
+              "September"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "spt-au-m-3",
+            "difficulty": "easy",
+            "text": "What is the nickname of Australia's national women's football team?",
+            "options": [
+              "Matildas",
+              "Opals",
+              "Diamonds",
+              "Southern Stars"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "spt-au-m-4",
+            "difficulty": "medium",
+            "text": "Which two AFL clubs share Perth's Optus Stadium?",
+            "options": [
+              "West Coast Eagles and Fremantle Dockers",
+              "West Coast Eagles and Port Adelaide",
+              "Fremantle Dockers and Collingwood",
+              "Fremantle Dockers and Geelong"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "spt-au-m-5",
+            "difficulty": "medium",
+            "text": "In rugby league's State of Origin, the NSW Blues face which other state?",
+            "options": [
+              "Victoria",
+              "Western Australia",
+              "Tasmania",
+              "Queensland"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "spt-au-m-6",
+            "difficulty": "medium",
+            "text": "Which Perth ground was long famed for the fastest, bounciest pitch in Test cricket?",
+            "options": [
+              "Gabba",
+              "SCG",
+              "Adelaide Oval",
+              "WACA Ground"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "spt-au-m-7",
+            "difficulty": "hard",
+            "text": "Which Australian city hosted the first Formula One Australian Grand Prix of the world championship, in 1985?",
+            "options": [
+              "Melbourne",
+              "Sydney",
+              "Perth",
+              "Adelaide"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "spt-au-m-8",
+            "difficulty": "hard",
+            "text": "In 2022 Ash Barty ended a 44-year wait for an Australian winner of which women's singles title?",
+            "options": [
+              "Wimbledon",
+              "French Open",
+              "Australian Open",
+              "US Open"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "spt-au-m-9",
+            "difficulty": "hard",
+            "text": "Shane Warne's 'Ball of the Century' in 1993 bowled which English batsman?",
+            "options": [
+              "Graham Gooch",
+              "Mike Gatting",
+              "Michael Atherton",
+              "David Gower"
+            ],
+            "answer": 1
+          }
+        ],
+        "boolean": [
+          {
+            "id": "spt-au-b-1",
+            "difficulty": "hard",
+            "text": "The 2021 AFL Grand Final was played in Perth.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "spt-au-b-2",
+            "difficulty": "medium",
+            "text": "The Melbourne Cup is run over 3200 metres.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "spt-au-b-3",
+            "difficulty": "medium",
+            "text": "Each rugby league team has 15 players on the field.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "spt-au-b-4",
+            "difficulty": "medium",
+            "text": "The Boxing Day Test is traditionally played at the SCG in Sydney.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    }
+  }
+}

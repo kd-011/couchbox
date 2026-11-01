@@ -1,0 +1,72 @@
+{
+  "id": "world-landmarks",
+  "title": "Famous Landmarks",
+  "emoji": "🗼",
+  "blurb": "Ancient wonders, skylines and natural giants from around the globe.",
+  "tags": [
+    "travel",
+    "world"
+  ],
+  "order": 50,
+  "content": {
+    "categories": {
+      "ancient": {
+        "label": "Ancient wonders",
+        "items": [
+          "Pyramids of Giza",
+          "Great Wall of China",
+          "Machu Picchu",
+          "Taj Mahal",
+          "Petra",
+          "Angkor Wat",
+          "Stonehenge",
+          "Colosseum",
+          "Acropolis",
+          "Easter Island",
+          "Chichen Itza",
+          "Pompeii",
+          "Terracotta Army",
+          "Great Sphinx"
+        ]
+      },
+      "modern": {
+        "label": "Cities and skylines",
+        "items": [
+          "Eiffel Tower",
+          "Statue of Liberty",
+          "Big Ben",
+          "Burj Khalifa",
+          "Golden Gate Bridge",
+          "Empire State Building",
+          "Space Needle",
+          "Sagrada Familia",
+          "Tower Bridge",
+          "CN Tower",
+          "Times Square",
+          "Hollywood sign",
+          "Mount Rushmore",
+          "Leaning Tower of Pisa"
+        ]
+      },
+      "nature": {
+        "label": "Natural wonders",
+        "items": [
+          "Niagara Falls",
+          "Grand Canyon",
+          "Mount Everest",
+          "Victoria Falls",
+          "Amazon rainforest",
+          "Sahara Desert",
+          "Matterhorn",
+          "Mount Fuji",
+          "Dead Sea",
+          "Galapagos Islands",
+          "Yellowstone",
+          "Table Mountain",
+          "Ha Long Bay",
+          "Serengeti"
+        ]
+      }
+    }
+  }
+}

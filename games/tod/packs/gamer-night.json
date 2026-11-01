@@ -1,0 +1,64 @@
+{
+  "id": "gamer-night",
+  "title": "Gamer Night",
+  "emoji": "🎮",
+  "blurb": "Rage quits, speedrun brags and the games you secretly still love. Controllers down for this one.",
+  "tags": [
+    "gaming",
+    "nerdy"
+  ],
+  "order": 120,
+  "content": {
+    "mild": {
+      "truth": [
+        "What was the first video game you ever played?",
+        "What game have you rage-quit the hardest?",
+        "What's the most hours you've sunk into a single game?",
+        "What's the best game console you've ever owned?",
+        "Which video game character would you want as a flatmate?",
+        "What's a game you're embarrassingly bad at?",
+        "What's the best game soundtrack, in your view?",
+        "What's your most unpopular gaming opinion?",
+        "What's the worst thing that's ever happened to you during a boss fight?",
+        "What's your go-to board game, and how competitive do you get?",
+        "Which game world would you actually want to live in?",
+        "What's the most devastating way you've lost a game?",
+        "What's a game you pretend to have finished but didn't?",
+        "What's your gamertag or username, and does it have a backstory?",
+        "What was the scariest game you've played?",
+        "What's the best cheat code you've ever used?",
+        "What game would you play with a friend if you could play anything?",
+        "What's the most you've given up for a gaming session, like meals or sleep?",
+        "What's a retro game that deserves a reboot?",
+        "Which game brought you the most joy as a kid?",
+        "What's your all-time favourite video game villain?",
+        "What's the most intense multiplayer moment you've ever had?"
+      ],
+      "dare": [
+        "Do your best victory dance after defeating a final boss.",
+        "Act out being a character trapped in a loop of the same line of dialogue.",
+        "Mime playing a rhythm game on an invisible dance mat for 15 seconds.",
+        "Narrate the next player's turn like a speedrun commentator.",
+        "Do a dramatic 'game over' scene, then respawn.",
+        "Be an NPC who only repeats one phrase until your next turn.",
+        "Pretend to be a character selecting their fighter in a fighting game.",
+        "Do your best impression of a gamer rage-quitting a match.",
+        "Mime a dramatic fall in a platformer game, then do your victory pose.",
+        "Describe your day as if it's a game level, with bosses and loot.",
+        "Demonstrate your best 'loading screen' face for 15 seconds.",
+        "Do a flawless impression of a very enthusiastic game tutorial voice.",
+        "Act out a pixelated character walking in a straight line, like an old game.",
+        "Present your own character class, stats and special move.",
+        "Give an imaginary teammate the most dramatic high five of all time.",
+        "Pretend you've just found a hidden treasure chest in a game, then react to what's in it.",
+        "Narrate yourself getting a new skill and levelling up.",
+        "Pitch a ridiculous new video game to the room.",
+        "Pretend to have glitched, and freeze in a weird pose for 20 seconds.",
+        "Make the sound effects of a retro game for 15 seconds.",
+        "Fight an invisible dragon using a cushion as your sword.",
+        "Pretend to be a shopkeeper in a role-playing game selling an overpriced potion.",
+        "Mime landing a perfect trick shot, followed by a celebration."
+      ]
+    }
+  }
+}

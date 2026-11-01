@@ -1,0 +1,28 @@
+{
+  "id": "sports-legends",
+  "title": "Sports Legends",
+  "emoji": "🏆",
+  "blurb": "Global sporting greats: footballers, hoopers, racers, racquet kings and more.",
+  "tags": ["sport", "global"],
+  "order": 50,
+  "content": {
+    "categories": {
+      "football-greats": {
+        "label": "Football greats",
+        "items": ["Pele", "Diego Maradona", "Zinedine Zidane", "Neymar", "Kylian Mbappe", "Mohamed Salah", "Ronaldinho", "Thierry Henry", "Wayne Rooney", "Megan Rapinoe", "Erling Haaland", "Harry Kane", "Luka Modric", "Johan Cruyff"]
+      },
+      "us-sports-stars": {
+        "label": "US sports stars",
+        "items": ["Michael Jordan", "LeBron James", "Stephen Curry", "Shaquille O'Neal", "Magic Johnson", "Larry Bird", "Tom Brady", "Patrick Mahomes", "Travis Kelce", "Babe Ruth", "Wayne Gretzky", "Caitlin Clark", "Giannis Antetokounmpo", "Shohei Ohtani"]
+      },
+      "racquets-golf-and-racing": {
+        "label": "Tennis, golf, racing",
+        "items": ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Venus Williams", "Naomi Osaka", "Tiger Woods", "Rory McIlroy", "Lewis Hamilton", "Max Verstappen", "Michael Schumacher", "Andy Murray", "Jack Nicklaus", "Valentino Rossi", "Lando Norris", "Steffi Graf", "Billie Jean King"]
+      },
+      "fists-wickets-and-tracks": {
+        "label": "Ring, bat and track",
+        "items": ["Muhammad Ali", "Anthony Joshua", "Tyson Fury", "Sachin Tendulkar", "Virat Kohli", "Ben Stokes", "Jonah Lomu", "Richie McCaw", "Usain Bolt", "Eliud Kipchoge", "Brian Lara", "Jonny Wilkinson"]
+      }
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "id": "group-chat",
+  "title": "Group Chat",
+  "emoji": "💬",
+  "blurb": "Ghosts, voice-note essays, 3am memes and the one who never replies.",
+  "tags": [
+    "tech",
+    "friends"
+  ],
+  "order": 120,
+  "content": {
+    "questions": [
+      {
+        "text": "Who would be most likely to send a voice note that lasts longer than a song?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to reply to a message from three days ago like it's fresh?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to start a chat with \"so I have news\" and then vanish?",
+        "spicy": false
+      },
+      {
+        "text": "Who would send a meme at 3am and expect a response?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to mute the chat and miss the entire plan?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to reply \"haha\" to something sad?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to use only a thumbs up as a full reply?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to start an argument over what time to meet?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to type for five minutes and send one word?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to leave the chat dramatically and rejoin ten minutes later?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to take a screenshot and send it with no context?",
+        "spicy": false
+      },
+      {
+        "text": "Who would send a photo of their food to the whole group?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to rename the chat to something embarrassing?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to post a poll about where to eat and then ignore the result?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to send a voice message in a place where they should be quiet?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to use an emoji in a way that means something else entirely?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to say \"I'm on my way\" while still in bed?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to post \"who's free tonight?\" and then not show up?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to forget a birthday even with the group chat reminding them?",
+        "spicy": false
+      },
+      {
+        "text": "Who would type a novel when someone asks what time we are meeting?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to get everyone's hopes up about a trip and book nothing?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to change their profile photo twelve times in one week?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to say \"can't talk now\" and then post on socials?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to write \"lol\" without actually laughing?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to be the group's unofficial news reporter?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to post the same joke twice?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to send a message and then immediately delete it for everyone?",
+        "spicy": false
+      },
+      {
+        "text": "Who would ask for a restaurant recommendation and then pick their own?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to say \"just the one\" and message at 4am?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to be the chat's detective, finding every old message as evidence?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to post a throwback photo nobody asked for?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to have a hundred unread messages and never open them?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to accidentally like a two-year-old photo while scrolling someone's profile?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to start a side chat about the main chat?",
+        "spicy": false
+      },
+      {
+        "text": "Who is the one who always asks \"wait, what did I miss?\"",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to send a dramatic goodbye message before going on holiday?",
+        "spicy": false
+      },
+      {
+        "text": "Who would flip out over a read receipt?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to post a video of themselves singing in the shower?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to answer a question nobody asked?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to reply with a gif instead of an actual answer?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to send a flirty message to the wrong chat?",
+        "spicy": true
+      },
+      {
+        "text": "Who would be most likely to have a secret chat with just one person from this group?",
+        "spicy": true
+      },
+      {
+        "text": "Who is most likely to screenshot a private message and share it?",
+        "spicy": true
+      },
+      {
+        "text": "Who would be most likely to send a risky text and then say \"ignore that\"?",
+        "spicy": true
+      }
+    ]
+  }
+}

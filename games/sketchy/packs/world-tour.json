@@ -1,0 +1,66 @@
+{
+  "id": "world-tour",
+  "title": "World Tour",
+  "emoji": "🗼",
+  "blurb": "Landmarks, luggage and long-haul flights.",
+  "tags": [
+    "travel"
+  ],
+  "order": 70,
+  "content": {
+    "easy": [
+      "eiffel tower",
+      "pyramid",
+      "passport",
+      "suitcase",
+      "airplane",
+      "world map",
+      "compass",
+      "igloo",
+      "windmill",
+      "castle",
+      "hot air balloon",
+      "taxi",
+      "cable car",
+      "train",
+      "tent",
+      "sombrero"
+    ],
+    "medium": [
+      "statue of liberty",
+      "big ben",
+      "leaning tower",
+      "great wall",
+      "sydney opera house",
+      "taj mahal",
+      "colosseum",
+      "golden gate bridge",
+      "mount rushmore",
+      "stonehenge",
+      "sphinx",
+      "london bus",
+      "gondola",
+      "bullet train",
+      "airport security",
+      "camel caravan"
+    ],
+    "hard": [
+      "jet lag",
+      "time zone",
+      "layover",
+      "culture shock",
+      "travel insurance",
+      "lost luggage",
+      "backpacking",
+      "tourist trap",
+      "road trip",
+      "window seat",
+      "souvenir shop",
+      "passport control",
+      "duty free",
+      "tour guide",
+      "language barrier",
+      "northern lights"
+    ]
+  }
+}

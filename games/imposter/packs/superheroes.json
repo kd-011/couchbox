@@ -1,0 +1,71 @@
+{
+  "id": "superheroes",
+  "title": "Superheroes",
+  "emoji": "🦸",
+  "blurb": "Capes, villains and gadgets from the comic and blockbuster universe.",
+  "tags": [
+    "pop culture",
+    "movies"
+  ],
+  "order": 25,
+  "content": {
+    "categories": {
+      "heroes": {
+        "label": "Heroes",
+        "items": [
+          "Batman",
+          "Spider-Man",
+          "Wonder Woman",
+          "Iron Man",
+          "Captain America",
+          "Thor",
+          "Hulk",
+          "Black Panther",
+          "Wolverine",
+          "Superman",
+          "Deadpool",
+          "Black Widow",
+          "Aquaman",
+          "The Flash"
+        ]
+      },
+      "villains": {
+        "label": "Villains",
+        "items": [
+          "Joker",
+          "Thanos",
+          "Lex Luthor",
+          "Magneto",
+          "Green Goblin",
+          "Harley Quinn",
+          "Venom",
+          "Doctor Doom",
+          "Ultron",
+          "Two-Face",
+          "Riddler",
+          "Bane",
+          "Mystique"
+        ]
+      },
+      "hero-gear": {
+        "label": "Gear and powers",
+        "items": [
+          "Batmobile",
+          "Bat-Signal",
+          "Mjolnir",
+          "Vibranium shield",
+          "Lasso of Truth",
+          "Utility belt",
+          "Kryptonite",
+          "Infinity Gauntlet",
+          "Web shooters",
+          "Arc reactor",
+          "Secret identity",
+          "Invisible jet",
+          "Adamantium claws",
+          "Heat vision"
+        ]
+      }
+    }
+  }
+}

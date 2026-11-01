@@ -1,0 +1,239 @@
+{
+  "id": "weird-animals",
+  "title": "Weird Animals",
+  "emoji": "🐙",
+  "blurb": "Real animal facts so strange your made-up answers might sound more believable.",
+  "tags": [
+    "animals",
+    "nature"
+  ],
+  "content": {
+    "prompts": [
+      {
+        "id": "wa1",
+        "text": "Cats cannot taste _____, because they lack the taste receptor for it.",
+        "answer": "sweetness"
+      },
+      {
+        "id": "wa2",
+        "text": "Octopus blood is coloured _____, thanks to a copper-based protein.",
+        "answer": "blue"
+      },
+      {
+        "id": "wa3",
+        "text": "When it isn't in use, a woodpecker's extra-long tongue wraps around its _____.",
+        "answer": "skull"
+      },
+      {
+        "id": "wa4",
+        "text": "When threatened, some sea cucumbers defend themselves by shooting out their own _____.",
+        "answer": "internal organs"
+      },
+      {
+        "id": "wa5",
+        "text": "Some horned lizards fend off predators by squirting _____ from their eyes.",
+        "answer": "blood"
+      },
+      {
+        "id": "wa6",
+        "text": "The narwhal's famous spiral tusk is actually a very long _____.",
+        "answer": "tooth"
+      },
+      {
+        "id": "wa7",
+        "text": "Butterflies taste their food using sensors on their _____.",
+        "answer": "feet"
+      },
+      {
+        "id": "wa8",
+        "text": "Goats have _____ pupils, which give them a wide view for spotting predators.",
+        "answer": "rectangular"
+      },
+      {
+        "id": "wa9",
+        "text": "Crows can remember individual human _____, and hold a grudge against them for years.",
+        "answer": "faces"
+      },
+      {
+        "id": "wa10",
+        "text": "Dolphins can sleep with one _____ open, resting only half of their brain at a time.",
+        "answer": "eye"
+      },
+      {
+        "id": "wa11",
+        "text": "Under its white-looking fur, a polar bear's skin is _____.",
+        "answer": "black"
+      },
+      {
+        "id": "wa12",
+        "text": "In seahorses, it is the _____ who carries the babies and gives birth.",
+        "answer": "father"
+      },
+      {
+        "id": "wa13",
+        "text": "Female Komodo dragons have laid eggs that hatched without any help from a _____.",
+        "answer": "male"
+      },
+      {
+        "id": "wa14",
+        "text": "Thanks to their great weight and stiff ankles, elephants are unable to _____.",
+        "answer": "jump"
+      },
+      {
+        "id": "wa15",
+        "text": "A garden snail's ribbon-like tongue is covered in thousands of tiny _____.",
+        "answer": "teeth"
+      },
+      {
+        "id": "wa16",
+        "text": "Male platypuses have a venomous _____ on each hind leg.",
+        "answer": "spur"
+      },
+      {
+        "id": "wa17",
+        "text": "Sharks have been around for longer than _____ have existed on Earth.",
+        "answer": "trees"
+      },
+      {
+        "id": "wa18",
+        "text": "Owls cannot move their _____ in their sockets, so they turn their whole head instead.",
+        "answer": "eyes"
+      },
+      {
+        "id": "wa19",
+        "text": "The punch of a peacock mantis shrimp is strong enough to crack aquarium _____.",
+        "answer": "glass"
+      },
+      {
+        "id": "wa20",
+        "text": "Honeybees tell the rest of the hive where to find flowers by performing a _____.",
+        "answer": "waggle dance"
+      },
+      {
+        "id": "wa21",
+        "text": "An ostrich's eye is bigger than its _____.",
+        "answer": "brain"
+      },
+      {
+        "id": "wa22",
+        "text": "Hippos ooze a reddish fluid from their skin that works as a natural _____.",
+        "answer": "sunscreen"
+      },
+      {
+        "id": "wa23",
+        "text": "A tiger's stripes aren't just in its fur: its _____ is striped too.",
+        "answer": "skin"
+      },
+      {
+        "id": "wa24",
+        "text": "When tickled, rats make high-pitched chirps that scientists compare to _____.",
+        "answer": "laughter"
+      },
+      {
+        "id": "wa25",
+        "text": "The electric eel isn't a true eel at all; it is actually a type of _____.",
+        "answer": "knifefish"
+      },
+      {
+        "id": "wa26",
+        "text": "Crickets hear through eardrums located on their _____.",
+        "answer": "front legs"
+      },
+      {
+        "id": "wa27",
+        "text": "Some male penguins court a mate by presenting her with a carefully chosen _____.",
+        "answer": "pebble"
+      },
+      {
+        "id": "wa28",
+        "text": "A chameleon's tongue can stretch out further than the length of its own _____.",
+        "answer": "body"
+      },
+      {
+        "id": "wa29",
+        "text": "Turritopsis dohrnii, which can turn itself back into a younger form, is nicknamed the _____ jellyfish.",
+        "answer": "immortal"
+      },
+      {
+        "id": "wa30",
+        "text": "A flamingo's pink colour comes from its _____.",
+        "answer": "diet"
+      },
+      {
+        "id": "wa31",
+        "text": "Hummingbirds can hover in mid-air and even fly _____.",
+        "answer": "backwards"
+      },
+      {
+        "id": "wa32",
+        "text": "Snakes pick up scents by flicking their _____.",
+        "answer": "tongues"
+      },
+      {
+        "id": "wa33",
+        "text": "A group of rhinos is called a _____.",
+        "answer": "crash"
+      },
+      {
+        "id": "wa34",
+        "text": "A group of ferrets is called a _____.",
+        "answer": "business"
+      },
+      {
+        "id": "wa35",
+        "text": "A group of zebras is called a _____.",
+        "answer": "dazzle"
+      },
+      {
+        "id": "wa36",
+        "text": "Sloths climb down from their trees only about once a week, mainly to _____.",
+        "answer": "go to the toilet"
+      },
+      {
+        "id": "wa37",
+        "text": "A baby puffin is called a _____.",
+        "answer": "puffling"
+      },
+      {
+        "id": "wa38",
+        "text": "A baby echidna is called a _____.",
+        "answer": "puggle"
+      },
+      {
+        "id": "wa39",
+        "text": "A group of ravens is called _____.",
+        "answer": "an unkindness"
+      },
+      {
+        "id": "wa40",
+        "text": "A sloth's fur is tinted green by growing _____.",
+        "answer": "algae"
+      },
+      {
+        "id": "wa41",
+        "text": "A naked mole-rat colony is run by a single breeding _____.",
+        "answer": "queen"
+      },
+      {
+        "id": "wa42",
+        "text": "Dung beetles can roll their ball in a straight line at night by steering with the light of the _____.",
+        "answer": "Milky Way"
+      },
+      {
+        "id": "wa43",
+        "text": "The kakapo, the world's heaviest parrot, cannot fly and lives in _____.",
+        "answer": "New Zealand"
+      },
+      {
+        "id": "wa44",
+        "text": "A headless cockroach can survive for weeks because it breathes through body openings called _____.",
+        "answer": "spiracles"
+      },
+      {
+        "id": "wa45",
+        "text": "Sea otters often wrap themselves in strands of _____ so they do not drift away while they sleep.",
+        "answer": "kelp"
+      }
+    ]
+  }
+}

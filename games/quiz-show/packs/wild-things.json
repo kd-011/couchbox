@@ -1,0 +1,479 @@
+{
+  "id": "wild-things",
+  "title": "Wild Things",
+  "emoji": "🦉",
+  "blurb": "Cube-shaped wombat poo, three-hearted octopuses and the animal kingdom at its strangest.",
+  "tags": [
+    "animals",
+    "nature"
+  ],
+  "content": {
+    "categories": {
+      "wt-aussie": {
+        "label": "Aussie Critters",
+        "multiple": [
+          {
+            "id": "wt-aus-m-1",
+            "difficulty": "easy",
+            "text": "Which Australian animal is the largest living marsupial?",
+            "options": [
+              "Wombat",
+              "Koala",
+              "Red kangaroo",
+              "Tasmanian devil"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "wt-aus-m-2",
+            "difficulty": "easy",
+            "text": "Which Australian bird is famous for a call that sounds like laughter?",
+            "options": [
+              "Kookaburra",
+              "Galah",
+              "Magpie",
+              "Cockatoo"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "wt-aus-m-3",
+            "difficulty": "easy",
+            "text": "Which bird appears on the Western Australian flag?",
+            "options": [
+              "Emu",
+              "Magpie",
+              "Galah",
+              "Black swan"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "wt-aus-m-4",
+            "difficulty": "medium",
+            "text": "Which Australian animal produces cube-shaped droppings?",
+            "options": [
+              "Koala",
+              "Wombat",
+              "Echidna",
+              "Quokka"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "wt-aus-m-5",
+            "difficulty": "medium",
+            "text": "Which island off Perth is famous for its quokkas?",
+            "options": [
+              "Rottnest Island",
+              "Kangaroo Island",
+              "Phillip Island",
+              "Fraser Island"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "wt-aus-m-6",
+            "difficulty": "medium",
+            "text": "Which of these Australian mammals lays eggs?",
+            "options": [
+              "Wombat",
+              "Koala",
+              "Quokka",
+              "Platypus"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "wt-aus-m-7",
+            "difficulty": "medium",
+            "text": "What is a baby echidna called?",
+            "options": [
+              "Joey",
+              "Puggle",
+              "Cub",
+              "Pup"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "wt-aus-m-8",
+            "difficulty": "hard",
+            "text": "Which termite-eating marsupial is Western Australia's animal emblem?",
+            "options": [
+              "Bilby",
+              "Quoll",
+              "Numbat",
+              "Bettong"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "wt-aus-m-9",
+            "difficulty": "hard",
+            "text": "Which is the largest living reptile on Earth, found in northern Australia?",
+            "options": [
+              "Komodo dragon",
+              "Saltwater crocodile",
+              "Nile crocodile",
+              "Perentie"
+            ],
+            "answer": 1
+          }
+        ],
+        "boolean": [
+          {
+            "id": "wt-aus-b-1",
+            "difficulty": "easy",
+            "text": "Koalas are a type of bear.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "wt-aus-b-2",
+            "difficulty": "medium",
+            "text": "Male platypuses have venomous spurs on their hind legs.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "wt-aus-b-3",
+            "difficulty": "easy",
+            "text": "Emus can fly short distances.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "wt-aus-b-4",
+            "difficulty": "hard",
+            "text": "The last captive thylacine, or Tasmanian tiger, died in a Hobart zoo in 1936.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "wt-world": {
+        "label": "Beasts of the World",
+        "multiple": [
+          {
+            "id": "wt-wld-m-1",
+            "difficulty": "easy",
+            "text": "What is the largest animal on Earth?",
+            "options": [
+              "African elephant",
+              "Blue whale",
+              "Great white shark",
+              "Giraffe"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "wt-wld-m-2",
+            "difficulty": "easy",
+            "text": "Which land animal is the fastest over short distances?",
+            "options": [
+              "Cheetah",
+              "Lion",
+              "Ostrich",
+              "Horse"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "wt-wld-m-3",
+            "difficulty": "easy",
+            "text": "What is a group of lions called?",
+            "options": [
+              "A pack",
+              "A troop",
+              "A herd",
+              "A pride"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "wt-wld-m-4",
+            "difficulty": "medium",
+            "text": "How many hearts does an octopus have?",
+            "options": [
+              "One",
+              "Three",
+              "Two",
+              "Eight"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "wt-wld-m-5",
+            "difficulty": "medium",
+            "text": "Which is the only mammal capable of true, sustained flight?",
+            "options": [
+              "Flying squirrel",
+              "Sugar glider",
+              "Bat",
+              "Colugo"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "wt-wld-m-6",
+            "difficulty": "medium",
+            "text": "Which is the tallest species of penguin?",
+            "options": [
+              "King penguin",
+              "Emperor penguin",
+              "Adélie penguin",
+              "Gentoo penguin"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "wt-wld-m-7",
+            "difficulty": "medium",
+            "text": "Which is the largest living rodent?",
+            "options": [
+              "Beaver",
+              "Porcupine",
+              "Capybara",
+              "Muskrat"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "wt-wld-m-8",
+            "difficulty": "hard",
+            "text": "Which land mammal has the longest pregnancy, at around 22 months?",
+            "options": [
+              "African elephant",
+              "White rhinoceros",
+              "Giraffe",
+              "Hippopotamus"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "wt-wld-m-9",
+            "difficulty": "hard",
+            "text": "Which living bird lays the largest egg?",
+            "options": [
+              "Emu",
+              "Albatross",
+              "Cassowary",
+              "Ostrich"
+            ],
+            "answer": 3
+          }
+        ],
+        "boolean": [
+          {
+            "id": "wt-wld-b-1",
+            "difficulty": "medium",
+            "text": "A giraffe has the same number of neck bones as a human: seven.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "wt-wld-b-2",
+            "difficulty": "medium",
+            "text": "Polar bears have black skin under their white-looking fur.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "wt-wld-b-3",
+            "difficulty": "easy",
+            "text": "A goldfish can only remember things for three seconds.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "wt-wld-b-4",
+            "difficulty": "easy",
+            "text": "Sharks are mammals.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      "wt-planet": {
+        "label": "Plants & Planet",
+        "multiple": [
+          {
+            "id": "wt-pln-m-1",
+            "difficulty": "easy",
+            "text": "What is the process plants use to turn sunlight into food?",
+            "options": [
+              "Respiration",
+              "Photosynthesis",
+              "Pollination",
+              "Germination"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "wt-pln-m-2",
+            "difficulty": "easy",
+            "text": "Which gas do plants take in for photosynthesis?",
+            "options": [
+              "Oxygen",
+              "Nitrogen",
+              "Carbon dioxide",
+              "Helium"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "wt-pln-m-3",
+            "difficulty": "easy",
+            "text": "Which rainforest is the largest on Earth?",
+            "options": [
+              "The Congo",
+              "The Amazon",
+              "The Daintree",
+              "Borneo"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "wt-pln-m-4",
+            "difficulty": "medium",
+            "text": "The Moon's gravity is the main cause of what on Earth?",
+            "options": [
+              "Ocean currents",
+              "Ocean waves",
+              "Ocean tides",
+              "Tsunamis"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "wt-pln-m-5",
+            "difficulty": "medium",
+            "text": "Which tree species grows the tallest in the world?",
+            "options": [
+              "Coast redwood",
+              "Giant sequoia",
+              "Baobab",
+              "Kauri"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "wt-pln-m-6",
+            "difficulty": "medium",
+            "text": "Which layer of the atmosphere contains the ozone layer?",
+            "options": [
+              "Troposphere",
+              "Mesosphere",
+              "Thermosphere",
+              "Stratosphere"
+            ],
+            "answer": 3
+          },
+          {
+            "id": "wt-pln-m-7",
+            "difficulty": "medium",
+            "text": "Which type of rock forms when molten lava cools and hardens?",
+            "options": [
+              "Sedimentary",
+              "Igneous",
+              "Metamorphic",
+              "Alluvial"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "wt-pln-m-8",
+            "difficulty": "hard",
+            "text": "Which remote Western Australian region is famous for its boab trees?",
+            "options": [
+              "The Kimberley",
+              "The Nullarbor",
+              "The Goldfields",
+              "The Swan Valley"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "wt-pln-m-9",
+            "difficulty": "hard",
+            "text": "Conkers, the shiny brown seeds kids collect in autumn, come from which tree?",
+            "options": [
+              "Oak",
+              "Beech",
+              "Walnut",
+              "Horse chestnut"
+            ],
+            "answer": 3
+          }
+        ],
+        "boolean": [
+          {
+            "id": "wt-pln-b-1",
+            "difficulty": "medium",
+            "text": "Coral is an animal, not a plant.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "wt-pln-b-2",
+            "difficulty": "medium",
+            "text": "Mushrooms are plants.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "wt-pln-b-3",
+            "difficulty": "medium",
+            "text": "Bamboo is a type of grass.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "wt-pln-b-4",
+            "difficulty": "hard",
+            "text": "A lightning bolt is hotter than the surface of the Sun.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    }
+  }
+}

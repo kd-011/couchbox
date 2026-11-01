@@ -1,0 +1,66 @@
+{
+  "id": "aussie",
+  "title": "Fair Dinkum",
+  "emoji": "🦘",
+  "blurb": "Vegemite, footy, servos and backyard barbies. Truths and dares with an Aussie accent.",
+  "tags": [
+    "aussie"
+  ],
+  "content": {
+    "mild": {
+      "truth": [
+        "What's the most Aussie thing you've ever done?",
+        "Vegemite: thin scrape or thick layer? Defend your answer.",
+        "What's your go-to order at the servo on a road trip?",
+        "What's the biggest spider you've ever shared a house with?",
+        "Which footy team do you go for, and why?",
+        "What's your top tip for the perfect Bunnings sausage?",
+        "What's the best beach you've ever swum at?",
+        "What's the closest call you've had with a dangerous Aussie animal?",
+        "Potato cake or scallop? Make your case.",
+        "What's on the menu at your ultimate backyard barbie?",
+        "What's a bit of Aussie slang you use way too much?",
+        "What would you pack for a road trip across the Nullarbor?",
+        "Have you ever lost a thong in the surf? Tell the story.",
+        "Which Aussie snack would you take to a desert island?",
+        "What's the hottest day you've ever survived, and how did you cope?",
+        "If you were an Aussie animal, which one would you be?",
+        "Beetroot on a burger: yes or no?",
+        "Who's the biggest legend you know personally, and why?",
+        "What's the most Australian thing about the town or suburb you grew up in?",
+        "Which Aussie TV show or ad jingle is stuck in your head for life?",
+        "Tim Tams: have you ever done a Tim Tam Slam, and who taught you?",
+        "What's the worst sunburn you've ever had, and where was the weirdest tan line?",
+        "What's an Aussie word you've had to explain to someone from overseas?",
+        "Meat pie with sauce, or no sauce? Be honest."
+      ],
+      "dare": [
+        "Wrangle an imaginary crocodile in slow motion.",
+        "Do the Aussie salute: wave away imaginary flies for ten seconds.",
+        "Say \"g'day mate\" in five different accents.",
+        "Act out putting up a beach umbrella on a very windy day.",
+        "Do your best magpie swooping an unlucky cyclist.",
+        "Commentate the next turn like a footy commentator.",
+        "Walk across the room like you're crossing scorching hot sand.",
+        "Hop like a kangaroo to the other side of the room and back.",
+        "Name five Aussie animals in ten seconds.",
+        "Sing the first line of a classic Aussie song, any song you like.",
+        "Order from an imaginary drive-thru using as much Aussie slang as you can.",
+        "Bowl an imaginary cricket ball and celebrate taking the winning wicket.",
+        "Act out finding a huntsman behind the curtains while trying to stay calm.",
+        "Explain drop bears to the group with a completely straight face.",
+        "Give a 30-second fine dining review of a Bunnings sausage sizzle.",
+        "Give the group a lifesaver's safety talk about swimming between the flags.",
+        "Talk in a broad ocker accent until your next turn.",
+        "Do a victory dance like your team just won the grand final.",
+        "Do your best David Attenborough narrating a sheep shearing, 30 seconds.",
+        "Demonstrate the correct way to flip a snag on a barbie, with full tongs technique.",
+        "Do a slow-motion lifesaver rescue run across the beach to save an imaginary kid.",
+        "Act out being chased by a very angry cockatoo while holding a sausage roll.",
+        "Give a heartfelt eulogy for a thong that died at the beach.",
+        "Impersonate a servo attendant who has seen it all, serving a customer who wants only a Chiko roll."
+      ]
+    }
+  },
+  "order": 80
+}

@@ -1,0 +1,187 @@
+{
+  "id": "gross-out",
+  "title": "Gross Out",
+  "emoji": "🤢",
+  "blurb": "Slimy, smelly, sticky choices. Clean fun, strong stomachs only.",
+  "tags": [
+    "gross",
+    "silly"
+  ],
+  "order": 90,
+  "content": {
+    "pairs": [
+      {
+        "a": "Chew gum you found under a table",
+        "b": "Wear socks someone else wore all day"
+      },
+      {
+        "a": "Sip a smoothie with a hair in it",
+        "b": "Drink the last mouthful of milk that's just gone sour"
+      },
+      {
+        "a": "Share a toothbrush with your sibling for a week",
+        "b": "Share a towel with the whole family for a month"
+      },
+      {
+        "a": "Step barefoot in a warm puddle at the pool",
+        "b": "Step barefoot on a wet public toilet floor"
+      },
+      {
+        "a": "Hold a live cockroach for ten seconds",
+        "b": "Hold a dead mouse for five"
+      },
+      {
+        "a": "Eat a spoonful of wasabi",
+        "b": "Eat a spoonful of English mustard"
+      },
+      {
+        "a": "Find a long hair in your soup",
+        "b": "Find a Band-Aid at the bottom of your pasta"
+      },
+      {
+        "a": "Lick a public handrail",
+        "b": "Hug a stranger who just ran a marathon"
+      },
+      {
+        "a": "Smell like wet dog all day",
+        "b": "Smell like boiled cabbage all day"
+      },
+      {
+        "a": "Use a portable toilet on day four of a festival",
+        "b": "Go a whole week without a shower"
+      },
+      {
+        "a": "Drink a cup of lukewarm pond water",
+        "b": "Drink a cup of milk that sat in a hot car"
+      },
+      {
+        "a": "Eat a snail in garlic butter",
+        "b": "Eat a plate of fried crickets"
+      },
+      {
+        "a": "Have a stranger sneeze on your food",
+        "b": "Have a stranger cough on your neck"
+      },
+      {
+        "a": "Eat a sandwich that fell in the sand",
+        "b": "Eat a sandwich a dog just licked"
+      },
+      {
+        "a": "Wear a wet swimsuit all day",
+        "b": "Wear a damp towel as a cape all day"
+      },
+      {
+        "a": "Live in a flat with a family of mice",
+        "b": "Live in a flat with a family of cockroaches"
+      },
+      {
+        "a": "Eat a cold chip found down the side of a car seat",
+        "b": "Eat a jelly bean found under the couch"
+      },
+      {
+        "a": "Scoop up after a dog with a bag that has a hole",
+        "b": "Change a nappy with no wipes"
+      },
+      {
+        "a": "Pick the fluff out of a stranger's belly button",
+        "b": "Cut a stranger's toenails"
+      },
+      {
+        "a": "Have a bird drop a present on you at a job interview",
+        "b": "Have a seagull steal food out of your hand at a wedding"
+      },
+      {
+        "a": "Find a slug in your shoe every morning",
+        "b": "Walk through a spider web every morning"
+      },
+      {
+        "a": "Swallow a mouthful of pool water",
+        "b": "Swallow a mouthful of harbour water"
+      },
+      {
+        "a": "Eat a hot dog from a very dodgy street cart",
+        "b": "Eat sushi from a petrol station"
+      },
+      {
+        "a": "Be locked in a car with a durian",
+        "b": "Be locked in a car with a soaking wet dog"
+      },
+      {
+        "a": "Have permanently greasy hair",
+        "b": "Have permanently sweaty palms"
+      },
+      {
+        "a": "Dig through a full bin for your keys",
+        "b": "Dig down the back of a couch for your keys"
+      },
+      {
+        "a": "Drink from a straw someone else already used",
+        "b": "Lick a lollipop that fell on the floor"
+      },
+      {
+        "a": "Open the container of leftovers you forgot for a month",
+        "b": "Open the school bag you forgot all summer holidays"
+      },
+      {
+        "a": "Have a bug crawl through your hair",
+        "b": "Have a spider crawl up your arm"
+      },
+      {
+        "a": "Clean the school toilets for a week",
+        "b": "Clear the gutters after a storm every month"
+      },
+      {
+        "a": "Smell like a skunk for a week",
+        "b": "Look like you lost a fight with a mud puddle for a week"
+      },
+      {
+        "a": "Eat baby food for every meal for a week",
+        "b": "Eat dog biscuits for every snack for a week"
+      },
+      {
+        "a": "Pull a wad of hair out of the shower drain by hand",
+        "b": "Unclog a sink full of old food"
+      },
+      {
+        "a": "Peel a whole sheet of sunburnt skin off your back",
+        "b": "Have a toenail fall off"
+      },
+      {
+        "a": "Wear a stranger's sweaty cap for a day",
+        "b": "Brush your hair with a brush you found at a bus stop"
+      },
+      {
+        "a": "Be burped on by a stranger's baby",
+        "b": "Be slobbered on by an enormous friendly bulldog"
+      },
+      {
+        "a": "Have a bucket of slime tipped on you on live TV",
+        "b": "Have a bucket of cold spaghetti tipped on you on live TV"
+      },
+      {
+        "a": "Have sweat that smells like onions",
+        "b": "Have breath that smells like feet"
+      },
+      {
+        "a": "Get licked by a cow's huge tongue",
+        "b": "Get nuzzled by a horse with a runny nose"
+      },
+      {
+        "a": "Eat a spoonful of cold, congealed gravy",
+        "b": "Eat a spoonful of warm, melted butter"
+      },
+      {
+        "a": "Sit in a wet seat for an hour",
+        "b": "Hold a stranger's dripping umbrella on a bus for an hour"
+      },
+      {
+        "a": "Skip deodorant for a month",
+        "b": "Skip brushing your teeth for a week"
+      },
+      {
+        "a": "Eat a boiled egg that's been in your pocket all day",
+        "b": "Drink a smoothie someone left in the sun"
+      }
+    ]
+  }
+}

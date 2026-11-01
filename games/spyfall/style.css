@@ -1,0 +1,86 @@
+/* Spyfall: the flip card, hold-to-peek, the guess panel, the location board
+   and the result. The crew's card is the game colour; the spy's is the dark. */
+.sf-stage { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; width: 100%; }
+
+/* ---------- the secret card ---------- */
+.sf-card { width: min(100%, 340px); aspect-ratio: 3 / 4; border: 0; padding: 0; background: none; perspective: 1200px; animation: sf-deal 0.6s var(--spring) both; }
+@keyframes sf-deal { from { opacity: 0; transform: translateY(40px) rotate(-6deg) scale(0.9); } }
+.sf-inner { position: relative; display: block; width: 100%; height: 100%; transform-style: preserve-3d; transition: transform 0.6s var(--spring); }
+.sf-card.flipped .sf-inner { transform: rotateY(180deg); }
+.sf-card:active .sf-inner { scale: 0.98; }
+.sf-face {
+  position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;
+  padding: 24px; border-radius: 28px; backface-visibility: hidden; -webkit-backface-visibility: hidden; overflow: hidden;
+  box-shadow: 0 30px 60px -28px rgba(0, 0, 0, 0.9), var(--press);
+}
+.sf-front { background: var(--accent); color: var(--accent-ink); font: 800 20px/1.1 var(--display); font-stretch: 86%; }
+.sf-front::before {
+  content: ''; position: absolute; inset: 0; background: var(--accent-ink); opacity: 0.12;
+  -webkit-mask: var(--dots); mask: var(--dots);
+}
+.sf-front .i { width: 64px; height: 64px; }
+.sf-front > * { position: relative; }
+.sf-back { transform: rotateY(180deg); background: var(--accent); color: var(--accent-ink); }
+.sf-back.is-spy { background: #120c18; color: var(--text); box-shadow: 0 30px 60px -28px rgba(0, 0, 0, 0.9); }
+.sf-role { font-size: 15px; font-weight: 750; opacity: 0.75; }
+.sf-loc { font: 800 clamp(40px, 14vw, 64px)/0.9 var(--display); font-stretch: 78%; text-align: center; overflow-wrap: anywhere; letter-spacing: -0.035em; text-wrap: balance; }
+.is-spy .sf-loc { font-size: clamp(64px, 22vw, 104px); color: var(--accent); text-transform: uppercase; }
+.sf-sub { padding: 0 8px; font-size: 15px; font-weight: 700; text-align: center; opacity: 0.8; }
+.is-spy .sf-sub { color: var(--dim); opacity: 1; }
+
+/* ---------- hold to peek ---------- */
+.sf-peek {
+  position: relative; min-height: 52px; min-width: 240px; padding: 0 20px; border-radius: 16px; border: 0;
+  background: var(--surface-2); color: var(--dim); font: 700 16px var(--display); touch-action: none; -webkit-user-select: none; user-select: none;
+  box-shadow: var(--press);
+}
+.sf-peek .peek-hide, .sf-peek .peek-show { display: inline-flex; align-items: center; gap: 8px; transition: opacity 0.15s; }
+.sf-peek .peek-show { position: absolute; inset: 0; justify-content: center; opacity: 0; color: var(--accent-ink); }
+.sf-peek.show { background: var(--accent); }
+.sf-peek.show .peek-hide { opacity: 0; }
+.sf-peek.show .peek-show { opacity: 1; }
+
+/* ---------- the spy's guess ---------- */
+.sf-guess-wrap { display: flex; flex-direction: column; align-items: center; gap: 14px; width: 100%; }
+.sf-guess-panel { display: none; flex-direction: column; align-items: center; gap: 12px; width: 100%; }
+.sf-guess-wrap.open .sf-guess-panel { display: flex; animation: rise 0.3s var(--ease) both; }
+.sf-guess-wrap.open .sf-guess-btn { display: none; }
+.sf-loc-grid { max-height: 44vh; overflow-y: auto; padding: 2px; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+.sf-loc-grid .pick { min-height: 56px; padding: 10px; font-size: 15px; }
+.sf-last { font: 800 clamp(40px, 13vw, 58px)/0.92 var(--display); font-stretch: 78%; letter-spacing: -0.035em; color: var(--accent); text-align: center; animation: sf-slam 0.5s var(--spring) both; }
+
+/* ---------- the public location board (TV while discussing) ---------- */
+.sf-board { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; max-width: 760px; }
+.sf-board li { padding: 8px 14px; border-radius: 999px; background: var(--surface); color: var(--dim); font: 700 15px var(--display); font-stretch: 90%; animation: rise 0.4s var(--ease) both; animation-delay: calc(var(--i, 0) * 25ms); }
+
+/* ---------- result ---------- */
+.sf-result { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 14px; text-align: center; }
+.sf-headline { font: 800 clamp(52px, 17vw, 80px)/0.88 var(--display); font-stretch: 76%; letter-spacing: -0.04em; animation: sf-slam 0.55s var(--spring) both; }
+.sf-result.win .sf-headline { color: var(--good); }
+.sf-result.lose .sf-headline { color: var(--accent); }
+@keyframes sf-slam { from { opacity: 0; transform: scale(1.6) rotate(-4deg); } }
+.sf-sub2 { color: var(--dim); font-size: 17px; font-weight: 600; max-width: 36ch; animation: rise 0.4s var(--ease) 0.25s both; }
+.sf-reveal { display: grid; grid-template-columns: 1.2fr 1fr; gap: 10px; width: 100%; }
+.sf-reveal > div { display: flex; flex-direction: column; justify-content: center; gap: 6px; padding: 16px 12px; border-radius: 20px; background: var(--surface-2); animation: sf-flip-in 0.6s var(--spring) both; }
+.sf-reveal > div:first-child { background: var(--accent); color: var(--accent-ink); animation-delay: 0.3s; }
+.sf-reveal > div:last-child { animation-delay: 0.45s; }
+@keyframes sf-flip-in { from { opacity: 0; transform: perspective(600px) rotateY(-80deg); } }
+.sf-reveal > div > span { font-size: 13px; font-weight: 750; opacity: 0.7; }
+.sf-reveal strong { font: 800 24px/1 var(--display); font-stretch: 82%; overflow-wrap: anywhere; }
+.sf-who { display: flex; align-items: center; justify-content: center; gap: 8px; }
+.sf-roles { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; max-width: 100%; }
+.sf-roles li { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px 4px 4px; border-radius: 999px; background: var(--surface); color: var(--dim); font-size: 14px; animation: rise 0.4s var(--ease) both; animation-delay: calc(0.6s + var(--i, 0) * 60ms); }
+.sf-roles .role { color: var(--text); font-weight: 700; }
+
+/* ---------- TV ---------- */
+.tv-surface .sf-board { max-width: 58vw; gap: 0.6vw; }
+.tv-surface .sf-board li { font-size: 1.3vw; padding: 0.5vw 1.1vw; }
+.tv-surface .sf-last { font-size: 5vw; }
+.tv-surface .sf-headline { font-size: 8.5vw; }
+.tv-surface .sf-sub2 { font-size: 1.7vw; max-width: none; }
+.tv-surface .sf-reveal { max-width: 56vw; gap: 1vw; }
+.tv-surface .sf-reveal > div { padding: 1.6vw; border-radius: 1.6vw; }
+.tv-surface .sf-reveal > div > span { font-size: 1.1vw; }
+.tv-surface .sf-reveal strong { font-size: 3.4vw; }
+.tv-surface .sf-who .av { --s: 3.4vw !important; }
+.tv-surface .sf-roles li { font-size: 1.15vw; }

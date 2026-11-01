@@ -1,0 +1,187 @@
+{
+  "id": "holiday-cruise",
+  "title": "Holiday and Cruise",
+  "emoji": "🛳️",
+  "blurb": "Buffets, sunburn, souvenir shopping and who misses the boat.",
+  "tags": [
+    "travel",
+    "holiday"
+  ],
+  "order": 70,
+  "content": {
+    "questions": [
+      {
+        "text": "Who would be most likely to get sunburnt on the first day and stay red all week?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to eat seven dinners at the buffet?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to join every activity on the cruise ship schedule?",
+        "spicy": false
+      },
+      {
+        "text": "Who would get lost on a ship the size of a small town?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to miss the boat while shopping for souvenirs?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to befriend the entire pool bar staff by day two?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to grab a deckchair at 5am with a towel and a plan?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to book an excursion and sleep through it?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to haggle at a market and still overpay?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to pack six outfits per day and wear one?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to lose their passport at the airport and find it in their own pocket?",
+        "spicy": false
+      },
+      {
+        "text": "Who would get seasick on a calm day?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to win the ship's trivia night and brag for a month?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to enter the talent show and be genuinely good?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to make friends with a stranger and end up in their holiday photos?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to spend the whole holiday reading one book and not finish it?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to wear a lanyard and a hat with a tiny fan on it?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to photograph every meal and post none of it?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to say \"I'm not hungry\" and eat the entire dessert table?",
+        "spicy": false
+      },
+      {
+        "text": "Who would try the local street food and regret it?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to cry at the sail-away party?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to get a fridge magnet from every port?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to forget their sunscreen and borrow a stranger's?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to leave a towel on a sunbed and come back to find it gone?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to book a hotel with a \"partial sea view\" that's mostly a car park?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to wave at every passing boat?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to fall asleep on a deckchair and wake up with a sunburnt sock line?",
+        "spicy": false
+      },
+      {
+        "text": "Who would cause a minor international incident at customs?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to get a group photo taken at every possible landmark?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to need three hours to check in at the airport?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to stay at the resort the whole time and never see the town?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to jump off something high on a dare?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to learn four words of the local language and use them for everything?",
+        "spicy": false
+      },
+      {
+        "text": "Who is most likely to ask the captain for a tour of the bridge?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to wear a Hawaiian shirt and call it formal?",
+        "spicy": false
+      },
+      {
+        "text": "Who would fall in love with a place and talk about moving there?",
+        "spicy": false
+      },
+      {
+        "text": "Who among us is most likely to order the wrong thing in a restaurant and eat it anyway?",
+        "spicy": false
+      },
+      {
+        "text": "Who would be most likely to snore so loudly the cabin next door complains?",
+        "spicy": false
+      },
+      {
+        "text": "Who do you reckon is most likely to stay up all night to watch the sunrise and sleep through it?",
+        "spicy": false
+      },
+      {
+        "text": "Who's the one most likely to have a holiday fling and cry at the airport?",
+        "spicy": true
+      },
+      {
+        "text": "Who would be most likely to swap numbers with someone at the pool bar?",
+        "spicy": true
+      },
+      {
+        "text": "Who is most likely to get a sunburn in a very awkward place?",
+        "spicy": true
+      },
+      {
+        "text": "Who would be most likely to skinny-dip and leave their clothes behind?",
+        "spicy": true
+      }
+    ]
+  }
+}

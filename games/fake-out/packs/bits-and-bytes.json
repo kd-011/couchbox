@@ -1,0 +1,241 @@
+{
+  "id": "bits-and-bytes",
+  "title": "Bits and Bytes",
+  "emoji": "👾",
+  "blurb": "Strange true stories from video games, the internet and computing history.",
+  "tags": [
+    "games",
+    "tech",
+    "internet"
+  ],
+  "order": 22,
+  "content": {
+    "prompts": [
+      {
+        "id": "btb1",
+        "text": "In 1947 engineers taped a real _____ into the logbook of the Harvard Mark II computer as the first actual case of a bug being found.",
+        "answer": "moth"
+      },
+      {
+        "id": "btb2",
+        "text": "Atari took its name from a term in the board game _____.",
+        "answer": "Go"
+      },
+      {
+        "id": "btb3",
+        "text": "Nintendo began in 1889 making traditional Japanese playing cards called _____.",
+        "answer": "hanafuda"
+      },
+      {
+        "id": "btb4",
+        "text": "In the original arcade game Donkey Kong, the hero we now call Mario was named _____.",
+        "answer": "Jumpman"
+      },
+      {
+        "id": "btb5",
+        "text": "Sony's PlayStation began as a CD add-on planned for the Super Famicom, a console made by _____.",
+        "answer": "Nintendo"
+      },
+      {
+        "id": "btb6",
+        "text": "Ray Tomlinson sent the first networked email in 1971 and chose the _____ symbol to separate the user name from the computer name.",
+        "answer": "@"
+      },
+      {
+        "id": "btb7",
+        "text": "Tim Berners-Lee invented the World Wide Web in 1989 while working at the physics lab _____.",
+        "answer": "CERN"
+      },
+      {
+        "id": "btb8",
+        "text": "Before it was Google, the search engine's original name was _____.",
+        "answer": "BackRub"
+      },
+      {
+        "id": "btb9",
+        "text": "Jeff Bezos first incorporated Amazon in 1994 under the name _____.",
+        "answer": "Cadabra"
+      },
+      {
+        "id": "btb10",
+        "text": "Jack Dorsey's first tweet in 2006 read \"just setting up my _____\".",
+        "answer": "twttr"
+      },
+      {
+        "id": "btb11",
+        "text": "The first video ever uploaded to YouTube, in 2005, was titled \"Me at the _____\".",
+        "answer": "zoo"
+      },
+      {
+        "id": "btb12",
+        "text": "The first computer mouse prototype, built in the 1960s by Douglas Engelbart's team, had a shell made of _____.",
+        "answer": "wood"
+      },
+      {
+        "id": "btb13",
+        "text": "The name Tetris blends the Greek word for four with the sport _____.",
+        "answer": "tennis"
+      },
+      {
+        "id": "btb14",
+        "text": "Microsoft bought Mojang, the maker of Minecraft, in 2014 for about $_____ billion.",
+        "answer": "2.5"
+      },
+      {
+        "id": "btb15",
+        "text": "During development the Nintendo Wii went by the codename _____.",
+        "answer": "Revolution"
+      },
+      {
+        "id": "btb16",
+        "text": "The princess in The Legend of Zelda was named after the wife of author F. Scott _____.",
+        "answer": "Fitzgerald"
+      },
+      {
+        "id": "btb17",
+        "text": "Pokemon creator Satoshi Tajiri based the idea on his childhood hobby of collecting _____.",
+        "answer": "insects"
+      },
+      {
+        "id": "btb18",
+        "text": "Nokia began in 1865 as a _____ mill.",
+        "answer": "pulp"
+      },
+      {
+        "id": "btb19",
+        "text": "The Apple I computer went on sale in 1976 for the price of $_____.",
+        "answer": "666.66"
+      },
+      {
+        "id": "btb20",
+        "text": "The first .com domain name ever registered, in 1985, was _____.com.",
+        "answer": "symbolics"
+      },
+      {
+        "id": "btb21",
+        "text": "Bluetooth is named after a 10th century king of _____.",
+        "answer": "Denmark"
+      },
+      {
+        "id": "btb22",
+        "text": "Linus Torvalds announced Linux in 1991 as \"just a _____, won't be big and professional like gnu\".",
+        "answer": "hobby"
+      },
+      {
+        "id": "btb23",
+        "text": "The first ever text message, sent in December 1992, said \"Merry _____\".",
+        "answer": "Christmas"
+      },
+      {
+        "id": "btb24",
+        "text": "The world's first webcam, at Cambridge University, pointed at a _____ pot so researchers could check if it was empty.",
+        "answer": "coffee"
+      },
+      {
+        "id": "btb25",
+        "text": "The first message sent over ARPANET in 1969 was meant to be \"LOGIN\" but the system crashed after the letters \"_____\".",
+        "answer": "LO"
+      },
+      {
+        "id": "btb26",
+        "text": "IBM's Deep Blue became the first computer to beat a reigning world chess champion, Garry Kasparov, in a full match in _____.",
+        "answer": "1997"
+      },
+      {
+        "id": "btb27",
+        "text": "In North America the Game Boy launched in 1989 bundled with the game _____.",
+        "answer": "Tetris"
+      },
+      {
+        "id": "btb28",
+        "text": "Sega's Genesis console was sold in Japan and Europe as the Mega _____.",
+        "answer": "Drive"
+      },
+      {
+        "id": "btb29",
+        "text": "In the name CAPTCHA, the T stands for the _____ test.",
+        "answer": "Turing"
+      },
+      {
+        "id": "btb30",
+        "text": "In 2010 a programmer famously paid _____ bitcoin for two pizzas.",
+        "answer": "10,000"
+      },
+      {
+        "id": "btb31",
+        "text": "The mobile game Angry Birds was created by a company from _____.",
+        "answer": "Finland"
+      },
+      {
+        "id": "btb32",
+        "text": "The hit mobile game Flappy Bird was created by developer Dong Nguyen of _____.",
+        "answer": "Vietnam"
+      },
+      {
+        "id": "btb33",
+        "text": "Google's first ever Doodle, in 1998, announced that its founders had gone to the _____ festival.",
+        "answer": "Burning Man"
+      },
+      {
+        "id": "btb34",
+        "text": "Microsoft's paperclip assistant, widely known as Clippy, was officially named _____.",
+        "answer": "Clippit"
+      },
+      {
+        "id": "btb35",
+        "text": "Ada Lovelace, often called the first computer programmer, was the daughter of the poet Lord _____.",
+        "answer": "Byron"
+      },
+      {
+        "id": "btb36",
+        "text": "In Japan, Pac-Man was originally called _____-Man.",
+        "answer": "Puck"
+      },
+      {
+        "id": "btb37",
+        "text": "Minecraft was created by Markus Persson, better known online as \"_____\".",
+        "answer": "Notch"
+      },
+      {
+        "id": "btb38",
+        "text": "Apple's original 1976 logo showed Sir Isaac _____ sitting under an apple tree.",
+        "answer": "Newton"
+      },
+      {
+        "id": "btb39",
+        "text": "Microsoft was founded in 1975 in the New Mexico city of _____.",
+        "answer": "Albuquerque"
+      },
+      {
+        "id": "btb40",
+        "text": "Apple's famous \"1984\" Macintosh ad, aired during the Super Bowl, was directed by Ridley _____.",
+        "answer": "Scott"
+      },
+      {
+        "id": "btb41",
+        "text": "The first item ever sold on eBay was a broken _____.",
+        "answer": "laser pointer"
+      },
+      {
+        "id": "btb42",
+        "text": "Skype's software was created by a team of developers from the small country of _____.",
+        "answer": "Estonia"
+      },
+      {
+        "id": "btb43",
+        "text": "The mascot of the Linux operating system is a penguin named _____.",
+        "answer": "Tux"
+      },
+      {
+        "id": "btb44",
+        "text": "The Python programming language takes its name from the BBC comedy series Monty Python's _____ Circus.",
+        "answer": "Flying"
+      },
+      {
+        "id": "btb45",
+        "text": "The programming language Java was first named after a tree outside its creator's office, and was called _____.",
+        "answer": "Oak"
+      }
+    ]
+  }
+}

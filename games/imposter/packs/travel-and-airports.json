@@ -1,0 +1,70 @@
+{
+  "id": "travel-and-airports",
+  "title": "Travel and Airports",
+  "emoji": "✈️",
+  "blurb": "Boarding passes, layovers and holiday gear. Check in and bluff.",
+  "tags": [
+    "travel",
+    "holidays"
+  ],
+  "order": 60,
+  "content": {
+    "categories": {
+      "airport": {
+        "label": "At the airport",
+        "items": [
+          "Check-in desk",
+          "Boarding pass",
+          "Passport control",
+          "Duty free",
+          "Baggage carousel",
+          "Departure gate",
+          "Security scanner",
+          "Customs",
+          "Lost luggage",
+          "Jet lag",
+          "Window seat",
+          "Layover",
+          "Airport lounge",
+          "Control tower"
+        ]
+      },
+      "getting-around": {
+        "label": "Getting around",
+        "items": [
+          "Cruise ship",
+          "Sleeper train",
+          "Tuk-tuk",
+          "Monorail",
+          "Gondola",
+          "Double-decker bus",
+          "Ferry",
+          "Campervan",
+          "Cable car",
+          "Bullet train",
+          "Water taxi",
+          "Rental scooter"
+        ]
+      },
+      "holiday-stuff": {
+        "label": "Holiday stuff",
+        "items": [
+          "Suitcase",
+          "Travel adapter",
+          "Souvenir",
+          "Postcard",
+          "Guidebook",
+          "Currency exchange",
+          "Hostel",
+          "All-inclusive resort",
+          "Selfie stick",
+          "Travel insurance",
+          "Mini bar",
+          "Hotel buffet",
+          "Tour guide",
+          "Fridge magnet"
+        ]
+      }
+    }
+  }
+}
