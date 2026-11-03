@@ -1,11 +1,32 @@
-# Weekly dependency update PRs. Security updates are separate and always on.
+# This repository is an export: a bump is carried into the private source by hand, then arrives
+# here through the next export. Nothing merges on this repository by itself.
 version: 2
 updates:
   - package-ecosystem: npm
     directory: /
     schedule:
       interval: weekly
+    # Wait a week before proposing a release. Security updates ignore this.
+    cooldown:
+      default-days: 7
     open-pull-requests-limit: 5
     groups:
-      minor-and-patch:
-        update-types: [minor, patch]
+      npm-minor-patch:
+        patterns:
+          - "*"
+        update-types:
+          - minor
+          - patch
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7
+    groups:
+      actions-minor-patch:
+        patterns:
+          - "*"
+        update-types:
+          - minor
+          - patch

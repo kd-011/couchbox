@@ -1,0 +1,22 @@
+name: Idea
+description: A new game, a pack or an improvement
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A new game is one folder and touches no shared file, so docs/GAME-MODULES.md is the place to start. Open an issue first for anything large or UI-wide.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of idea
+      options: [New game, New pack, Improvement to a game, Something else]
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: How it plays, or what you would like to change and why.
+    validations:
+      required: true

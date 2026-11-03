@@ -1,0 +1,11 @@
+# Images the export may add or change without a human opening them. One exact path per line: no
+# directories, no globs. Only list pictures a script draws with no real session in them: the README
+# shots from scripts/screenshots.mjs, the share card from scripts/og-image.mjs and the social preview
+# made from them. Icons, splash screens and fonts stay off the list on purpose. scripts/export-public.mjs
+# reads this file at the ref it exports and stops on any other new or changed image or binary.
+.github/social-preview.png
+docs/screenshots/desktop-home.png
+docs/screenshots/desktop-setup.png
+docs/screenshots/phone-home.png
+docs/screenshots/phone-setup.png
+public/og-image.png

@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  # Exports land as pushes, but weeks can pass between them: this keeps the badge honest.
+  schedule:
+    - cron: "47 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    # This file also lives in the private source, where Actions minutes are capped.
+    if: github.repository == 'kd-011/party-games'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - run: npm ci --no-audit --no-fund
+      - name: Tests
+        run: npm test
+      - name: Secret and personal data scan
+        run: node scripts/secret-scan.mjs . --tracked

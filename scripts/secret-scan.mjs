@@ -12,6 +12,11 @@
 // publish the very strings it guards. Findings print as file:line and kind only,
 // never the matched text.
 //
+// Personal names go in the same file. A line starting with `re:` is a case-insensitive
+// regular expression instead of a literal, for words that would otherwise match inside
+// longer ones (`re:\bquill ?feather\b`). The scan also reads every commit's author and
+// committer name and email and its message, so a git identity cannot carry a name out.
+//
 // A line that carries the marker `scan-allow` is skipped (fixtures and docs that
 // show a placeholder on purpose).
 import { readdirSync, readFileSync, statSync, existsSync } from 'node:fs';
@@ -21,6 +26,15 @@ import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 
 export const ALLOW_MARKER = 'scan-allow';
+
+// Kinds that are expected, and allowed, in a given place.
+// Workflows pin third-party actions by commit SHA, and the dossier lock is a list of content hashes:
+// both look like a long hex key and neither can carry a marker.
+const ALLOWED_KINDS = [
+  [/^\.github\/workflows\/[^/]+\.yml$/, new Set(['long-hex (key shape)'])],
+  [/^dossiers\/\.dossier-lock\.json$/, new Set(['long-hex (key shape)'])],
+];
+const allowedHere = (file, kind) => ALLOWED_KINDS.some(([re, kinds]) => re.test(file) && kinds.has(kind));
 
 // Never published, whatever they contain. Matched against the path relative to the scan root.
 export const FORBIDDEN_PATHS = [
@@ -56,17 +70,33 @@ const RULES = [
   // KEY=value style assignments in env files, shell and source
   ['secret assignment', /\b[A-Z][A-Z0-9_]*(?:KEY|SECRET|TOKEN|PASSWORD|PASSPHRASE)\s*[=:]\s*["']?([A-Za-z0-9+/_.=-]{16,})["']?/g, (m, g) => !PLACEHOLDER.test(m) && new Set(g).size > 5 && /\d/.test(g) && /[A-Za-z]/.test(g)],
   ['email address', /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}\b/g, (m) => !/@(evil\.|example\.(com|org|net)|users\.noreply\.github\.com|noreply\.|localhost$)|noreply@/i.test(m) && !/\.(png|jpg|svg|css|js|json)$/i.test(m) && !/^[^@]+@\d/.test(m)],
+  // a personal mailbox is never published, even where the generic rule above lets a placeholder through
+  ['personal email (consumer mail provider)', /\b[A-Za-z0-9._%+-]+@(?:gmail|googlemail|hotmail|outlook|live|icloud|me|yahoo|ymail|proton|protonmail|bigpond|optusnet)\.[A-Za-z.]{2,}\b/gi],
   ['AU phone number', /(?<![\d.])(?:\+?61\s?|0)4\d{2}[ -]?\d{3}[ -]?\d{3}(?![\d])/g],
   ['absolute home path', /\/home\/(?!user\b|you\b|runner\b|name\b)[a-z][a-z0-9_-]{1,}\//g],
 ];
 
 const BINARY_EXT = new Set(['.png', '.jpg', '.jpeg', '.gif', '.webp', '.ico', '.woff', '.woff2', '.ttf', '.jar', '.zip', '.gz', '.age', '.pdf', '.keystore', '.jks', '.db']);
 
+export const denylistFile = () => process.env.GAMES_DENYLIST || join(homedir(), '.config', 'games', 'export-denylist.txt');
+
+/** The entries in the denylist file, or null when there is no file. */
+export function denylistEntries(file = denylistFile()) {
+  if (!existsSync(file)) return null;
+  return readFileSync(file, 'utf8').split('\n').map((l) => l.trim()).filter((l) => l && !l.startsWith('#'));
+}
+
 export function loadDenylist(extra = []) {
-  const out = [...extra];
-  const file = process.env.GAMES_DENYLIST || join(homedir(), '.config', 'games', 'export-denylist.txt');
-  if (existsSync(file)) for (const l of readFileSync(file, 'utf8').split('\n')) if (l.trim() && !l.startsWith('#')) out.push(l.trim());
-  return [...new Set(out.map((s) => s.toLowerCase()))];
+  const out = [...extra, ...(denylistEntries() ?? [])];
+  return [...new Set(out.map((s) => (s.startsWith('re:') ? s : s.toLowerCase())))];
+}
+
+const reCache = new Map();
+/** True when `text` holds the denylist entry `d`: a literal (compared lower case) or a `re:` pattern. */
+export function denyHit(text, d) {
+  if (!d.startsWith('re:')) return text.toLowerCase().includes(d);
+  if (!reCache.has(d)) reCache.set(d, new RegExp(d.slice(3), 'i'));
+  return reCache.get(d).test(text);
 }
 
 /** Findings in one block of text: [{ line, kind }]. */
@@ -81,8 +111,7 @@ export function scanText(text, { deny = [] } = {}) {
       re.lastIndex = 0;
       for (const m of line.matchAll(re)) if (!ok || ok(m[0], m[1])) found.push({ line: i + 1, kind });
     }
-    const low = line.toLowerCase();
-    for (const d of deny) if (low.includes(d)) found.push({ line: i + 1, kind: 'denylisted string' });
+    for (const d of deny) if (denyHit(line, d)) found.push({ line: i + 1, kind: 'denylisted string' });
   }
   return found;
 }
@@ -115,22 +144,15 @@ export function scanTree(root, { deny = [], tracked = false } = {}) {
     if (BINARY_EXT.has(extname(abs).toLowerCase()) || statSync(abs).size > 3_000_000) continue;
     const buf = readFileSync(abs);
     if (buf.includes(0)) continue;
-    for (const f of scanText(buf.toString('utf8'), { deny })) out.push({ file: rel, ...f });
-    for (const d of deny) if (rel.toLowerCase().includes(d)) out.push({ file: rel, line: 0, kind: 'denylisted string (in path)' });
+    for (const f of scanText(buf.toString('utf8'), { deny })) if (!allowedHere(rel, f.kind)) out.push({ file: rel, ...f });
+    for (const d of deny) if (denyHit(rel, d)) out.push({ file: rel, line: 0, kind: 'denylisted string (in path)' });
   }
   return out;
 }
 
-/** Sweep every added line and every filename in a repo's whole history. */
-export function scanHistory(repo, { deny = [] } = {}) {
-  const git = (...a) => execFileSync('git', ['-C', repo, ...a], { encoding: 'utf8', maxBuffer: 1 << 30 });
+// Added lines of a unified diff, scanned one by one. `commit` tags findings when the patch spans commits.
+function scanPatch(patch, deny) {
   const out = [];
-  const names = new Set(git('log', '--all', '--name-only', '--format=').split('\n').filter(Boolean));
-  for (const n of names) {
-    const bad = pathProblem(n);
-    if (bad) out.push({ file: n, line: 0, kind: `${bad} (in history)` });
-  }
-  const patch = git('log', '--all', '-p', '--no-color', '--format=commit %h', '--', '.', ':(exclude)*.png', ':(exclude)*.jpg', ':(exclude)*.woff2', ':(exclude)package-lock.json');
   let commit = '', file = '', n = 0;
   for (const l of patch.split('\n')) {
     if (l.startsWith('commit ')) { commit = l.slice(7); continue; }
@@ -138,8 +160,49 @@ export function scanHistory(repo, { deny = [] } = {}) {
     if (l.startsWith('@@')) { n = Number(/\+(\d+)/.exec(l)?.[1] ?? 0) - 1; continue; }
     if (!l.startsWith('+') || l.startsWith('+++')) continue;
     n++;
-    for (const f of scanText(l.slice(1), { deny })) out.push({ file: `${file}@${commit}`, line: n, kind: f.kind });
+    for (const f of scanText(l.slice(1), { deny })) if (!allowedHere(file, f.kind)) out.push({ file: commit ? `${file}@${commit}` : file, line: n, kind: f.kind });
   }
+  return out;
+}
+
+const PATCH_EXCLUDES = ['--', '.', ':(exclude)*.png', ':(exclude)*.jpg', ':(exclude)*.woff2', ':(exclude)package-lock.json'];
+
+/**
+ * Sweep every added line and every filename in a repo's history: all of it, or only the commits in
+ * `range` (for example `origin/main..HEAD`, the commits about to be published).
+ */
+export function scanHistory(repo, { deny = [], range = null } = {}) {
+  const git = (...a) => execFileSync('git', ['-C', repo, ...a], { encoding: 'utf8', maxBuffer: 1 << 30 });
+  const revs = range ? [range] : ['--all'];
+  const out = [];
+  const names = new Set(git('log', ...revs, '--name-only', '--format=').split('\n').filter(Boolean));
+  for (const n of names) {
+    const bad = pathProblem(n);
+    if (bad) out.push({ file: n, line: 0, kind: `${bad} (in history)` });
+  }
+  // who made each commit and what they said: names and emails live here, not in any file
+  for (const c of git('log', ...revs, '--format=%H%x1f%an <%ae>%x1f%cn <%ce>%x1f%B%x1e').split('\x1e')) {
+    const [hash, author, committer, message] = c.trim().split('\x1f');
+    if (!hash) continue;
+    const at = hash.slice(0, 7);
+    for (const [what, text] of [['author', author], ['committer', committer], ['message', message ?? '']]) {
+      for (const f of scanText(text, { deny })) out.push({ file: `commit ${what}@${at}`, line: f.line, kind: f.kind });
+    }
+  }
+  out.push(...scanPatch(git('log', ...revs, '-p', '--no-color', '--format=commit %h', ...PATCH_EXCLUDES), deny));
+  return out;
+}
+
+/** Sweep what is staged in `repo` against HEAD: every added line, and the name of every changed file. */
+export function scanStagedDiff(repo, { deny = [] } = {}) {
+  const git = (...a) => execFileSync('git', ['-C', repo, ...a], { encoding: 'utf8', maxBuffer: 1 << 30 });
+  const out = [];
+  for (const n of git('diff', '--cached', '--name-only', '-z', 'HEAD').split('\0').filter(Boolean)) {
+    const bad = pathProblem(n);
+    if (bad) out.push({ file: n, line: 0, kind: `${bad} (in diff)` });
+    for (const d of deny) if (denyHit(n, d)) out.push({ file: n, line: 0, kind: 'denylisted string (in path)' });
+  }
+  out.push(...scanPatch(git('diff', '--cached', '--no-color', '--unified=0', 'HEAD', ...PATCH_EXCLUDES), deny));
   return out;
 }
 

@@ -6,7 +6,7 @@ phone (pass and play, offline) and in rooms (everyone on their own phone,
 plus a `/tv/CODE` big screen), in all three tiers (Standard, Drinking,
 Deadly), and as one game of a Party Night.
 
-**Adding a game never touches a shared file.** No registry to edit, no
+Adding a game never touches a shared file. No registry to edit, no
 router, no stylesheet, no test list. If you find yourself editing anything
 outside `games/<id>/`, stop: the contract is missing something, so note it
 in your PR instead of patching the platform.
@@ -57,7 +57,7 @@ games/<id>/
 ```
 
 The server is authoritative in rooms: clients send actions, the server runs
-your `act()`, then sends **each player only their own `playerView`** and the
+your `act()`, then sends each player only their own `playerView` and the
 TV only `tvView`. Anything you leave out of a view never leaves the server.
 
 ## engine.js
@@ -194,14 +194,14 @@ action = { type, payload, from, host, system }
 - `from`: the player id who sent it, or `null` from the shared screen in pass
   and play.
 - `host`: true when sent by the room host, or from the shared screen in pass
-  and play. **Gate host-only moves on `action.host`.**
+  and play. Gate host-only moves on `action.host`.
 - `system`: true only for timer deadlines.
 - Mutate `state` in place and return nothing, or `return fail('message')`
   (from kit) to reject: the state rolls back and the sender sees the message.
   A throw is treated the same way and logged.
 - Validate everything: phase, who sent it, and the payload. Payloads come
   from the network. Never trust `payload` to be the right type.
-- **Make taps idempotent.** Two phones can tap the same button at once. Put
+- Make taps idempotent. Two phones can tap the same button at once. Put
   an item id in the payload and ignore stale ones (Heads sends `wordId`;
   a mismatch returns quietly without an error).
 
@@ -211,13 +211,13 @@ action = { type, payload, from, host, system }
 `tvView(state, ctx)` is the public screen: the TV in a room, and the shared
 phone in pass and play.
 
-- **Secrets go only into the owner's playerView.** Imposter puts the word in
+- Secrets go only into the owner's playerView. Imposter puts the word in
   `card` only for crew; Heads puts the live word in everyone's view except
   the guesser's. Never put a secret in `tvView` during play.
 - `tvView` may depend on `state.mode`: in pass and play the shared screen IS
   the public phone (Heads shows the word there, because the phone is on the
   guesser's forehead; a room TV never shows it).
-- Include `phase` in every view. Reference players by **id**; the client
+- Include `phase` in every view. Reference players by id; the client
   turns ids into names and avatars (`ui.name(id)`, `ui.avatar(id)`).
 - `playerView` must cope with an id that is not in the game (a late joiner):
   return the public info with `me: null` and render a "watching" state.
@@ -253,7 +253,7 @@ host. All three run the same engine.
 | Drinking | `'drinking'` | Sips, written into the flow. |
 | Deadly | `'deadly'` | Sips plus shots, as rare, telegraphed moments. |
 
-**Always keep score** with `addScore` in every tier: the Party Night
+Always keep score with `addScore` in every tier: the Party Night
 standings are built from your scoreboard, so a drinking game with no points
 gives the night nothing to rank. Show the scores wherever they make sense.
 
@@ -282,19 +282,19 @@ forfeits, gives and socials). For a mid-turn call, also show a toast:
 
 What the engine does for you, so your game never has to:
 
-- **Tier**: in Standard every call is a no-op. In Drinking a `shot()` becomes
+- Tier: in Standard every call is a no-op. In Drinking a `shot()` becomes
   3 sips (`SHOT_SIPS`). Write `shot()` where your Deadly line says shot and
   `sip()` everywhere else.
-- **I'm out**: any player can tap "I'm out" in the drinks sheet. Every call
+- I'm out: any player can tap "I'm out" in the drinks sheet. Every call
   for them returns a `unit: 'forfeit'` entry with a forfeit to do instead.
   Render it like any other entry.
-- **Shot cap**: the host sets a cap per player per rolling hour (default 2).
+- Shot cap: the host sets a cap per player per rolling hour (default 2).
   Over it, `shot()` pours 3 sips instead and says so.
-- **Water**: every 10 sips a player gets a water-break nudge, and the whole
+- Water: every 10 sips a player gets a water-break nudge, and the whole
   table gets one every 45 minutes.
 - Drink calls also work from `addPlayer` / `removePlayer` (a leaver can
   complete a vote): the platform settles those too.
-- **Tallies are public**, so never call the drink API for a secret reason
+- Tallies are public, so never call the drink API for a secret reason
   before it is revealed (a wolf drinking at night would out them).
 
 ### Deadly moments
@@ -315,12 +315,12 @@ deadlyMoment(state, { kind, title, sub, text, targets, lines })  // any custom t
 deadlyReady(state)                          // Deadly tier and no moment in the last 3 min
 ```
 
-- **Rule shots** (the ones your Deadly line promises: "caught imposters take a
+- Rule shots (the ones your Deadly line promises: "caught imposters take a
   shot") always happen; the shot cap keeps them sane. Make them rare by
   design: a big event, not every wrong answer.
-- **Optional shots** (bonus wheels, streak gambles) check `deadlyReady(state)`
+- Optional shots (bonus wheels, streak gambles) check `deadlyReady(state)`
   first so moments never come back-to-back.
-- **Between rounds**, call `deadlyCard(state, ctx.rng)` once whenever your game
+- Between rounds, call `deadlyCard(state, ctx.rng)` once whenever your game
   moves to its next round. About one round in three it draws a card: Shot
   Roulette, Tall Poppy (the leader takes a shot), Waterfall, Social, or a
   Mercy round of water. It does nothing outside Deadly or within 3 minutes
@@ -336,18 +336,18 @@ a game only ever sees `ctx.teams` / `ctx.audience` when it declares
 `meta.teams: true` / `meta.audience: true`. Leave the flag off and the room
 never bothers you with either.
 
-**Teams.** In the lobby the host can split the room into teams (or
+Teams: in the lobby the host can split the room into teams (or
 auto-balance), or leave it off. `ctx.teams` at `init` is `null` (no teams:
 play as individuals) or `[{ id, name, color, memberIds }]`. Two shapes of
 support, pick whichever fits your game:
 
-- **Score teams directly** (Quiz Show): build your scoring unit from
+- Score teams directly (Quiz Show): build your scoring unit from
   `ctx.teams` instead of one per player, falling back to one contestant per
   player when `ctx.teams` is null. Map an incoming player action to their
   contestant with `kit.teamOf(state.teams, action.from)` (falls back to
   solo contestants transparently, since a solo contestant's `memberIds` is
   `[playerId]`). `addScore`/`leaderboard` work unchanged on contestant ids.
-- **Score individuals, roll up teams** (Fake Out, Would You Rather, Most
+- Score individuals, roll up teams (Fake Out, Would You Rather, Most
   Likely To, Sketchy): keep scoring players as you already do, and add
   `kit.teamLeaderboard(state, state.teams)` to your views for a team
   standings table (each team's score is the sum of its members').
@@ -370,7 +370,7 @@ teamLeaderboard(state, state.teams);               // [{ id, score }] for a team
 directly, also add them to (or drop them from) the smallest team's
 `memberIds` so nobody is left without a side.
 
-**Audience.** The room always fits more people than a game's `maxPlayers`:
+Audience: the room always fits more people than a game's `maxPlayers`:
 anyone past the cap watches from the crowd automatically, on their own
 phone, with no error and no lost players. `ctx.audience` at `init` is `null`
 (room not over the cap, or the game doesn't declare support) or the array of
@@ -424,7 +424,7 @@ gameOver(state, board)         // or pass [{ id, score }] best first
 One phone, handed round. Return the id of the player who must look at
 something private right now, or `null` for the shared screen.
 
-- When it returns an id, the runner shows a full-screen **"Pass to Sam"**
+- When it returns an id, the runner shows a full-screen "Pass to Sam"
   gate, then `client.player(playerView(state, sam))`. Sam's taps are sent with
   `from: sam`. When `passTurn` changes to someone else, the next gate shows;
   when it returns `null`, the shared screen (`client.tv`, interactive) comes
@@ -464,7 +464,7 @@ so the game can never get stuck.
 
 ### bot(state, playerId, ctx)
 
-Return a random **legal** action for that player right now, or `null`.
+Return a random legal action for that player right now, or `null`.
 `playerId === null` means the host / shared screen: return one of your host
 actions or a shared-screen move. Used by `test/contract.test.mjs` to play
 400 random steps in every mode and variant; a bot move that your own `act()`
@@ -508,7 +508,7 @@ export const pack = {
   category, say); everything else is required.
 - `apply(content, items, title)` is a pure function, same purity rules as
   `engine.js`: it builds this game's `ctx.content` shape from the pack's
-  items, **replacing** the built-in deck outright (a pack is a deck, not an
+  items, replacing the built-in deck outright (a pack is a deck, not an
   addition to one). It runs on the server (`lib/packs.mjs`) and in the
   browser (pass and play, `public/js/pass.js`), so it must not reach outside
   its own folder.
@@ -533,8 +533,8 @@ export const pack = {
 Every game with a deck ships hand-written themed packs (Would You Rather:
 Office Life, Food Fights; Imposter: Aussie Icons...) that a host picks with
 one tap in the pack browser, on the start screen, in one-phone set-up, in
-the room lobby and between Party Night games. **Adding a pack is adding one
-JSON file. No code, no registry, no test list.**
+the room lobby and between Party Night games. Adding a pack is adding one
+JSON file. No code, no registry, no test list.
 
 ```
 games/<id>/packs/<pack-id>.json
@@ -549,7 +549,7 @@ games/<id>/packs/<pack-id>.json
 }
 ```
 
-**How a pack plays.** `content` is shallow-merged over `content.json`: every
+A pack's `content` is shallow-merged over `content.json`: every
 top-level key the pack provides replaces the built-in one, every key it
 leaves out keeps the built-in deck (`withCurated` in
 `games/_kit/runtime.js`, used by the server and by pass and play). So per
@@ -568,8 +568,8 @@ game:
 Salad Bowl and Werewolf have no deck (players write their own clues; roles
 only), so they have no packs.
 
-**The `curated` export (optional).** A game needs no code to take curated
-packs. It can export `curated` from `engine.js` to tune them:
+The `curated` export is optional. A game needs no code to take curated
+packs, but it can export `curated` from `engine.js` to tune them:
 
 ```js
 export const curated = {
@@ -582,7 +582,7 @@ export const curated = {
 };
 ```
 
-**Validation is learnt from `content.json`.** `lib/curated.mjs` derives the
+Validation is learnt from `content.json`. `lib/curated.mjs` derives the
 schema from the built-in deck, so a pack must match it: the same item shape
 (record keys, required fields, value types), string caps of about 1.4x the
 longest built-in string at that path, one-word fields stay one word,
@@ -601,7 +601,7 @@ then plays each pack with the bots in both modes, so a pack that would crash
 or stall a game fails `npm test`. A bad pack is skipped at server start
 (logged), never taking the game down.
 
-**Rooms and pass and play.** A curated pack travels as the code `c:<pack-id>`
+In rooms and in pass and play, a curated pack travels as the code `c:<pack-id>`
 in the same `packCode` field custom packs use (custom codes are plain
 `[a-z0-9]`, so they never collide): `create` and the lobby's `setPack`
 validate it against the game's own catalogue, the room keeps one choice per

@@ -1,0 +1,273 @@
+{
+  "version": 1,
+  "docs": {
+    "games": {
+      "claims": {
+        "d97d3f833c4e": {
+          "text": "A room is joined with a four letter code that leaves out I and O.",
+          "line": 14,
+          "specs": [
+            "lib/rooms.mjs:59-60"
+          ],
+          "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e",
+          "files": {
+            "lib/rooms.mjs": {
+              "path": "lib/rooms.mjs",
+              "blob": "ad848d132c261e4f688bee2f2debee18b08653f6",
+              "commit": "4c9cb3160100ffd751bb6266754625da57d2c32c",
+              "range": {
+                "start": 59,
+                "end": 60,
+                "hash": "70541782bafe069a62512776a526a2de49b22a8b"
+              }
+            }
+          }
+        },
+        "1dfe9a536b56": {
+          "text": "A room closes after three idle hours.",
+          "line": 15,
+          "specs": [
+            "lib/rooms.mjs:114"
+          ],
+          "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e",
+          "files": {
+            "lib/rooms.mjs": {
+              "path": "lib/rooms.mjs",
+              "blob": "ad848d132c261e4f688bee2f2debee18b08653f6",
+              "commit": "4c9cb3160100ffd751bb6266754625da57d2c32c",
+              "range": {
+                "start": 114,
+                "end": 114,
+                "hash": "10274c477aada6c130c26376b1e57de783cdaf68"
+              }
+            }
+          }
+        },
+        "e7c17ab9c6f2": {
+          "text": "A one-phone game keeps its state in the browser's localStorage, not on the server.",
+          "line": 16,
+          "specs": [
+            "public/js/pass.js:26-34"
+          ],
+          "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e",
+          "files": {
+            "public/js/pass.js": {
+              "path": "public/js/pass.js",
+              "blob": "aca5a65741ed391e7cd24ae28d7225e18740a0d0",
+              "commit": "ee2ae3919b50c0c9045c64f64f1688dec84d95f9",
+              "range": {
+                "start": 26,
+                "end": 34,
+                "hash": "f4671b1835d6e3cf95d6c47bfd37b451034b354d"
+              }
+            }
+          }
+        },
+        "c064cb235f16": {
+          "text": "A game is a self-contained folder that the server discovers on its own.",
+          "line": 17,
+          "specs": [
+            "lib/registry.mjs:1-3"
+          ],
+          "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e",
+          "files": {
+            "lib/registry.mjs": {
+              "path": "lib/registry.mjs",
+              "blob": "89abd7dcfdb8578e0a343a84a2ffa42f3ce211f8",
+              "commit": "d0d64370b6be354057234747cb12147e0786828d",
+              "range": {
+                "start": 1,
+                "end": 3,
+                "hash": "9eb6c2ba0b8b61d17634bb7eef7903890595095e"
+              }
+            }
+          }
+        },
+        "8b174d938863": {
+          "text": "Drinking and Deadly tiers ask for a one-time 18+ confirmation.",
+          "line": 18,
+          "specs": [
+            "public/js/ui.js:357-361"
+          ],
+          "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e",
+          "files": {
+            "public/js/ui.js": {
+              "path": "public/js/ui.js",
+              "blob": "330bdeee35b9069c11259fbdbe705acd64c41a91",
+              "commit": "4c9cb3160100ffd751bb6266754625da57d2c32c",
+              "range": {
+                "start": 357,
+                "end": 361,
+                "hash": "fe3826ddc4abec1c092772a352810070f818a32e"
+              }
+            }
+          }
+        },
+        "cdd8cedc3191": {
+          "text": "The AI pack maker reads its key from `OPENROUTER_API_KEY` and has a daily spend cap of 0.5 USD by default.",
+          "line": 19,
+          "specs": [
+            "server.mjs:77-79"
+          ],
+          "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e",
+          "files": {
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "ed9cf48da1dd3ea95da721370bad595e62089186",
+              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "range": {
+                "start": 77,
+                "end": 79,
+                "hash": "6dce074359107952ce1627279cd55ff77c065b6c"
+              }
+            }
+          }
+        },
+        "a72d80363936": {
+          "text": "MIT licensed, apart from the Quiz Show question file, which stays CC BY-SA 4.0.",
+          "line": 20,
+          "specs": [
+            "LICENSE:1-3",
+            "THIRD_PARTY_NOTICES.md:10"
+          ],
+          "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e",
+          "files": {
+            "LICENSE": {
+              "path": "LICENSE",
+              "blob": "54aecad151dfedcaff2dce63ceffa33c00c4656b",
+              "commit": "545e94dac83b10f2b73c6ca60bc307b082feb00c",
+              "range": {
+                "start": 1,
+                "end": 3,
+                "hash": "e9eba8a43d32b6987ac1df09384feb8e5296afc5"
+              }
+            },
+            "THIRD_PARTY_NOTICES.md": {
+              "path": "THIRD_PARTY_NOTICES.md",
+              "blob": "722b4c189c1aec93ab0f72c8f9265d629a8ac896",
+              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "range": {
+                "start": 10,
+                "end": 10,
+                "hash": "f79f2694cb6d6a9ccd0d3dffdb34e87de7a283c5"
+              }
+            }
+          }
+        },
+        "056f5234f297": {
+          "text": "Out of the box it listens on 127.0.0.1 port 8969.",
+          "line": 24,
+          "specs": [
+            "server.mjs:34-35"
+          ],
+          "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e",
+          "files": {
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "ed9cf48da1dd3ea95da721370bad595e62089186",
+              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "range": {
+                "start": 34,
+                "end": 35,
+                "hash": "c34acec6a0147667466eb7c570fc66f98d68688a"
+              }
+            }
+          }
+        },
+        "7ca7b21d9fcc": {
+          "text": "Rate limits key on the `CF-Connecting-IP` header, then the socket address.",
+          "line": 25,
+          "specs": [
+            "server.mjs:23"
+          ],
+          "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e",
+          "files": {
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "ed9cf48da1dd3ea95da721370bad595e62089186",
+              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "range": {
+                "start": 23,
+                "end": 23,
+                "hash": "9a9e0bdf5868938e4e33e67ff946a6b11de5afca"
+              }
+            }
+          }
+        },
+        "ced91551c65d": {
+          "text": "Own-phone rooms need the WebSocket endpoint at `/ws`.",
+          "line": 26,
+          "specs": [
+            "server.mjs:456"
+          ],
+          "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e",
+          "files": {
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "ed9cf48da1dd3ea95da721370bad595e62089186",
+              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "range": {
+                "start": 456,
+                "end": 456,
+                "hash": "3ec389d45923cf254c416e6e3161291ec3eeff2a"
+              }
+            }
+          }
+        },
+        "0c5ca5953884": {
+          "text": "CI runs the tests and the secret scan, on the public repository only.",
+          "line": 27,
+          "specs": [
+            ".github/workflows/ci.yml:18",
+            ".github/workflows/ci.yml:27-30"
+          ],
+          "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e",
+          "files": {
+            ".github/workflows/ci.yml": {
+              "path": ".github/workflows/ci.yml",
+              "blob": "2564f3dae185e6ab8fe5359687122f512b78b81d",
+              "commit": "f102d9db49bfab5479640e747385c401877a7237",
+              "range": {
+                "start": 18,
+                "end": 18,
+                "hash": "bcca7954e9457decfe7e69bc3781e14d5942e7bb"
+              }
+            },
+            ".github/workflows/ci.yml:27-30": {
+              "path": ".github/workflows/ci.yml",
+              "blob": "2564f3dae185e6ab8fe5359687122f512b78b81d",
+              "commit": "f102d9db49bfab5479640e747385c401877a7237",
+              "range": {
+                "start": 27,
+                "end": 30,
+                "hash": "d31e56d4e47fbd3a1805025ca6b179f48a2930b3"
+              }
+            }
+          }
+        },
+        "90522b891366": {
+          "text": "Security reports go through GitHub private vulnerability reporting, not a public issue.",
+          "line": 28,
+          "specs": [
+            "SECURITY.md:3-7"
+          ],
+          "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e",
+          "files": {
+            "SECURITY.md": {
+              "path": "SECURITY.md",
+              "blob": "1badc53da18a148c7b9365daf0b884c11b1f86a0",
+              "commit": "f102d9db49bfab5479640e747385c401877a7237",
+              "range": {
+                "start": 3,
+                "end": 7,
+                "hash": "423f8063625bd1c741eb626b3548ec983133d169"
+              }
+            }
+          }
+        }
+      },
+      "pinnedAt": "2026-11-02T14:01:51.681Z",
+      "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+name: Bug report
+description: Something in a game or a room is wrong or broken
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please leave out real player names and screenshots of other people's games. Security problems go to a private advisory, not here (see SECURITY.md).
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, what you got.
+    validations:
+      required: true
+  - type: input
+    id: game
+    attributes:
+      label: Game
+      placeholder: Imposter
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: How you were playing
+      options: [One phone, Own phones in a room, TV screen]
+    validations:
+      required: true
+  - type: dropdown
+    id: tier
+    attributes:
+      label: Tier
+      options: [Standard, Drinking, Deadly]
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Browser and device
+      placeholder: Safari on iPhone 15
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Hosted copy or your own, and which commit
+      placeholder: my own copy, commit abc1234
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console or server log lines
+      render: text
