@@ -134,7 +134,7 @@ function forfeit(l, id, n, why) {
   return { playerId: id, n, unit: 'forfeit', why, text };
 }
 
-// ---------- the drink event API (what games call) ----------
+// the drink event API (what games call)
 
 // `id` drinks n sips. Returns a drink entry for your result list, or null in
 // Standard. Render lists with ui.drinks(list); nulls are skipped.
@@ -208,7 +208,7 @@ export function social(state, n = 1, why = '') {
   return { playerId: null, n, unit: 'social', why };
 }
 
-// ---------- teams ----------
+// teams
 // A team is { id, name, color, memberIds }. Only meaningful for engines that
 // declare meta.teams: true; everyone else never sees state.teams (it stays
 // null). Find the team a player belongs to, or null (solo / not on one).
@@ -245,7 +245,7 @@ export function teamShot(state, team, why = '') {
   return entries;
 }
 
-// ---------- Deadly moments ----------
+// Deadly moments
 
 // True when a random or optional Deadly event may fire now: Deadly tier and
 // at least MOMENT_GAP_MS since the last one. Rule-based shots (the ones your
@@ -347,7 +347,7 @@ export function deadlyCard(state, rng = Math.random, { chance = CARD_CHANCE } = 
   return l.moment;
 }
 
-// ---------- platform hooks (the runtime and rooms call these) ----------
+// platform hooks (the runtime and rooms call these)
 
 // Before an action: stamp the clock and remember where this action starts.
 export function beginDrinks(state, now) {
@@ -427,7 +427,7 @@ export function withLedger(l, patch) {
   return next;
 }
 
-// ---------- stats and game end (feed the Party Night awards) ----------
+// stats and game end (feed the Party Night awards)
 
 // Count something a player did, for the end-of-night awards. Keys the
 // platform turns into awards: liar, guilty, sleuth, quiz, brave, chicken,

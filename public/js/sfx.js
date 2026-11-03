@@ -90,7 +90,7 @@ export function drumroll(sec = 1.4) {
   for (let i = 0; i < sec * 22; i++) noise({ at: i / 22, dur: 0.06, gain: 0.05 + (i / (sec * 22)) * 0.08, hp: 300 });
 }
 
-/* ---------- UI sounds: short, quiet, never on every tap of a list ---------- */
+/* UI sounds: short, quiet, never on every tap of a list */
 
 // A soft click for primary taps.
 export function blip() {

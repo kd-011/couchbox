@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+If you host a copy, set `GAMES_CONTACT_EMAIL`: it now defaults to a placeholder. `GAMES_AI_REFERER` now defaults to nothing.
+
 ## 0.2.0
 
 Self-hosting no longer needs a reverse proxy for a night in, and a first-time group gets in faster.

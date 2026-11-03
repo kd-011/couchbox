@@ -7,7 +7,7 @@
 .cw-tv { grid-column: 1 / -1; display: flex; flex-direction: column; align-items: center; gap: 1vw; width: 100%; min-height: 0; }
 .cw-tv .cw-stage { padding: 0; gap: 1vw; }
 
-/* ---------- team strip ---------- */
+/* team strip */
 .cw-teams { display: flex; gap: 8px; width: 100%; margin-bottom: 2px; }
 .cw-team {
   flex: 1; display: flex; align-items: center; gap: 10px; min-width: 0; text-align: left; padding: 8px 12px 8px 8px; border-radius: 18px;
@@ -20,7 +20,7 @@
 .cw-team-sub { font-size: 12.5px; font-weight: 650; opacity: 0.8; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .cw-left { margin-left: auto; font: 800 26px/1 var(--display); font-stretch: 80%; font-variant-numeric: tabular-nums; }
 
-/* ---------- the board ---------- */
+/* the board */
 .cw-board { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; width: 100%; perspective: 900px; }
 .cw-size-25 { grid-template-columns: repeat(5, 1fr); }
 
@@ -56,7 +56,7 @@
 .cw-bomb-mark { position: absolute; top: 3px; right: 3px; display: grid; }
 .cw-key .cw-bomb-mark { color: var(--deadly); }
 
-/* ---------- clue ---------- */
+/* clue */
 .cw-clue { display: flex; align-items: center; justify-content: center; gap: 14px; animation: cw-slam 0.5s var(--spring) both; }
 .cw-clue-word { font: 800 clamp(40px, 13vw, 60px)/0.9 var(--display); font-stretch: 76%; letter-spacing: -0.03em; text-transform: uppercase; color: var(--c, var(--accent)); overflow-wrap: anywhere; }
 .cw-clue-count { display: grid; place-items: center; min-width: 52px; height: 52px; padding: 0 10px; border-radius: 999px; background: var(--c, var(--accent)); color: #0b0812; font: 800 30px/1 var(--display); font-stretch: 82%; }
@@ -67,7 +67,7 @@
 .cw-last.is-good { color: var(--good); }
 .cw-thinking { font: 800 clamp(28px, 8vw, 38px)/1 var(--display); font-stretch: 82%; color: var(--c, var(--text)); }
 
-/* ---------- the Caller's form ---------- */
+/* the Caller's form */
 .cw-clue-form { display: flex; flex-direction: column; gap: 10px; width: 100%; max-width: 420px; }
 .cw-clue-form .input { text-align: center; font: 800 24px var(--display); font-stretch: 86%; text-transform: uppercase; }
 .cw-count-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; }
@@ -75,12 +75,12 @@
 .cw-count-chip input { position: absolute; opacity: 0; inset: 0; cursor: pointer; }
 .cw-count-chip:has(input:checked) { background: var(--accent); color: var(--accent-ink); }
 
-/* ---------- final ---------- */
+/* final */
 .cw-final .winner-avs { display: flex; justify-content: center; animation: pop-in 0.6s var(--spring) both; }
 .cw-why { color: var(--dim); font-weight: 700; margin-top: -6px; animation: rise 0.4s var(--ease) 0.35s both; }
 .cw-final h2.cw-win { font: 800 clamp(38px, 12vw, 56px)/0.92 var(--display); font-stretch: 78%; letter-spacing: -0.035em; color: var(--c, var(--text)); animation: cw-slam 0.55s var(--spring) 0.15s both; }
 
-/* ---------- TV: the grid takes the room ---------- */
+/* TV: the grid takes the room */
 .tv-surface .cw-teams { max-width: 80vw; gap: 1.2vw; }
 .tv-surface .cw-team { padding: 0.8vw 1.4vw 0.8vw 0.8vw; border-radius: 1.4vw; gap: 1vw; }
 .tv-surface .cw-team .av { --s: 3.4vw !important; }

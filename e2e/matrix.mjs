@@ -66,7 +66,7 @@ const GAME_IDS = [...games.keys()].filter((id) => !ONLY.length || ONLY.includes(
 const clients = new Map();
 for (const id of GAME_IDS) clients.set(id, await import(pathToFileURL(join(GAMES_DIR, id, 'client.js')).href));
 
-/* ---------- what to play ---------- */
+/* what to play */
 
 // Every pack for the engine layer; for the browser, a rotation that covers
 // the smallest, the biggest and at least one more per game across its runs.
@@ -104,7 +104,7 @@ function seeded(seed) {
   };
 }
 
-/* ---------- checks ---------- */
+/* checks */
 
 function render(tracker, gameId, fn, view, api, where) {
   const client = clients.get(gameId);
@@ -122,7 +122,7 @@ function render(tracker, gameId, fn, view, api, where) {
   }
 }
 
-/* ---------- engine layer: pass and play ---------- */
+/* engine layer: pass and play */
 
 const NAMES = ['Ava', 'Ben', 'Cat', 'Dev', 'Eli', 'Fin', 'Gus', 'Hana', 'Ivy', 'Jay', 'Kit', 'Leo', 'Mia', 'Ned', 'Oli', 'Pip', 'Quin', 'Rex', 'Sam', 'Tia'];
 const MAX_STEPS = 4000;
@@ -166,7 +166,7 @@ function enginePass(g, pack, tier, seed) {
   return { steps: step, tracker: tr };
 }
 
-/* ---------- engine layer: rooms through the real RoomManager ---------- */
+/* engine layer: rooms through the real RoomManager */
 
 function fakeClock() {
   let now = 1_700_000_000_000;
@@ -338,7 +338,7 @@ function engineNight(gameIds, tier, seed) {
   return { steps, tracker };
 }
 
-/* ---------- running and reporting ---------- */
+/* running and reporting */
 
 const results = [];
 function record(r) {
@@ -413,7 +413,7 @@ if (LAYER === 'browser' || LAYER === 'all') {
   await runBrowserLayer({ BASE, OUT, games, GAME_IDS, MODES, TIERS, browserPackPlan, optionsFor, Tracker, botMoves, record, rt, log });
 }
 
-/* ---------- summary ---------- */
+/* summary */
 
 const bad = results.filter((r) => !r.ok);
 log('\n==== matrix summary ====');

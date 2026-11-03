@@ -141,7 +141,7 @@ export function runRoom(root, opts, { navigate, menu, rules }) {
     sock.connect();
   }
 
-  /* ---------- non-room states ---------- */
+  /* non-room states */
 
   function showCreateError(r) {
     body.innerHTML = String(ui.html`<div class="state-card">${ui.icon('wifiOff', 36)}<h2>Couldn't create the room</h2>
@@ -249,7 +249,7 @@ export function runRoom(root, opts, { navigate, menu, rules }) {
 
   const loadingCard = (text) => `<div class="state-card"><span class="spinner"></span><p>${ui.esc(text)}</p><p class="slow-note">Still working. The connection or server may be slow; this keeps retrying.</p></div>`;
 
-  /* ---------- room states ---------- */
+  /* room states */
 
   async function renderState() {
     formUp = false;
@@ -698,7 +698,7 @@ export function runRoom(root, opts, { navigate, menu, rules }) {
     }
   }
 
-  /* ---------- sheets ---------- */
+  /* sheets */
 
   async function shareSheet(qrFirst = false) {
     const c = last.room.code;

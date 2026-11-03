@@ -9,7 +9,7 @@
 .hd-tally .got { background: color-mix(in oklab, var(--good) 18%, var(--surface)); }
 .hd-tally .got b { color: var(--good); }
 
-/* ---------- the word ---------- */
+/* the word */
 .hd-play { flex: 1; display: flex; flex-direction: column; gap: 14px; }
 .hd-top { display: flex; align-items: center; gap: 10px; color: var(--dim); font-size: 18px; font-weight: 650; }
 .hd-top b { color: var(--good); }
@@ -32,7 +32,7 @@
 .hd-pass { background: var(--surface-2); color: var(--dim); box-shadow: var(--press); }
 .hd-forehead .hd-word { min-height: 48vh; }
 
-/* ---------- the recap ---------- */
+/* the recap */
 .hd-recap { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 16px; }
 .hd-score-big { display: flex; flex-direction: column; align-items: center; gap: 6px; }
 .hd-score-big strong { font: 800 140px/0.82 var(--display); font-stretch: 75%; color: var(--accent); letter-spacing: -0.04em; animation: hd-count 0.6s var(--spring) both; }
@@ -48,13 +48,13 @@
 .hd-words .passed { background: var(--surface); color: var(--faint); text-decoration: line-through; }
 .hd-words .missed { background: var(--surface-2); color: var(--dim); }
 
-/* ---------- the final ---------- */
+/* the final */
 .hd-final { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 16px; }
 .hd-final .winner { display: flex; flex-direction: column; align-items: center; gap: 12px; }
 .hd-final .winner-avs { display: flex; gap: 8px; animation: hd-count 0.6s var(--spring) both; }
 .hd-final .winner h2 { font: 800 clamp(44px, 14vw, 64px)/0.95 var(--display); font-stretch: 78%; letter-spacing: -0.03em; color: var(--accent); text-align: center; animation: hd-in 0.5s var(--spring) 0.15s both; }
 
-/* ---------- the TV ---------- */
+/* the TV */
 .tv-surface .hd-score-big strong { font-size: 14vw; }
 .tv-surface .hd-score-big span { font-size: 1.8vw; }
 .tv-surface .hd-words .w { font-size: 1.5vw; padding: 0.5vw 1.1vw; }

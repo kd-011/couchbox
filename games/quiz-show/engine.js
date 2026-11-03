@@ -70,7 +70,7 @@ const inContestants = (state, id) => state.contestants.some((c) => c.id === id);
 // team's id once the host has split the room into teams (state.teamsOn).
 const contestantOf = (state, playerId) => (state.contestants.find((c) => c.memberIds.includes(playerId)) || {}).id;
 
-/* ---------- drinks, stats and Double or Nothing ----------
+/* drinks, stats and Double or Nothing
    Contestants are players in a room but TEAMS in pass and play, and the
    drink ledger and the awards count people. So every drink or stat for a
    contestant goes to each of its members. */
@@ -154,7 +154,7 @@ function lastPlace(state, board, ctx) {
   return shots;
 }
 
-/* ---------- content pools ---------- */
+/* content pools */
 
 function poolFor(content, categoryKey, type) {
   if (type === 'emoji') return content.emoji || [];
@@ -187,7 +187,7 @@ function drawQuestion(state, ctx, categoryKey, type) {
   return chosen;
 }
 
-/* ---------- teams (pass and play) ---------- */
+/* teams (pass and play) */
 
 function autoTeams(state, ctx) {
   const shuffled = shuffle(state.players.map((p) => p.id), ctx.rng);
@@ -196,7 +196,7 @@ function autoTeams(state, ctx) {
   state.contestants = teams.filter((t) => t.memberIds.length);
 }
 
-/* ---------- the board ---------- */
+/* the board */
 
 function buildBoard(state, ctx) {
   const n = TILES[state.options.length] || 9;
@@ -229,7 +229,7 @@ function startRoundFromTile(state, tile, ctx) {
   }
 }
 
-/* ---------- resolving a question round ---------- */
+/* resolving a question round */
 
 function resolveQuestion(state) {
   stopTimer(state);
@@ -280,7 +280,7 @@ function applyLastPlaceDrink(state) {
   for (const r of board) if (r.score === low) state.round.drinks.push(...sipTeam(state, r.id, 1, 'last place'));
 }
 
-/* ---------- resolving a buzzer round ---------- */
+/* resolving a buzzer round */
 
 function resolveBuzzCorrect(state, cid) {
   stopTimer(state);
@@ -316,7 +316,7 @@ function buzzWrong(state, ctx, cid) {
 
 const normaliseGuess = (s) => String(s || '').toLowerCase().replace(/^(the|a|an)\s+/, '').replace(/[^a-z0-9]/g, '');
 
-/* ---------- the final wager ---------- */
+/* the final wager */
 
 function startWager(state) {
   state.round = null;
@@ -350,7 +350,7 @@ function resolveWager(state, ctx) {
   gameOver(state, playerBoard(state));
 }
 
-/* ---------- init ---------- */
+/* init */
 
 export function init(ctx) {
   const state = {
@@ -378,7 +378,7 @@ export function init(ctx) {
   return state;
 }
 
-/* ---------- actions ---------- */
+/* actions */
 
 export function act(state, a, ctx) {
   switch (a.type) {
@@ -577,7 +577,7 @@ export function boxButton(state) {
   return null;
 }
 
-/* ---------- late joiners and leavers ---------- */
+/* late joiners and leavers */
 
 export function addPlayer(state, player) {
   if (state.players.some((p) => p.id === player.id)) return;
@@ -623,7 +623,7 @@ export function removePlayer(state, id, ctx) {
   if (state.phase === 'wager-question' && ids.length && ids.every((cid) => state.wager.answers[cid] !== undefined)) resolveWager(state, ctx);
 }
 
-/* ---------- views ---------- */
+/* views */
 
 function common(state) {
   return {
@@ -797,7 +797,7 @@ export function passTurn() {
   return null; // quiz-show is always played on the shared screen in pass and play
 }
 
-/* ---------- bot: drives test/contract.test.mjs and the e2e bots ---------- */
+/* bot: drives test/contract.test.mjs and the e2e bots */
 
 function botAdminMove(state, ctx) {
   switch (state.phase) {

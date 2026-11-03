@@ -251,7 +251,7 @@ export async function runPassGame(root, { onExit, menu, rules }) {
     wasOver = over;
   }
 
-  /* ---------- Party Night ---------- */
+  /* Party Night */
 
   async function metaMap() {
     try { return new Map((await gameIndex()).map((m) => [m.id, m])); } catch { return new Map(); }
@@ -374,7 +374,7 @@ export async function runPassGame(root, { onExit, menu, rules }) {
     ].filter(Boolean));
   }
 
-  /* ---------- drinks ---------- */
+  /* drinks */
 
   function patchDrinks(patch) {
     if (saved.stage === 'game' && saved.state) saved.state = rt.withDrinkPatch(saved.state, patch);

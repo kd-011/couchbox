@@ -448,7 +448,7 @@ const handler = (req, res) => {
 
 const server = createServer(handler);
 
-/* ---------- WebSockets: /ws ---------- */
+/* WebSockets: /ws */
 
 const wss = new WebSocketServer({ noServer: true, maxPayload: 32 * 1024 });
 const MAX_SOCKETS = 4000;

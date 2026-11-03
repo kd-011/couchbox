@@ -59,7 +59,7 @@ export async function runBrowserLayer(env) {
   log('');
 }
 
-/* ---------- pages ---------- */
+/* pages */
 
 export async function newPage(browser, opts, label, errors) {
   const ctx = await browser.newContext(opts);
@@ -109,7 +109,7 @@ export async function startScreen(page, base, g, tier, pack) {
   }
 }
 
-/* ---------- making a bot's move with a real tap ---------- */
+/* making a bot's move with a real tap */
 
 // Mark the element that makes `move` on this page and return how to use it:
 // 'host:<i>' (host bar button i), 'btn' (a data-act button), 'form' (filled
@@ -274,7 +274,7 @@ export function lcg(seed) {
   return () => { s = (s * 9301 + 49297) % 233280; return s / 233280; };
 }
 
-/* ---------- one phone ---------- */
+/* one phone */
 
 export async function passRun(browser, env, { g, tier, pack, offline = false }) {
   const { BASE, Tracker, botMoves, rt } = env;
@@ -377,7 +377,7 @@ async function waitChange(read, before, ms = 2500) {
   return before;
 }
 
-/* ---------- own phones ---------- */
+/* own phones */
 
 export async function hook(base, code, sub = '', body = null) {
   const r = await fetch(`${base}/__test/room/${code}${sub}`, body ? { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) } : {});

@@ -4,7 +4,7 @@
 
 .sb-title { font: 800 clamp(40px, 13vw, 58px)/0.9 var(--display); font-stretch: 78%; letter-spacing: -0.035em; color: var(--accent); }
 
-/* ---------- writing ---------- */
+/* writing */
 .sb-submit { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; text-align: center; width: 100%; }
 .sb-pips { display: flex; gap: 8px; }
 .sb-pips span { width: 34px; height: 10px; border-radius: 999px; background: var(--surface-3); transition: background 0.3s var(--ease); }
@@ -15,18 +15,18 @@
 .sb-mine-list li:nth-child(odd) { rotate: -2deg; }
 .sb-mine-list li:nth-child(even) { rotate: 2deg; }
 
-/* ---------- round header ---------- */
+/* round header */
 .sb-round { display: flex; flex-direction: column; align-items: center; gap: 6px; }
 .sb-round-name { font: 800 clamp(38px, 12vw, 54px)/0.9 var(--display); font-stretch: 78%; letter-spacing: -0.035em; color: var(--accent); animation: sb-slam 0.5s var(--spring) both; }
 .sb-rule { color: var(--dim); font-weight: 650; text-align: center; max-width: 30ch; }
 
-/* ---------- ready ---------- */
+/* ready */
 .sb-stage { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; text-align: center; width: 100%; }
 .sb-you { font: 800 clamp(34px, 10vw, 46px)/0.95 var(--display); font-stretch: 80%; letter-spacing: -0.03em; }
 .sb-up { animation: sb-bob 2.6s ease-in-out infinite; }
 @keyframes sb-bob { 50% { transform: translateY(-6px) rotate(3deg); } }
 
-/* ---------- the turn ---------- */
+/* the turn */
 .sb-turn { flex: 1; display: flex; flex-direction: column; gap: 16px; align-items: center; justify-content: center; min-height: 0; width: 100%; }
 .sb-top { display: flex; align-items: center; gap: 10px; width: 100%; color: var(--dim); font-weight: 650; }
 .sb-top .cd { margin-left: auto; font: 800 34px var(--display); font-stretch: 80%; color: var(--text); }
@@ -49,7 +49,7 @@
 .sb-watch { display: flex; align-items: center; justify-content: center; gap: 22px; flex-wrap: wrap; }
 .sb-watch-who { display: flex; flex-direction: column; align-items: center; gap: 8px; }
 
-/* ---------- recap ---------- */
+/* recap */
 .sb-recap { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 14px; text-align: center; }
 .sb-cleared, .sb-caught, .sb-ended { font: 800 clamp(40px, 13vw, 60px)/0.9 var(--display); font-stretch: 76%; letter-spacing: -0.035em; text-wrap: balance; animation: sb-slam 0.55s var(--spring) both; }
 .sb-cleared { color: var(--good); }
@@ -62,13 +62,13 @@
 @keyframes sb-drop { from { opacity: 0; transform: translateY(-18px) rotate(-6deg); } }
 .sb-round-done { color: var(--amber); font-weight: 700; }
 
-/* ---------- final ---------- */
+/* final */
 .sb-final { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 16px; }
 .sb-winner { display: flex; flex-direction: column; align-items: center; gap: 12px; }
 .sb-winner .winner-avs { display: flex; gap: 8px; animation: pop-in 0.6s var(--spring) both; }
 .sb-winner h2 { font: 800 clamp(48px, 15vw, 72px)/0.88 var(--display); font-stretch: 76%; letter-spacing: -0.04em; color: var(--accent); text-align: center; animation: sb-slam 0.55s var(--spring) 0.15s both; }
 
-/* ---------- the TV's bowl while everyone writes ---------- */
+/* the TV's bowl while everyone writes */
 .sb-bowl { margin-top: 64px; width: 220px; height: 110px; border-radius: 0 0 110px 110px; background: var(--accent); box-shadow: var(--press), 0 30px 60px -30px var(--accent); position: relative; animation: sb-bob 3s ease-in-out infinite; }
 .sb-bowl::before, .sb-bowl::after { content: ''; position: absolute; bottom: 92%; width: 44px; height: 62px; border-radius: 6px; background: var(--text); }
 .sb-bowl::before { left: 52px; rotate: -12deg; }

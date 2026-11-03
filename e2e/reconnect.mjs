@@ -23,7 +23,7 @@ const BASE = arg('base', 'http://127.0.0.1:8979');
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const target = new URL(BASE);
 
-/* ---- a proxy we can break on purpose ---- */
+/* a proxy we can break on purpose */
 const conns = new Set();
 let hole = false;
 const proxy = http.createServer((req, res) => {
@@ -52,7 +52,7 @@ await new Promise((r) => proxy.listen(0, '127.0.0.1', r));
 const PROXY = `http://127.0.0.1:${proxy.address().port}`;
 const resetAll = () => { for (const { client, up } of [...conns]) { client.destroy(); up.destroy(); } };
 
-/* ---- bots ---- */
+/* bots */
 class Bot {
   constructor(name) { this.name = name; this.seq = 0; this.waiters = new Map(); }
   async open() {
@@ -120,7 +120,7 @@ const zedId = () => phone.evaluate(() => JSON.parse(localStorage.getItem('games.
 const hostSeesVote = async (id) => { await sleep(300); return (host.state.view.voted || []).includes(id); };
 const roundOf = () => host.state.view.round;
 
-/* ---- 1. a blip: connections reset, back in under a second ---- */
+/* 1. a blip: connections reset, back in under a second */
 console.log('blip (reset, instant return)');
 await mark();
 await layout();
@@ -131,7 +131,7 @@ check(await stillMarked(), 'the screen was not rebuilt');
 check(new Set(l.map((x) => x.top)).size === 1, `the play surface never moved (tops seen: ${[...new Set(l.map((x) => x.top))].join(', ')})`);
 check(l.every((x) => !x.net), 'no status bar flashed for a sub-second blip');
 
-/* ---- 2. a tap during a black-hole outage ---- */
+/* 2. a tap during a black-hole outage */
 console.log('outage (black hole 30s, a tap in the middle)');
 hole = true;
 await sleep(500);
@@ -158,7 +158,7 @@ const shown = l.filter((x) => x.net);
 check(shown.length > 0, 'a long outage does show a small status');
 check(!(await phone.evaluate(() => { const n = document.querySelector('#net'); return n && !n.hidden; })), 'and it clears once back');
 
-/* ---- 3. nothing double-counted ---- */
+/* 3. nothing double-counted */
 // Finish the round with the others; a doubled Zed vote would show as a wrong tally.
 for (const b of bots) if (b.state.view.me !== undefined) await b.req({ t: 'act', type: 'vote', payload: b.state.view.players.find((id) => id !== b.state.view.me) });
 await phone.locator('.mlt-result').waitFor({ timeout: 10_000 });

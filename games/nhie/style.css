@@ -12,7 +12,7 @@
 .nhie-choices .pick:first-child.on { background: var(--accent); color: var(--accent-ink); }
 .nhie-choices .pick:last-child.on { background: var(--text); color: var(--bg); }
 
-/* ---------- the reveal ---------- */
+/* the reveal */
 .nhie-reveal { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 16px; text-align: center; }
 .nhie-prompt-sm { color: var(--dim); font: 700 15px var(--display); max-width: 34ch; }
 .nhie-count { display: flex; flex-direction: column; align-items: center; }
@@ -25,13 +25,13 @@
 .nhie-reveal .roster li.on .i { color: var(--accent-ink); }
 .nhie-lonely { font-size: 15px; padding: 8px 16px; animation: nhie-count 0.5s var(--spring) 0.3s both; }
 
-/* ---------- the final ---------- */
+/* the final */
 .nhie-final { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 16px; text-align: center; }
 .nhie-champ { display: flex; flex-direction: column; align-items: center; gap: 8px; animation: nhie-count 0.6s var(--spring) both; }
 .nhie-champ span { padding: 6px 14px; border-radius: 999px; background: var(--accent); color: var(--accent-ink); font: 800 16px var(--display); }
 .nhie-headline { font: 800 clamp(40px, 12vw, 58px)/0.96 var(--display); font-stretch: 78%; letter-spacing: -0.03em; max-width: 14ch; animation: nhie-in 0.5s var(--spring) 0.15s both; }
 
-/* ---------- the TV ---------- */
+/* the TV */
 .tv-surface .nhie-prompt { font-size: 4.6vw !important; max-width: 64vw; }
 .tv-surface .nhie-choices .pick { min-height: 16vh; font-size: 1.6vw; }
 .tv-surface .nhie-prompt-sm { font-size: 1.6vw; max-width: 60vw; }

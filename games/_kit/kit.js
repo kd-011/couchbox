@@ -70,7 +70,7 @@ export function teamLeaderboard(state, teams) {
     .sort((a, b) => b.score - a.score);
 }
 
-/* ---------- Timers ----------
+/* Timers
    A timer lives in state.timer so every view can show it and the platform
    can fire the engine's timeout action. Shape:
      { endsAt, remaining, total, paused, onEnd }

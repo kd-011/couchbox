@@ -274,7 +274,7 @@ test('weaken the default identity: the export takes the source repo identity, so
   assert.notEqual(git(out, 'log', '--format=%an %ae %cn %ce'), PUBLIC_ID);
 });
 
-// ---- incremental export: one new commit on top of a persistent public checkout ----
+// incremental export: one new commit on top of a persistent public checkout
 
 // Land a change in the private repo: write files, remove files, commit.
 function privateCommit(src, subject, { write = {}, remove = [] } = {}) {

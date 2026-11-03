@@ -51,7 +51,7 @@ export const curated = { itemLabel: 'word', minItems: 50 };
 
 const TEAM_COLOR_FOR = (i) => TEAM_COLORS[i % TEAM_COLORS.length];
 
-/* ---------- teams: always exactly two ----------
+/* teams: always exactly two
    Fallback rule (documented here because it's a judgement call): in a room,
    if the lobby gave us exactly two teams with at least one member each, we
    use them as-is (names, colors, memberIds). Any other shape - no teams, one
@@ -121,7 +121,7 @@ function canGuess(state, team, playerId) {
   return playerId !== state.callerOf[team.id];
 }
 
-/* ---------- the board ---------- */
+/* the board */
 
 function buildBoard(state, ctx) {
   const n = Number(state.options.boardSize) === 16 ? 16 : 25;
@@ -162,7 +162,7 @@ function buildBoard(state, ctx) {
   state.phase = 'clue';
 }
 
-/* ---------- scoring the whole game ---------- */
+/* scoring the whole game */
 
 function playerBoard(state) {
   const rows = [];
@@ -238,7 +238,7 @@ function resolveGuess(state, ctx, tile) {
   // else: correct and guesses remain (or unlimited) - stay in guess phase.
 }
 
-/* ---------- init ---------- */
+/* init */
 
 export function init(ctx) {
   const state = {
@@ -264,7 +264,7 @@ export function init(ctx) {
   return state;
 }
 
-/* ---------- actions ---------- */
+/* actions */
 
 export function act(state, a, ctx) {
   switch (a.type) {
@@ -342,7 +342,7 @@ export function act(state, a, ctx) {
   }
 }
 
-/* ---------- late joiners and leavers ---------- */
+/* late joiners and leavers */
 
 export function addPlayer(state, player) {
   if (state.players.some((p) => p.id === player.id)) return;
@@ -382,7 +382,7 @@ export function removePlayer(state, id, ctx) {
   }
 }
 
-/* ---------- views ---------- */
+/* views */
 
 function tilesFor(state, showKey) {
   return state.tiles.map((t) => ({
@@ -456,7 +456,7 @@ export function passTurn(state) {
   return null;
 }
 
-/* ---------- bot: drives test/contract.test.mjs and teams-audience.test.mjs ---------- */
+/* bot: drives test/contract.test.mjs and teams-audience.test.mjs */
 
 // Deliberately not real board words (checked offline against content.json):
 // gibberish the Caller-bot can always legally submit as a clue.

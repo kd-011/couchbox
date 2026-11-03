@@ -53,7 +53,7 @@ test('salad-bowl and werewolf stay deckless (no packs, nothing to curate)', () =
   }
 });
 
-/* ---------- imposter, heads, wyr, nhie, tod, paranoia ---------- */
+/* imposter, heads, wyr, nhie, tod, paranoia */
 
 const MIN_PACKS = 10;
 const MIN_ITEMS = 40;

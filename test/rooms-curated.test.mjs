@@ -145,7 +145,7 @@ test('Party Night: each queued game plays its own curated pack', () => {
   assert.ok(wp.content.pairs.some((x) => samePair(x, room.state.pair)), 'the second game of the night deals from its own pack');
 });
 
-/* ---------- pass and play: the same path the browser runs ---------- */
+/* pass and play: the same path the browser runs */
 
 test('pass and play: a curated pack from the bundle becomes the game\'s content', () => {
   for (const id of ['wyr', 'imposter', 'tod', 'quiz-show', 'spyfall']) {

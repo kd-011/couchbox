@@ -55,7 +55,7 @@ async function openSheet(page) {
   await page.locator('.pk-card:not(.pk-skel)').first().waitFor();
 }
 
-/* ---------- one phone ---------- */
+/* one phone */
 {
   const page = await newPage(PHONE, 'phone');
   await page.goto(`${BASE}/#/new/${GAME}`);
@@ -111,7 +111,7 @@ async function openSheet(page) {
   await page.context().close();
 }
 
-/* ---------- a room ---------- */
+/* a room */
 {
   const host = await newPage(PHONE, 'host');
   await host.goto(`${BASE}/#/new/${GAME}`);
@@ -164,7 +164,7 @@ async function openSheet(page) {
   for (const p of seen) await p.context().close();
 }
 
-/* ---------- offline: the pack browser and a curated game from the cache ---------- */
+/* offline: the pack browser and a curated game from the cache */
 {
   const page = await newPage(PHONE, 'offline');
   await page.goto(`${BASE}/`);
@@ -186,7 +186,7 @@ async function openSheet(page) {
   await page.context().close();
 }
 
-/* ---------- a long catalogue: search, filter chips, empty state, desktop ---------- */
+/* a long catalogue: search, filter chips, empty state, desktop */
 {
   const page = await newPage({ ...DESK, ...NO_SW }, 'desk');
   const big = { ...bundle, packs: Array.from({ length: 4 }, (_, k) => bundle.packs.map((p, i) => ({ ...p, id: `${p.id}-${k}`, code: `${p.code}-${k}`, tags: [['work', 'food', 'aussie', 'travel'][(i + k) % 4]], spicy: (i + k) % 5 === 0 }))).flat() };

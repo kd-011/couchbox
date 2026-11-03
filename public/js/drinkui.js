@@ -125,7 +125,7 @@ function spin(el, wheel, target, later, loud) {
   return t + 350;
 }
 
-/* ---------- play bar chip and drinks sheet ---------- */
+/* play bar chip and drinks sheet */
 
 export function chip(drink, me) {
   if (!drink || drink.tier === 'standard') return '';

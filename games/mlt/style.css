@@ -31,7 +31,7 @@
 .mlt-clock .cd { font-variant-numeric: tabular-nums; font-weight: 800; color: var(--text); }
 .mlt-clock .cd.urgent { color: var(--amber); }
 
-/* ---------- the TV ---------- */
+/* the TV */
 .tv-surface .mlt-headline { font-size: 6vw; max-width: 60vw; }
 /* Long names or a unanimous verdict: a size down so it stays on two lines. */
 .mlt-headline.mlt-long { font-size: clamp(30px, 8.5vw, 44px); max-width: 18ch; }

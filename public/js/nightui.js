@@ -90,7 +90,7 @@ export function playCeremony(count) {
   return () => timers.forEach(clearTimeout);
 }
 
-/* ---------- the recap image ---------- */
+/* the recap image */
 
 function roundRect(g, x, y, w, h, r) {
   g.beginPath();

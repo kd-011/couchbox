@@ -9,7 +9,7 @@
   font: 750 13px var(--display); font-stretch: 90%; letter-spacing: 0.06em; text-transform: uppercase;
 }
 
-/* ---------- the board: a lit wall of tiles ---------- */
+/* the board: a lit wall of tiles */
 .qs-board-stage { gap: 14px; }
 .qs-board-title { font-size: clamp(28px, 9vw, 40px); }
 .qs-board { --cols: 3; grid-template-columns: repeat(var(--cols), 1fr) !important; gap: 8px; padding: 10px; border-radius: 24px; background: #070a18; box-shadow: inset 0 0 0 1px var(--line), 0 24px 60px -30px var(--accent); }
@@ -33,14 +33,14 @@
 .qs-tile-done { color: var(--faint); }
 .qs-left { font-size: 14px; }
 
-/* ---------- teams (one phone) ---------- */
+/* teams (one phone) */
 .qs-teams { display: grid; gap: 12px; width: 100%; }
 .qs-team { border-radius: 22px; padding: 16px; background: color-mix(in oklab, var(--c) 20%, var(--surface)); text-align: left; animation: rise 0.4s var(--ease) both; }
 .qs-team:nth-child(2) { animation-delay: 90ms; }
 .qs-team-head { display: flex; align-items: center; gap: 10px; font: 800 22px var(--display); font-stretch: 86%; margin-bottom: 10px; }
 .qs-team .roster { justify-content: flex-start; }
 
-/* ---------- questions ---------- */
+/* questions */
 .qs-question { gap: 14px; }
 .qs-emoji { font-size: clamp(56px, 16vw, 104px); line-height: 1; letter-spacing: 0.05em; animation: qs-slam 0.5s var(--spring) both; }
 .qs-emoji.sm { font-size: clamp(40px, 11vw, 64px); }
@@ -79,7 +79,7 @@
 .qs-team-label { display: flex; align-items: center; gap: 8px; font: 750 17px var(--display); margin-bottom: 8px; }
 .qs-in { margin-left: auto; display: inline-flex; align-items: center; gap: 4px; color: var(--good); font: 750 14px var(--body); }
 
-/* ---------- buzzer ---------- */
+/* buzzer */
 .qs-buzz {
   display: grid; place-items: center; width: min(68vw, 260px); aspect-ratio: 1; border-radius: 50%; border: 0;
   background: radial-gradient(circle at 50% 35%, color-mix(in oklab, var(--bad) 70%, white 25%), var(--bad) 55%, color-mix(in oklab, var(--bad) 70%, black));
@@ -97,7 +97,7 @@
 .qs-judge { display: grid; gap: 8px; }
 .qs-answer-hint { color: var(--dim); }
 
-/* ---------- reveal ---------- */
+/* reveal */
 .qs-reveal { gap: 12px; }
 .qs-mine { font: 800 clamp(30px, 10vw, 44px)/1 var(--display); font-stretch: 80%; letter-spacing: -0.02em; animation: qs-slam 0.5s var(--spring) both; }
 .qs-mine b { color: var(--good); }
@@ -116,7 +116,7 @@
 .qs-results li.miss strong { color: var(--faint); }
 .qs-results li > span { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 6px; font-weight: 650; }
 
-/* ---------- standings, wager, final ---------- */
+/* standings, wager, final */
 .qs-standings .scores { max-width: 440px; }
 .qs-bank { display: flex; flex-direction: column; align-items: center; }
 .qs-bank b { font: 800 clamp(64px, 22vw, 96px)/0.9 var(--display); font-stretch: 76%; color: var(--accent); letter-spacing: -0.03em; }
@@ -134,13 +134,13 @@
 .qs-final-pts { color: var(--dim); font: 750 18px var(--display); }
 .qs-final .scores { max-width: 440px; }
 
-/* ---------- Deadly: Double or Nothing ---------- */
+/* Deadly: Double or Nothing */
 .qs-don { font-size: 11px; padding: 3px 8px; white-space: nowrap; }
 .qs-streak { font-size: 12px; color: var(--dim); font-weight: 650; white-space: nowrap; }
 .qs-don-strip { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
 .qs-don-who { display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px 6px 6px; border-radius: 999px; background: color-mix(in oklab, var(--deadly) 16%, var(--surface)); }
 
-/* ---------- the TV ---------- */
+/* the TV */
 .tv-surface .qs-stage { gap: 1.6vw; }
 .tv-surface .qs-stage .q { font-size: 3.4vw; max-width: 60vw; }
 .tv-surface .qs-kicker { font-size: 1.1vw; padding: 0.5vw 1.2vw; }

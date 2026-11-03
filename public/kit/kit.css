@@ -29,7 +29,7 @@
   controls are 36px and carry a transparent ::after to reach 44px.
 */
 
-/* 1. Fonts ------------------------------------------------------------- */
+/* 1. Fonts */
 
 @font-face {
   font-family: 'Geist';
@@ -46,7 +46,7 @@
   font-display: swap;
 }
 
-/* 2. Tokens ------------------------------------------------------------ */
+/* 2. Tokens */
 /* light-dark(LIGHT, DARK) throughout. */
 
 :root {
@@ -283,7 +283,7 @@
   --k-c: var(--k-cat-6);
 }
 
-/* 3. Density ----------------------------------------------------------- */
+/* 3. Density */
 /* Phone mode switches on by itself for a coarse pointer or a viewport under
    700px. data-density="desktop" on k-root keeps the dense numbers anyway (admin
    screens); data-density="phone" forces phone mode
@@ -386,7 +386,7 @@
   --k-tabbar-row: 64px;
 }
 
-/* 4. Theme and motion switching --------------------------------------------------- */
+/* 4. Theme and motion switching */
 /* Dark unless the OS asks for light and nothing pinned dark. Any element can
    pin a theme with data-theme; tokens resolve per element. */
 
@@ -413,7 +413,7 @@
   --k-move: 0;
 }
 
-/* 5. Base -------------------------------------------------------------- */
+/* 5. Base */
 /* Put k-root on <html>. Zero specificity so app styles still win while an app
    migrates onto the kit. */
 
@@ -571,7 +571,7 @@
   border: 0;
 }
 
-/* 6. Shell ------------------------------------------------------------- */
+/* 6. Shell */
 /* .k-app holds .k-topbar, .k-main and .k-tabbar. On phones the tab bar sits at
    the bottom; from 1024px it becomes a left rail. */
 
@@ -899,7 +899,7 @@
   }
 }
 
-/* 7. Type helpers ------------------------------------------------------ */
+/* 7. Type helpers */
 
 .k-h1 {
   font-size: var(--k-fs-26);
@@ -951,7 +951,7 @@
   font-size: 0.92em;
 }
 
-/* 8. Surfaces ---------------------------------------------------------- */
+/* 8. Surfaces */
 
 .k-card {
   position: relative;
@@ -1498,7 +1498,7 @@ button.k-row:active {
   }
 }
 
-/* 9. Progressive disclosure ---------------------------------------------- */
+/* 9. Progressive disclosure */
 /* Lists show the title; the rest is one tap away, never deleted.
    Disclosure: a heavy block collapsed by default (flights, a day's detail).
    Native <details>, so it works and is announced with no JS; kit.js animates
@@ -1630,7 +1630,7 @@ button.k-row:active {
   display: none;
 }
 
-/* 10. Controls ---------------------------------------------------------- */
+/* 10. Controls */
 
 /* Buttons. One size system (--k-control-h, -sm, -lg, all 44px on phones),
    round ends everywhere, and four ranks:
@@ -2297,7 +2297,7 @@ label.k-row.k-toggle {
     width var(--k-dur-2) var(--k-ease-out);
 }
 
-/* 11. Overlays ---------------------------------------------------------- */
+/* 11. Overlays */
 
 /* Sheet: <dialog class="k-sheet">. kit.js opens it with a spring and lets the
    handle drag it closed. Bottom sheet on phones, floating panel on desktop. */
@@ -2506,7 +2506,7 @@ label.k-row.k-toggle {
   pointer-events: none;
 }
 
-/* 12. Feedback --------------------------------------------------------- */
+/* 12. Feedback */
 
 .k-skel {
   position: relative;
@@ -2813,7 +2813,7 @@ label.k-row.k-toggle {
   animation: k-draw 220ms var(--k-ease-out) 160ms forwards;
 }
 
-/* 13. Badge, pill, tag, dot, category bar, time block, avatar ----------------------------------------- */
+/* 13. Badge, pill, tag, dot, category bar, time block, avatar */
 
 .k-badge {
   display: inline-grid;
@@ -3044,7 +3044,7 @@ label.k-row.k-toggle {
   animation: k-spin 1.1s linear infinite;
 }
 
-/* 14. Composer --------------------------------------------------------- */
+/* 14. Composer */
 /* One rounded box, textarea on top, toolbar
    inside. Enter sends, Shift+Enter newlines (kit.js composer()). */
 
@@ -3288,7 +3288,7 @@ label.k-row.k-toggle {
   white-space: nowrap;
 }
 
-/* 15. 404 -------------------------------------------------------------- */
+/* 15. 404 */
 
 .k-404 {
   min-height: calc(100dvh - 160px);
@@ -3339,7 +3339,7 @@ label.k-row.k-toggle {
   }
 }
 
-/* 16. Motion ----------------------------------------------------------- */
+/* 16. Motion */
 
 @keyframes k-spin {
   to {

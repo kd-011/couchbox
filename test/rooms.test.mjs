@@ -365,7 +365,7 @@ test('rate limit stops a flood', () => {
   assert.ok(slow > 0);
 });
 
-/* ---------- drink engine and Party Night in rooms ---------- */
+/* drink engine and Party Night in rooms */
 
 // One Imposter round: everyone looks, host opens the vote, the crew vote out
 // the imposter (catch) or each other (escape).

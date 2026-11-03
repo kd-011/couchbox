@@ -29,7 +29,7 @@ function game({ n = 4, variant = 'standard', mode = 'room', teams = null } = {})
   return h;
 }
 
-/* ---------- a stalled Caller ---------- */
+/* a stalled Caller */
 
 test('room: the host can skip a turn while the Caller is clueing', () => {
   const h = game();
@@ -72,7 +72,7 @@ test('no skip once the game is over', () => {
   assert.ok(h.act('skipTurn', null, 'p0', true).error);
 });
 
-/* ---------- a lone Caller (3 players: one side is just a Caller) ---------- */
+/* a lone Caller (3 players: one side is just a Caller) */
 
 function soloGame() {
   const h = game({ n: 3 });
@@ -112,7 +112,7 @@ test('the Caller view carries the cap so the form can show it', () => {
   assert.equal(rt.playerViewOf(engine, h.state, h.state.callerOf[pair.id], h.ctx()).maxCount ?? null, null);
 });
 
-/* ---------- the clue check ---------- */
+/* the clue check */
 
 function clueError(h, word) {
   const r = rt.applyAction(engine, h.state, { type: 'giveClue', payload: { word, count: 1 }, from: h.caller(), host: false }, h.ctx());
@@ -144,7 +144,7 @@ test('the refusal names the board word it clashes with', () => {
   assert.match(clueError(h, 'seals'), /SEAL/i);
 });
 
-/* ---------- review fixes: skip after a guess, and bots at 3 players ---------- */
+/* review fixes: skip after a guess, and bots at 3 players */
 
 test('a skip after a guess leaves no stale word behind', () => {
   const h = game();

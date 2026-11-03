@@ -101,7 +101,7 @@ test('dropping Deadly to Drinking mid-vote resolves as sips', () => {
   assert.ok(h.state.result.drinks.every((d) => d.unit === 'sip'));
 });
 
-/* ---------- a vote never stalls ---------- */
+/* a vote never stalls */
 
 test('no timer while few have voted; it starts once half the table is in', () => {
   const h = game({ n: 4, variant: 'standard' });

@@ -65,7 +65,7 @@ test('withCurated: keys the pack provides replace the built-in, the rest stay', 
   assert.deepEqual(rt.withCurated(custom, builtin, { words: ['z'] }), { only: ['z'] });
 });
 
-/* ---------- the validator itself ---------- */
+/* the validator itself */
 
 const wyr = () => games.get('wyr');
 const goodPairs = (n, tag = '') => Array.from({ length: n }, (_, i) => ({ a: `Option ${tag}${i} left`, b: `Option ${tag}${i} right` }));
@@ -126,7 +126,7 @@ test('countItems counts deck entries, not the fields inside them', () => {
   assert.equal(countItems({ categories: { a: { label: 'A', items: ['1', '2'] }, b: { label: 'B', items: ['3'] } } }), 3);
 });
 
-/* ---------- served and precached for offline play ---------- */
+/* served and precached for offline play */
 
 test('curated packs ship as one precached bundle per game, listed in the index', () => {
   const idx = publicIndex(games);
@@ -161,7 +161,7 @@ test('the bundle carries the catalogue and each pack\'s content, JSON-safe and l
   }
 });
 
-/* ---------- every pack actually plays ---------- */
+/* every pack actually plays */
 
 const NAMES = ['Ava', 'Ben', 'Cat', 'Dev', 'Eli', 'Fin', 'Gus', 'Hana'];
 

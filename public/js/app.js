@@ -102,7 +102,7 @@ document.addEventListener('click', (e) => {
   navigate(url.pathname === '/' && url.hash ? url.hash : url.pathname + url.hash);
 });
 
-/* ---------- the room-code field: one input under four drawn slots ---------- */
+/* the room-code field: one input under four drawn slots */
 
 function codeField(id, { autofocus = false } = {}) {
   return `<div class="code-field" id="${id}-field">
@@ -151,7 +151,7 @@ function wireCodeForm(form, onDone, { auto = false } = {}) {
   return input;
 }
 
-/* ---------- home ---------- */
+/* home */
 
 const FILTERS = [
   { id: 'all', label: 'Any', fits: () => true },
@@ -434,7 +434,7 @@ function renderTvEnter() {
   setTimeout(() => input.focus(), 50);
 }
 
-/* ---------- a game's start screen: tier, then one tap ---------- */
+/* a game's start screen: tier, then one tap */
 
 function savedTier() {
   const t = localStorage.getItem(TIER_KEY);
@@ -629,7 +629,7 @@ function renderCreating(id, variant) {
   cleanup = runRoom(app, { create: { gameId: id, variant, name, avatar: savedFace(), options: {}, shotCap: shotCapPref(), packCode: pack ? pack.code : null } }, { navigate, menu: gameMenu, rules: rulesSheet });
 }
 
-/* ---------- pass-and-play set-up ---------- */
+/* pass-and-play set-up */
 
 function shotCapPref() {
   const n = Number(localStorage.getItem('games.shotCap'));
@@ -780,7 +780,7 @@ function renderPassSetup(meta, variant) {
   });
 }
 
-/* ---------- shared menus ---------- */
+/* shared menus */
 
 async function rulesSheet(id, name) {
   const p = ui.sheet({ title: `How to play ${name}`, className: 'sheet-rules', body: '<div class="rules"><span class="spinner"></span></div>' });
@@ -836,7 +836,7 @@ async function gameMenu(ctx) {
   return v || null;
 }
 
-/* ---------- boot ---------- */
+/* boot */
 
 route();
 // Warm every game's modules for an instant start, once the first screen is up

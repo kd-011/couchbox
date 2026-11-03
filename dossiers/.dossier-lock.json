@@ -9,12 +9,12 @@
           "specs": [
             "lib/rooms.mjs:59-60"
           ],
-          "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e",
+          "head": "b301c8ebbbacb76b781daae9fe2c3e633335e0dd",
           "files": {
             "lib/rooms.mjs": {
               "path": "lib/rooms.mjs",
               "blob": "ad848d132c261e4f688bee2f2debee18b08653f6",
-              "commit": "4c9cb3160100ffd751bb6266754625da57d2c32c",
+              "commit": "d63d7d943de5dbcd1bc6049888ad8dc009d14ff0",
               "range": {
                 "start": 59,
                 "end": 60,
@@ -29,12 +29,12 @@
           "specs": [
             "lib/rooms.mjs:114"
           ],
-          "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e",
+          "head": "b301c8ebbbacb76b781daae9fe2c3e633335e0dd",
           "files": {
             "lib/rooms.mjs": {
               "path": "lib/rooms.mjs",
               "blob": "ad848d132c261e4f688bee2f2debee18b08653f6",
-              "commit": "4c9cb3160100ffd751bb6266754625da57d2c32c",
+              "commit": "d63d7d943de5dbcd1bc6049888ad8dc009d14ff0",
               "range": {
                 "start": 114,
                 "end": 114,
@@ -49,12 +49,12 @@
           "specs": [
             "public/js/pass.js:26-34"
           ],
-          "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e",
+          "head": "b301c8ebbbacb76b781daae9fe2c3e633335e0dd",
           "files": {
             "public/js/pass.js": {
               "path": "public/js/pass.js",
               "blob": "aca5a65741ed391e7cd24ae28d7225e18740a0d0",
-              "commit": "ee2ae3919b50c0c9045c64f64f1688dec84d95f9",
+              "commit": "d63d7d943de5dbcd1bc6049888ad8dc009d14ff0",
               "range": {
                 "start": 26,
                 "end": 34,
@@ -69,12 +69,12 @@
           "specs": [
             "lib/registry.mjs:1-3"
           ],
-          "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e",
+          "head": "b301c8ebbbacb76b781daae9fe2c3e633335e0dd",
           "files": {
             "lib/registry.mjs": {
               "path": "lib/registry.mjs",
               "blob": "89abd7dcfdb8578e0a343a84a2ffa42f3ce211f8",
-              "commit": "d0d64370b6be354057234747cb12147e0786828d",
+              "commit": "d63d7d943de5dbcd1bc6049888ad8dc009d14ff0",
               "range": {
                 "start": 1,
                 "end": 3,
@@ -87,18 +87,18 @@
           "text": "Drinking and Deadly tiers ask for a one-time 18+ confirmation.",
           "line": 18,
           "specs": [
-            "public/js/ui.js:357-361"
+            "public/js/ui.js:374-375"
           ],
-          "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e",
+          "head": "b301c8ebbbacb76b781daae9fe2c3e633335e0dd",
           "files": {
             "public/js/ui.js": {
               "path": "public/js/ui.js",
-              "blob": "330bdeee35b9069c11259fbdbe705acd64c41a91",
-              "commit": "4c9cb3160100ffd751bb6266754625da57d2c32c",
+              "blob": "f212bf2930666d797ad61e99d2d242440b596032",
+              "commit": "b301c8ebbbacb76b781daae9fe2c3e633335e0dd",
               "range": {
-                "start": 357,
-                "end": 361,
-                "hash": "fe3826ddc4abec1c092772a352810070f818a32e"
+                "start": 374,
+                "end": 375,
+                "hash": "cb4fc250b2de347e384771c43a7e9686b535c33a"
               }
             }
           }
@@ -107,17 +107,17 @@
           "text": "The AI pack maker reads its key from `OPENROUTER_API_KEY` and has a daily spend cap of 0.5 USD by default.",
           "line": 19,
           "specs": [
-            "server.mjs:77-79"
+            "server.mjs:83-85"
           ],
-          "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e",
+          "head": "b301c8ebbbacb76b781daae9fe2c3e633335e0dd",
           "files": {
             "server.mjs": {
               "path": "server.mjs",
-              "blob": "ed9cf48da1dd3ea95da721370bad595e62089186",
-              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "blob": "7c12c55deab5d0945049455103fe3ba8b1d4cdac",
+              "commit": "b301c8ebbbacb76b781daae9fe2c3e633335e0dd",
               "range": {
-                "start": 77,
-                "end": 79,
+                "start": 83,
+                "end": 85,
                 "hash": "6dce074359107952ce1627279cd55ff77c065b6c"
               }
             }
@@ -130,22 +130,22 @@
             "LICENSE:1-3",
             "THIRD_PARTY_NOTICES.md:10"
           ],
-          "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e",
+          "head": "b301c8ebbbacb76b781daae9fe2c3e633335e0dd",
           "files": {
             "LICENSE": {
               "path": "LICENSE",
-              "blob": "54aecad151dfedcaff2dce63ceffa33c00c4656b",
-              "commit": "545e94dac83b10f2b73c6ca60bc307b082feb00c",
+              "blob": "017a3dc11f5bd2f877b6dd3a9cb87eeadd26d5d8",
+              "commit": "d63d7d943de5dbcd1bc6049888ad8dc009d14ff0",
               "range": {
                 "start": 1,
                 "end": 3,
-                "hash": "e9eba8a43d32b6987ac1df09384feb8e5296afc5"
+                "hash": "9af6c2d48f70a7ddda6188f0d8e40553ada61bd7"
               }
             },
             "THIRD_PARTY_NOTICES.md": {
               "path": "THIRD_PARTY_NOTICES.md",
-              "blob": "722b4c189c1aec93ab0f72c8f9265d629a8ac896",
-              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "blob": "ae2bf39c2456cc2c7d1d1b538d538cde74b8a826",
+              "commit": "b301c8ebbbacb76b781daae9fe2c3e633335e0dd",
               "range": {
                 "start": 10,
                 "end": 10,
@@ -158,18 +158,18 @@
           "text": "Out of the box it listens on 127.0.0.1 port 8969.",
           "line": 24,
           "specs": [
-            "server.mjs:34-35"
+            "server.mjs:35-38"
           ],
-          "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e",
+          "head": "b301c8ebbbacb76b781daae9fe2c3e633335e0dd",
           "files": {
             "server.mjs": {
               "path": "server.mjs",
-              "blob": "ed9cf48da1dd3ea95da721370bad595e62089186",
-              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "blob": "7c12c55deab5d0945049455103fe3ba8b1d4cdac",
+              "commit": "b301c8ebbbacb76b781daae9fe2c3e633335e0dd",
               "range": {
-                "start": 34,
-                "end": 35,
-                "hash": "c34acec6a0147667466eb7c570fc66f98d68688a"
+                "start": 35,
+                "end": 38,
+                "hash": "662e8e02c1d66f7c69165e6a9b3cfa4ab1a8dd3b"
               }
             }
           }
@@ -178,17 +178,17 @@
           "text": "Rate limits key on the `CF-Connecting-IP` header, then the socket address.",
           "line": 25,
           "specs": [
-            "server.mjs:23"
+            "server.mjs:24"
           ],
-          "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e",
+          "head": "b301c8ebbbacb76b781daae9fe2c3e633335e0dd",
           "files": {
             "server.mjs": {
               "path": "server.mjs",
-              "blob": "ed9cf48da1dd3ea95da721370bad595e62089186",
-              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "blob": "7c12c55deab5d0945049455103fe3ba8b1d4cdac",
+              "commit": "b301c8ebbbacb76b781daae9fe2c3e633335e0dd",
               "range": {
-                "start": 23,
-                "end": 23,
+                "start": 24,
+                "end": 24,
                 "hash": "9a9e0bdf5868938e4e33e67ff946a6b11de5afca"
               }
             }
@@ -198,17 +198,17 @@
           "text": "Own-phone rooms need the WebSocket endpoint at `/ws`.",
           "line": 26,
           "specs": [
-            "server.mjs:456"
+            "server.mjs:466"
           ],
-          "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e",
+          "head": "b301c8ebbbacb76b781daae9fe2c3e633335e0dd",
           "files": {
             "server.mjs": {
               "path": "server.mjs",
-              "blob": "ed9cf48da1dd3ea95da721370bad595e62089186",
-              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "blob": "7c12c55deab5d0945049455103fe3ba8b1d4cdac",
+              "commit": "b301c8ebbbacb76b781daae9fe2c3e633335e0dd",
               "range": {
-                "start": 456,
-                "end": 456,
+                "start": 466,
+                "end": 466,
                 "hash": "3ec389d45923cf254c416e6e3161291ec3eeff2a"
               }
             }
@@ -221,12 +221,12 @@
             ".github/workflows/ci.yml:18",
             ".github/workflows/ci.yml:27-30"
           ],
-          "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e",
+          "head": "b301c8ebbbacb76b781daae9fe2c3e633335e0dd",
           "files": {
             ".github/workflows/ci.yml": {
               "path": ".github/workflows/ci.yml",
               "blob": "2564f3dae185e6ab8fe5359687122f512b78b81d",
-              "commit": "f102d9db49bfab5479640e747385c401877a7237",
+              "commit": "745560f27af31864338772a476e6ee59233f60ba",
               "range": {
                 "start": 18,
                 "end": 18,
@@ -236,7 +236,7 @@
             ".github/workflows/ci.yml:27-30": {
               "path": ".github/workflows/ci.yml",
               "blob": "2564f3dae185e6ab8fe5359687122f512b78b81d",
-              "commit": "f102d9db49bfab5479640e747385c401877a7237",
+              "commit": "745560f27af31864338772a476e6ee59233f60ba",
               "range": {
                 "start": 27,
                 "end": 30,
@@ -251,12 +251,12 @@
           "specs": [
             "SECURITY.md:3-7"
           ],
-          "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e",
+          "head": "b301c8ebbbacb76b781daae9fe2c3e633335e0dd",
           "files": {
             "SECURITY.md": {
               "path": "SECURITY.md",
-              "blob": "1badc53da18a148c7b9365daf0b884c11b1f86a0",
-              "commit": "f102d9db49bfab5479640e747385c401877a7237",
+              "blob": "ac373dcf599b26c5de367d5961ec5be4dc59b4d8",
+              "commit": "745560f27af31864338772a476e6ee59233f60ba",
               "range": {
                 "start": 3,
                 "end": 7,
@@ -266,8 +266,8 @@
           }
         }
       },
-      "pinnedAt": "2026-11-02T14:01:51.681Z",
-      "head": "cd6109548fb3a269b99d110189eb1d0322ed1a6e"
+      "pinnedAt": "2026-11-03T07:51:05.501Z",
+      "head": "b301c8ebbbacb76b781daae9fe2c3e633335e0dd"
     }
   }
 }

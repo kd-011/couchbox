@@ -16,7 +16,7 @@ const ENTRANCE_MAX = 400;
 const EASE_OUT = 'cubic-bezier(0.23, 1, 0.32, 1)';
 const STAGGER_CAP = 8;
 
-/* Reduced motion ------------------------------------------------------- */
+/* Reduced motion */
 
 const motionQuery = typeof matchMedia === 'function' ? matchMedia('(prefers-reduced-motion: reduce)') : null;
 
@@ -25,7 +25,7 @@ export function reducedMotion() {
   return !!motionQuery?.matches;
 }
 
-/* Springs -------------------------------------------------------------- */
+/* Springs */
 
 const springCache = new Map();
 
@@ -75,7 +75,7 @@ export const springs = {
   snappy: { stiffness: 400, damping: 30 },
 };
 
-/* animate(): WAAPI with the reduced-motion rule applied ------------------ */
+/* animate(): WAAPI with the reduced-motion rule applied */
 
 const MOVING = ['transform', 'translate', 'scale', 'rotate', 'filter'];
 
@@ -98,7 +98,7 @@ export function animate(el, keyframes, options = {}) {
   return el.animate(keyframes, options);
 }
 
-/* Haptics -------------------------------------------------------------- */
+/* Haptics */
 
 const PATTERNS = { light: 8, select: 6, success: [10, 40, 12], warn: 18, danger: [20, 60, 20], long: 14 };
 
@@ -111,7 +111,7 @@ export function haptic(kind = 'light') {
   }
 }
 
-/* Staggered reveal ----------------------------------------------------- */
+/* Staggered reveal */
 
 const REVEAL_DUR = 190;
 const revealed = new WeakSet();
@@ -161,7 +161,7 @@ export function reveal(root = document) {
   containers.forEach((c) => io.observe(c));
 }
 
-/* Sheets and dialogs --------------------------------------------------- */
+/* Sheets and dialogs */
 
 const state = new WeakMap();
 
@@ -363,7 +363,7 @@ function bindDialog(el) {
   });
 }
 
-/* Toasts --------------------------------------------------------------- */
+/* Toasts */
 
 const ICONS = {
   x: '<path d="M6 6l12 12M18 6L6 18"/>',
@@ -544,7 +544,7 @@ export function toast(message, { tone = 'info', action, detail, duration } = {})
   return { dismiss, el: li };
 }
 
-/* Swipe rows ----------------------------------------------------------- */
+/* Swipe rows */
 
 let openSwipe = null;
 
@@ -686,7 +686,7 @@ export function swipeRows(root = document) {
   }
 }
 
-/* Segmented control and tabs: a sliding thumb or ink ------------------- */
+/* Segmented control and tabs: a sliding thumb or ink */
 
 function place(indicator, target, container) {
   const c = container.getBoundingClientRect();
@@ -777,7 +777,7 @@ export function tabs(root = document) {
   });
 }
 
-/* Disabled controls that say why --------------------------------------- */
+/* Disabled controls that say why */
 
 let whyEl;
 let whyTimer;
@@ -850,7 +850,7 @@ export function disabledWhy(root = document) {
   document.addEventListener('keydown', (e) => e.key === 'Escape' && whyEl && hideWhy());
 }
 
-/* Count-up for a freshly written number -------------------------------- */
+/* Count-up for a freshly written number */
 
 /**
  * Count an element's number up to `to` in under 600ms. Only for a value the
@@ -876,7 +876,7 @@ export function countUp(el, to, { from = 0, duration = 520, format = (n) => Math
   return clock;
 }
 
-/* Hero: shared-element move between two states ------------------------- */
+/* Hero: shared-element move between two states */
 
 /**
  * FLIP an element from a previous rect to where it is now.
@@ -903,7 +903,7 @@ export function hero(el, firstRect) {
   );
 }
 
-/* Composer: Enter sends, Shift+Enter newlines, IME safe ----------------- */
+/* Composer: Enter sends, Shift+Enter newlines, IME safe */
 
 /**
  * Wire a .k-composer. onSend(text) is called on Enter or the send button.
@@ -939,7 +939,7 @@ export function composer(el, { onSend } = {}) {
   sync();
 }
 
-/* Density ---------------------------------------------------------------- */
+/* Density */
 
 const phoneQuery = typeof matchMedia === 'function' ? matchMedia('(pointer: coarse), (max-width: 699.98px)') : null;
 
@@ -954,7 +954,7 @@ export function density(el) {
   return phoneQuery?.matches ? 'phone' : 'desktop';
 }
 
-/* Progressive disclosure: animated details, show more ------------------- */
+/* Progressive disclosure: animated details, show more */
 
 const DISCLOSE_DUR = 260;
 
@@ -1072,7 +1072,7 @@ export function more(root = document) {
 }
 let moreN = 0;
 
-/* Top bar hairline once the page scrolls -------------------------------- */
+/* Top bar hairline once the page scrolls */
 
 export function topbar(root = document) {
   const bars = root.querySelectorAll('.k-topbar');
@@ -1083,7 +1083,7 @@ export function topbar(root = document) {
   sync();
 }
 
-/* Offline banner -------------------------------------------------------- */
+/* Offline banner */
 
 /** Show [data-k-offline] elements only while the browser is offline. */
 export function offline(root = document) {
@@ -1122,7 +1122,7 @@ function isBusyActivation(target) {
   return !!control && control.matches('button:not([type]), button[type="submit"], input[type="submit"], input[type="image"]') && control.form === form;
 }
 
-/* init: wire every data hook -------------------------------------------- */
+/* init: wire every data hook */
 
 /**
  * Wire the page. Safe to call again after rendering new content.

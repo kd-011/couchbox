@@ -3,7 +3,7 @@
 .pn-stage { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; width: 100%; text-align: center; }
 .pn-q { font: 800 clamp(30px, 9vw, 42px)/0.98 var(--display); font-stretch: 80%; letter-spacing: -0.03em; text-wrap: balance; max-width: 16ch; }
 
-/* ---------- the secret note ---------- */
+/* the secret note */
 .pn-note {
   position: relative; display: flex; flex-direction: column; align-items: center; gap: 14px; padding: 30px 24px; border-radius: 26px;
   background: var(--accent); color: var(--accent-ink); box-shadow: var(--press), 0 30px 60px -28px var(--accent);
@@ -32,7 +32,7 @@
 .pn-peek[open] summary { color: inherit; opacity: 0.75; }
 .pn-peek p { margin: 0; padding: 0 16px 16px; font: 800 20px/1.15 var(--display); font-stretch: 84%; text-align: center; }
 
-/* ---------- the coin and the result ---------- */
+/* the coin and the result */
 .pn-result { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; width: 100%; text-align: center; }
 .pn-coin { position: relative; width: 96px; height: 96px; transform-style: preserve-3d; animation: pn-spin-heads 1.1s var(--ease) both; }
 .pn-coin.is-tails { animation-name: pn-spin-tails; transform: rotateY(180deg); }
@@ -59,7 +59,7 @@
 .pn-mystery { color: var(--dim); font-size: 15px; font-weight: 600; max-width: 34ch; margin: 0; animation: rise 0.4s var(--ease) 1.25s both; }
 .pn-wink { color: var(--amber); font-weight: 750; }
 
-/* ---------- TV ---------- */
+/* TV */
 .tv-surface .pn-envelope { width: 8vw; height: 8vw; border-radius: 2.2vw; }
 .tv-surface .pn-envelope .i { width: 3.6vw; height: 3.6vw; }
 .tv-surface .pn-pair .av { --s: 7vw !important; }

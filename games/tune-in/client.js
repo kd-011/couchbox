@@ -215,7 +215,7 @@ export function tv(view, ui) {
   </div>${side}`;
 }
 
-/* ---------- the dial drag: local-first feedback, proxy data-act ---------- */
+/* the dial drag: local-first feedback, proxy data-act */
 
 function paintTrack(track, value) {
   track.dataset.painted = '1';
@@ -324,7 +324,7 @@ export function mount(el, view, ui) {
   track.addEventListener('pointercancel', onUp);
 }
 
-/* ---------- the "what do I do right now" strip ---------- */
+/* the "what do I do right now" strip */
 
 // Never mentions the target, only the public clue and whose move it is.
 function waitingFor(ids, ui) {

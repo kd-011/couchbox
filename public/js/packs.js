@@ -113,7 +113,7 @@ function readItems(root, schema) {
   ));
 }
 
-/* ---------- the pack browser ---------- */
+/* the pack browser */
 
 const SKELETONS = 6;
 const TOOLS_FROM = 7; // search and filter chips once a game has this many packs

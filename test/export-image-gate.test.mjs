@@ -230,7 +230,7 @@ test('the scan lets a long hex through in workflows and the dossier lock only, a
   assert.deepEqual(scanTree(dir).map((f) => `${f.file} ${f.kind}`).sort(), ['.github/workflows/b.yml github-token', 'lib/key.mjs long-hex (key shape)']);
 });
 
-// ---- the denylist has to be there ----
+// the denylist has to be there
 
 for (const [what, make] of [
   ['missing', (f) => f],
@@ -269,7 +269,7 @@ test('with GAMES_DENYLIST unset it reads ~/.config/games/export-denylist.txt, an
   assert.equal(ok.status, 0, ok.stderr + ok.stdout);
 });
 
-// ---- weaken each check once: the tests above have to be guarding something ----
+// weaken each check once: the tests above have to be guarding something
 
 function weakened(name, edits) {
   const dir = join(work, `weak-${name}`);
@@ -324,7 +324,7 @@ test('weaken the denylist guard: the export runs without one, so the guard tests
   assert.ok(existsSync(out));
 });
 
-// ---- the committed allowlist itself ----
+// the committed allowlist itself
 
 const realAllowlist = () => readFileSync(join(ROOT, ALLOWLIST), 'utf8').split('\n').map((l) => l.trim()).filter((l) => l && !l.startsWith('#'));
 

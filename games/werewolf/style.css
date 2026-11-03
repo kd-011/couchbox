@@ -3,7 +3,7 @@
    platform's stage glow is re-lit from here with :has(), so it changes back
    the moment the phase does. */
 
-/* ---- night ---- */
+/* night */
 .ww-night {
   --accent: color-mix(in oklab, #7048e8 62%, #0d1030);
   --accent-ink: #e9e4ff;
@@ -51,7 +51,7 @@ html:has(.ww-night), html:has(.ww-night) body { background: #04050c; transition:
 }
 @keyframes ww-rise { from { opacity: 0; transform: translateY(18px) rotate(-40deg); } }
 
-/* ---- day ---- */
+/* day */
 html:has(.ww-day), html:has(.ww-day) body { background: #1a1116; transition: background 0.8s; }
 .screen:has(.ww-day)::before, .tv:has(.ww-day)::before {
   background:

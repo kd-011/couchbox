@@ -3,7 +3,7 @@
 import * as sfx from './sfx.js';
 import { morph } from './morph.js';
 
-/* ---------- templating: html`` auto-escapes every interpolation ---------- */
+/* templating: html`` auto-escapes every interpolation */
 
 const ESC = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
 export const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ESC[c]);
@@ -30,7 +30,7 @@ export function html(strings, ...vals) {
   return new Safe(out);
 }
 
-/* ---------- icons: one stroke family, authored paths ---------- */
+/* icons: one stroke family, authored paths */
 
 const ICONS = {
   back: '<path d="M15 5l-7 7 7 7"/>',
@@ -84,7 +84,7 @@ export function icon(name, size = 22, label = '') {
   return raw(`<svg class="i" width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ${a11y}>${ICONS[name] || ''}</svg>`);
 }
 
-/* ---------- players ---------- */
+/* players */
 
 const safeColor = (c) => (/^#[0-9a-f]{6}$/i.test(c || '') ? c : '#8b7fb0');
 
@@ -100,7 +100,7 @@ export function avatar(p, size = 40, extra = '') {
   return raw(`<span class="av ${face ? 'av-face' : ''} ${extra}" style="--c:${safeColor(p.color)};--s:${size}px" aria-hidden="true">${esc(face ? p.avatar : initials(p.name))}</span>`);
 }
 
-/* ---------- game colour ---------- */
+/* game colour */
 
 function lum(hex) {
   const n = parseInt(hex.slice(1), 16);
@@ -128,7 +128,7 @@ export function applyTheme(el, meta) {
   document.querySelector('meta[name="theme-color"]')?.setAttribute('content', '#0b0812');
 }
 
-/* ---------- clock and countdowns ---------- */
+/* clock and countdowns */
 
 let clockOffset = 0;
 export function syncClock(serverNow) {
@@ -193,7 +193,7 @@ function tickCountdowns() {
 }
 setInterval(tickCountdowns, 200);
 
-/* ---------- feedback ---------- */
+/* feedback */
 
 export function haptic(kind = 'tap') {
   if (!navigator.vibrate || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
@@ -276,7 +276,7 @@ export function setNow(el, line, ctx = {}) {
 }
 
 
-/* ---------- sound: one global switch ---------- */
+/* sound: one global switch */
 
 export function soundButton() {
   const on = sfx.soundOn();
@@ -297,7 +297,7 @@ document.addEventListener('click', (e) => {
   haptic('tap');
 });
 
-/* ---------- sheets (bottom sheet dialog) ---------- */
+/* sheets (bottom sheet dialog) */
 
 export function sheet({ title = '', body = '', actions = [], dismissable = true, className = '', onOpen = null, collect = null }) {
   return new Promise((resolve) => {
@@ -347,7 +347,7 @@ export async function confirm(text, { ok = 'Yes', cancel = 'Cancel', danger = fa
   return v === true;
 }
 
-/* ---------- drinking ---------- */
+/* drinking */
 
 export function drinkLine(d, name) {
   const n = d.n;
@@ -401,7 +401,7 @@ export async function ageGate(tier = 'drinking') {
   return false;
 }
 
-/* ---------- misc ---------- */
+/* misc */
 
 export function plural(n, word, many = `${word}s`) {
   return `${n} ${n === 1 ? word : many}`;
