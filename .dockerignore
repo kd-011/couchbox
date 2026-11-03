@@ -1,0 +1,13 @@
+.env
+.git
+.github
+.shots
+node_modules
+data
+docs
+e2e
+test
+scripts
+dossiers
+*.md
+*.log

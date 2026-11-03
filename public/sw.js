@@ -1,7 +1,7 @@
 // Offline-first shell: one-phone games must work with no connection, so the
 // app shell and every game's files (from /games/index.json) are precached.
 // Network-first at runtime so a deploy is picked up on the next load.
-const CACHE = 'games-v11'; // bump on every frontend change
+const CACHE = 'games-v12'; // bump on every frontend change
 const SHELL = [
   '/', '/style.css', '/kit/kit.css', '/manifest.webmanifest', '/icon.svg', '/icon-192.png', '/icon-512.png', '/icon-maskable-192.png', '/apple-touch-icon.png', '/fonts/bricolage.woff2',
   '/js/app.js', '/js/ui.js', '/js/games.js', '/js/markdown.js', '/js/surface.js', '/js/net.js', '/js/pass.js',

@@ -52,9 +52,7 @@ for (const size of Object.keys(SIZES)) {
     ok(meta.includes(`${g.minPlayers}-${g.maxPlayers}`), `${id}: player range on the card (${meta})`);
     ok(/\d+(-\d+)? min/.test(meta), `${id}: length on the card (${meta})`);
   }
-  const imp = index.find((x) => x.id === 'imposter');
-  ok(imp.curated === 0 || (await page.locator('a.deck[data-game="imposter"] .deck-meta').innerText()).includes(`${imp.curated} pack`), 'curated pack count on the card');
-  ok(!(await page.locator('a.deck[data-game="werewolf"] .deck-meta').innerText()).includes('pack'), 'no pack chip where there is no deck');
+  ok(!(await page.locator('a.deck .deck-meta').first().innerText()).includes('pack'), 'no pack count on the card');
 
   // Join and TV stay in reach, above the fold on a phone.
   const code = page.locator('#join-code');

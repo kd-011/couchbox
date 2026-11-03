@@ -1,0 +1,14 @@
+services:
+  party-games:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8969:8969"
+    volumes:
+      - packs:/data
+    # environment:
+    #   GAMES_SITE_URL: https://games.example.com
+    #   GAMES_CONTACT_EMAIL: you@example.com
+
+volumes:
+  packs:

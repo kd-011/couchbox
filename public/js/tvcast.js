@@ -99,7 +99,7 @@ export async function showOnTv(code) {
   const v = await p;
   if (v === 'copy') {
     try {
-      await navigator.clipboard.writeText(url);
+      await ui.copyText(url);
       ui.toast('TV link copied', 'info');
       ui.haptic('success');
     } catch (err) {

@@ -336,7 +336,7 @@ test('the committed allowlist names real files, exact paths, and only what the f
     assert.ok(existsSync(join(ROOT, p)), `${p} exists`);
     assert.doesNotMatch(p, /[*?[\]]|\/$|^\.\//, `${p} is an exact path`);
     assert.doesNotMatch(p, /^docs\/ui-pass/, `${p} is a before/after shot, not generated output: a change there has to be looked at`);
-    assert.match(p, /^(docs\/screenshots\/[^/]+\.png|public\/og-image\.png|\.github\/social-preview\.png)$/, `${p} is something the fixture scripts generate`);
+    assert.match(p, /^(docs\/screenshots\/[^/]+\.(png|gif)|public\/og-image\.png|\.github\/social-preview\.png)$/, `${p} is something the fixture scripts generate`);
   }
 });
 

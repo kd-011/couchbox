@@ -242,7 +242,7 @@ async function renderHome() {
       <a href="/privacy">Privacy</a>
     </footer>
   </div>`);
-  wireCodeForm(document.getElementById('join-inline'), (code) => navigate(`/r/${code}`));
+  wireCodeForm(document.getElementById('join-inline'), (code) => navigate(`/r/${code}`), { auto: true });
   const surprise = document.getElementById('surprise');
   const early = () => ui.toast('Still loading the games', 'info');
   surprise.addEventListener('click', early);
@@ -411,7 +411,7 @@ function renderJoin() {
       </form>
     </main>
   </div>`);
-  const input = wireCodeForm(document.getElementById('join-inline'), (code) => navigate(`/r/${code}`));
+  const input = wireCodeForm(document.getElementById('join-inline'), (code) => navigate(`/r/${code}`), { auto: true });
   setTimeout(() => input.focus(), 50);
 }
 

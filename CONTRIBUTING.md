@@ -6,11 +6,12 @@ Small, focused changes are the easiest to land.
 
 ```sh
 npm install
-npm start          # http://127.0.0.1:8969
+npm start          # http://127.0.0.1:8969, this computer only
+npm run lan        # the same, reachable from phones on your network
 npm test           # runs in under a minute, no browser
 ```
 
-Node 22 or newer. The browser tests (`npm run e2e`, `e2e/*.mjs`) need a Chromium that Playwright can find (`npx playwright-core install chromium`). Run them when you change a game's flow or the UI. Do not run several at once: they compete for CPU and time out.
+Node 20 or newer, developed on 22. The browser tests (`npm run e2e`, `e2e/*.mjs`) need a Chromium that Playwright can find (`npx playwright-core install chromium`). Run them when you change a game's flow or the UI. Do not run several at once: they compete for CPU and time out.
 
 ## What to send
 

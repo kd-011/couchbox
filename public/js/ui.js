@@ -201,6 +201,23 @@ export function haptic(kind = 'tap') {
   try { navigator.vibrate(p); } catch { /* not allowed */ }
 }
 
+// navigator.clipboard only exists on https and localhost, and a home network is neither.
+export async function copyText(text) {
+  if (navigator.clipboard) {
+    try { await navigator.clipboard.writeText(text); return; } catch { /* try the old way */ }
+  }
+  const t = document.createElement('textarea');
+  t.value = text;
+  t.readOnly = true;
+  t.style.cssText = 'position:fixed;opacity:0;font-size:16px';
+  document.body.appendChild(t);
+  t.select();
+  t.setSelectionRange(0, text.length);
+  const copied = document.execCommand('copy');
+  t.remove();
+  if (!copied) throw new Error('this browser blocked copying');
+}
+
 export function toast(text, kind = 'info', detail = '') {
   let box = document.getElementById('toasts');
   if (!box) {

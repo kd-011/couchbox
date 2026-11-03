@@ -4,8 +4,25 @@
   "license": "MIT",
   "type": "module",
   "description": "Games: free party and drinking games, pass-and-play or everyone on their own phone.",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "party-games": "bin/party-games.mjs"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "public",
+    "games",
+    "!games/**/*.test.mjs",
+    "server.mjs",
+    ".env.example",
+    "THIRD_PARTY_NOTICES.md"
+  ],
   "scripts": {
     "start": "node server.mjs",
+    "lan": "node server.mjs --lan",
     "test": "node --test 'test/**/*.test.mjs' 'games/**/*.test.mjs'",
     "e2e": "node e2e/play.mjs",
     "canary": "node e2e/canary.mjs",

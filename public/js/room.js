@@ -45,6 +45,9 @@ export function recentRoom() {
 const savedFace = () => { const f = localStorage.getItem(FACE_KEY); return AVATARS.includes(f) ? f : null; };
 
 // opts: { code } to join/rejoin, or { create: { gameId, variant, name, avatar, options } }
+// A QR code made here would say localhost, which no phone can open.
+const LOCALHOST = /^(localhost|127\.|\[::1\])/.test(location.hostname);
+
 export function runRoom(root, opts, { navigate, menu, rules }) {
   let code = opts.code || null;
   let sock = null;
@@ -75,6 +78,8 @@ export function runRoom(root, opts, { navigate, menu, rules }) {
   const net = root.querySelector('#net');
 
   let formUp = false;
+  let qrShown = false;
+  const seated = new Set(); // lobby entrances play once: a join must not re-deal the tiles and every seat
   const netbar = createNetBar(net, { onRetry: () => sock && sock.reconnectNow() });
   function setStatus(s) {
     status = s;
@@ -453,11 +458,12 @@ export function runRoom(root, opts, { navigate, menu, rules }) {
     const me = room.players.find((p) => p.id === room.you);
     const ready = room.players.filter((p) => p.ready || p.host).length;
     const main = body.querySelector('#rm-main');
+    const qrInline = isHost && need > 0 && !LOCALHOST;
     const seats = room.players.map((p, i) => {
       const team = room.teams && room.teams.find((t) => t.memberIds.includes(p.id));
       const mine = p.id === room.you;
       const tag = p.host ? 'Host' : !p.connected ? 'Offline' : p.ready ? 'Ready' : mine ? 'You' : 'Joined';
-      return ui.html`<li class="seat ${mine ? 'me' : ''} ${p.ready ? 'ready' : ''} ${p.connected ? '' : 'offline'}" style="--i:${i};animation-delay:${i * 40}ms">
+      return ui.html`<li class="seat ${seated.has(p.id) ? 'still' : ''} ${mine ? 'me' : ''} ${p.ready ? 'ready' : ''} ${p.connected ? '' : 'offline'}" style="--i:${i};animation-delay:${i * 40}ms">
         <button class="seat-btn" data-player="${p.id}" ${isHost || mine ? '' : 'disabled'} aria-label="${p.name}${mine ? ' (you)' : ''}${p.host ? ', host' : ''}${p.ready ? ', ready' : ''}">
           ${ui.avatar(p, 58)}
           <span class="seat-name">${p.name}</span>
@@ -469,15 +475,17 @@ export function runRoom(root, opts, { navigate, menu, rules }) {
         ${isHost && !mine ? ui.html`<button class="seat-kick" data-kick="${p.id}" aria-label="Remove ${p.name}" title="Remove ${p.name}">${ui.icon('close', 16)}</button>` : ''}
       </li>`;
     });
-    const empties = Array.from({ length: need }, (_, i) => ui.html`<li class="seat seat-empty"><button class="seat-btn" data-invite aria-label="Invite a player">
+    const empties = Array.from({ length: need }, (_, i) => ui.html`<li class="seat seat-empty ${seated.size ? 'still' : ''}"><button class="seat-btn" data-invite aria-label="Invite a player">
       <span class="av" style="--s:58px">${ui.icon('plus', 22)}</span><span class="seat-name">Waiting</span><span class="seat-tag">Need ${need - i === 1 && i === 0 ? '1 more' : 'more'}</span></button></li>`);
 
     main.innerHTML = String(ui.html`<div class="lobby">
       <section class="lobby-code">
-        <div class="code-tiles" aria-label="Room code ${room.code}">${[...room.code].map((ch, i) => ui.html`<span style="--i:${i}">${ch}</span>`)}</div>
-        <div class="code-actions">
+        <div class="code-tiles ${seated.size ? 'still' : ''}" aria-label="Room code ${room.code}">${[...room.code].map((ch, i) => ui.html`<span style="--i:${i}">${ch}</span>`)}</div>
+        ${isHost && LOCALHOST ? ui.html`<p class="lobby-localhost">Phones can't open this address. Run <code>npm run lan</code>, or open this page at your computer's network address.</p>` : ''}
+        ${qrInline ? ui.html`<button class="lobby-qr ${qrShown ? '' : 'enter'}" id="lb-qr-big" aria-label="Make the QR code bigger"><img class="qr" src="/qr/${room.code}.svg" width="172" height="172" alt="QR code to join room ${room.code}"></button>` : ''}
+        <div class="code-actions ${qrInline ? 'two' : ''}">
           <button class="btn btn-secondary" id="lb-share">${ui.icon('share', 18)} Invite</button>
-          <button class="btn btn-secondary" id="lb-qr">${ui.icon('qr', 18)} QR code</button>
+          ${qrInline ? '' : ui.html`<button class="btn btn-secondary" id="lb-qr">${ui.icon('qr', 18)} QR code</button>`}
           <button class="btn btn-secondary" id="lb-tv">${ui.icon('tv', 18)} Show on TV</button>
         </div>
       </section>
@@ -555,7 +563,9 @@ export function runRoom(root, opts, { navigate, menu, rules }) {
     }
 
     main.querySelector('#lb-share').addEventListener('click', () => shareSheet());
-    main.querySelector('#lb-qr').addEventListener('click', () => shareSheet(true));
+    main.querySelector(qrInline ? '#lb-qr-big' : '#lb-qr').addEventListener('click', () => shareSheet(true));
+    qrShown = qrInline;
+    for (const p of room.players) seated.add(p.id);
     main.querySelector('#lb-tv').addEventListener('click', () => showOnTv(room.code));
     main.querySelector('#lb-rules')?.addEventListener('click', () => rules(meta.id, meta.name));
     main.querySelectorAll('[data-invite]').forEach((b) => b.addEventListener('click', () => shareSheet(true)));
@@ -712,7 +722,7 @@ export function runRoom(root, opts, { navigate, menu, rules }) {
       try { await navigator.share({ title: `Join my ${game.meta.name} game`, text: `Room ${c}`, url: link }); } catch { /* cancelled */ }
     } else if (v === 'copy') {
       try {
-        await navigator.clipboard.writeText(link);
+        await ui.copyText(link);
         ui.toast('Link copied', 'info');
         ui.haptic('success');
       } catch (err) {

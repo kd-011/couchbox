@@ -732,6 +732,7 @@ input, textarea { caret-color: var(--accent); }
 }
 .code-tiles span:nth-child(2n) { transform: rotate(2deg); }
 .code-tiles span:nth-child(2n + 1) { transform: rotate(-2deg); }
+.code-tiles.still span { animation: none; }
 .code-tiles.sm span { width: 54px; height: 66px; font-size: 38px; border-radius: 15px; }
 /* Four 66px tiles need 294px; a 320px phone has 280px inside the padding. */
 @media (max-width: 359px) {
@@ -739,7 +740,16 @@ input, textarea { caret-color: var(--accent); }
   .code-tiles span { width: 56px; height: 70px; font-size: 42px; border-radius: 15px; }
 }
 @keyframes tile-in { from { opacity: 0; transform: perspective(400px) rotateX(-80deg) translateY(-10px); } }
+.lobby-qr { display: grid; padding: 6px; border: 0; border-radius: 26px; background: none; cursor: pointer; touch-action: manipulation; transition: transform 0.16s ease-out; -webkit-tap-highlight-color: transparent; }
+.lobby-qr:active { transform: scale(0.97); }
+.lobby-qr .qr { width: 172px; height: 172px; }
+.lobby-qr.enter { animation: lobby-qr-in 0.28s cubic-bezier(0.23, 1, 0.32, 1) 0.2s both; }
+@keyframes lobby-qr-in { from { opacity: 0; transform: scale(0.94); } }
+@media (prefers-reduced-motion: reduce) { .lobby-qr.enter { animation: none; } }
+.lobby-localhost { margin: 0; padding: 12px 14px; border-radius: 14px; background: var(--surface); box-shadow: inset 0 0 0 1px var(--line); font: 600 15px/1.4 var(--body); color: var(--text); }
+.lobby-localhost code { font: 700 14px ui-monospace, Menlo, Consolas, monospace; white-space: nowrap; }
 .code-actions { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; width: 100%; }
+.code-actions.two { grid-template-columns: repeat(2, 1fr); }
 .code-actions .btn { min-height: 54px; padding: 0 8px; font-size: 15px; flex-direction: column; gap: 2px; }
 .code-actions .btn .i { width: 20px; height: 20px; }
 
@@ -750,6 +760,7 @@ input, textarea { caret-color: var(--accent); }
 .lobby-count b { color: var(--good); }
 .seats { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(94px, 1fr)); gap: 10px; }
 .seat { position: relative; animation: pop-in 0.45s var(--spring) both; }
+.seat.still { animation: none; }
 .seat-btn {
   width: 100%;
   min-height: 124px;

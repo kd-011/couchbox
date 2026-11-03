@@ -37,3 +37,7 @@ The fonts are unmodified, shipped as separate files, and not sold on their own.
 - No photographs or images of real people are included. Celebrity Heads uses names only.
 - Word lists, prompts and questions (apart from the Quiz Show file above) are original writing.
 - Game names are used descriptively. Spyfall is also the name of a commercial board game; see the README before you trade under that name.
+
+## Names
+
+"Spyfall" is also the name of a commercial board game. This project uses the name descriptively for a similar idea. If you publish your own build under a product name, pick your own.

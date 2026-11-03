@@ -11,14 +11,15 @@ import { makeTts } from './lib/tts.mjs';
 import { makePacks } from './lib/packs.mjs';
 import { makeAiPackMaker } from './lib/ai-packs.mjs';
 import { makeTestHooks } from './lib/testhooks.mjs';
+import { lanAddress, lanBanner, isLoopbackHost, isPlainHttpHost } from './lib/lan.mjs';
 import { renderMarkdown } from './public/js/markdown.js';
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const PUBLIC = join(ROOT, 'public');
 const GAMES = join(ROOT, 'games');
 
-// We only listen on 127.0.0.1, so every request comes through cloudflared,
-// which sets CF-Connecting-IP to the real client address.
+// Normally we only listen on 127.0.0.1, so every request comes through cloudflared, which sets
+// CF-Connecting-IP to the real client address. With --lan the socket address is the real one.
 function clientIp(req) {
   return String(req.headers['cf-connecting-ip'] || req.socket.remoteAddress || '?');
 }
@@ -32,11 +33,16 @@ if (existsSync(envFile)) {
 }
 
 const PORT = Number(process.env.GAMES_PORT || 8969);
-const HOST = process.env.GAMES_HOST || '127.0.0.1';
+// --lan (and the party-games command) listens on the network so phones in the room can join.
+const LAN = process.argv.includes('--lan');
+const HOST = process.env.GAMES_HOST || (LAN ? '0.0.0.0' : '127.0.0.1');
 // Public URL of this site, used for canonical links, the sitemap, share
 // cards and QR codes. Unset, it is read off each request's Host header, so a
 // fresh clone and any host it is deployed to just work.
 const SITE_URL = String(process.env.GAMES_SITE_URL || '').replace(/\/+$/, '');
+// A browser on this computer has to move to the network address, or its QR codes and links say
+// localhost and no phone can open them.
+const LAN_ADDRESS = LAN ? lanAddress() : null;
 // Shown on the privacy and credits pages. Set it to your own address if you host a copy.
 const CONTACT_EMAIL = process.env.GAMES_CONTACT_EMAIL || 'games@example.com';
 
@@ -195,8 +201,9 @@ function notFound(req, res) {
 function publicOrigin(req) {
   if (SITE_URL) return SITE_URL;
   const host = String(req.headers.host || `localhost:${PORT}`).replace(/[^A-Za-z0-9.:-]/g, '');
-  const local = /^(localhost|127\.|\[::1\])/.test(host);
-  return `${local ? 'http' : 'https'}://${host}`;
+  const proto = String(req.headers['x-forwarded-proto'] || '').split(',')[0].trim();
+  if (proto === 'http' || proto === 'https') return `${proto}://${host}`;
+  return `${isPlainHttpHost(host) ? 'http' : 'https'}://${host}`;
 }
 
 function qrSvg(text) {
@@ -329,6 +336,9 @@ const REMOVED_GAMES = new Set(['kings', 'higher-lower']);
 
 const handler = (req, res) => {
   const pathname = req.url.split('?')[0];
+  if (LAN_ADDRESS && !SITE_URL && pathname !== '/healthz' && isLoopbackHost(req.headers.host)) {
+    return send(res, 302, '', { Location: `http://${LAN_ADDRESS}:${PORT}${req.url}` });
+  }
   if (testHooks && pathname.startsWith('/__test/') && testHooks(req, res, pathname, sendJson, readJsonBody)) return;
 
   // The only JSON API on the site: creating, fetching and AI-generating
@@ -498,6 +508,14 @@ setInterval(() => {
   }
 }, 20_000).unref();
 
+server.on('error', (err) => {
+  if (err.code !== 'EADDRINUSE') throw err;
+  console.error(`Port ${PORT} is already in use. Stop whatever has it, or pick another with GAMES_PORT=${PORT + 1}.`);
+  process.exit(1);
+});
+
 server.listen(PORT, HOST, () => {
   console.log(`games on http://${HOST}:${PORT} (${[...games.keys()].join(', ')})`);
+  if (LAN) console.log(lanBanner({ address: LAN_ADDRESS, port: PORT }));
+  else if (isLoopbackHost(HOST)) console.log('Only this computer can reach that. To let phones join, run: npm run lan');
 });
