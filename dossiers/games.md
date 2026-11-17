@@ -3,8 +3,8 @@ slug: games
 name: Games
 repo: .
 status: active
-last_verified: 2026-11-03
-tags: [node, websocket, pwa, party-games]
+last_verified: 2026-11-10
+tags: [node, websocket, pwa, couchbox]
 ---
 
 Free party and drinking games, played on one phone or in a room. Each claim below is pinned to the code that backs it.

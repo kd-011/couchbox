@@ -1,5 +1,5 @@
 services:
-  party-games:
+  couchbox:
     build: .
     restart: unless-stopped
     ports:

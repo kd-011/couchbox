@@ -1,4 +1,4 @@
-# Party Games
+# couchbox
 
 Free party and drinking games for adults in the same room, played on your phones with no app and no sign-up.
 
@@ -19,7 +19,7 @@ Only one phone between you? Tap Pass one phone round. It runs in the browser and
 You need Node 20 or newer.
 
 ```sh
-npx github:kd-011/party-games
+npx github:kd-011/couchbox
 ```
 
 The terminal prints an address and a QR code, and anyone on your wifi can open it. In my test, from an empty npm cache, it was serving about five seconds after the 7 MB download.
@@ -48,7 +48,7 @@ The automated browser tests run in Chromium, so Safari gets less coverage. Casti
 
 ## Contributing and licence
 
-[![CI](https://github.com/kd-011/party-games/actions/workflows/ci.yml/badge.svg)](https://github.com/kd-011/party-games/actions/workflows/ci.yml)
+[![CI](https://github.com/kd-011/couchbox/actions/workflows/ci.yml/badge.svg)](https://github.com/kd-011/couchbox/actions/workflows/ci.yml)
 
 Bug reports, packs and new games are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md). A game is one folder, with its contract in [docs/GAME-MODULES.md](docs/GAME-MODULES.md).
 

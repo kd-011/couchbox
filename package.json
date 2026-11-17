@@ -8,7 +8,7 @@
     "node": ">=20"
   },
   "bin": {
-    "party-games": "bin/party-games.mjs"
+    "couchbox": "bin/couchbox.mjs"
   },
   "files": [
     "bin",
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "qrcode-generator": "2.0.4",
-    "ws": "8.22.0"
+    "ws": "8.22.1"
   },
   "devDependencies": {
     "playwright-core": "1.64.1"

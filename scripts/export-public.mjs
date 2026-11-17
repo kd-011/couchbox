@@ -10,7 +10,8 @@
 //      diverged from origin (it fetches first),
 //   2. takes the files git tracks at REF (default main) with `git archive`, so nothing untracked
 //      (.env, data/, backups/, keystores, .shots/) can come along, drops the exclude list (EXCLUDE
-//      below, plus --exclude) and scans what is left (scripts/secret-scan.mjs),
+//      below, plus --exclude), applies the rewrites (see below) and scans what is left
+//      (scripts/secret-scan.mjs),
 //   3. replaces the checkout's tracked files with that tree (never .git), scans the staged diff
 //      against the previous public commit, makes ONE new commit on top (history is never
 //      rewritten), then scans the whole tree and every unpushed commit, message included.
@@ -26,6 +27,11 @@
 // path in scripts/export-allowlist.txt at REF (what the fixture scripts generate). Anything else aborts
 // the same way, before the commit, and exits EXIT_IMAGE_GATE with the paths on stderr, so a scheduled job
 // can ask a human to look at them instead of pushing. There is no flag to skip it.
+//
+// Some lines only make sense in the private repo, such as the maintainer's live host as a default. They
+// carry scan-allow, so the scans pass them. scripts/export-rewrites.json at REF lists each one as
+// { "path", "from", "to" } and the public copy gets `to` instead. The file itself is never exported. A
+// rewrite whose `from` does not appear exactly once refuses the export, so a moved line cannot slip out.
 //
 // --fresh keeps the original behaviour: write a brand-new one-commit repo with no remote to DIR
 // (refuses a non-empty DIR unless --force, and only ever deletes a git repo), scan the finished
@@ -69,6 +75,7 @@ export const EXCLUDE = [
   /^\.claude\//,
   /^graphify-out\//,
   /^(CLAUDE|AGENTS)\.md$/,
+  /^scripts\/export-rewrites\.json$/,
 ];
 
 export function isExcluded(rel, extra = []) {
@@ -118,6 +125,23 @@ export function readAllowlist(source, ref) {
   let body = '';
   try { body = git(source, ['show', `${ref}:${ALLOWLIST_FILE}`], { stdio: ['ignore', 'pipe', 'ignore'] }); } catch { /* no file: nothing is allowed */ }
   return new Set(body.split('\n').map((l) => l.trim()).filter((l) => l && !l.startsWith('#')));
+}
+
+export const REWRITES_FILE = 'scripts/export-rewrites.json';
+
+// Swap each private-only line in the staged tree for its public form. Errors name the file, never the text.
+function applyRewrites(stage, source, ref) {
+  let body;
+  try { body = git(source, ['show', `${ref}:${REWRITES_FILE}`], { stdio: ['ignore', 'pipe', 'ignore'] }); } catch { return 0; }
+  const rewrites = JSON.parse(body);
+  rewrites.forEach(({ path, from, to }, i) => {
+    const file = join(stage, path);
+    const text = existsSync(file) ? readFileSync(file, 'utf8') : '';
+    const matches = from ? text.split(from).length - 1 : 0;
+    if (matches !== 1) throw new Error(`rewrite ${i + 1} in ${REWRITES_FILE} matches ${path} ${matches} time(s), not once; update it to match the source`);
+    writeFileSync(file, text.replace(from, () => to));
+  });
+  return rewrites.length;
 }
 
 function requireDenylist() {
@@ -190,6 +214,8 @@ function stageTree({ source, ref, deny, exclude, log }) {
     }
     pruneEmptyDirs(stage);
     log(`omitted ${omitted.length} file(s) on the exclude list`);
+    const rewritten = applyRewrites(stage, source, ref);
+    if (rewritten) log(`applied ${rewritten} rewrite(s) from ${REWRITES_FILE}`);
 
     const denyList = loadDenylist(deny);
     const findings = scanTree(stage, { deny: denyList });

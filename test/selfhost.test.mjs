@@ -96,7 +96,7 @@ test('npm start stays on this computer and says how to let phones in', async (t)
 });
 
 test('the one-command start listens on the network and prints the address', async (t) => {
-  const { port, output } = await start(['bin/party-games.mjs'], {}, t);
+  const { port, output } = await start(['bin/couchbox.mjs'], {}, t);
   const lan = lanAddress();
   if (lan) {
     assert.ok(output().includes(`http://${lan}:${port}`), output());
@@ -132,8 +132,8 @@ test('a port already in use gets a plain sentence, not a stack trace', async (t)
 });
 
 test('npx can run it: a bin, an honest engines range, and a package holding the whole app but no test kit', () => {
-  const bin = pkg.bin?.['party-games'];
-  assert.equal(bin, 'bin/party-games.mjs');
+  const bin = pkg.bin?.['couchbox'];
+  assert.equal(bin, 'bin/couchbox.mjs');
   assert.match(read(bin), /^#!\/usr\/bin\/env node\n/);
   assert.ok(statSync(join(ROOT, bin)).mode & 0o111, 'the bin is executable');
   assert.equal(pkg.engines?.node, '>=20');
@@ -164,7 +164,7 @@ test('the README is the short one: real commands, a real gameplay GIF, reference
   assert.ok(words <= 500, `reads in about two minutes (${words} words)`);
   assert.doesNotMatch(readme, /<this repo>/, 'no placeholder in a command');
   assert.doesNotMatch(readme, /^cd games$/m, 'the public repo is not called games');
-  assert.match(readme, /npx github:kd-011\/party-games/);
+  assert.match(readme, /npx github:kd-011\/couchbox/);
   assert.match(readme, /docs\/SELF-HOSTING\.md/);
   assert.match(readme, /18\+/);
   // Above the fold: the GIF comes before the first section heading.

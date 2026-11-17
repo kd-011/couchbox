@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+The project is now called couchbox (renamed from party-games). The old GitHub URL redirects.
+
+- The command is `npx github:kd-011/couchbox`, the `bin` entry is `couchbox`, and the compose service is `couchbox`.
+
 If you host a copy, set `GAMES_CONTACT_EMAIL`: it now defaults to a placeholder. `GAMES_AI_REFERER` now defaults to nothing.
 
 ## 0.2.0

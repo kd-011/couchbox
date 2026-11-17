@@ -4,7 +4,7 @@
 
 Please do not open a public issue.
 
-Use GitHub's private vulnerability reporting: on the repository, open the Security tab and choose "Report a vulnerability" (https://github.com/kd-011/party-games/security/advisories/new). Say what you found and how to reproduce it, and leave out live credentials and real player names.
+Use GitHub's private vulnerability reporting: on the repository, open the Security tab and choose "Report a vulnerability" (https://github.com/kd-011/couchbox/security/advisories/new). Say what you found and how to reproduce it, and leave out live credentials and real player names.
 
 This is a one-person project, so there is no promised response time. Every report is read. A confirmed problem is fixed, then disclosed in the advisory.
 

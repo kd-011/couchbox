@@ -561,6 +561,53 @@ test('incremental: a landed-branch subject is listed as a plain phrase, not as a
   assert.ok(!/coder\/|mvabc123|Merge/.test(body), 'no branch name, no task id');
 });
 
+// scripts/export-rewrites.json: lines that only make sense in the private repo (the live host, say), swapped
+// for their public form. They carry scan-allow, so the scans let them through; the rewrite is what keeps them out.
+const HOST_LINE = "const CONTACT = 'games@my-private-host.invalid'; // scan-allow: the live address\n";
+const hostRewrite = (from = HOST_LINE) => JSON.stringify([{ path: 'server.mjs', from, to: "const CONTACT = 'games@example.com';\n" }]);
+
+test('incremental: a rewrite swaps a private-only line for its public form, and the rewrite file is never published', () => {
+  const { src, pub } = makePublic('rw-ok');
+  privateCommit(src, 'feat: contact default', { write: { 'server.mjs': `${HOST_LINE}console.log(CONTACT);\n`, 'scripts/export-rewrites.json': hostRewrite() } });
+  const r = updateFrom(src, pub);
+  assert.equal(r.status, 0, r.stderr + r.stdout);
+  assert.equal(readFileSync(join(pub, 'server.mjs'), 'utf8'), "const CONTACT = 'games@example.com';\nconsole.log(CONTACT);\n");
+  assert.ok(!existsSync(join(pub, 'scripts', 'export-rewrites.json')), 'the rewrite list, which holds the private lines, stays private');
+  assert.equal(git(pub, 'status', '--porcelain'), '');
+});
+
+test('--fresh applies the rewrites too', () => {
+  const src = join(work, 'rw-fresh');
+  makeRepo(src);
+  privateCommit(src, 'feat: contact default', { write: { 'server.mjs': HOST_LINE, 'scripts/export-rewrites.json': hostRewrite() } });
+  const out = join(work, 'out-rw-fresh');
+  const r = exportFrom(src, out);
+  assert.equal(r.status, 0, r.stderr + r.stdout);
+  assert.equal(readFileSync(join(out, 'server.mjs'), 'utf8'), "const CONTACT = 'games@example.com';\n");
+  assert.ok(!existsSync(join(out, 'scripts', 'export-rewrites.json')));
+});
+
+test('incremental: a rewrite that no longer matches refuses the export, changes nothing, and never prints the private line', () => {
+  const { src, pub } = makePublic('rw-stale');
+  privateCommit(src, 'feat: contact default moved', { write: { 'server.mjs': `${HOST_LINE}console.log(CONTACT);\n`, 'scripts/export-rewrites.json': hostRewrite('const CONTACT_OLD = 1;\n') } });
+  const r = updateFrom(src, pub);
+  assert.notEqual(r.status, 0);
+  assert.equal(count(pub), 1, 'nothing was committed');
+  assert.equal(git(pub, 'status', '--porcelain'), '', 'the checkout is as it was');
+  assert.match(r.stderr, /server\.mjs/);
+  assert.match(r.stderr, /export-rewrites\.json/);
+  assert.ok(!r.stderr.includes('my-private-host'), 'the error names the file, never the text');
+});
+
+test('weaken the rewrite match check: the stale rewrite publishes the private line, so the test above really guards', () => {
+  const { src, pub } = makePublic('mut-rw-stale');
+  privateCommit(src, 'feat: contact default moved', { write: { 'server.mjs': HOST_LINE, 'scripts/export-rewrites.json': hostRewrite('const CONTACT_OLD = 1;\n') } });
+  const dir = weakened('scripts-rw-stale', [['if (matches !== 1) throw', 'if (false) throw']]);
+  const r = updateFrom(src, pub, [], dir);
+  assert.equal(r.status, 0, r.stderr);
+  assert.ok(readFileSync(join(pub, 'server.mjs'), 'utf8').includes('my-private-host'));
+});
+
 // The diff scan, on its own. The staged tree is scanned before it, so through the whole pipeline a planted
 // secret is caught twice; these tests switch the other two scans off to prove the diff scan guards by itself.
 const scanLib = () => import(`${join(ROOT, 'scripts', 'secret-scan.mjs')}`);

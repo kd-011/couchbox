@@ -1,6 +1,6 @@
 # Self-hosting
 
-Party Games is one Node process: a plain `http` server plus a WebSocket endpoint at `/ws`. No database, no build step. Plain static hosting will not run it, because rooms need the WebSocket and the server builds the game list, rules pages, sitemap and QR codes.
+couchbox is one Node process: a plain `http` server plus a WebSocket endpoint at `/ws`. No database, no build step. Plain static hosting will not run it, because rooms need the WebSocket and the server builds the game list, rules pages, sitemap and QR codes.
 
 Rooms live in memory. Run exactly one instance, and expect a restart to end open rooms.
 
@@ -9,7 +9,7 @@ Rooms live in memory. Run exactly one instance, and expect a restart to end open
 You need Node 20 or newer. It is developed on Node 22 and the first-time group test has also been run on Node 20.
 
 ```sh
-npx github:kd-011/party-games
+npx github:kd-011/couchbox
 ```
 
 The terminal prints an address like `http://192.168.1.20:8969` and a QR code. Open it on any device on the same network. Anyone there can reach it while it runs, and Ctrl+C stops it.
@@ -23,8 +23,8 @@ If the phones load nothing, check for a guest wifi with client isolation or a fi
 ## With Docker
 
 ```sh
-git clone https://github.com/kd-011/party-games.git
-cd party-games
+git clone https://github.com/kd-011/couchbox.git
+cd couchbox
 docker compose up -d --build
 ```
 

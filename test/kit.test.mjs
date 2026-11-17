@@ -13,7 +13,7 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const read = (f) => readFileSync(join(ROOT, f), 'utf8');
 const WORKFLOW_DIR = join(ROOT, '.github/workflows');
 const WORKFLOWS = existsSync(WORKFLOW_DIR) ? readdirSync(WORKFLOW_DIR).filter((f) => /\.ya?ml$/.test(f)) : [];
-const GATE = "if: github.repository == 'kd-011/party-games'";
+const GATE = "if: github.repository == 'kd-011/couchbox'";
 
 // Job ids in a workflow that do not carry the gate as a job-level `if:`.
 function ungatedJobs(yaml) {
@@ -96,7 +96,7 @@ test('ci: runs the tests and the scan on push, pull request and a weekly schedul
   assert.match(y, /npm ci/);
   assert.match(y, /npm test/);
   assert.match(y, /node scripts\/secret-scan\.mjs \. --tracked/);
-  assert.match(read('README.md'), /kd-011\/party-games\/actions\/workflows\/ci\.yml\/badge\.svg/);
+  assert.match(read('README.md'), /kd-011\/couchbox\/actions\/workflows\/ci\.yml\/badge\.svg/);
 });
 
 test('upkeep: weekly link check and drift, retries, a pinned install, one issue each', () => {
@@ -116,7 +116,7 @@ test('hygiene files exist, and the security contact is private reporting, never 
     assert.ok(existsSync(join(ROOT, f)), f);
   }
   for (const f of ['SECURITY.md', 'CODE_OF_CONDUCT.md']) {
-    assert.match(read(f), /kd-011\/party-games\/security\/advisories\/new/, f);
+    assert.match(read(f), /kd-011\/couchbox\/security\/advisories\/new/, f);
     assert.doesNotMatch(read(f), /[\w.+-]+@[\w-]+\.[\w.]+/, `no email address in ${f}`);
   }
   assert.match(read('SECURITY.md'), /private vulnerability reporting/i);

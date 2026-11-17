@@ -15,7 +15,7 @@ permissions:
 jobs:
   test:
     # This file also lives in the private source, where Actions minutes are capped.
-    if: github.repository == 'kd-011/party-games'
+    if: github.repository == 'kd-011/couchbox'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:

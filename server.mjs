@@ -33,7 +33,7 @@ if (existsSync(envFile)) {
 }
 
 const PORT = Number(process.env.GAMES_PORT || 8969);
-// --lan (and the party-games command) listens on the network so phones in the room can join.
+// --lan (and the couchbox command) listens on the network so phones in the room can join.
 const LAN = process.argv.includes('--lan');
 const HOST = process.env.GAMES_HOST || (LAN ? '0.0.0.0' : '127.0.0.1');
 // Public URL of this site, used for canonical links, the sitemap, share

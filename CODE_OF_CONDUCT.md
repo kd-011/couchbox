@@ -32,7 +32,7 @@ This applies in all project spaces and when someone is officially representing t
 
 ## Reporting
 
-Report unacceptable behaviour privately to the maintainers through a GitHub security advisory on this repository (the Security tab, "Report a vulnerability": https://github.com/kd-011/party-games/security/advisories/new). Mark it as a conduct report, not a vulnerability. All reports are reviewed and handled with respect for the privacy and security of the reporter.
+Report unacceptable behaviour privately to the maintainers through a GitHub security advisory on this repository (the Security tab, "Report a vulnerability": https://github.com/kd-011/couchbox/security/advisories/new). Mark it as a conduct report, not a vulnerability. All reports are reviewed and handled with respect for the privacy and security of the reporter.
 
 ## Attribution
 
