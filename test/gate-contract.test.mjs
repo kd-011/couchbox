@@ -5,6 +5,7 @@ import assert from 'node:assert/strict';
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { join } from 'node:path';
+import { isExcluded } from '../scripts/export-public.mjs';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const contract = JSON.parse(readFileSync(join(ROOT, '.cortex-gate.json'), 'utf8'));
@@ -18,8 +19,10 @@ test('the gate contract names a test runner, a mutation tool, the journeys and a
 });
 
 test('every risky path and mutation path points at something real', () => {
-  for (const p of contract.riskyPaths.filter((x) => !x.includes('*'))) assert.ok(existsSync(join(ROOT, p)), `riskyPaths: ${p} does not exist`);
+  // Paths the export leaves out are checked in test/private-source.test.mjs.
+  for (const p of contract.riskyPaths.filter((x) => !x.includes('*') && !isExcluded(x))) assert.ok(existsSync(join(ROOT, p)), `riskyPaths: ${p} does not exist`);
   for (const p of contract.mutationPaths.filter((x) => !x.includes('*'))) assert.ok(existsSync(join(ROOT, p)), `mutationPaths: ${p} does not exist`);
+  assert.ok(isExcluded('test/private-source.test.mjs'), 'the paths skipped above are checked in test/private-source.test.mjs, which the export drops');
   for (const p of ['lib/rooms.mjs', 'lib/ai-packs.mjs', 'lib/packs.mjs', 'lib/ratelimit.mjs']) assert.ok(contract.riskyPaths.includes(p), `${p} is money, abuse or data and must stay risky`);
 });
 

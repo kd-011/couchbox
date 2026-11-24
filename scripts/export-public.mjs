@@ -69,6 +69,7 @@ export function exportIdentity(author = null, env = process.env) {
 
 // Paths (relative, forward slashes) that never go into a public copy, on top of the
 // scanner's FORBIDDEN_PATHS (.env, data/, backups/, .shots/, keystores, databases).
+// test/private-source.test.mjs holds the checks that need these private files, so it is left out as well.
 // Old screenshot sets were dropped from main; they stay listed so an export of an older ref cannot bring them back.
 export const EXCLUDE = [
   /^docs\/ui-pass-2026-10\//,
@@ -76,6 +77,7 @@ export const EXCLUDE = [
   /^graphify-out\//,
   /^(CLAUDE|AGENTS)\.md$/,
   /^scripts\/export-rewrites\.json$/,
+  /^test\/private-source\.test\.mjs$/,
 ];
 
 export function isExcluded(rel, extra = []) {

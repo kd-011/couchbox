@@ -275,18 +275,18 @@
           "text": "This file is private: the public export drops it, so it may name the live host and the estate. Every other doc in the repo ships to the public copy.",
           "line": 13,
           "specs": [
-            "scripts/export-public.mjs:73-79"
+            "scripts/export-public.mjs:74-81"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "scripts/export-public.mjs": {
               "path": "scripts/export-public.mjs",
-              "blob": "6026bd977fe4c1690a9f43bee46cf4b4432170ff",
-              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "blob": "ba5545b65423acb569e8009fb1713b511c56474a",
+              "commit": "2c180f269849f252853c1a7c922114823235c439",
               "range": {
-                "start": 73,
-                "end": 79,
-                "hash": "3acd09ce3b0220f86e800cbee64def53f9b47b12"
+                "start": 74,
+                "end": 81,
+                "hash": "14f8d8b7fb313ce98bb67307ed1f70529554afcc"
               }
             }
           }
@@ -298,7 +298,7 @@
             "CONTRIBUTING.md:7-12",
             "package.json#scripts.deps"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "CONTRIBUTING.md": {
               "path": "CONTRIBUTING.md",
@@ -329,7 +329,7 @@
             "package.json#scripts.start",
             "server.mjs:35-38"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "package.json#scripts.start": {
               "path": "package.json",
@@ -360,7 +360,7 @@
             "package.json#scripts.lan",
             "server.mjs:517-521"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "package.json#scripts.lan": {
               "path": "package.json",
@@ -390,7 +390,7 @@
           "specs": [
             "package.json#scripts.test"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "package.json#scripts.test": {
               "path": "package.json",
@@ -410,7 +410,7 @@
           "specs": [
             ".cortex-gate.json#testFiles"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             ".cortex-gate.json#testFiles": {
               "path": ".cortex-gate.json",
@@ -431,7 +431,7 @@
             "e2e/journeys.md:14",
             ".cortex-gate.json#e2e"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "e2e/journeys.md": {
               "path": "e2e/journeys.md",
@@ -461,7 +461,7 @@
           "specs": [
             "package.json#scripts.e2e"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "package.json#scripts.e2e": {
               "path": "package.json",
@@ -481,7 +481,7 @@
           "specs": [
             "stryker.config.mjs:1-10"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "stryker.config.mjs": {
               "path": "stryker.config.mjs",
@@ -501,7 +501,7 @@
           "specs": [
             "package.json#scripts.scan"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "package.json#scripts.scan": {
               "path": "package.json",
@@ -521,7 +521,7 @@
           "specs": [
             "package.json#scripts.canary"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "package.json#scripts.canary": {
               "path": "package.json",
@@ -541,7 +541,7 @@
           "specs": [
             "lib/plays.mjs:1-12"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "lib/plays.mjs": {
               "path": "lib/plays.mjs",
@@ -562,7 +562,7 @@
             "package.json#scripts.export",
             "scripts/export-public.mjs:1-23"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "package.json#scripts.export": {
               "path": "package.json",
@@ -576,8 +576,8 @@
             },
             "scripts/export-public.mjs": {
               "path": "scripts/export-public.mjs",
-              "blob": "6026bd977fe4c1690a9f43bee46cf4b4432170ff",
-              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "blob": "ba5545b65423acb569e8009fb1713b511c56474a",
+              "commit": "2c180f269849f252853c1a7c922114823235c439",
               "range": {
                 "start": 1,
                 "end": 23,
@@ -593,7 +593,7 @@
             "package.json#devDependencies",
             "package.json#type"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "package.json#devDependencies": {
               "path": "package.json",
@@ -624,7 +624,7 @@
             "lib/registry.mjs:1-3",
             "docs/GAME-MODULES.md:9-16"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "lib/registry.mjs": {
               "path": "lib/registry.mjs",
@@ -655,7 +655,7 @@
             "docs/GAME-MODULES.md:40-43",
             "games/_kit/runtime.js:1-4"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "docs/GAME-MODULES.md": {
               "path": "docs/GAME-MODULES.md",
@@ -685,7 +685,7 @@
           "specs": [
             "CONTRIBUTING.md:26"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "CONTRIBUTING.md": {
               "path": "CONTRIBUTING.md",
@@ -706,7 +706,7 @@
             "games/_kit/drinks.js:1-17",
             "CONTRIBUTING.md:28"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "games/_kit/drinks.js": {
               "path": "games/_kit/drinks.js",
@@ -737,7 +737,7 @@
             "CONTRIBUTING.md:25",
             "server.mjs:67-69"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "CONTRIBUTING.md": {
               "path": "CONTRIBUTING.md",
@@ -767,7 +767,7 @@
           "specs": [
             "package.json#dependencies"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "package.json#dependencies": {
               "path": "package.json",
@@ -787,7 +787,7 @@
           "specs": [
             "public/sw.js:1-4"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "public/sw.js": {
               "path": "public/sw.js",
@@ -807,7 +807,7 @@
           "specs": [
             "public/kit/kit.css:1-3"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "public/kit/kit.css": {
               "path": "public/kit/kit.css",
@@ -827,7 +827,7 @@
           "specs": [
             "CONTRIBUTING.md:19"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "CONTRIBUTING.md": {
               "path": "CONTRIBUTING.md",
@@ -841,40 +841,71 @@
             }
           }
         },
-        "ae7c33bb8b41": {
+        "c8233c528821": {
           "text": "The public export (`kd-011/couchbox`) ships every tracked file except a short exclude list (`AGENTS.md`, `CLAUDE.md`, `.claude/`, `scripts/export-rewrites.js...",
           "line": 45,
           "specs": [
-            "scripts/export-public.mjs:70-79"
+            "scripts/export-public.mjs:70-81"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "scripts/export-public.mjs": {
               "path": "scripts/export-public.mjs",
-              "blob": "6026bd977fe4c1690a9f43bee46cf4b4432170ff",
-              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "blob": "ba5545b65423acb569e8009fb1713b511c56474a",
+              "commit": "2c180f269849f252853c1a7c922114823235c439",
               "range": {
                 "start": 70,
-                "end": 79,
-                "hash": "630f26429acb0f2d486da9898e6d67546bd68b07"
+                "end": 81,
+                "hash": "60528389acd2204e12a2bc0de76f41bc13a739eb"
+              }
+            }
+          }
+        },
+        "a879e98ea240": {
+          "text": "The public repo runs `npm test` on the exported tree, so a test that needs an excluded or `export-ignore` file fails there. Such checks go in `test/private-s...",
+          "line": 46,
+          "specs": [
+            "test/private-source.test.mjs:1-2",
+            "scripts/export-public.mjs:80"
+          ],
+          "head": "2c180f269849f252853c1a7c922114823235c439",
+          "files": {
+            "test/private-source.test.mjs": {
+              "path": "test/private-source.test.mjs",
+              "blob": "c64ac322936891763783eb0404610be199ac39c3",
+              "commit": "2c180f269849f252853c1a7c922114823235c439",
+              "range": {
+                "start": 1,
+                "end": 2,
+                "hash": "274c37026743e558881375bfe51f645e43cf82e4"
+              }
+            },
+            "scripts/export-public.mjs": {
+              "path": "scripts/export-public.mjs",
+              "blob": "ba5545b65423acb569e8009fb1713b511c56474a",
+              "commit": "2c180f269849f252853c1a7c922114823235c439",
+              "range": {
+                "start": 80,
+                "end": 80,
+                "hash": "193b12957cbbc71b3db27bdc1173cf8bdacbcd07"
               }
             }
           }
         },
         "9647330115c0": {
           "text": "The export scans everything it ships against a denylist (the live domain, email, home path) and refuses on any hit. A line that has to name the live host car...",
-          "line": 46,
+          "line": 47,
           "specs": [
             "scripts/export-public.mjs:31-34",
             "scripts/export-public.mjs:45-48",
             "scripts/secret-scan.mjs:20-21"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "scripts/export-public.mjs": {
               "path": "scripts/export-public.mjs",
-              "blob": "6026bd977fe4c1690a9f43bee46cf4b4432170ff",
-              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "blob": "ba5545b65423acb569e8009fb1713b511c56474a",
+              "commit": "2c180f269849f252853c1a7c922114823235c439",
               "range": {
                 "start": 31,
                 "end": 34,
@@ -883,8 +914,8 @@
             },
             "scripts/export-public.mjs:45-48": {
               "path": "scripts/export-public.mjs",
-              "blob": "6026bd977fe4c1690a9f43bee46cf4b4432170ff",
-              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "blob": "ba5545b65423acb569e8009fb1713b511c56474a",
+              "commit": "2c180f269849f252853c1a7c922114823235c439",
               "range": {
                 "start": 45,
                 "end": 48,
@@ -905,17 +936,17 @@
         },
         "a959e2f94b5d": {
           "text": "A new or changed image or binary stops the export unless its exact path is in `scripts/export-allowlist.txt`.",
-          "line": 47,
+          "line": 48,
           "specs": [
             "scripts/export-public.mjs:25-29",
             "scripts/export-allowlist.txt:1-5"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "scripts/export-public.mjs": {
               "path": "scripts/export-public.mjs",
-              "blob": "6026bd977fe4c1690a9f43bee46cf4b4432170ff",
-              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "blob": "ba5545b65423acb569e8009fb1713b511c56474a",
+              "commit": "2c180f269849f252853c1a7c922114823235c439",
               "range": {
                 "start": 25,
                 "end": 29,
@@ -936,12 +967,12 @@
         },
         "0ba40de3c7cc": {
           "text": "Pull requests on the public repo are never merged there: a change is applied here and reaches public `main` with the next export, which refuses a checkout th...",
-          "line": 48,
+          "line": 49,
           "specs": [
             "CONTRIBUTING.md:39",
             "scripts/export-public.mjs:8-10"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "CONTRIBUTING.md": {
               "path": "CONTRIBUTING.md",
@@ -955,8 +986,8 @@
             },
             "scripts/export-public.mjs": {
               "path": "scripts/export-public.mjs",
-              "blob": "6026bd977fe4c1690a9f43bee46cf4b4432170ff",
-              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "blob": "ba5545b65423acb569e8009fb1713b511c56474a",
+              "commit": "2c180f269849f252853c1a7c922114823235c439",
               "range": {
                 "start": 8,
                 "end": 10,
@@ -967,12 +998,12 @@
         },
         "e96e8e6e870f": {
           "text": "The public repo's weekly upkeep runs `dossier-scribe lint` and `check --fail-on stale,broken` on `dossiers/`, which in the public copy holds only `games.md`....",
-          "line": 49,
+          "line": 50,
           "specs": [
             ".github/workflows/upkeep.yml:65-74",
             "scripts/export-public.mjs:31-34"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             ".github/workflows/upkeep.yml": {
               "path": ".github/workflows/upkeep.yml",
@@ -986,8 +1017,8 @@
             },
             "scripts/export-public.mjs": {
               "path": "scripts/export-public.mjs",
-              "blob": "6026bd977fe4c1690a9f43bee46cf4b4432170ff",
-              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "blob": "ba5545b65423acb569e8009fb1713b511c56474a",
+              "commit": "2c180f269849f252853c1a7c922114823235c439",
               "range": {
                 "start": 31,
                 "end": 34,
@@ -998,12 +1029,12 @@
         },
         "602b6d9b6307": {
           "text": "The pin links in `dossiers/` (`agents.md`, `prd.md`, `architecture.md`, `brand.md`) are `export-ignore` in `.gitattributes`: `agents.md` points at this priva...",
-          "line": 50,
+          "line": 51,
           "specs": [
             ".gitattributes",
-            "scripts/export-public.mjs:357-358"
+            "scripts/export-public.mjs:359-360"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             ".gitattributes": {
               "path": ".gitattributes",
@@ -1012,11 +1043,11 @@
             },
             "scripts/export-public.mjs": {
               "path": "scripts/export-public.mjs",
-              "blob": "6026bd977fe4c1690a9f43bee46cf4b4432170ff",
-              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "blob": "ba5545b65423acb569e8009fb1713b511c56474a",
+              "commit": "2c180f269849f252853c1a7c922114823235c439",
               "range": {
-                "start": 357,
-                "end": 358,
+                "start": 359,
+                "end": 360,
                 "hash": "b5ed940b2a34c057a0a8e4666e1e9e5b4b961c97"
               }
             }
@@ -1024,11 +1055,11 @@
         },
         "0693d4816d08": {
           "text": "CI and upkeep only run on the public repository (`if: github.repository == 'kd-011/couchbox'`), so nothing runs in Actions here.",
-          "line": 51,
+          "line": 52,
           "specs": [
             ".github/workflows/ci.yml:17-18"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             ".github/workflows/ci.yml": {
               "path": ".github/workflows/ci.yml",
@@ -1044,12 +1075,12 @@
         },
         "b2dd13fc77e3": {
           "text": "Rooms live in process memory: a restart or deploy ends every open room.",
-          "line": 52,
+          "line": 53,
           "specs": [
             "lib/rooms.mjs:1",
             "server.mjs:67-69"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "lib/rooms.mjs": {
               "path": "lib/rooms.mjs",
@@ -1075,12 +1106,12 @@
         },
         "4b33f8b4d6c7": {
           "text": "Rate limits and the per-IP socket cap key on `CF-Connecting-IP`, then the socket address. Never expose the port directly, or that header can be spoofed.",
-          "line": 53,
+          "line": 54,
           "specs": [
             "server.mjs:21-25",
             "docs/SELF-HOSTING.md:38-40"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "server.mjs": {
               "path": "server.mjs",
@@ -1106,12 +1137,12 @@
         },
         "269c3c10386b": {
           "text": "`GAMES_TEST_HOOKS=1` exposes every room's secrets at `/__test/`. QA servers only, never production.",
-          "line": 54,
+          "line": 55,
           "specs": [
             "lib/testhooks.mjs:1-6",
             "server.mjs:97"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "lib/testhooks.mjs": {
               "path": "lib/testhooks.mjs",
@@ -1137,12 +1168,12 @@
         },
         "840b1d53c428": {
           "text": "The live site holds port 8969 on the operator's PC, so `npm start` in a worktree there exits with \"already in use\". Use `node e2e/preview.mjs` (spare port, s...",
-          "line": 55,
+          "line": 56,
           "specs": [
             "server.mjs:511-515",
             "e2e/preview.mjs:1-7"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "server.mjs": {
               "path": "server.mjs",
@@ -1168,11 +1199,11 @@
         },
         "bb45b4dc065c": {
           "text": "A `.env` next to `server.mjs` is loaded at start but never overrides a variable already set.",
-          "line": 56,
+          "line": 57,
           "specs": [
             "server.mjs:27-33"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "server.mjs": {
               "path": "server.mjs",
@@ -1188,11 +1219,11 @@
         },
         "d7e8aee323d3": {
           "text": "The browser suites compete for CPU and time out when run together: run them one at a time.",
-          "line": 57,
+          "line": 58,
           "specs": [
             "CONTRIBUTING.md:14"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "CONTRIBUTING.md": {
               "path": "CONTRIBUTING.md",
@@ -1208,11 +1239,11 @@
         },
         "062e67bf51d3": {
           "text": "Stryker skips the tests that read `git ls-files`, because its sandbox has no `.git`.",
-          "line": 58,
+          "line": 59,
           "specs": [
             "stryker.config.mjs:13-16"
           ],
-          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "head": "2c180f269849f252853c1a7c922114823235c439",
           "files": {
             "stryker.config.mjs": {
               "path": "stryker.config.mjs",
@@ -1227,8 +1258,8 @@
           }
         }
       },
-      "pinnedAt": "2026-11-23T23:58:49.763Z",
-      "head": "dea42f2cad608377d9472a8c8882f996cc789274"
+      "pinnedAt": "2026-11-24T02:06:03.193Z",
+      "head": "2c180f269849f252853c1a7c922114823235c439"
     },
     "games-prd": {
       "claims": {
