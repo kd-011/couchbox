@@ -1,0 +1,31 @@
+{
+  "testFiles": "node --test {files}",
+  "mutation": "npx --yes -p @stryker-mutator/core@10 stryker run --incremental --mutate {ranges}",
+  "mutationPaths": [
+    "server.mjs",
+    "lib/**/*.mjs",
+    "games/_kit/*.js",
+    "public/js/net.js"
+  ],
+  "e2e": "node --test --test-concurrency=1 e2e/*.spec.mjs",
+  "preview": "node e2e/preview.mjs",
+  "riskyPaths": [
+    "lib/rooms.mjs",
+    "lib/ai-packs.mjs",
+    "lib/packs.mjs",
+    "lib/ratelimit.mjs",
+    "lib/hostbox.mjs",
+    "lib/plays.mjs",
+    "server.mjs",
+    "public/js/net.js",
+    "public/js/pass.js",
+    "games/_kit/drinks.js",
+    "Dockerfile",
+    "compose.yaml",
+    ".env.example",
+    ".github/workflows/**",
+    "scripts/export-public.mjs",
+    "scripts/export-rewrites.json",
+    "scripts/secret-scan.mjs"
+  ]
+}

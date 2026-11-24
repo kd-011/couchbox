@@ -1,0 +1,7 @@
+# The dossier-scribe pin links stay out of git archive, so out of the public export: agents.md points at the
+# private AGENTS.md, and scripts/export-public.mjs copies the tree with cpSync, which turns a relative link
+# into an absolute path inside its temp folder. Pinning runs in the private source only.
+dossiers/agents.md export-ignore
+dossiers/architecture.md export-ignore
+dossiers/brand.md export-ignore
+dossiers/prd.md export-ignore

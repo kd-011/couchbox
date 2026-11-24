@@ -13,7 +13,7 @@
 //
 // Separately: the home (cards, Surprise me, Party Night, join, TV link) and every shipped game's `/games/<id>`
 // rules page are loaded and checked for a real render.
-import { chromium } from 'playwright-core';
+import { launchChromium } from './ensure-browser.mjs';
 import { readdirSync } from 'node:fs';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { join } from 'node:path';
@@ -28,7 +28,10 @@ const PHONE = { viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, has
 const TV = { viewport: { width: 1440, height: 900 } };
 const t0 = Date.now();
 const results = [];
-const browser = await chromium.launch();
+const browser = await launchChromium().catch((e) => {
+  console.error(e.message.split('\n')[0]);
+  process.exit(1);
+});
 
 async function newPage(opts, label, errors) {
   const ctx = await browser.newContext(opts);

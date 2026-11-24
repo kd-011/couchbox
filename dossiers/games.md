@@ -3,7 +3,7 @@ slug: games
 name: Games
 repo: .
 status: active
-last_verified: 2026-11-10
+last_verified: 2026-11-23
 tags: [node, websocket, pwa, couchbox]
 ---
 

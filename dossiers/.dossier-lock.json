@@ -9,12 +9,12 @@
           "specs": [
             "lib/rooms.mjs:59-60"
           ],
-          "head": "0b8757f5382132c83a01792e0fe9c4eeaf8bfdb6",
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
           "files": {
             "lib/rooms.mjs": {
               "path": "lib/rooms.mjs",
               "blob": "ee5a687bd05a2377c34d71099f47d0b38f5ce966",
-              "commit": "0b8757f5382132c83a01792e0fe9c4eeaf8bfdb6",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
               "range": {
                 "start": 59,
                 "end": 60,
@@ -29,12 +29,12 @@
           "specs": [
             "lib/rooms.mjs:114"
           ],
-          "head": "0b8757f5382132c83a01792e0fe9c4eeaf8bfdb6",
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
           "files": {
             "lib/rooms.mjs": {
               "path": "lib/rooms.mjs",
               "blob": "ee5a687bd05a2377c34d71099f47d0b38f5ce966",
-              "commit": "0b8757f5382132c83a01792e0fe9c4eeaf8bfdb6",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
               "range": {
                 "start": 114,
                 "end": 114,
@@ -49,12 +49,12 @@
           "specs": [
             "public/js/pass.js:26-34"
           ],
-          "head": "0b8757f5382132c83a01792e0fe9c4eeaf8bfdb6",
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
           "files": {
             "public/js/pass.js": {
               "path": "public/js/pass.js",
               "blob": "e9e008c1d1a9d163e1feacb49c6af12ec7e47d61",
-              "commit": "0b8757f5382132c83a01792e0fe9c4eeaf8bfdb6",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
               "range": {
                 "start": 26,
                 "end": 34,
@@ -69,7 +69,7 @@
           "specs": [
             "lib/registry.mjs:1-3"
           ],
-          "head": "0b8757f5382132c83a01792e0fe9c4eeaf8bfdb6",
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
           "files": {
             "lib/registry.mjs": {
               "path": "lib/registry.mjs",
@@ -89,12 +89,12 @@
           "specs": [
             "public/js/ui.js:374-375"
           ],
-          "head": "0b8757f5382132c83a01792e0fe9c4eeaf8bfdb6",
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
           "files": {
             "public/js/ui.js": {
               "path": "public/js/ui.js",
               "blob": "6a07580d0944ad748786ba52d72f9f8ad071c739",
-              "commit": "0b8757f5382132c83a01792e0fe9c4eeaf8bfdb6",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
               "range": {
                 "start": 374,
                 "end": 375,
@@ -109,12 +109,12 @@
           "specs": [
             "server.mjs:83-85"
           ],
-          "head": "0b8757f5382132c83a01792e0fe9c4eeaf8bfdb6",
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
           "files": {
             "server.mjs": {
               "path": "server.mjs",
               "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
-              "commit": "0b8757f5382132c83a01792e0fe9c4eeaf8bfdb6",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
               "range": {
                 "start": 83,
                 "end": 85,
@@ -130,12 +130,12 @@
             "LICENSE:1-3",
             "THIRD_PARTY_NOTICES.md:10"
           ],
-          "head": "0b8757f5382132c83a01792e0fe9c4eeaf8bfdb6",
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
           "files": {
             "LICENSE": {
               "path": "LICENSE",
               "blob": "017a3dc11f5bd2f877b6dd3a9cb87eeadd26d5d8",
-              "commit": "0b8757f5382132c83a01792e0fe9c4eeaf8bfdb6",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
               "range": {
                 "start": 1,
                 "end": 3,
@@ -160,12 +160,12 @@
           "specs": [
             "server.mjs:35-38"
           ],
-          "head": "0b8757f5382132c83a01792e0fe9c4eeaf8bfdb6",
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
           "files": {
             "server.mjs": {
               "path": "server.mjs",
               "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
-              "commit": "0b8757f5382132c83a01792e0fe9c4eeaf8bfdb6",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
               "range": {
                 "start": 35,
                 "end": 38,
@@ -180,12 +180,12 @@
           "specs": [
             "server.mjs:24"
           ],
-          "head": "0b8757f5382132c83a01792e0fe9c4eeaf8bfdb6",
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
           "files": {
             "server.mjs": {
               "path": "server.mjs",
               "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
-              "commit": "0b8757f5382132c83a01792e0fe9c4eeaf8bfdb6",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
               "range": {
                 "start": 24,
                 "end": 24,
@@ -200,12 +200,12 @@
           "specs": [
             "server.mjs:466"
           ],
-          "head": "0b8757f5382132c83a01792e0fe9c4eeaf8bfdb6",
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
           "files": {
             "server.mjs": {
               "path": "server.mjs",
               "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
-              "commit": "0b8757f5382132c83a01792e0fe9c4eeaf8bfdb6",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
               "range": {
                 "start": 466,
                 "end": 466,
@@ -221,7 +221,7 @@
             ".github/workflows/ci.yml:18",
             ".github/workflows/ci.yml:27-30"
           ],
-          "head": "0b8757f5382132c83a01792e0fe9c4eeaf8bfdb6",
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
           "files": {
             ".github/workflows/ci.yml": {
               "path": ".github/workflows/ci.yml",
@@ -251,7 +251,7 @@
           "specs": [
             "SECURITY.md:3-7"
           ],
-          "head": "0b8757f5382132c83a01792e0fe9c4eeaf8bfdb6",
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
           "files": {
             "SECURITY.md": {
               "path": "SECURITY.md",
@@ -266,8 +266,3228 @@
           }
         }
       },
-      "pinnedAt": "2026-11-10T02:06:59.775Z",
-      "head": "0b8757f5382132c83a01792e0fe9c4eeaf8bfdb6"
+      "pinnedAt": "2026-11-23T23:58:49.827Z",
+      "head": "dea42f2cad608377d9472a8c8882f996cc789274"
+    },
+    "games-agents": {
+      "claims": {
+        "dca4ea5b1797": {
+          "text": "This file is private: the public export drops it, so it may name the live host and the estate. Every other doc in the repo ships to the public copy.",
+          "line": 13,
+          "specs": [
+            "scripts/export-public.mjs:73-79"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "scripts/export-public.mjs": {
+              "path": "scripts/export-public.mjs",
+              "blob": "6026bd977fe4c1690a9f43bee46cf4b4432170ff",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 73,
+                "end": 79,
+                "hash": "3acd09ce3b0220f86e800cbee64def53f9b47b12"
+              }
+            }
+          }
+        },
+        "d5bde65fe1b2": {
+          "text": "Install for development: `npm install`. Production installs use `npm run deps`, which is `npm ci --no-audit --no-fund`.",
+          "line": 17,
+          "specs": [
+            "CONTRIBUTING.md:7-12",
+            "package.json#scripts.deps"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "CONTRIBUTING.md": {
+              "path": "CONTRIBUTING.md",
+              "blob": "6a5df2111d8bf917746c0fc62684634cd55a1edf",
+              "commit": "287c8df9b649f05eb466775eec09f947e0e99c58",
+              "range": {
+                "start": 7,
+                "end": 12,
+                "hash": "4a4fc38e98dc04870c6d2081a77f9b0cf5b0e7c7"
+              }
+            },
+            "package.json#scripts.deps": {
+              "path": "package.json",
+              "blob": "017c92e52241aff871c658d40f11af6af9f4a5a1",
+              "commit": "a4d4adaae2c776ed7d534b9b234650558a61b636",
+              "jsonKey": {
+                "key": "scripts.deps",
+                "hash": "79a7b4ff16cc79ecaaced50abda381ce448d17f6",
+                "value": "\"npm ci --no-audit --no-fund\""
+              }
+            }
+          }
+        },
+        "db000f2a3c07": {
+          "text": "Run on this computer only: `npm start` (`node server.mjs`, 127.0.0.1:8969).",
+          "line": 18,
+          "specs": [
+            "package.json#scripts.start",
+            "server.mjs:35-38"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "package.json#scripts.start": {
+              "path": "package.json",
+              "blob": "017c92e52241aff871c658d40f11af6af9f4a5a1",
+              "commit": "a4d4adaae2c776ed7d534b9b234650558a61b636",
+              "jsonKey": {
+                "key": "scripts.start",
+                "hash": "c6d80dbb9a199eb15a415b84517d57c481d9e5d3",
+                "value": "\"node server.mjs\""
+              }
+            },
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 35,
+                "end": 38,
+                "hash": "9d96187c3b8d798a61946ec8e3bd9eca09a2e15b"
+              }
+            }
+          }
+        },
+        "4e09f93da758": {
+          "text": "Run reachable from phones on the network: `npm run lan` (adds `--lan`, binds 0.0.0.0 and prints the address and a QR code).",
+          "line": 19,
+          "specs": [
+            "package.json#scripts.lan",
+            "server.mjs:517-521"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "package.json#scripts.lan": {
+              "path": "package.json",
+              "blob": "017c92e52241aff871c658d40f11af6af9f4a5a1",
+              "commit": "a4d4adaae2c776ed7d534b9b234650558a61b636",
+              "jsonKey": {
+                "key": "scripts.lan",
+                "hash": "6d1bd70208e454d8e30cdb341d47b443702aa3a5",
+                "value": "\"node server.mjs --lan\""
+              }
+            },
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 517,
+                "end": 521,
+                "hash": "0eba928c44c40c3d2baf94dad05780f3e999e21c"
+              }
+            }
+          }
+        },
+        "bd831d2b60a3": {
+          "text": "Unit and contract tests, no browser: `npm test` (`node --test` over `test/` and every `games/**/*.test.mjs`).",
+          "line": 20,
+          "specs": [
+            "package.json#scripts.test"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "package.json#scripts.test": {
+              "path": "package.json",
+              "blob": "017c92e52241aff871c658d40f11af6af9f4a5a1",
+              "commit": "a4d4adaae2c776ed7d534b9b234650558a61b636",
+              "jsonKey": {
+                "key": "scripts.test",
+                "hash": "56de70f73f57e57c3b704ecc7a42940a93c1b1d6",
+                "value": "\"node --test 'test/**/*.test.mjs' 'games/**/*.test.mjs'\""
+              }
+            }
+          }
+        },
+        "7707b53516a3": {
+          "text": "One test file while iterating: `node --test test/rooms.test.mjs` (the gate's revert check runs files the same way).",
+          "line": 21,
+          "specs": [
+            ".cortex-gate.json#testFiles"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            ".cortex-gate.json#testFiles": {
+              "path": ".cortex-gate.json",
+              "blob": "03504385d5533606e3b217601a67c2d2c42e9b33",
+              "commit": "66aefaa7e14f39d93249a34cf93e1df29cd4c194",
+              "jsonKey": {
+                "key": "testFiles",
+                "hash": "1620668fb7ef2abb7c79aea2ab07f4464c825016",
+                "value": "\"node --test {files}\""
+              }
+            }
+          }
+        },
+        "2b46aa22bdf3": {
+          "text": "Golden journeys: `node e2e/preview.mjs` prints `PREVIEW_URL=...`, then `PREVIEW_URL=<it> node --test --test-concurrency=1 e2e/*.spec.mjs`. Needs a Chromium t...",
+          "line": 22,
+          "specs": [
+            "e2e/journeys.md:14",
+            ".cortex-gate.json#e2e"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "e2e/journeys.md": {
+              "path": "e2e/journeys.md",
+              "blob": "161ee691f1ac33718f167974b45f012c2d771e01",
+              "commit": "66aefaa7e14f39d93249a34cf93e1df29cd4c194",
+              "range": {
+                "start": 14,
+                "end": 14,
+                "hash": "ed2a28e0a8f837ce3e2a1e781862075ce1dcd2ad"
+              }
+            },
+            ".cortex-gate.json#e2e": {
+              "path": ".cortex-gate.json",
+              "blob": "03504385d5533606e3b217601a67c2d2c42e9b33",
+              "commit": "66aefaa7e14f39d93249a34cf93e1df29cd4c194",
+              "jsonKey": {
+                "key": "e2e",
+                "hash": "af204ee3c17a9ef5ca4c7bffcea34a4120f4c891",
+                "value": "\"node --test --test-concurrency=1 e2e/*.spec.mjs\""
+              }
+            }
+          }
+        },
+        "9fcca6ce3037": {
+          "text": "Play every game in a real browser: `npm run e2e` (`node e2e/play.mjs`).",
+          "line": 23,
+          "specs": [
+            "package.json#scripts.e2e"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "package.json#scripts.e2e": {
+              "path": "package.json",
+              "blob": "017c92e52241aff871c658d40f11af6af9f4a5a1",
+              "commit": "a4d4adaae2c776ed7d534b9b234650558a61b636",
+              "jsonKey": {
+                "key": "scripts.e2e",
+                "hash": "43f21eac22e4758151e480302f508057f2da4987",
+                "value": "\"node e2e/play.mjs\""
+              }
+            }
+          }
+        },
+        "d05e4591c1ce": {
+          "text": "Mutation testing by hand: `npx --yes -p @stryker-mutator/core@10 stryker run --mutate lib/rooms.mjs:10-40`. Stryker is fetched by npx, not a dependency.",
+          "line": 24,
+          "specs": [
+            "stryker.config.mjs:1-10"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "stryker.config.mjs": {
+              "path": "stryker.config.mjs",
+              "blob": "cca2480f1c779e569917b013a6885d713949b384",
+              "commit": "66aefaa7e14f39d93249a34cf93e1df29cd4c194",
+              "range": {
+                "start": 1,
+                "end": 10,
+                "hash": "7605c3b490384811f762f0cfbd0d1cc6b70f52cf"
+              }
+            }
+          }
+        },
+        "3a607711a76d": {
+          "text": "Secret and personal data scan of tracked files: `npm run scan`.",
+          "line": 25,
+          "specs": [
+            "package.json#scripts.scan"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "package.json#scripts.scan": {
+              "path": "package.json",
+              "blob": "017c92e52241aff871c658d40f11af6af9f4a5a1",
+              "commit": "a4d4adaae2c776ed7d534b9b234650558a61b636",
+              "jsonKey": {
+                "key": "scripts.scan",
+                "hash": "0e90a4ab44777738ccf5c63ca4b03b2562a31865",
+                "value": "\"node scripts/secret-scan.mjs . --tracked\""
+              }
+            }
+          }
+        },
+        "de3f137c3fbd": {
+          "text": "Nightly canary against a deployed site: `npm run canary`.",
+          "line": 26,
+          "specs": [
+            "package.json#scripts.canary"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "package.json#scripts.canary": {
+              "path": "package.json",
+              "blob": "017c92e52241aff871c658d40f11af6af9f4a5a1",
+              "commit": "a4d4adaae2c776ed7d534b9b234650558a61b636",
+              "jsonKey": {
+                "key": "scripts.canary",
+                "hash": "615fedbf32d367fa17efd787260aca89ece3436b",
+                "value": "\"node e2e/canary.mjs\""
+              }
+            }
+          }
+        },
+        "190e94337657": {
+          "text": "Summarise room telemetry from the journal: `npm run plays` (`-- --days=3`, `-- --all`, `-- --file=log.txt`).",
+          "line": 27,
+          "specs": [
+            "lib/plays.mjs:1-12"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "lib/plays.mjs": {
+              "path": "lib/plays.mjs",
+              "blob": "3a82dc56fbfe7b6d8a3de741b2a598bb4286bfd4",
+              "commit": "6dcd7157dd09d01c0014e897054a12fc2f2b4c51",
+              "range": {
+                "start": 1,
+                "end": 12,
+                "hash": "87ab7e90b398f9c9e880e6e3fdf69db3bbae96d3"
+              }
+            }
+          }
+        },
+        "583459829e96": {
+          "text": "Publish the public copy: `npm run export` (`scripts/export-public.mjs`). Normally the weekly job runs it; do not run it from a worktree.",
+          "line": 28,
+          "specs": [
+            "package.json#scripts.export",
+            "scripts/export-public.mjs:1-23"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "package.json#scripts.export": {
+              "path": "package.json",
+              "blob": "017c92e52241aff871c658d40f11af6af9f4a5a1",
+              "commit": "a4d4adaae2c776ed7d534b9b234650558a61b636",
+              "jsonKey": {
+                "key": "scripts.export",
+                "hash": "b144dc4dc028aef791780cbd890d21e0818dc9a5",
+                "value": "\"node scripts/export-public.mjs\""
+              }
+            },
+            "scripts/export-public.mjs": {
+              "path": "scripts/export-public.mjs",
+              "blob": "6026bd977fe4c1690a9f43bee46cf4b4432170ff",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 1,
+                "end": 23,
+                "hash": "4ca7c63bd2dce067f52987f320c624deb1d32bb2"
+              }
+            }
+          }
+        },
+        "0d9b8edb67f3": {
+          "text": "No lint, format or typecheck step exists: plain ESM JavaScript, no build.",
+          "line": 29,
+          "specs": [
+            "package.json#devDependencies",
+            "package.json#type"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "package.json#devDependencies": {
+              "path": "package.json",
+              "blob": "017c92e52241aff871c658d40f11af6af9f4a5a1",
+              "commit": "a4d4adaae2c776ed7d534b9b234650558a61b636",
+              "jsonKey": {
+                "key": "devDependencies",
+                "hash": "b12ea608c2fdbb52ca06476cf943243f1d6158c6",
+                "value": "{\"playwright-core\":\"1.65.0\"}"
+              }
+            },
+            "package.json#type": {
+              "path": "package.json",
+              "blob": "017c92e52241aff871c658d40f11af6af9f4a5a1",
+              "commit": "a4d4adaae2c776ed7d534b9b234650558a61b636",
+              "jsonKey": {
+                "key": "type",
+                "hash": "104552135e0a03cc60690d55ea338c29215ae902",
+                "value": "\"module\""
+              }
+            }
+          }
+        },
+        "2165311527f9": {
+          "text": "A game is one folder, `games/<id>/`, discovered at start-up. Adding one never touches a shared file; folders starting with `_` are not games (`_kit` is share...",
+          "line": 33,
+          "specs": [
+            "lib/registry.mjs:1-3",
+            "docs/GAME-MODULES.md:9-16"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "lib/registry.mjs": {
+              "path": "lib/registry.mjs",
+              "blob": "89abd7dcfdb8578e0a343a84a2ffa42f3ce211f8",
+              "commit": "d0d64370b6be354057234747cb12147e0786828d",
+              "range": {
+                "start": 1,
+                "end": 3,
+                "hash": "9eb6c2ba0b8b61d17634bb7eef7903890595095e"
+              }
+            },
+            "docs/GAME-MODULES.md": {
+              "path": "docs/GAME-MODULES.md",
+              "blob": "bdb97cd39e9225733e8a1483c1911023111f5761",
+              "commit": "065df6e8af6329bfee057cded6164503fb96b771",
+              "range": {
+                "start": 9,
+                "end": 16,
+                "hash": "f7863284b0f31f83471370e96a8e2ec3012b164a"
+              }
+            }
+          }
+        },
+        "defdf04e61b1": {
+          "text": "Game engines are pure state machines run on the server and in the browser: no Node APIs, no DOM, no `Date.now()` or `Math.random()` in game logic, use `ctx.n...",
+          "line": 34,
+          "specs": [
+            "docs/GAME-MODULES.md:40-43",
+            "games/_kit/runtime.js:1-4"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "docs/GAME-MODULES.md": {
+              "path": "docs/GAME-MODULES.md",
+              "blob": "bdb97cd39e9225733e8a1483c1911023111f5761",
+              "commit": "065df6e8af6329bfee057cded6164503fb96b771",
+              "range": {
+                "start": 40,
+                "end": 43,
+                "hash": "a10fdc407ebfaca8cb555e3a509f80cdc3bd07a2"
+              }
+            },
+            "games/_kit/runtime.js": {
+              "path": "games/_kit/runtime.js",
+              "blob": "30a4d9338fadb5558dc71399cd0aed762b4eca8d",
+              "commit": "c89fa146bdf7ad6359723613bce630ae34bf184d",
+              "range": {
+                "start": 1,
+                "end": 4,
+                "hash": "c4bc5e84321a7a3b74d8771150f8c0cdb60e5bff"
+              }
+            }
+          }
+        },
+        "402d712e55ab": {
+          "text": "Secrets (a role, the secret word) never reach a client that should not see them; each game keeps a `secrets.test.mjs` for it.",
+          "line": 35,
+          "specs": [
+            "CONTRIBUTING.md:26"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "CONTRIBUTING.md": {
+              "path": "CONTRIBUTING.md",
+              "blob": "6a5df2111d8bf917746c0fc62684634cd55a1edf",
+              "commit": "287c8df9b649f05eb466775eec09f947e0e99c58",
+              "range": {
+                "start": 26,
+                "end": 26,
+                "hash": "d0ead2d57a1630279357393ff98289171935ebdd"
+              }
+            }
+          }
+        },
+        "a732634bff99": {
+          "text": "Drinking and Deadly tiers stay skippable: drink logic lives in `games/_kit/drinks.js`, not in the games.",
+          "line": 36,
+          "specs": [
+            "games/_kit/drinks.js:1-17",
+            "CONTRIBUTING.md:28"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "games/_kit/drinks.js": {
+              "path": "games/_kit/drinks.js",
+              "blob": "588a32296b5a5da780b366d7a58c25a93b6e4bb7",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 1,
+                "end": 17,
+                "hash": "a8bbe07c9bbc302f180c895c8fbd843a60862df9"
+              }
+            },
+            "CONTRIBUTING.md": {
+              "path": "CONTRIBUTING.md",
+              "blob": "6a5df2111d8bf917746c0fc62684634cd55a1edf",
+              "commit": "287c8df9b649f05eb466775eec09f947e0e99c58",
+              "range": {
+                "start": 28,
+                "end": 28,
+                "hash": "119de9321d5cbd0f446008497a3f1f3dc3708216"
+              }
+            }
+          }
+        },
+        "a5150c2c16f7": {
+          "text": "No accounts, no database, no analytics.",
+          "line": 37,
+          "specs": [
+            "CONTRIBUTING.md:25",
+            "server.mjs:67-69"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "CONTRIBUTING.md": {
+              "path": "CONTRIBUTING.md",
+              "blob": "6a5df2111d8bf917746c0fc62684634cd55a1edf",
+              "commit": "287c8df9b649f05eb466775eec09f947e0e99c58",
+              "range": {
+                "start": 25,
+                "end": 25,
+                "hash": "5080c2f73ff91209309ad3f2e01c14b7d963fd14"
+              }
+            },
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 67,
+                "end": 69,
+                "hash": "c64693e3ad8d9b4232affdac3b284827966a9247"
+              }
+            }
+          }
+        },
+        "21745c9e6874": {
+          "text": "Runtime dependencies are pinned to exact versions (`ws`, `qrcode-generator`) and kept to those two.",
+          "line": 38,
+          "specs": [
+            "package.json#dependencies"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "package.json#dependencies": {
+              "path": "package.json",
+              "blob": "017c92e52241aff871c658d40f11af6af9f4a5a1",
+              "commit": "a4d4adaae2c776ed7d534b9b234650558a61b636",
+              "jsonKey": {
+                "key": "dependencies",
+                "hash": "b5d12b785fbbea4e70f6030204440a49e7fc348f",
+                "value": "{\"qrcode-generator\":\"2.0.4\",\"ws\":\"8.22.2\"}"
+              }
+            }
+          }
+        },
+        "bf3879f47743": {
+          "text": "Bump `CACHE` in `public/sw.js` on every frontend change, or phones keep the old precached shell.",
+          "line": 39,
+          "specs": [
+            "public/sw.js:1-4"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "public/sw.js": {
+              "path": "public/sw.js",
+              "blob": "7f5cd074fdf7e5d172e2ef67c7d8d43d43204025",
+              "commit": "287c8df9b649f05eb466775eec09f947e0e99c58",
+              "range": {
+                "start": 1,
+                "end": 4,
+                "hash": "9f84647517a421fcc4132f4c24af7a5d2cad3bbc"
+              }
+            }
+          }
+        },
+        "abb3483436f2": {
+          "text": "`public/kit/` is a vendored copy of the shared ui-kit: changes belong upstream.",
+          "line": 40,
+          "specs": [
+            "public/kit/kit.css:1-3"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "public/kit/kit.css": {
+              "path": "public/kit/kit.css",
+              "blob": "6d9df3c56f7e11607d6743a8eea27c76dd9bd51d",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 1,
+                "end": 3,
+                "hash": "ee40ae63b1fcfc788cf5378348adbf5d5d47441c"
+              }
+            }
+          }
+        },
+        "d1771feae4f1": {
+          "text": "Bug fixes add a test that fails without the fix.",
+          "line": 41,
+          "specs": [
+            "CONTRIBUTING.md:19"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "CONTRIBUTING.md": {
+              "path": "CONTRIBUTING.md",
+              "blob": "6a5df2111d8bf917746c0fc62684634cd55a1edf",
+              "commit": "287c8df9b649f05eb466775eec09f947e0e99c58",
+              "range": {
+                "start": 19,
+                "end": 19,
+                "hash": "d0dfe047835c63190cbaa1679c60b80d39f7af54"
+              }
+            }
+          }
+        },
+        "ae7c33bb8b41": {
+          "text": "The public export (`kd-011/couchbox`) ships every tracked file except a short exclude list (`AGENTS.md`, `CLAUDE.md`, `.claude/`, `scripts/export-rewrites.js...",
+          "line": 45,
+          "specs": [
+            "scripts/export-public.mjs:70-79"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "scripts/export-public.mjs": {
+              "path": "scripts/export-public.mjs",
+              "blob": "6026bd977fe4c1690a9f43bee46cf4b4432170ff",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 70,
+                "end": 79,
+                "hash": "630f26429acb0f2d486da9898e6d67546bd68b07"
+              }
+            }
+          }
+        },
+        "9647330115c0": {
+          "text": "The export scans everything it ships against a denylist (the live domain, email, home path) and refuses on any hit. A line that has to name the live host car...",
+          "line": 46,
+          "specs": [
+            "scripts/export-public.mjs:31-34",
+            "scripts/export-public.mjs:45-48",
+            "scripts/secret-scan.mjs:20-21"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "scripts/export-public.mjs": {
+              "path": "scripts/export-public.mjs",
+              "blob": "6026bd977fe4c1690a9f43bee46cf4b4432170ff",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 31,
+                "end": 34,
+                "hash": "1bfab2731b9fe9b10d17283a440ec3d09785013c"
+              }
+            },
+            "scripts/export-public.mjs:45-48": {
+              "path": "scripts/export-public.mjs",
+              "blob": "6026bd977fe4c1690a9f43bee46cf4b4432170ff",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 45,
+                "end": 48,
+                "hash": "8bbf676c9de4d4e1a9daf6d310742c0a20b7fb6d"
+              }
+            },
+            "scripts/secret-scan.mjs": {
+              "path": "scripts/secret-scan.mjs",
+              "blob": "384827756342daef333cdbfc27bc762d6a439ebe",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 20,
+                "end": 21,
+                "hash": "98405f5ac05cb95e4370565b471b8c668610dd93"
+              }
+            }
+          }
+        },
+        "a959e2f94b5d": {
+          "text": "A new or changed image or binary stops the export unless its exact path is in `scripts/export-allowlist.txt`.",
+          "line": 47,
+          "specs": [
+            "scripts/export-public.mjs:25-29",
+            "scripts/export-allowlist.txt:1-5"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "scripts/export-public.mjs": {
+              "path": "scripts/export-public.mjs",
+              "blob": "6026bd977fe4c1690a9f43bee46cf4b4432170ff",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 25,
+                "end": 29,
+                "hash": "c4cc9493dbe06f56646bde38ffd6b52700e5085c"
+              }
+            },
+            "scripts/export-allowlist.txt": {
+              "path": "scripts/export-allowlist.txt",
+              "blob": "adc33789b732e2c4ad805978925fa525e71a576b",
+              "commit": "287c8df9b649f05eb466775eec09f947e0e99c58",
+              "range": {
+                "start": 1,
+                "end": 5,
+                "hash": "094b67e51f970815556589be257730b94378fc1f"
+              }
+            }
+          }
+        },
+        "0ba40de3c7cc": {
+          "text": "Pull requests on the public repo are never merged there: a change is applied here and reaches public `main` with the next export, which refuses a checkout th...",
+          "line": 48,
+          "specs": [
+            "CONTRIBUTING.md:39",
+            "scripts/export-public.mjs:8-10"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "CONTRIBUTING.md": {
+              "path": "CONTRIBUTING.md",
+              "blob": "6a5df2111d8bf917746c0fc62684634cd55a1edf",
+              "commit": "287c8df9b649f05eb466775eec09f947e0e99c58",
+              "range": {
+                "start": 39,
+                "end": 39,
+                "hash": "3a0ef40188394cb4121a5e50b7ab2cf7166ac24f"
+              }
+            },
+            "scripts/export-public.mjs": {
+              "path": "scripts/export-public.mjs",
+              "blob": "6026bd977fe4c1690a9f43bee46cf4b4432170ff",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 8,
+                "end": 10,
+                "hash": "d106eb8cdabf125675e9758a85a5c8d6d07afe45"
+              }
+            }
+          }
+        },
+        "e96e8e6e870f": {
+          "text": "The public repo's weekly upkeep runs `dossier-scribe lint` and `check --fail-on stale,broken` on `dossiers/`, which in the public copy holds only `games.md`....",
+          "line": 49,
+          "specs": [
+            ".github/workflows/upkeep.yml:65-74",
+            "scripts/export-public.mjs:31-34"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            ".github/workflows/upkeep.yml": {
+              "path": ".github/workflows/upkeep.yml",
+              "blob": "0b45d7d733d95cdb6b4798cdeddf431af04c5b16",
+              "commit": "d495c45641a6ced79b0a99e400de1285b4108b8e",
+              "range": {
+                "start": 65,
+                "end": 74,
+                "hash": "9c7a7a7dadf99e7cae0629a4d55cae9adbe5a7a0"
+              }
+            },
+            "scripts/export-public.mjs": {
+              "path": "scripts/export-public.mjs",
+              "blob": "6026bd977fe4c1690a9f43bee46cf4b4432170ff",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 31,
+                "end": 34,
+                "hash": "1bfab2731b9fe9b10d17283a440ec3d09785013c"
+              }
+            }
+          }
+        },
+        "602b6d9b6307": {
+          "text": "The pin links in `dossiers/` (`agents.md`, `prd.md`, `architecture.md`, `brand.md`) are `export-ignore` in `.gitattributes`: `agents.md` points at this priva...",
+          "line": 50,
+          "specs": [
+            ".gitattributes",
+            "scripts/export-public.mjs:357-358"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            ".gitattributes": {
+              "path": ".gitattributes",
+              "blob": "0b2d7c3ccee45900e20edd423a696f2353fb5dea",
+              "commit": "5e15d7e7a3dd17a102fdac5a23b1746f7c762123"
+            },
+            "scripts/export-public.mjs": {
+              "path": "scripts/export-public.mjs",
+              "blob": "6026bd977fe4c1690a9f43bee46cf4b4432170ff",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 357,
+                "end": 358,
+                "hash": "b5ed940b2a34c057a0a8e4666e1e9e5b4b961c97"
+              }
+            }
+          }
+        },
+        "0693d4816d08": {
+          "text": "CI and upkeep only run on the public repository (`if: github.repository == 'kd-011/couchbox'`), so nothing runs in Actions here.",
+          "line": 51,
+          "specs": [
+            ".github/workflows/ci.yml:17-18"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            ".github/workflows/ci.yml": {
+              "path": ".github/workflows/ci.yml",
+              "blob": "41026d416faf07f2a8d3c2855a960753a644db11",
+              "commit": "d495c45641a6ced79b0a99e400de1285b4108b8e",
+              "range": {
+                "start": 17,
+                "end": 18,
+                "hash": "a7a7380426a1d8470ad62b3f2956607c59f93bce"
+              }
+            }
+          }
+        },
+        "b2dd13fc77e3": {
+          "text": "Rooms live in process memory: a restart or deploy ends every open room.",
+          "line": 52,
+          "specs": [
+            "lib/rooms.mjs:1",
+            "server.mjs:67-69"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "lib/rooms.mjs": {
+              "path": "lib/rooms.mjs",
+              "blob": "ee5a687bd05a2377c34d71099f47d0b38f5ce966",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 1,
+                "end": 1,
+                "hash": "4cb56a707ccf353bd67cb6774571355b67a5a5e2"
+              }
+            },
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 67,
+                "end": 69,
+                "hash": "c64693e3ad8d9b4232affdac3b284827966a9247"
+              }
+            }
+          }
+        },
+        "4b33f8b4d6c7": {
+          "text": "Rate limits and the per-IP socket cap key on `CF-Connecting-IP`, then the socket address. Never expose the port directly, or that header can be spoofed.",
+          "line": 53,
+          "specs": [
+            "server.mjs:21-25",
+            "docs/SELF-HOSTING.md:38-40"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 21,
+                "end": 25,
+                "hash": "207c4a3d8ac171fcd8c0782fbf08db412364168e"
+              }
+            },
+            "docs/SELF-HOSTING.md": {
+              "path": "docs/SELF-HOSTING.md",
+              "blob": "a476b8e4bcd178bc362c94ef95623edda9ebee25",
+              "commit": "d495c45641a6ced79b0a99e400de1285b4108b8e",
+              "range": {
+                "start": 38,
+                "end": 40,
+                "hash": "d08b0fa9556f5f6535e3ff8c6d18c5651ccdc619"
+              }
+            }
+          }
+        },
+        "269c3c10386b": {
+          "text": "`GAMES_TEST_HOOKS=1` exposes every room's secrets at `/__test/`. QA servers only, never production.",
+          "line": 54,
+          "specs": [
+            "lib/testhooks.mjs:1-6",
+            "server.mjs:97"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "lib/testhooks.mjs": {
+              "path": "lib/testhooks.mjs",
+              "blob": "6f0418747a646150ffb666d6922918b0a4d3d35d",
+              "commit": "1bddeffac19d4711165425431262ceac141c578e",
+              "range": {
+                "start": 1,
+                "end": 6,
+                "hash": "ffda26be621eed90a98a447fdfce4ed1a48372d7"
+              }
+            },
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 97,
+                "end": 97,
+                "hash": "b52ea0924e6bb1f20c43152e1e6b008d3c5ecfac"
+              }
+            }
+          }
+        },
+        "840b1d53c428": {
+          "text": "The live site holds port 8969 on the operator's PC, so `npm start` in a worktree there exits with \"already in use\". Use `node e2e/preview.mjs` (spare port, s...",
+          "line": 55,
+          "specs": [
+            "server.mjs:511-515",
+            "e2e/preview.mjs:1-7"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 511,
+                "end": 515,
+                "hash": "87d108444c9c1e59e172988dad10b2299dfc013c"
+              }
+            },
+            "e2e/preview.mjs": {
+              "path": "e2e/preview.mjs",
+              "blob": "77ed336ecbce5d29a3faec22bf5b07b9a4019758",
+              "commit": "66aefaa7e14f39d93249a34cf93e1df29cd4c194",
+              "range": {
+                "start": 1,
+                "end": 7,
+                "hash": "3426f636161141010822c6dc111fe270f624b6bc"
+              }
+            }
+          }
+        },
+        "bb45b4dc065c": {
+          "text": "A `.env` next to `server.mjs` is loaded at start but never overrides a variable already set.",
+          "line": 56,
+          "specs": [
+            "server.mjs:27-33"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 27,
+                "end": 33,
+                "hash": "c60e20bb52308112af9e70fa769c9ef215c675a9"
+              }
+            }
+          }
+        },
+        "d7e8aee323d3": {
+          "text": "The browser suites compete for CPU and time out when run together: run them one at a time.",
+          "line": 57,
+          "specs": [
+            "CONTRIBUTING.md:14"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "CONTRIBUTING.md": {
+              "path": "CONTRIBUTING.md",
+              "blob": "6a5df2111d8bf917746c0fc62684634cd55a1edf",
+              "commit": "287c8df9b649f05eb466775eec09f947e0e99c58",
+              "range": {
+                "start": 14,
+                "end": 14,
+                "hash": "180a4d472bd75418b8b5a6c4b912295a1ebca99a"
+              }
+            }
+          }
+        },
+        "062e67bf51d3": {
+          "text": "Stryker skips the tests that read `git ls-files`, because its sandbox has no `.git`.",
+          "line": 58,
+          "specs": [
+            "stryker.config.mjs:13-16"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "stryker.config.mjs": {
+              "path": "stryker.config.mjs",
+              "blob": "cca2480f1c779e569917b013a6885d713949b384",
+              "commit": "66aefaa7e14f39d93249a34cf93e1df29cd4c194",
+              "range": {
+                "start": 13,
+                "end": 16,
+                "hash": "f1fc94ba6af4674f57dfb9c4697f77759c468ad3"
+              }
+            }
+          }
+        }
+      },
+      "pinnedAt": "2026-11-23T23:58:49.763Z",
+      "head": "dea42f2cad608377d9472a8c8882f996cc789274"
+    },
+    "games-prd": {
+      "claims": {
+        "942adcb75c69": {
+          "text": "**[shipped]** Fifteen games: Imposter, Celebrity Heads, Never Have I Ever, Most Likely To, Would You Rather, Truth or Dare, Quiz Show, Fake Out, Sketchy, Cod...",
+          "line": 21,
+          "specs": [
+            "games/imposter/engine.js:19",
+            "games/heads/engine.js:24",
+            "games/nhie/engine.js:11",
+            "games/mlt/engine.js:12",
+            "games/wyr/engine.js:12",
+            "games/tod/engine.js:12",
+            "games/quiz-show/engine.js:22",
+            "games/fake-out/engine.js:13",
+            "games/sketchy/engine.js:12",
+            "games/codewords/engine.js:17",
+            "games/spyfall/engine.js:17",
+            "games/werewolf/engine.js:21",
+            "games/paranoia/engine.js:13",
+            "games/salad-bowl/engine.js:14",
+            "games/tune-in/engine.js:17"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "games/imposter/engine.js": {
+              "path": "games/imposter/engine.js",
+              "blob": "74bfb923f9bb6cf09e7a0d5175fe1f488b114fe7",
+              "commit": "d0d64370b6be354057234747cb12147e0786828d",
+              "range": {
+                "start": 19,
+                "end": 19,
+                "hash": "a2f42470009e27f13d69286ccf8c89849454b4df"
+              }
+            },
+            "games/heads/engine.js": {
+              "path": "games/heads/engine.js",
+              "blob": "b3b43365966abd1dfdb16a787c10aae724c6bed3",
+              "commit": "1bddeffac19d4711165425431262ceac141c578e",
+              "range": {
+                "start": 24,
+                "end": 24,
+                "hash": "d3e41247519de224c89efde11b2d6d76e3e51452"
+              }
+            },
+            "games/nhie/engine.js": {
+              "path": "games/nhie/engine.js",
+              "blob": "b23eabf2ede9bd3a4ba13ebf8214a50357af73bf",
+              "commit": "d0d64370b6be354057234747cb12147e0786828d",
+              "range": {
+                "start": 11,
+                "end": 11,
+                "hash": "4b1e6ca9e2fc8afed06ada80d551da8c9d029e79"
+              }
+            },
+            "games/mlt/engine.js": {
+              "path": "games/mlt/engine.js",
+              "blob": "68777643772df3c22bda3f8d04fc4d9a0da5fef0",
+              "commit": "6dcd7157dd09d01c0014e897054a12fc2f2b4c51",
+              "range": {
+                "start": 12,
+                "end": 12,
+                "hash": "1f049e3fc9b08e308a8843923efef813dda287fc"
+              }
+            },
+            "games/wyr/engine.js": {
+              "path": "games/wyr/engine.js",
+              "blob": "5ff93934c68d5aa7ea4da402e6e595b8b634e8dc",
+              "commit": "d0d64370b6be354057234747cb12147e0786828d",
+              "range": {
+                "start": 12,
+                "end": 12,
+                "hash": "78b69e114522960b90577bb876211a620c56984d"
+              }
+            },
+            "games/tod/engine.js": {
+              "path": "games/tod/engine.js",
+              "blob": "b5558f08f9135588ab7c0abc41fd56349b6962b0",
+              "commit": "d0d64370b6be354057234747cb12147e0786828d",
+              "range": {
+                "start": 12,
+                "end": 12,
+                "hash": "1e6daf0b6657e110b17c830cd7fcaff8513e4a5e"
+              }
+            },
+            "games/quiz-show/engine.js": {
+              "path": "games/quiz-show/engine.js",
+              "blob": "171a80cb9c38c536b307b99ae4d0fa786229a6c6",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 22,
+                "end": 22,
+                "hash": "782397cfd8fe12b800e498f2246594896c75967b"
+              }
+            },
+            "games/fake-out/engine.js": {
+              "path": "games/fake-out/engine.js",
+              "blob": "ef66c292bde28812dcf0f3bd96cf6f6c938941ea",
+              "commit": "1bddeffac19d4711165425431262ceac141c578e",
+              "range": {
+                "start": 13,
+                "end": 13,
+                "hash": "da20e49c970ffb3145fac6804871092f35dff199"
+              }
+            },
+            "games/sketchy/engine.js": {
+              "path": "games/sketchy/engine.js",
+              "blob": "d54ab094f25db53facad2d569ed449a9facd78d3",
+              "commit": "d0d64370b6be354057234747cb12147e0786828d",
+              "range": {
+                "start": 12,
+                "end": 12,
+                "hash": "687fa007676ecc81f1f499f67f0e0d5a57527011"
+              }
+            },
+            "games/codewords/engine.js": {
+              "path": "games/codewords/engine.js",
+              "blob": "c7e201341ed08270ca7c6d4420dadae24252441e",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 17,
+                "end": 17,
+                "hash": "7689b00a1be4231c72a2d325819513cb1b8c7740"
+              }
+            },
+            "games/spyfall/engine.js": {
+              "path": "games/spyfall/engine.js",
+              "blob": "776e3c97ec83217891362f913f1f43df1a8bfcca",
+              "commit": "1bddeffac19d4711165425431262ceac141c578e",
+              "range": {
+                "start": 17,
+                "end": 17,
+                "hash": "8e39d6fdfcfd3a531f03b110a27e9a197c640377"
+              }
+            },
+            "games/werewolf/engine.js": {
+              "path": "games/werewolf/engine.js",
+              "blob": "8ba33c961ff4cad4c8804041f4e4c46bd2b06340",
+              "commit": "d0d64370b6be354057234747cb12147e0786828d",
+              "range": {
+                "start": 21,
+                "end": 21,
+                "hash": "95cdd0f04aac857939736c6d2d77c0d77f7912a9"
+              }
+            },
+            "games/paranoia/engine.js": {
+              "path": "games/paranoia/engine.js",
+              "blob": "37dbe3de67e60f74c43640337646e6f6ac4b3cd1",
+              "commit": "d0d64370b6be354057234747cb12147e0786828d",
+              "range": {
+                "start": 13,
+                "end": 13,
+                "hash": "414d428b4a6d2fa89bd5060216d16577c3268c26"
+              }
+            },
+            "games/salad-bowl/engine.js": {
+              "path": "games/salad-bowl/engine.js",
+              "blob": "c324ad1839475df21a11e6a9ea46e5e682e8447c",
+              "commit": "d0d64370b6be354057234747cb12147e0786828d",
+              "range": {
+                "start": 14,
+                "end": 14,
+                "hash": "43fcef557c99f9a8f23090e45102e757e99e8b36"
+              }
+            },
+            "games/tune-in/engine.js": {
+              "path": "games/tune-in/engine.js",
+              "blob": "651dc180d1acfffc0548e82693119f4fbda26cd7",
+              "commit": "d0d64370b6be354057234747cb12147e0786828d",
+              "range": {
+                "start": 17,
+                "end": 17,
+                "hash": "c0b2bbed9f175cdddd27f81d1bc4ef1281a0520f"
+              }
+            }
+          }
+        },
+        "0a9577f0cc1a": {
+          "text": "**[shipped]** Pass and play: one phone runs the whole game in the browser, with hide-and-pass screens before each private look, and keeps its state in localS...",
+          "line": 22,
+          "specs": [
+            "public/js/pass.js:1-4",
+            "public/js/pass.js:24-34"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "public/js/pass.js": {
+              "path": "public/js/pass.js",
+              "blob": "e9e008c1d1a9d163e1feacb49c6af12ec7e47d61",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 1,
+                "end": 4,
+                "hash": "15f7caeca19680cc4a182c2cf250b909a81e4061"
+              }
+            },
+            "public/js/pass.js:24-34": {
+              "path": "public/js/pass.js",
+              "blob": "e9e008c1d1a9d163e1feacb49c6af12ec7e47d61",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 24,
+                "end": 34,
+                "hash": "6e34341ac9e3ee88c5fe3e70e56b607469015262"
+              }
+            }
+          }
+        },
+        "81793ff191f5": {
+          "text": "**[shipped]** Rooms: everyone joins on their own phone with a four letter code (no I or O), a `/r/CODE` link or a QR code; the server is authoritative and se...",
+          "line": 23,
+          "specs": [
+            "lib/rooms.mjs:1-11",
+            "lib/rooms.mjs:59-60",
+            "server.mjs:411-415"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "lib/rooms.mjs": {
+              "path": "lib/rooms.mjs",
+              "blob": "ee5a687bd05a2377c34d71099f47d0b38f5ce966",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 1,
+                "end": 11,
+                "hash": "6d8e1031aa975962b9873b0aa7ec8cbd5cffab79"
+              }
+            },
+            "lib/rooms.mjs:59-60": {
+              "path": "lib/rooms.mjs",
+              "blob": "ee5a687bd05a2377c34d71099f47d0b38f5ce966",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 59,
+                "end": 60,
+                "hash": "70541782bafe069a62512776a526a2de49b22a8b"
+              }
+            },
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 411,
+                "end": 415,
+                "hash": "5620b581fa1a81424ad77535a8f00f5483cdd15c"
+              }
+            }
+          }
+        },
+        "b1677a0e8cd8": {
+          "text": "**[shipped]** TV screen at `/tv/CODE`: no identity and no secrets, only the game's public view, with the code and QR shown large in the lobby. \"Show on TV\" c...",
+          "line": 24,
+          "specs": [
+            "public/js/tv.js:1-4",
+            "public/js/tvcast.js:1-4"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "public/js/tv.js": {
+              "path": "public/js/tv.js",
+              "blob": "e1c7dec5e507852255de6de2bfbb2396884ad14e",
+              "commit": "4c9cb3160100ffd751bb6266754625da57d2c32c",
+              "range": {
+                "start": 1,
+                "end": 4,
+                "hash": "b3fc14c286ec128e62111ec96a7d4b3e155c6a1d"
+              }
+            },
+            "public/js/tvcast.js": {
+              "path": "public/js/tvcast.js",
+              "blob": "ecab5965719d491f31a3f86fc087bdef5cab6aa1",
+              "commit": "287c8df9b649f05eb466775eec09f947e0e99c58",
+              "range": {
+                "start": 1,
+                "end": 4,
+                "hash": "4ce34c2e8dadc26e82ec824272a6ae34bc1fbab1"
+              }
+            }
+          }
+        },
+        "54f8b5da5d1b": {
+          "text": "**[shipped]** Three tiers per game: Standard (points), Drinking (sips) and Deadly (sips plus rare, announced shots), all run by one shared drink engine.",
+          "line": 25,
+          "specs": [
+            "games/_kit/drinks.js:1-8"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "games/_kit/drinks.js": {
+              "path": "games/_kit/drinks.js",
+              "blob": "588a32296b5a5da780b366d7a58c25a93b6e4bb7",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 1,
+                "end": 8,
+                "hash": "3a6fdf6f988cf78801baca0ec862f8bccba119fb"
+              }
+            }
+          }
+        },
+        "a7689a69c42c": {
+          "text": "**[shipped]** Drinking safety rails: a host-set shot cap per player per rolling hour, water-break nudges, \"I'm out\" turns a player's drinks into forfeits, an...",
+          "line": 26,
+          "specs": [
+            "games/_kit/drinks.js:10-17"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "games/_kit/drinks.js": {
+              "path": "games/_kit/drinks.js",
+              "blob": "588a32296b5a5da780b366d7a58c25a93b6e4bb7",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 10,
+                "end": 17,
+                "hash": "40ac99b1b4de3b51d487e1ee49c7dd51246b3bd8"
+              }
+            }
+          }
+        },
+        "f809ce328eab": {
+          "text": "**[shipped]** One-time 18+ confirmation before drinking content shows on a device, with a separate explainer for Deadly.",
+          "line": 27,
+          "specs": [
+            "public/js/ui.js:372-375"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "public/js/ui.js": {
+              "path": "public/js/ui.js",
+              "blob": "6a07580d0944ad748786ba52d72f9f8ad071c739",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 372,
+                "end": 375,
+                "hash": "b8982eef30eac37462e5f8c5768f741a8398cc4d"
+              }
+            }
+          }
+        },
+        "be8ea7ba4048": {
+          "text": "**[shipped]** Party Night: several games in a row with scores, stats and drink tallies carried across, standings between games and an awards ceremony with a ...",
+          "line": 28,
+          "specs": [
+            "games/_kit/night.js:1-5",
+            "public/js/nightui.js:1-4"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "games/_kit/night.js": {
+              "path": "games/_kit/night.js",
+              "blob": "9319e0b4c537f2df36797b9d394e1d519ead97e4",
+              "commit": "39512613190640583483ddd175cc96db27c4acd1",
+              "range": {
+                "start": 1,
+                "end": 5,
+                "hash": "a76bf71e4bb4cddb1e157aaa45dbb566b2ec0fb8"
+              }
+            },
+            "public/js/nightui.js": {
+              "path": "public/js/nightui.js",
+              "blob": "6590a8e8c642246e74007be34886d298956aa973",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 1,
+                "end": 4,
+                "hash": "a3fd31f25b83bb3d0bbc4b090145d58a4b668f4a"
+              }
+            }
+          }
+        },
+        "023be5719d47": {
+          "text": "**[shipped]** Host controls: pass host, kick, split teams, send a player to the audience, and an emoji reaction any player can float across every screen.",
+          "line": 29,
+          "specs": [
+            "lib/rooms.mjs:15-26"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "lib/rooms.mjs": {
+              "path": "lib/rooms.mjs",
+              "blob": "ee5a687bd05a2377c34d71099f47d0b38f5ce966",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 15,
+                "end": 26,
+                "hash": "ee61cd384592973f6ef33f45b1b99f948c17f06a"
+              }
+            }
+          }
+        },
+        "73b9ab68fd37": {
+          "text": "**[shipped]** Curated packs: hand-written themed decks that ship inside a game folder and are precached for offline play.",
+          "line": 30,
+          "specs": [
+            "lib/curated.mjs:1-11",
+            "public/js/packs.js:1-4"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "lib/curated.mjs": {
+              "path": "lib/curated.mjs",
+              "blob": "ef6e261dd12301efd868672d64a3ca976f98f436",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 1,
+                "end": 11,
+                "hash": "5c8354f0cda7fa586c6de5582f25bd9f6dd05faf"
+              }
+            },
+            "public/js/packs.js": {
+              "path": "public/js/packs.js",
+              "blob": "1c15a7b8435c46538690b3058f5248b0c81f27ba",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 1,
+                "end": 4,
+                "hash": "deb3faae652325de39fe002fa94587a6fad7904b"
+              }
+            }
+          }
+        },
+        "2c9ac45a320f": {
+          "text": "**[shipped]** Custom packs: anyone can make a deck for a game that supports it and share it by an eight character code; packs are unlisted, profanity-checked...",
+          "line": 31,
+          "specs": [
+            "lib/packs.mjs:1-6",
+            "lib/packs.mjs:13-20",
+            "lib/profanity.mjs:1-5"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "lib/packs.mjs": {
+              "path": "lib/packs.mjs",
+              "blob": "e0a839d57edb948348b327a1e2102496da718008",
+              "commit": "7a73763632161be31662d1a0f2d0a59b67409628",
+              "range": {
+                "start": 1,
+                "end": 6,
+                "hash": "7791ab38229c7c4cb73efe0700a618338c83a674"
+              }
+            },
+            "lib/packs.mjs:13-20": {
+              "path": "lib/packs.mjs",
+              "blob": "e0a839d57edb948348b327a1e2102496da718008",
+              "commit": "7a73763632161be31662d1a0f2d0a59b67409628",
+              "range": {
+                "start": 13,
+                "end": 20,
+                "hash": "3396cae8409f91b10b3c8169216fec26c20e700c"
+              }
+            },
+            "lib/profanity.mjs": {
+              "path": "lib/profanity.mjs",
+              "blob": "1625e81b7904e90fcc282aaf014af9b935ba431c",
+              "commit": "7a73763632161be31662d1a0f2d0a59b67409628",
+              "range": {
+                "start": 1,
+                "end": 5,
+                "hash": "10c36dca5fda8be79bcf426a7c402c910c73548c"
+              }
+            }
+          }
+        },
+        "67e1c83dc23e": {
+          "text": "**[shipped]** AI pack maker: type a theme and get a themed pack through OpenRouter, behind a hard daily spend cap and 8 generations per IP per hour. Off with...",
+          "line": 32,
+          "specs": [
+            "lib/ai-packs.mjs:1-5",
+            "lib/ai-packs.mjs:16-21",
+            "server.mjs:81-85"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "lib/ai-packs.mjs": {
+              "path": "lib/ai-packs.mjs",
+              "blob": "8994b06ef97a860eccf2b55f7ecb0597af65f624",
+              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "range": {
+                "start": 1,
+                "end": 5,
+                "hash": "c8731116032f4fdebb83f945c224314c40bc887b"
+              }
+            },
+            "lib/ai-packs.mjs:16-21": {
+              "path": "lib/ai-packs.mjs",
+              "blob": "8994b06ef97a860eccf2b55f7ecb0597af65f624",
+              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "range": {
+                "start": 16,
+                "end": 21,
+                "hash": "32055128c4272778ceb79ca9473fe52d23ec7dde"
+              }
+            },
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 81,
+                "end": 85,
+                "hash": "e9c3157d064c32f0bbefe03e28f5d4ee964c093e"
+              }
+            }
+          }
+        },
+        "a7b69e866e6b": {
+          "text": "**[shipped]** Installable PWA that works offline once loaded over https, with home-screen shortcuts for Join, Host and TV. The install prompt waits for the f...",
+          "line": 33,
+          "specs": [
+            "public/sw.js:1-4",
+            "public/manifest.webmanifest",
+            "public/js/install.js:1-4"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "public/sw.js": {
+              "path": "public/sw.js",
+              "blob": "7f5cd074fdf7e5d172e2ef67c7d8d43d43204025",
+              "commit": "287c8df9b649f05eb466775eec09f947e0e99c58",
+              "range": {
+                "start": 1,
+                "end": 4,
+                "hash": "9f84647517a421fcc4132f4c24af7a5d2cad3bbc"
+              }
+            },
+            "public/manifest.webmanifest": {
+              "path": "public/manifest.webmanifest",
+              "blob": "0d33000c404e0afe9390795ec4e17517402c1a65",
+              "commit": "5387dd20f0823c9896333a289775afd7ce1df5ac"
+            },
+            "public/js/install.js": {
+              "path": "public/js/install.js",
+              "blob": "78171cf7df06c7d8db7224cf893af3cc3167e06d",
+              "commit": "5387dd20f0823c9896333a289775afd7ce1df5ac",
+              "range": {
+                "start": 1,
+                "end": 4,
+                "hash": "37ff1f72b5f61e5637205461c7162035d40875c2"
+              }
+            }
+          }
+        },
+        "be52658a103d": {
+          "text": "**[shipped]** A crawlable rules page per game at `/games/<id>`, built from the game's meta and `rules.md`, plus a generated sitemap.",
+          "line": 34,
+          "specs": [
+            "server.mjs:225-227",
+            "server.mjs:324-334"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 225,
+                "end": 227,
+                "hash": "94067ca1e35483ec945f1f2079ee1956a7f94aa9"
+              }
+            },
+            "server.mjs:324-334": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 324,
+                "end": 334,
+                "hash": "da10bb24a90c1456ee02a6faa9b6eaebcb41dda8"
+              }
+            }
+          }
+        },
+        "0f6174d70bc2": {
+          "text": "**[shipped]** Self-hosting: `npx github:kd-011/couchbox` or `npm run lan` serves on the local network and prints the address and a QR code; a Dockerfile and ...",
+          "line": 35,
+          "specs": [
+            "bin/couchbox.mjs:1-10",
+            "lib/lan.mjs:1-2",
+            "Dockerfile",
+            "compose.yaml"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "bin/couchbox.mjs": {
+              "path": "bin/couchbox.mjs",
+              "blob": "2a408db7e838349e520b055132cceeb37ba1ae64",
+              "commit": "d495c45641a6ced79b0a99e400de1285b4108b8e",
+              "range": {
+                "start": 1,
+                "end": 10,
+                "hash": "5e3a8ea932c3cc14080a771e669084fae599ed2c"
+              }
+            },
+            "lib/lan.mjs": {
+              "path": "lib/lan.mjs",
+              "blob": "2d6e322b1acea9b86d48348c4a801cee35633485",
+              "commit": "d495c45641a6ced79b0a99e400de1285b4108b8e",
+              "range": {
+                "start": 1,
+                "end": 2,
+                "hash": "f34ff85fa19f1a11f120e7f1e0884e7b6d4cc752"
+              }
+            },
+            "Dockerfile": {
+              "path": "Dockerfile",
+              "blob": "340fb7364c493de07c88a0196698c0139acee559",
+              "commit": "287c8df9b649f05eb466775eec09f947e0e99c58"
+            },
+            "compose.yaml": {
+              "path": "compose.yaml",
+              "blob": "622e3cde3c5c5d4cf379f1e8cf8d6240c61fca6f",
+              "commit": "d495c45641a6ced79b0a99e400de1285b4108b8e"
+            }
+          }
+        },
+        "85597f6d5e84": {
+          "text": "**[partial]** Host Box: a table-top hardware remote for Deadly rooms. The server protocol and a browser simulator at `/hostbox` are built; the hardware is de...",
+          "line": 36,
+          "specs": [
+            "docs/HOSTBOX-PROTOCOL.md:3",
+            "lib/hostbox.mjs:1-5",
+            "server.mjs:365-369",
+            "lib/tts.mjs:1-7"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "docs/HOSTBOX-PROTOCOL.md": {
+              "path": "docs/HOSTBOX-PROTOCOL.md",
+              "blob": "601b36520b8dabe8bd81d83397b5fd8e087c5752",
+              "commit": "065df6e8af6329bfee057cded6164503fb96b771",
+              "range": {
+                "start": 3,
+                "end": 3,
+                "hash": "5f2313c5d79e3879222413721be4f9a899432f31"
+              }
+            },
+            "lib/hostbox.mjs": {
+              "path": "lib/hostbox.mjs",
+              "blob": "fc9ed2284380444b4262aa5484f94a0610f9c861",
+              "commit": "8ed8fa3171e120853bd366064ad90372447a3829",
+              "range": {
+                "start": 1,
+                "end": 5,
+                "hash": "9e889426977bd9a5a7792671ad28ace9f8957cf0"
+              }
+            },
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 365,
+                "end": 369,
+                "hash": "744484ac31db49e9abeecf7c5cc6f4972c9f0367"
+              }
+            },
+            "lib/tts.mjs": {
+              "path": "lib/tts.mjs",
+              "blob": "3b55dbed66bf9f8b7e0a01a81b15a162f735c714",
+              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "range": {
+                "start": 1,
+                "end": 7,
+                "hash": "3b81995233f02ed45f2ad228fcc08688a61a7914"
+              }
+            }
+          }
+        },
+        "ac9dbf235af7": {
+          "text": "**[shipped]** Play telemetry: rooms write greppable `[rooms]` lines with no names or player ids, and `npm run plays` summarises them per game.",
+          "line": 37,
+          "specs": [
+            "docs/TELEMETRY.md:1-5",
+            "lib/plays.mjs:1-12"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "docs/TELEMETRY.md": {
+              "path": "docs/TELEMETRY.md",
+              "blob": "5305c6a1d883042e6bf6006f166b88be7cc4a007",
+              "commit": "6dcd7157dd09d01c0014e897054a12fc2f2b4c51",
+              "range": {
+                "start": 1,
+                "end": 5,
+                "hash": "35867b592963f0a0a377ce2a4f8744c73d442e4e"
+              }
+            },
+            "lib/plays.mjs": {
+              "path": "lib/plays.mjs",
+              "blob": "3a82dc56fbfe7b6d8a3de741b2a598bb4286bfd4",
+              "commit": "6dcd7157dd09d01c0014e897054a12fc2f2b4c51",
+              "range": {
+                "start": 1,
+                "end": 12,
+                "hash": "87ab7e90b398f9c9e880e6e3fdf69db3bbae96d3"
+              }
+            }
+          }
+        }
+      },
+      "pinnedAt": "2026-11-23T23:58:49.863Z",
+      "head": "dea42f2cad608377d9472a8c8882f996cc789274"
+    },
+    "games-architecture": {
+      "claims": {
+        "4290e460664d": {
+          "text": "One Node process: a plain `node:http` server plus a `ws` WebSocket endpoint at `/ws`, serving vanilla ES module JavaScript with no build step and no database...",
+          "line": 11,
+          "specs": [
+            "server.mjs:1-15",
+            "package.json#dependencies",
+            "games/_kit/runtime.js:1-4"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 1,
+                "end": 15,
+                "hash": "151727091541bc8dfde41c30f97bea90a3e9824f"
+              }
+            },
+            "package.json#dependencies": {
+              "path": "package.json",
+              "blob": "017c92e52241aff871c658d40f11af6af9f4a5a1",
+              "commit": "a4d4adaae2c776ed7d534b9b234650558a61b636",
+              "jsonKey": {
+                "key": "dependencies",
+                "hash": "b5d12b785fbbea4e70f6030204440a49e7fc348f",
+                "value": "{\"qrcode-generator\":\"2.0.4\",\"ws\":\"8.22.2\"}"
+              }
+            },
+            "games/_kit/runtime.js": {
+              "path": "games/_kit/runtime.js",
+              "blob": "30a4d9338fadb5558dc71399cd0aed762b4eca8d",
+              "commit": "c89fa146bdf7ad6359723613bce630ae34bf184d",
+              "range": {
+                "start": 1,
+                "end": 4,
+                "hash": "c4bc5e84321a7a3b74d8771150f8c0cdb60e5bff"
+              }
+            }
+          }
+        },
+        "8df7595c9a9a": {
+          "text": "`server.mjs`: HTTP routes, static files, the per-game rules pages, sitemap, QR SVGs, `/healthz`, the packs API and the WebSocket upgrade.",
+          "line": 27,
+          "specs": [
+            "server.mjs:337-447",
+            "server.mjs:449-509"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 337,
+                "end": 447,
+                "hash": "24cfd362bd583cf703471c063344d204c9d65225"
+              }
+            },
+            "server.mjs:449-509": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 449,
+                "end": 509,
+                "hash": "20c592d632e7b23a9d70c12e2b26e0f2c3d74ca9"
+              }
+            }
+          }
+        },
+        "b25c2db11ee9": {
+          "text": "`lib/rooms.mjs`: the RoomManager. Transport-agnostic (a connection is any object with `send` and `close`), server-authoritative, in-memory; its header docume...",
+          "line": 28,
+          "specs": [
+            "lib/rooms.mjs:1-55"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "lib/rooms.mjs": {
+              "path": "lib/rooms.mjs",
+              "blob": "ee5a687bd05a2377c34d71099f47d0b38f5ce966",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 1,
+                "end": 55,
+                "hash": "3b27caeabecd9275d85f3a0c471781f4a0984a9d"
+              }
+            }
+          }
+        },
+        "131615dcc725": {
+          "text": "`lib/registry.mjs`: discovers every `games/<id>/` folder at start-up and validates its engine, client, rules and packs.",
+          "line": 29,
+          "specs": [
+            "lib/registry.mjs:1-13",
+            "lib/registry.mjs:60-62"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "lib/registry.mjs": {
+              "path": "lib/registry.mjs",
+              "blob": "89abd7dcfdb8578e0a343a84a2ffa42f3ce211f8",
+              "commit": "d0d64370b6be354057234747cb12147e0786828d",
+              "range": {
+                "start": 1,
+                "end": 13,
+                "hash": "2d1f0b022109c7851f05f7dc195207ff23366ba8"
+              }
+            },
+            "lib/registry.mjs:60-62": {
+              "path": "lib/registry.mjs",
+              "blob": "89abd7dcfdb8578e0a343a84a2ffa42f3ce211f8",
+              "commit": "d0d64370b6be354057234747cb12147e0786828d",
+              "range": {
+                "start": 60,
+                "end": 62,
+                "hash": "e2f07c0a8c359a694e460d0b7082b7f4d8251a69"
+              }
+            }
+          }
+        },
+        "7a1af335eb1d": {
+          "text": "`games/_kit/`: shared isomorphic code. `runtime.js` is the one place that drives an engine; `drinks.js` is the drink engine; `night.js` keeps Party Night; `k...",
+          "line": 30,
+          "specs": [
+            "games/_kit/runtime.js:1-4",
+            "games/_kit/drinks.js:1-3",
+            "games/_kit/night.js:1-5",
+            "games/_kit/kit.js:1-4"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "games/_kit/runtime.js": {
+              "path": "games/_kit/runtime.js",
+              "blob": "30a4d9338fadb5558dc71399cd0aed762b4eca8d",
+              "commit": "c89fa146bdf7ad6359723613bce630ae34bf184d",
+              "range": {
+                "start": 1,
+                "end": 4,
+                "hash": "c4bc5e84321a7a3b74d8771150f8c0cdb60e5bff"
+              }
+            },
+            "games/_kit/drinks.js": {
+              "path": "games/_kit/drinks.js",
+              "blob": "588a32296b5a5da780b366d7a58c25a93b6e4bb7",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 1,
+                "end": 3,
+                "hash": "5949499a4963e305d050f3bdd14ed89fb2e5b0ee"
+              }
+            },
+            "games/_kit/night.js": {
+              "path": "games/_kit/night.js",
+              "blob": "9319e0b4c537f2df36797b9d394e1d519ead97e4",
+              "commit": "39512613190640583483ddd175cc96db27c4acd1",
+              "range": {
+                "start": 1,
+                "end": 5,
+                "hash": "a76bf71e4bb4cddb1e157aaa45dbb566b2ec0fb8"
+              }
+            },
+            "games/_kit/kit.js": {
+              "path": "games/_kit/kit.js",
+              "blob": "2021817046b025ffd0a71cc8795e562f7d216568",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 1,
+                "end": 4,
+                "hash": "298f16bf4eba7aaba917a5f8122cdd7f824b3135"
+              }
+            }
+          }
+        },
+        "a8e117228280": {
+          "text": "`games/<id>/`: one folder per game, `engine.js` (state machine), `client.js` (renders views to HTML strings), `rules.md`, optional `content.json`, `packs/`, ...",
+          "line": 31,
+          "specs": [
+            "docs/GAME-MODULES.md:20-31"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "docs/GAME-MODULES.md": {
+              "path": "docs/GAME-MODULES.md",
+              "blob": "bdb97cd39e9225733e8a1483c1911023111f5761",
+              "commit": "065df6e8af6329bfee057cded6164503fb96b771",
+              "range": {
+                "start": 20,
+                "end": 31,
+                "hash": "6c8b3f594f22b2bb3b981757028a16ece1c9fed9"
+              }
+            }
+          }
+        },
+        "72c82b3b05b0": {
+          "text": "`public/`: the app shell (`index.html`), `js/` modules (router in `app.js`, rooms in `room.js`, the TV in `tv.js`, the socket client in `net.js`, pass and pl...",
+          "line": 32,
+          "specs": [
+            "public/js/app.js:1-2",
+            "public/js/room.js:1-2",
+            "public/js/tv.js:1-2",
+            "public/js/net.js:1-3",
+            "public/js/pass.js:1-2",
+            "public/js/surface.js:1-3",
+            "public/kit/kit.css:1-3"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "public/js/app.js": {
+              "path": "public/js/app.js",
+              "blob": "b2a1da29fe30cba54da415f02c16abff52e722d2",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 1,
+                "end": 2,
+                "hash": "ce74173281e62baa8182afbe368ffd36b8f72161"
+              }
+            },
+            "public/js/room.js": {
+              "path": "public/js/room.js",
+              "blob": "fb6402fac54f4ca9dcead5516a05e5212b1ff000",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 1,
+                "end": 2,
+                "hash": "6e7b27a5879480e484a4e8d151bc612834825f33"
+              }
+            },
+            "public/js/tv.js": {
+              "path": "public/js/tv.js",
+              "blob": "e1c7dec5e507852255de6de2bfbb2396884ad14e",
+              "commit": "4c9cb3160100ffd751bb6266754625da57d2c32c",
+              "range": {
+                "start": 1,
+                "end": 2,
+                "hash": "5d33bf0fefc9093c4162b72d6820a2c316377d74"
+              }
+            },
+            "public/js/net.js": {
+              "path": "public/js/net.js",
+              "blob": "e513fb75dcddcf500465c97aab720a41ca8d8fa8",
+              "commit": "4c9cb3160100ffd751bb6266754625da57d2c32c",
+              "range": {
+                "start": 1,
+                "end": 3,
+                "hash": "153c14f3c571d51fa89677bd3fe760d3ecc5bccb"
+              }
+            },
+            "public/js/pass.js": {
+              "path": "public/js/pass.js",
+              "blob": "e9e008c1d1a9d163e1feacb49c6af12ec7e47d61",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 1,
+                "end": 2,
+                "hash": "e2cba3c82d4d4a6fa4e57c486fc8773556f85dab"
+              }
+            },
+            "public/js/surface.js": {
+              "path": "public/js/surface.js",
+              "blob": "b3af372d76c654cbcd706a649f754f166c7d51ec",
+              "commit": "4c9cb3160100ffd751bb6266754625da57d2c32c",
+              "range": {
+                "start": 1,
+                "end": 3,
+                "hash": "3a0001c1ffdf42aed893ca775cfcaea18235fa31"
+              }
+            },
+            "public/kit/kit.css": {
+              "path": "public/kit/kit.css",
+              "blob": "6d9df3c56f7e11607d6743a8eea27c76dd9bd51d",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 1,
+                "end": 3,
+                "hash": "ee40ae63b1fcfc788cf5378348adbf5d5d47441c"
+              }
+            }
+          }
+        },
+        "0324b842487d": {
+          "text": "`lib/packs.mjs`, `lib/curated.mjs`, `lib/ai-packs.mjs`, `lib/profanity.mjs`, `lib/ratelimit.mjs`: custom, curated and AI packs, the profanity gate and an in-...",
+          "line": 33,
+          "specs": [
+            "lib/packs.mjs:1-6",
+            "lib/curated.mjs:1-11",
+            "lib/ai-packs.mjs:1-5",
+            "lib/profanity.mjs:1-5",
+            "lib/ratelimit.mjs:1-4"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "lib/packs.mjs": {
+              "path": "lib/packs.mjs",
+              "blob": "e0a839d57edb948348b327a1e2102496da718008",
+              "commit": "7a73763632161be31662d1a0f2d0a59b67409628",
+              "range": {
+                "start": 1,
+                "end": 6,
+                "hash": "7791ab38229c7c4cb73efe0700a618338c83a674"
+              }
+            },
+            "lib/curated.mjs": {
+              "path": "lib/curated.mjs",
+              "blob": "ef6e261dd12301efd868672d64a3ca976f98f436",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 1,
+                "end": 11,
+                "hash": "5c8354f0cda7fa586c6de5582f25bd9f6dd05faf"
+              }
+            },
+            "lib/ai-packs.mjs": {
+              "path": "lib/ai-packs.mjs",
+              "blob": "8994b06ef97a860eccf2b55f7ecb0597af65f624",
+              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "range": {
+                "start": 1,
+                "end": 5,
+                "hash": "c8731116032f4fdebb83f945c224314c40bc887b"
+              }
+            },
+            "lib/profanity.mjs": {
+              "path": "lib/profanity.mjs",
+              "blob": "1625e81b7904e90fcc282aaf014af9b935ba431c",
+              "commit": "7a73763632161be31662d1a0f2d0a59b67409628",
+              "range": {
+                "start": 1,
+                "end": 5,
+                "hash": "10c36dca5fda8be79bcf426a7c402c910c73548c"
+              }
+            },
+            "lib/ratelimit.mjs": {
+              "path": "lib/ratelimit.mjs",
+              "blob": "0904b25a0a42789d08c0f1f997178aaeed982883",
+              "commit": "7a73763632161be31662d1a0f2d0a59b67409628",
+              "range": {
+                "start": 1,
+                "end": 4,
+                "hash": "76a29825eb2a23d3f2744785675a1f9079e55484"
+              }
+            }
+          }
+        },
+        "407153b44e91": {
+          "text": "`lib/hostbox.mjs`, `lib/voice.mjs`, `lib/tts.mjs`: the Host Box's pure pairing and button logic, its templated voice lines and a Kokoro TTS client.",
+          "line": 34,
+          "specs": [
+            "lib/hostbox.mjs:1-5",
+            "lib/voice.mjs:1-5",
+            "lib/tts.mjs:1-7"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "lib/hostbox.mjs": {
+              "path": "lib/hostbox.mjs",
+              "blob": "fc9ed2284380444b4262aa5484f94a0610f9c861",
+              "commit": "8ed8fa3171e120853bd366064ad90372447a3829",
+              "range": {
+                "start": 1,
+                "end": 5,
+                "hash": "9e889426977bd9a5a7792671ad28ace9f8957cf0"
+              }
+            },
+            "lib/voice.mjs": {
+              "path": "lib/voice.mjs",
+              "blob": "7c3a2ac7851e19e6a464e2ebfcbd873da65c368a",
+              "commit": "8ed8fa3171e120853bd366064ad90372447a3829",
+              "range": {
+                "start": 1,
+                "end": 5,
+                "hash": "a5cbd02816ba8407b59d331a41564d00a0626b41"
+              }
+            },
+            "lib/tts.mjs": {
+              "path": "lib/tts.mjs",
+              "blob": "3b55dbed66bf9f8b7e0a01a81b15a162f735c714",
+              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "range": {
+                "start": 1,
+                "end": 7,
+                "hash": "3b81995233f02ed45f2ad228fcc08688a61a7914"
+              }
+            }
+          }
+        },
+        "9eece69bdf67": {
+          "text": "`lib/lan.mjs` and `bin/couchbox.mjs`: the one-command local-network start.",
+          "line": 35,
+          "specs": [
+            "lib/lan.mjs:1-2",
+            "bin/couchbox.mjs:1-10"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "lib/lan.mjs": {
+              "path": "lib/lan.mjs",
+              "blob": "2d6e322b1acea9b86d48348c4a801cee35633485",
+              "commit": "d495c45641a6ced79b0a99e400de1285b4108b8e",
+              "range": {
+                "start": 1,
+                "end": 2,
+                "hash": "f34ff85fa19f1a11f120e7f1e0884e7b6d4cc752"
+              }
+            },
+            "bin/couchbox.mjs": {
+              "path": "bin/couchbox.mjs",
+              "blob": "2a408db7e838349e520b055132cceeb37ba1ae64",
+              "commit": "d495c45641a6ced79b0a99e400de1285b4108b8e",
+              "range": {
+                "start": 1,
+                "end": 10,
+                "hash": "5e3a8ea932c3cc14080a771e669084fae599ed2c"
+              }
+            }
+          }
+        },
+        "d83b9847bb6c": {
+          "text": "`lib/plays.mjs`: parses the `[rooms]` journal lines into a per-game summary. `lib/testhooks.mjs`: QA-only state hooks.",
+          "line": 36,
+          "specs": [
+            "lib/plays.mjs:1-12",
+            "lib/testhooks.mjs:1-6"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "lib/plays.mjs": {
+              "path": "lib/plays.mjs",
+              "blob": "3a82dc56fbfe7b6d8a3de741b2a598bb4286bfd4",
+              "commit": "6dcd7157dd09d01c0014e897054a12fc2f2b4c51",
+              "range": {
+                "start": 1,
+                "end": 12,
+                "hash": "87ab7e90b398f9c9e880e6e3fdf69db3bbae96d3"
+              }
+            },
+            "lib/testhooks.mjs": {
+              "path": "lib/testhooks.mjs",
+              "blob": "6f0418747a646150ffb666d6922918b0a4d3d35d",
+              "commit": "1bddeffac19d4711165425431262ceac141c578e",
+              "range": {
+                "start": 1,
+                "end": 6,
+                "hash": "ffda26be621eed90a98a447fdfce4ed1a48372d7"
+              }
+            }
+          }
+        },
+        "2cd299df26ee": {
+          "text": "`scripts/export-public.mjs` and `scripts/secret-scan.mjs`: publish a scrubbed copy of the repo to the public GitHub repository.",
+          "line": 37,
+          "specs": [
+            "scripts/export-public.mjs:1-23"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "scripts/export-public.mjs": {
+              "path": "scripts/export-public.mjs",
+              "blob": "6026bd977fe4c1690a9f43bee46cf4b4432170ff",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 1,
+                "end": 23,
+                "hash": "4ca7c63bd2dce067f52987f320c624deb1d32bb2"
+              }
+            }
+          }
+        },
+        "e340be9da6d7": {
+          "text": "Room: a phone opens `/ws` (same-origin check, 32 KB message cap, 30 sockets per client IP, 4000 in total), sends `create` or `join`, and `lib/rooms.mjs` runs...",
+          "line": 41,
+          "specs": [
+            "server.mjs:453-478",
+            "lib/rooms.mjs:7-40"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 453,
+                "end": 478,
+                "hash": "3fb80893c1f432b30c2347733de7601d363d9fed"
+              }
+            },
+            "lib/rooms.mjs": {
+              "path": "lib/rooms.mjs",
+              "blob": "ee5a687bd05a2377c34d71099f47d0b38f5ce966",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 7,
+                "end": 40,
+                "hash": "61a9344a4cb53528834c002bc7dbe8ecbbd6522c"
+              }
+            }
+          }
+        },
+        "b67166a29e05": {
+          "text": "The runtime clones state per action and rolls back a rejected one, so a bad action leaves the game untouched.",
+          "line": 42,
+          "specs": [
+            "games/_kit/runtime.js:76-84"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "games/_kit/runtime.js": {
+              "path": "games/_kit/runtime.js",
+              "blob": "30a4d9338fadb5558dc71399cd0aed762b4eca8d",
+              "commit": "c89fa146bdf7ad6359723613bce630ae34bf184d",
+              "range": {
+                "start": 76,
+                "end": 84,
+                "hash": "61fa9635fe1c115f7a90d046241a4548440cfee6"
+              }
+            }
+          }
+        },
+        "80af74c884a8": {
+          "text": "Each socket is rate limited by a token bucket (20 messages a second, bursts of 40), and pings every 20 seconds drop dead connections, which starts host failo...",
+          "line": 43,
+          "specs": [
+            "lib/rooms.mjs:198-206",
+            "server.mjs:501-509",
+            "lib/rooms.mjs:112"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "lib/rooms.mjs": {
+              "path": "lib/rooms.mjs",
+              "blob": "ee5a687bd05a2377c34d71099f47d0b38f5ce966",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 198,
+                "end": 206,
+                "hash": "fe1bbfba7058c6c474c313cced537ad0e6774df3"
+              }
+            },
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 501,
+                "end": 509,
+                "hash": "389d99f97c4ce0fe6c835958408cd9e29d5f9303"
+              }
+            },
+            "lib/rooms.mjs:112-112": {
+              "path": "lib/rooms.mjs",
+              "blob": "ee5a687bd05a2377c34d71099f47d0b38f5ce966",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 112,
+                "end": 112,
+                "hash": "d56d4dd280ee2d220bb97061efc0486d9dfe7f50"
+              }
+            }
+          }
+        },
+        "15127c8b4743": {
+          "text": "Pass and play: `public/js/pass.js` drives the same engine locally and shows a hide-and-pass screen whenever the engine's `passTurn` says someone needs a priv...",
+          "line": 44,
+          "specs": [
+            "public/js/pass.js:1-4"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "public/js/pass.js": {
+              "path": "public/js/pass.js",
+              "blob": "e9e008c1d1a9d163e1feacb49c6af12ec7e47d61",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 1,
+                "end": 4,
+                "hash": "15f7caeca19680cc4a182c2cf250b909a81e4061"
+              }
+            }
+          }
+        },
+        "520e30c647a0": {
+          "text": "Packs: `POST /api/packs` and `POST /api/packs/ai` take size-capped JSON bodies (80 KB and 4 KB); `GET /api/packs/<code>` returns one pack. It is the only JSO...",
+          "line": 45,
+          "specs": [
+            "server.mjs:121-150",
+            "server.mjs:344-350"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 121,
+                "end": 150,
+                "hash": "7668969a1d453a0cf665d5be9ee4ea9ff52c6a5f"
+              }
+            },
+            "server.mjs:344-350": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 344,
+                "end": 350,
+                "hash": "a3dae7ec6de9db46d0f5f91ee182faec620d466e"
+              }
+            }
+          }
+        },
+        "ed7f1088fa9b": {
+          "text": "Static: HTML and text pages get `{{origin}}`, `{{host}}` and `{{contact}}` filled per request, so no domain is hard-coded. The origin is `GAMES_SITE_URL`, el...",
+          "line": 46,
+          "specs": [
+            "server.mjs:176-180",
+            "server.mjs:201-207"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 176,
+                "end": 180,
+                "hash": "9b532da851e0697d121b16ee69b40a3e92ccd559"
+              }
+            },
+            "server.mjs:201-207": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 201,
+                "end": 207,
+                "hash": "e0f05f82a62bded556118f99d57b0eff531444b2"
+              }
+            }
+          }
+        },
+        "a0030cb8532c": {
+          "text": "The service worker precaches the shell and every game's files and serves network-first, so a deploy is picked up on the next load and one-phone play works of...",
+          "line": 47,
+          "specs": [
+            "public/sw.js:1-4"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "public/sw.js": {
+              "path": "public/sw.js",
+              "blob": "7f5cd074fdf7e5d172e2ef67c7d8d43d43204025",
+              "commit": "287c8df9b649f05eb466775eec09f947e0e99c58",
+              "range": {
+                "start": 1,
+                "end": 4,
+                "hash": "9f84647517a421fcc4132f4c24af7a5d2cad3bbc"
+              }
+            }
+          }
+        },
+        "9b940ed2011e": {
+          "text": "Rooms: process memory only. A room closes 15 minutes after the last socket leaves, after 3 hours idle, or on restart; at most 2000 rooms.",
+          "line": 51,
+          "specs": [
+            "lib/rooms.mjs:112-115",
+            "server.mjs:95"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "lib/rooms.mjs": {
+              "path": "lib/rooms.mjs",
+              "blob": "ee5a687bd05a2377c34d71099f47d0b38f5ce966",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 112,
+                "end": 115,
+                "hash": "c57c728cd7d739ba093c1c7993f72bf148065e7b"
+              }
+            },
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 95,
+                "end": 95,
+                "hash": "e719710bd8306f9b409f41c090a4dc0c17d184ea"
+              }
+            }
+          }
+        },
+        "97e420489f9d": {
+          "text": "Browser localStorage: the pass-and-play game, player name, rejoin token, last game, tier and the 18+ flags.",
+          "line": 52,
+          "specs": [
+            "public/js/pass.js:24-34",
+            "public/js/app.js:439-443",
+            "public/js/room.js:24-36",
+            "public/js/ui.js:372-375"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "public/js/pass.js": {
+              "path": "public/js/pass.js",
+              "blob": "e9e008c1d1a9d163e1feacb49c6af12ec7e47d61",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 24,
+                "end": 34,
+                "hash": "6e34341ac9e3ee88c5fe3e70e56b607469015262"
+              }
+            },
+            "public/js/app.js": {
+              "path": "public/js/app.js",
+              "blob": "b2a1da29fe30cba54da415f02c16abff52e722d2",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 439,
+                "end": 443,
+                "hash": "25c2ddc6441b6e67c6c39308e068645fab9a12a8"
+              }
+            },
+            "public/js/room.js": {
+              "path": "public/js/room.js",
+              "blob": "fb6402fac54f4ca9dcead5516a05e5212b1ff000",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 24,
+                "end": 36,
+                "hash": "873d9ffe02411ea5d696cffc6cd14c537cfc0175"
+              }
+            },
+            "public/js/ui.js": {
+              "path": "public/js/ui.js",
+              "blob": "6a07580d0944ad748786ba52d72f9f8ad071c739",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 372,
+                "end": 375,
+                "hash": "b8982eef30eac37462e5f8c5768f741a8398cc4d"
+              }
+            }
+          }
+        },
+        "854fc5923495": {
+          "text": "Custom and AI packs: one JSON file per pack under `GAMES_PACKS_DIR` (default `~/.local/share/games-packs`), outside the repo, plus `ai-pack-spend.json` for t...",
+          "line": 53,
+          "specs": [
+            "server.mjs:77-85",
+            "lib/packs.mjs:1-6"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 77,
+                "end": 85,
+                "hash": "0f3488313dbbdbc09c4456fe943a7464e4c46ff7"
+              }
+            },
+            "lib/packs.mjs": {
+              "path": "lib/packs.mjs",
+              "blob": "e0a839d57edb948348b327a1e2102496da718008",
+              "commit": "7a73763632161be31662d1a0f2d0a59b67409628",
+              "range": {
+                "start": 1,
+                "end": 6,
+                "hash": "7791ab38229c7c4cb73efe0700a618338c83a674"
+              }
+            }
+          }
+        },
+        "599bcb734611": {
+          "text": "Host Box voice clips: cached WAV files under `data/hostbox-voice/`, keyed by a hash of the text.",
+          "line": 54,
+          "specs": [
+            "server.mjs:74-75",
+            "lib/tts.mjs:1-4"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 74,
+                "end": 75,
+                "hash": "f2d0199655f4cd6db74cdd0fb35564ebc110e23f"
+              }
+            },
+            "lib/tts.mjs": {
+              "path": "lib/tts.mjs",
+              "blob": "3b55dbed66bf9f8b7e0a01a81b15a162f735c714",
+              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "range": {
+                "start": 1,
+                "end": 4,
+                "hash": "23091c3e7b77d6f4f92adb41d9f5ff26c3454a4f"
+              }
+            }
+          }
+        },
+        "6f68cc31f675": {
+          "text": "Logs: `[rooms]`, `[packs]` and `[ai-packs]` lines on stdout, with no names or IP addresses.",
+          "line": 55,
+          "specs": [
+            "docs/TELEMETRY.md:1-5",
+            "public/privacy.html:20-25"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "docs/TELEMETRY.md": {
+              "path": "docs/TELEMETRY.md",
+              "blob": "5305c6a1d883042e6bf6006f166b88be7cc4a007",
+              "commit": "6dcd7157dd09d01c0014e897054a12fc2f2b4c51",
+              "range": {
+                "start": 1,
+                "end": 5,
+                "hash": "35867b592963f0a0a377ce2a4f8744c73d442e4e"
+              }
+            },
+            "public/privacy.html": {
+              "path": "public/privacy.html",
+              "blob": "2b5d15be85dcd86feb7dd37bbfb80739ac6ee275",
+              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "range": {
+                "start": 20,
+                "end": 25,
+                "hash": "6fe9b63fe1862b7d25e31a76b16f25b3f33c8096"
+              }
+            }
+          }
+        },
+        "8c4474a5cd16": {
+          "text": "No login and no accounts: every route is public. A room code is low-trust by design; a rejoin token held in the browser lets a player reclaim their seat. The...",
+          "line": 59,
+          "specs": [
+            "server.mjs:67-69",
+            "lib/rooms.mjs:339-341",
+            "lib/rooms.mjs:383-386",
+            "docs/HOSTBOX-PROTOCOL.md:13"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 67,
+                "end": 69,
+                "hash": "c64693e3ad8d9b4232affdac3b284827966a9247"
+              }
+            },
+            "lib/rooms.mjs": {
+              "path": "lib/rooms.mjs",
+              "blob": "ee5a687bd05a2377c34d71099f47d0b38f5ce966",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 339,
+                "end": 341,
+                "hash": "202dd61c4f1ad6900f00e4915e6d7ac944d7aaca"
+              }
+            },
+            "lib/rooms.mjs:383-386": {
+              "path": "lib/rooms.mjs",
+              "blob": "ee5a687bd05a2377c34d71099f47d0b38f5ce966",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 383,
+                "end": 386,
+                "hash": "25ccbd92e00f92d95c2cbd30f17ae9990f9a9a29"
+              }
+            },
+            "docs/HOSTBOX-PROTOCOL.md": {
+              "path": "docs/HOSTBOX-PROTOCOL.md",
+              "blob": "601b36520b8dabe8bd81d83397b5fd8e087c5752",
+              "commit": "065df6e8af6329bfee057cded6164503fb96b771",
+              "range": {
+                "start": 13,
+                "end": 13,
+                "hash": "ac3fc9b5ab5c7541511e1b539dbe37d27139e606"
+              }
+            }
+          }
+        },
+        "6fdd4e5dcf9d": {
+          "text": "OpenRouter chat completions for the AI pack maker: `OPENROUTER_API_KEY`, `GAMES_AI_PACK_MODEL`, `GAMES_AI_PACK_DAILY_CAP_USD`, `GAMES_AI_REFERER`.",
+          "line": 63,
+          "specs": [
+            "lib/ai-packs.mjs:11",
+            ".env.example:19-24"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "lib/ai-packs.mjs": {
+              "path": "lib/ai-packs.mjs",
+              "blob": "8994b06ef97a860eccf2b55f7ecb0597af65f624",
+              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "range": {
+                "start": 11,
+                "end": 11,
+                "hash": "b1ffd7c03cdf4e7fafefa3e9ca66523bf0391dda"
+              }
+            },
+            ".env.example": {
+              "path": ".env.example",
+              "blob": "d6724d931eccbaf16709814fe19859e4d4424c17",
+              "commit": "287c8df9b649f05eb466775eec09f947e0e99c58",
+              "range": {
+                "start": 19,
+                "end": 24,
+                "hash": "c868b51fee477817b64ac98f23fd61295aaad416"
+              }
+            }
+          }
+        },
+        "692a7878dd2e": {
+          "text": "Kokoro TTS for the Host Box voice, optional: `KOKORO_SERVER_URL`, `HOSTBOX_VOICE`, `HOSTBOX_VOICE_SPEED`.",
+          "line": 64,
+          "specs": [
+            "lib/tts.mjs:1-7",
+            ".env.example:26-29"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "lib/tts.mjs": {
+              "path": "lib/tts.mjs",
+              "blob": "3b55dbed66bf9f8b7e0a01a81b15a162f735c714",
+              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "range": {
+                "start": 1,
+                "end": 7,
+                "hash": "3b81995233f02ed45f2ad228fcc08688a61a7914"
+              }
+            },
+            ".env.example": {
+              "path": ".env.example",
+              "blob": "d6724d931eccbaf16709814fe19859e4d4424c17",
+              "commit": "287c8df9b649f05eb466775eec09f947e0e99c58",
+              "range": {
+                "start": 26,
+                "end": 29,
+                "hash": "5b801b50496f530cb2d03baa74a09ced7abbd9cf"
+              }
+            }
+          }
+        }
+      },
+      "pinnedAt": "2026-11-23T23:58:49.794Z",
+      "head": "dea42f2cad608377d9472a8c8882f996cc789274"
+    },
+    "games-brand": {
+      "claims": {
+        "f4e5a5470f93": {
+          "text": "On the site it is \"Games\", capital G: the wordmark, every page title and `og:site_name`.",
+          "line": 16,
+          "specs": [
+            "public/index.html:6",
+            "public/index.html:18",
+            "public/index.html:47"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "public/index.html": {
+              "path": "public/index.html",
+              "blob": "085a9978d6d26c718c7271f15d946df7adad6f9f",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 6,
+                "end": 6,
+                "hash": "f483ccf8abb41a979c24368954c314c6e15f3e03"
+              }
+            },
+            "public/index.html:18-18": {
+              "path": "public/index.html",
+              "blob": "085a9978d6d26c718c7271f15d946df7adad6f9f",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 18,
+                "end": 18,
+                "hash": "edebebd1ae19a7f5b00d368ccfa9000c17bbacb5"
+              }
+            },
+            "public/index.html:47-47": {
+              "path": "public/index.html",
+              "blob": "085a9978d6d26c718c7271f15d946df7adad6f9f",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 47,
+                "end": 47,
+                "hash": "5ff85294629c45cfced4d80a3fd9a04a7da44129"
+              }
+            }
+          }
+        },
+        "bdeefd5df9d9": {
+          "text": "Page titles put the page first and the site last, after a colon: \"Room ABCD: Games\", \"Join a room: Games\", \"Imposter: Games\".",
+          "line": 17,
+          "specs": [
+            "public/js/app.js:74",
+            "public/js/app.js:402",
+            "public/js/app.js:487"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "public/js/app.js": {
+              "path": "public/js/app.js",
+              "blob": "b2a1da29fe30cba54da415f02c16abff52e722d2",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 74,
+                "end": 74,
+                "hash": "14c66914468a7452b7d4ac6813ef9bd3a867043c"
+              }
+            },
+            "public/js/app.js:402-402": {
+              "path": "public/js/app.js",
+              "blob": "b2a1da29fe30cba54da415f02c16abff52e722d2",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 402,
+                "end": 402,
+                "hash": "7e80627226b4bb18ac7e3166a5472b7cc10935c0"
+              }
+            },
+            "public/js/app.js:487-487": {
+              "path": "public/js/app.js",
+              "blob": "b2a1da29fe30cba54da415f02c16abff52e722d2",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 487,
+                "end": 487,
+                "hash": "0ce5a6e38f7547bfdb97958640704cc13d1c5648"
+              }
+            }
+          }
+        },
+        "40bd7906e04a": {
+          "text": "The public project, its command and its compose service are \"couchbox\", all lower case.",
+          "line": 18,
+          "specs": [
+            "README.md:1-3",
+            "package.json#bin",
+            "compose.yaml:2"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "README.md": {
+              "path": "README.md",
+              "blob": "44c11d24dd266658baddfc4ba8ceb07a27efc21d",
+              "commit": "d495c45641a6ced79b0a99e400de1285b4108b8e",
+              "range": {
+                "start": 1,
+                "end": 3,
+                "hash": "83500b708a447a8b8234bda46ee1299a0754b23b"
+              }
+            },
+            "package.json#bin": {
+              "path": "package.json",
+              "blob": "017c92e52241aff871c658d40f11af6af9f4a5a1",
+              "commit": "a4d4adaae2c776ed7d534b9b234650558a61b636",
+              "jsonKey": {
+                "key": "bin",
+                "hash": "39f1b478ede187d0eb4a8fe40c6b9340f82a53bb",
+                "value": "{\"couchbox\":\"bin/couchbox.mjs\"}"
+              }
+            },
+            "compose.yaml": {
+              "path": "compose.yaml",
+              "blob": "622e3cde3c5c5d4cf379f1e8cf8d6240c61fca6f",
+              "commit": "d495c45641a6ced79b0a99e400de1285b4108b8e",
+              "range": {
+                "start": 2,
+                "end": 2,
+                "hash": "3124314a8bb2439794e546c18b84676083579818"
+              }
+            }
+          }
+        },
+        "7baf62e5ef03": {
+          "text": "The old project name \"party-games\" is retired; the old GitHub URL only redirects.",
+          "line": 19,
+          "specs": [
+            "CHANGELOG.md:5-7"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "CHANGELOG.md": {
+              "path": "CHANGELOG.md",
+              "blob": "7832fd5a129d039af9e34002cad6f901a3da1b2c",
+              "commit": "d495c45641a6ced79b0a99e400de1285b4108b8e",
+              "range": {
+                "start": 5,
+                "end": 7,
+                "hash": "acd6ad4f9539f558aa3fcce2895fda6dcb3fc429"
+              }
+            }
+          }
+        },
+        "ff7999a09df7": {
+          "text": "Home title and OG title: \"Games: Free party and drinking games for one phone or everyone\".",
+          "line": 51,
+          "specs": [
+            "public/index.html:6",
+            "public/index.html:13"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "public/index.html": {
+              "path": "public/index.html",
+              "blob": "085a9978d6d26c718c7271f15d946df7adad6f9f",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 6,
+                "end": 6,
+                "hash": "f483ccf8abb41a979c24368954c314c6e15f3e03"
+              }
+            },
+            "public/index.html:13-13": {
+              "path": "public/index.html",
+              "blob": "085a9978d6d26c718c7271f15d946df7adad6f9f",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 13,
+                "end": 13,
+                "hash": "a7612fe3ce37193692af0eb810dfa5e184be29a7"
+              }
+            }
+          }
+        },
+        "4d659babb081": {
+          "text": "Home description: \"Free party and drinking games with no sign-up: Imposter, Quiz Show, Werewolf and more. Pass one phone round, or everyone joins on their ow...",
+          "line": 52,
+          "specs": [
+            "public/index.html:7"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "public/index.html": {
+              "path": "public/index.html",
+              "blob": "085a9978d6d26c718c7271f15d946df7adad6f9f",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 7,
+                "end": 7,
+                "hash": "577f696b4f67db308d11ba55fc6709128d5169be"
+              }
+            }
+          }
+        },
+        "e3b7f1bfd7d0": {
+          "text": "OG description: \"Free party and drinking games with no sign-up. Pass one phone round, or everyone joins on their own phone with a room code and a TV screen.\"",
+          "line": 53,
+          "specs": [
+            "public/index.html:14"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "public/index.html": {
+              "path": "public/index.html",
+              "blob": "085a9978d6d26c718c7271f15d946df7adad6f9f",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 14,
+                "end": 14,
+                "hash": "c99eeecc1c3254b0782b99a09f34624862df8778"
+              }
+            }
+          }
+        },
+        "73295b5929b9": {
+          "text": "Home pitch under the wordmark: \"Party and drinking games for one phone, or everyone's.\"",
+          "line": 54,
+          "specs": [
+            "public/index.html:47"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "public/index.html": {
+              "path": "public/index.html",
+              "blob": "085a9978d6d26c718c7271f15d946df7adad6f9f",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 47,
+                "end": 47,
+                "hash": "5ff85294629c45cfced4d80a3fd9a04a7da44129"
+              }
+            }
+          }
+        },
+        "4af7574c6033": {
+          "text": "Rules page title pattern: \"<Game>: how to play | Games\"; its CTA: \"Play <Game> free\".",
+          "line": 55,
+          "specs": [
+            "server.mjs:243",
+            "server.mjs:305"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 243,
+                "end": 243,
+                "hash": "629ccf8fa01960f29b00cc58997df2d546d2f92e"
+              }
+            },
+            "server.mjs:305-305": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 305,
+                "end": 305,
+                "hash": "be93ea10a0a34190332c068c989c51d5e6cf255e"
+              }
+            }
+          }
+        },
+        "0e9839d5fccf": {
+          "text": "Start screen CTAs: \"Play on everyone's phones\" and \"Pass one phone round\".",
+          "line": 56,
+          "specs": [
+            "public/js/app.js:529-530"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "public/js/app.js": {
+              "path": "public/js/app.js",
+              "blob": "b2a1da29fe30cba54da415f02c16abff52e722d2",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 529,
+                "end": 530,
+                "hash": "6d0f68fcd752b73029ba46db23c3266eddf070b2"
+              }
+            }
+          }
+        },
+        "46307fafe3aa": {
+          "text": "App manifest name: \"Games: party and drinking games\".",
+          "line": 57,
+          "specs": [
+            "public/manifest.webmanifest"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "public/manifest.webmanifest": {
+              "path": "public/manifest.webmanifest",
+              "blob": "0d33000c404e0afe9390795ec4e17517402c1a65",
+              "commit": "5387dd20f0823c9896333a289775afd7ce1df5ac"
+            }
+          }
+        },
+        "f54d4f5c550b": {
+          "text": "Empty search: \"No game fits that\", with a \"Clear filters\" way out.",
+          "line": 58,
+          "specs": [
+            "public/js/app.js:272"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "public/js/app.js": {
+              "path": "public/js/app.js",
+              "blob": "b2a1da29fe30cba54da415f02c16abff52e722d2",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 272,
+                "end": 272,
+                "hash": "e8e96a817e039b25bcd0ba73cb1291922eb639b2"
+              }
+            }
+          }
+        },
+        "b02898d515bf": {
+          "text": "404: \"This page is the imposter. That link doesn't go anywhere.\"",
+          "line": 59,
+          "specs": [
+            "public/404.html:17-18"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "public/404.html": {
+              "path": "public/404.html",
+              "blob": "3be1fe6b12cc0c7d12a49671f35d961963d117ae",
+              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "range": {
+                "start": 17,
+                "end": 18,
+                "hash": "1b15a670d081c4ca55001fecb2963bc40d89ebd6"
+              }
+            }
+          }
+        },
+        "3c50e5097c30": {
+          "text": "Error tone, an apology-free fact and the next step: \"No room called ABCD. Check the code, or it may have ended.\" and \"AI packs are taking a break today. Try ...",
+          "line": 60,
+          "specs": [
+            "lib/rooms.mjs:382",
+            "lib/ai-packs.mjs:89"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "lib/rooms.mjs": {
+              "path": "lib/rooms.mjs",
+              "blob": "ee5a687bd05a2377c34d71099f47d0b38f5ce966",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 382,
+                "end": 382,
+                "hash": "be0a7c74e27f031973bbef72c1fc16b52d861981"
+              }
+            },
+            "lib/ai-packs.mjs": {
+              "path": "lib/ai-packs.mjs",
+              "blob": "8994b06ef97a860eccf2b55f7ecb0597af65f624",
+              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "range": {
+                "start": 89,
+                "end": 89,
+                "hash": "54b7040130744d78c02741e67e5ad163057817c4"
+              }
+            }
+          }
+        },
+        "656f4af5b7e9": {
+          "text": "Drinking confirm: \"For adults of legal drinking age. Sips are suggestions: anyone can tap I'm out and swap their drinks for forfeits, any time.\"",
+          "line": 61,
+          "specs": [
+            "public/js/ui.js:389-390"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "public/js/ui.js": {
+              "path": "public/js/ui.js",
+              "blob": "6a07580d0944ad748786ba52d72f9f8ad071c739",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 389,
+                "end": 390,
+                "hash": "4b9955a0f62c729d21717d044d0b6ac350578a00"
+              }
+            }
+          }
+        },
+        "6e0036e2ade4": {
+          "text": "Logo and favicon: `public/icon.svg`, with PNG icons `public/icon-192.png`, `public/icon-512.png`, maskable variants and `public/apple-touch-icon.png`.",
+          "line": 65,
+          "specs": [
+            "public/manifest.webmanifest"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "public/manifest.webmanifest": {
+              "path": "public/manifest.webmanifest",
+              "blob": "0d33000c404e0afe9390795ec4e17517402c1a65",
+              "commit": "5387dd20f0823c9896333a289775afd7ce1df5ac"
+            }
+          }
+        },
+        "2716f39a9cf9": {
+          "text": "OG image: `public/og-image.png`, rendered by `scripts/og-image.mjs`. GitHub social preview: `.github/social-preview.png`.",
+          "line": 66,
+          "specs": [
+            "scripts/og-image.mjs:1-4",
+            "scripts/export-allowlist.txt:6"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "scripts/og-image.mjs": {
+              "path": "scripts/og-image.mjs",
+              "blob": "cc8724d32d58379812f18b14bb498b1c8a1d519d",
+              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "range": {
+                "start": 1,
+                "end": 4,
+                "hash": "4b1d0d0dd540b009407c1c77507e66cd7af25b7d"
+              }
+            },
+            "scripts/export-allowlist.txt": {
+              "path": "scripts/export-allowlist.txt",
+              "blob": "adc33789b732e2c4ad805978925fa525e71a576b",
+              "commit": "287c8df9b649f05eb466775eec09f947e0e99c58",
+              "range": {
+                "start": 6,
+                "end": 6,
+                "hash": "82414da42e786d072210d8105951fedaa00990bb"
+              }
+            }
+          }
+        },
+        "dff1582b7fa5": {
+          "text": "Wordmark face: Bricolage Grotesque, `public/fonts/bricolage.woff2`.",
+          "line": 67,
+          "specs": [
+            "public/credits.html:24-25"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "public/credits.html": {
+              "path": "public/credits.html",
+              "blob": "3db1140f097a71b4cf6bf03620260e62b86f7126",
+              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "range": {
+                "start": 24,
+                "end": 25,
+                "hash": "b88fa1c4b2b14fde70f829e8b5602d8dc22613b0"
+              }
+            }
+          }
+        },
+        "5bab9bba1bce": {
+          "text": "Contact is one email address on the privacy and credits pages, filled per request from `GAMES_CONTACT_EMAIL`, so a self-hosted copy shows its own.",
+          "line": 71,
+          "specs": [
+            "public/privacy.html:30-31",
+            "public/credits.html:36-37",
+            ".env.example:13-14"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "public/privacy.html": {
+              "path": "public/privacy.html",
+              "blob": "2b5d15be85dcd86feb7dd37bbfb80739ac6ee275",
+              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "range": {
+                "start": 30,
+                "end": 31,
+                "hash": "971c80bd04cdba3bf3956a23a13ff81b8a1a0be4"
+              }
+            },
+            "public/credits.html": {
+              "path": "public/credits.html",
+              "blob": "3db1140f097a71b4cf6bf03620260e62b86f7126",
+              "commit": "4160e39f2198ab11fb85fa602acf7d8bb2953ff0",
+              "range": {
+                "start": 36,
+                "end": 37,
+                "hash": "1abbc02191cf38a1f69dadb1106e7660261a08d7"
+              }
+            },
+            ".env.example": {
+              "path": ".env.example",
+              "blob": "d6724d931eccbaf16709814fe19859e4d4424c17",
+              "commit": "287c8df9b649f05eb466775eec09f947e0e99c58",
+              "range": {
+                "start": 13,
+                "end": 14,
+                "hash": "f3889cf234cddcbe5efb233cf289f2494fe5b0a5"
+              }
+            }
+          }
+        },
+        "f643a1a13e49": {
+          "text": "Privacy and terms are one page at `/privacy`; credits and licences at `/credits`.",
+          "line": 72,
+          "specs": [
+            "server.mjs:362-363"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "server.mjs": {
+              "path": "server.mjs",
+              "blob": "172ddb26101736cda831a9b74ec090e36ded55d1",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 362,
+                "end": 363,
+                "hash": "7446e651c607642a61d8794b21d09a2a20f7b8fb"
+              }
+            }
+          }
+        },
+        "a270b26d8187": {
+          "text": "Licence: MIT, except the Quiz Show questions (CC BY-SA 4.0) and the fonts (SIL OFL).",
+          "line": 73,
+          "specs": [
+            "LICENSE:1-3",
+            "THIRD_PARTY_NOTICES.md:10",
+            "THIRD_PARTY_NOTICES.md:16-21"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "LICENSE": {
+              "path": "LICENSE",
+              "blob": "017a3dc11f5bd2f877b6dd3a9cb87eeadd26d5d8",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 1,
+                "end": 3,
+                "hash": "9af6c2d48f70a7ddda6188f0d8e40553ada61bd7"
+              }
+            },
+            "THIRD_PARTY_NOTICES.md": {
+              "path": "THIRD_PARTY_NOTICES.md",
+              "blob": "ae2bf39c2456cc2c7d1d1b538d538cde74b8a826",
+              "commit": "287c8df9b649f05eb466775eec09f947e0e99c58",
+              "range": {
+                "start": 10,
+                "end": 10,
+                "hash": "f79f2694cb6d6a9ccd0d3dffdb34e87de7a283c5"
+              }
+            },
+            "THIRD_PARTY_NOTICES.md:16-21": {
+              "path": "THIRD_PARTY_NOTICES.md",
+              "blob": "ae2bf39c2456cc2c7d1d1b538d538cde74b8a826",
+              "commit": "287c8df9b649f05eb466775eec09f947e0e99c58",
+              "range": {
+                "start": 16,
+                "end": 21,
+                "hash": "68c6bffa0d23af82095a2348f6a685293e0ec933"
+              }
+            }
+          }
+        },
+        "f8ce4429b604": {
+          "text": "No business name is shipped; the licence names the copyright holder as kd-011.",
+          "line": 74,
+          "specs": [
+            "LICENSE:3"
+          ],
+          "head": "dea42f2cad608377d9472a8c8882f996cc789274",
+          "files": {
+            "LICENSE": {
+              "path": "LICENSE",
+              "blob": "017a3dc11f5bd2f877b6dd3a9cb87eeadd26d5d8",
+              "commit": "b882096258a65118d2d57788a98d45e488d0dc1d",
+              "range": {
+                "start": 3,
+                "end": 3,
+                "hash": "b160620a517f283595d95d4536e7afa3016f8491"
+              }
+            }
+          }
+        }
+      },
+      "pinnedAt": "2026-11-23T23:58:49.812Z",
+      "head": "dea42f2cad608377d9472a8c8882f996cc789274"
     }
   }
 }
